@@ -1,0 +1,329 @@
+@charset "UTF-8";
+@import "basic.css";
+@import "reset.css";
+@import "highlight.css";
+@import "document.css";
+@import "index.css";
+
+/* @group general */
+body {
+	color: #525252;
+	background-color: #273437;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+/* @end */
+
+/* @group layout */
+div#wrapper {
+	min-width: 960px;
+}
+
+div#header {
+	padding: 1em 2em;
+	min-height: 180px;
+	background: url(header_bg.png) repeat-x;
+	color: #FFF;
+}
+
+div#content{
+	margin: 0;
+	padding: 1em 2em;
+	background-color: #f9f9f9;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #000;
+}
+
+div#document {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+}
+
+div#footer {
+	margin: 0;
+	padding: 2em;
+	min-height: 230px;
+	background-color: #3B3B3B;
+	clear: both;
+	color: #FFF;
+	border-top: 1px solid #777;
+}
+
+/* @end */
+
+/* @group header */
+div#headerIndex {
+	display: none;
+	margin: 0 0.6em;
+	width: 330px;
+	float: right;
+}
+
+/* My Comment */
+
+div#headerIndex > div#indexwrap {
+	margin: 0;
+	min-height: 200px;
+	width: 330px;
+}
+
+div#headerIndex > div#indexwrap > div#indexHead {
+	text-align: center;
+	height: 60px;
+	font-weight: bold;
+	font-size: 110%;
+	margin: 0;
+	background: url(index_pop_head.png) no-repeat;
+}
+
+div#headerIndex > div#indexwrap > div#indexHead > h1 {
+	color: #FFF;
+	margin: 0;
+	padding-top: 1.5em;
+	text-shadow: rgba(254,255,254,0.3) 1px 1px 0;
+}
+
+div#headerIndex > div#indexwrap > div#indexMid {
+	margin: 0;
+	background: url(index_pop_mid.png) repeat-y;
+}
+
+div#headerIndex > div#indexwrap > div#indexMid ul {
+	list-style: none;
+	margin: 0 35px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	width: 80%;
+	font-weight: bold;
+	border: none;
+}
+
+div#headerIndex > div#indexwrap > div#indexMid ul > li {
+	padding: 0 0.5em;
+	border-bottom: 1px dotted #CCC;
+}
+
+div#headerIndex > div#indexwrap > div#indexMid ul > li > ul {
+	list-style: disc;
+	font-weight: normal;
+	margin-left: 1.6em;
+}
+
+div#headerIndex > div#indexwrap > div#indexMid ul > li > ul > li {
+	border: none;
+}
+
+div#headerIndex > div#indexwrap > div#indexBtm {
+	min-height: 40px;
+	background: url(index_pop_btm.png) no-repeat;
+}
+
+img.logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+div#header > div#masthead > div#projInfo{
+	float: left;
+	margin: 0.5em 0 0 1em;
+	
+}
+
+div#header h1#title {
+	display: inline;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+div#header div#projInfo > p.docdesc {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group navigation */
+div#headerNav {
+	float: right;
+}
+
+div#headerNav > div#searchbox {
+	margin: 1em;
+}
+
+div.links > p {
+	display: block;
+	width: 105px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	margin-left: 1em;
+	background: url(header_btn.png) no-repeat;
+	text-shadow: rgba(71,70,67,0.9) 1px 1px 0;
+}
+
+div#footer ul {
+	list-style: none;
+	margin: 0.5em 0 1em 1em;
+}
+/* @end */
+
+/* @group content */
+div.sidebar ul {
+	list-style: none;
+}
+/* @end */
+
+/* @group footer */
+div#footer > div#footerToc {
+	float: left;
+	width: 40%;
+	margin-right: 30px;
+}
+
+div#footer p.title {
+	text-shadow: #212121 1px 1px 0;
+	margin-bottom: 0.5em;
+	font-size: 120%;
+	font-weight: bold;
+	border-bottom: 1px dotted #CCC;
+}
+
+div#footer > div#footerToc > h1 {
+	font-weight: bold;
+}
+
+div#footer > div#footerToc  ul > li {
+	font-weight: bold;
+}
+
+div#footer > div#footerToc  ul > li > a {
+	font-size: 90%
+}
+
+div#footer p.update {
+	clear: both;
+	font-size: 90%;
+}
+
+div#footer > div.footerCol > div.relbar {
+	width: 50%;
+	float: left;
+	margin-top: 0.34em;
+}
+
+div#footer > div.footerCol > div.relbar > dl#relPrev {
+	margin-bottom: 1.5em;
+}
+
+div#footer > div.footerCol > div.relbar > dl > dt {
+	font-weight: bold;
+	text-shadow: #212121 1px 1px 0;
+	height: 35px;
+	text-indent: 35px;
+}
+
+div#footer > div.footerCol > div.relbar > dl > dt.prev {
+	background: url(prev.png) no-repeat;
+}
+
+div#footer > div.footerCol > div.relbar > dl > dt.next {
+	background: url(next.png) no-repeat;
+}
+
+div#footer > div.footerCol > div.relbar > dl > dd {
+	text-indent: 1em;
+	font-weight: bold;
+}
+
+div#footer > div.footerCol > div.relbar > p > a {
+	text-shadow: rgba(71,70,67,0.9) 1px 1px 0;
+	font-weight: bold;
+}
+div#footer > div#source {
+	float: left;
+	margin-top: 1.5em;
+}
+
+div#footer > div#source > p {
+	background: url(show_source.png) no-repeat;
+	text-indent: 35px;
+	height: 35px;
+	font-weight: bold;
+}
+
+div#footer div.regal > p {
+	margin-top: 2em;
+	font-size: small;
+	text-align: center;
+}
+
+/* @end */
+
+/* @group link */
+div#header a:link,
+div#header a:hover,
+div#header a:visited,
+div#header a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+div#headerIndex a:link {
+	text-decoration: none;
+	color: #111;
+}
+
+div#headerIndex a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+div#headerIndex a:visited {
+	text-decoration: none;
+	color: #a64142;
+}
+
+div.links > p > a:link,
+div.links > p > a:visited {
+	text-decoration: none;
+	color: #FFF;
+} 
+
+div.links > p > a:hover {
+	text-decoration: none;
+	color: #34c746;
+}
+
+div#footer a:link,
+div#footer a:visited,
+div#footer a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+div#footer a:hover {
+	color: #5f92fd;
+}
+
+div#footer div.regal > p > a:link,
+div#footer div.regal > p > a:hover,
+div#footer div.regal > p > a:visited,
+div#footer div.regal > p > a:active {
+	text-decoration: underline;
+	color: #5f92fd;
+}
+
+/* @end */

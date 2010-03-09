@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*
+**	ドキュメント本体用のスタイルシート
+*/
+
+/* @group general */
+div#document p {
+	margin-bottom: 1em;
+}
+
+/* section headers */
+div#document h1{
+	font-size: 120%;
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+	color: #1d1d27;
+
+}
+div#document h2,
+div#document h3,
+div#document h4,
+div#document h5,
+div#document h6 {
+	font-size: 120%;
+	font-weight: bold;
+	border-bottom: 1px dotted #999;
+	color: #1d1d27;
+}
+
+div#document a.headerlink:link {
+	display: none;
+}
+
+	div#document a.headerlink:hover {
+		margin-left: 0.5em;
+		color: #999;
+		text-decoration: none;
+	}
+
+
+
+div#document ul {
+	list-style-type: square;
+	list-style-position: inside;
+	text-indent: 1em;
+	margin-bottom: 1em;
+}
+
+div#document div.section {
+	margin-bottom: 1.5em;
+}
+
+.problematic {
+	background-color: #EEE;
+	padding: 0.2em;
+}
+
+/* @end general */
+
+/* 目次 */
+div#document ul li.toctree-l1 {
+	list-style: none;
+}
+
+/* ----------------------------------------- linkstyle */
+div#document a:link {
+	color: #3e46a7;
+	text-decoration: underline;
+}
+
+div#document a:hover {
+	color: #2c74ff;
+	text-decoration: underline;
+}
+
+div#document a:visited {
+	color: #920000;
+}
+
+div#document a:active {
+	color: #2c74ff;
+	text-decoration: underline;
+}
+
+/* ----------------------------------------- note */
+
+/* TODO: 背景にアイコンを入れる -> ノート、警告 */
+
+div#document div.admonition, div.note {
+}
+
+div#document div.warning {
+	border: 1px solid #888;
+}
+
+/* 警告 */
+div#document div.warning > p.first {
+	color: red;
+	border-bottom: 1px solid #888;
+	font-weight: bold;
+	background-color: #dee3da;
+	margin-bottom: 0;
+}
+
+div#document div.warning > p.last {
+	border-top: 1px solid #CCC;
+	padding: 0.5em;
+	margin-bottom: 0;
+}
+
+/* /警告 */
+div#document div.admonition p {
+	padding-left: 0.5em;
+}
+
+div#document p.admonition-title {
+
+}
+
+div#document div.admonition p.last {
+}

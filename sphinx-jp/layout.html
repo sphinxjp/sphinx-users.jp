@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{%- macro searchbox() %}
+  {%- if pagename != "search" %}
+  <div id="searchbox">
+    <div>
+      <form class="search" name="search" action="{{ pathto('search') }}" method="get">
+        <input type="text" class="hint" name="q" size="18" />
+        <input type="submit" value="{{ _('Go') }}" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+  <script type="text/javascript">$('#searchbox').show(0);</script>
+  {%- endif %}
+{%- endmacro %}
+
+{%- macro showSource() %}
+{%- if show_source and has_source and sourcename %}
+<div id="source">
+  <p><a id="showsrc" href="{{ pathto('_sources/' + sourcename, true)|e }}" title="{{ _('Show Source') }}">{{ _('Show Source') }}</a></p>
+</div>
+{%- endif %}
+{%- endmacro %}
+
+{%- macro showindex() %}
+<p>
+    <script><!--
+    $(document).ready(function(){
+        $('.toggle').toggle(function() {
+              $('#headerIndex').show();
+            },
+            function() {
+              $('#headerIndex').hide()}
+            );
+    });
+    //-->
+    </script>
+    <a class="toggle" href="#">{{ _('Table Of Contents') }}</a>
+</p>
+{%- endmacro %}
+
+{%- macro headerIndex() %}
+{%- if not embedded %}
+<div id="headerIndex">
+  <div id="indexwrap">
+    <div id="indexHead"></div>
+    <div id="indexMid">{{ toctree() }}</div>
+    <div id="indexBtm"></div>
+  </div>
+</div>
+{%- endif %}
+{%- endmacro %}
+
+{%- macro relbar() %}
+  <div class="relbar">
+    {%- if prev %}
+    <dl id="relPrev">
+      <dt class="prev">{{ _('Previous topic') }}</dt>
+      <dd class="relTitle"><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}" {{ accesskey("N") }}>{{ prev.title }}</a></dd>
+    </dl>
+    {%- endif %}
+    {%- if next %}
+    <dl id="relNext">
+      <dt class="next">{{ _('Next topic') }}</dt>
+      <dd class="relTitle"><a href="{{ next.link|e }}" title="{{ _('next chapter')  }}" {{ accesskey("N") }}>{{ next.title }}</a></dd>
+    </dl>
+    {%- endif %}
+  </div>
+{%- endmacro %}
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ pathto('_static/' + style, 1) }}" />
+  <link rel="stylesheet" type="text/css" href="{{ pathto('_static/pygments.css', 1) }}" />
+  <script type="text/javascript" src="{{ pathto('_static/tooltip.js', 1) }}" ></script>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+{%- if not embedded %}
+  <script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+    URL_ROOT:    '{{ pathto("", 1) }}',
+    VERSION:     '{{ release|e }}',
+    COLLAPSE_MODINDEX: false,
+    FILE_SUFFIX: '{{ file_suffix }}',
+    HAS_SOURCE:  {{ has_source|lower }}
+  };
+  </script>
+  {%- for scriptfile in script_files %}
+  <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+  {%- endfor %}
+  {%- if use_opensearch %}
+  <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+  {%- endif %}
+{%- endif %}
+  <script type="text/javascript">
+  $(document).ready(function() {
+    tooltip();
+  });
+  </script>
+</head>
+<body>
+<div id="wrapper">
+  {% include 'header.html' %}
+  {%- if pagename == "index" %}
+  <div id="showcase">
+    <img src="{{ theme_top_image }}" />
+  </div>
+  {%- endif %}
+  <!-- content -->
+  <div id="content">
+    <!-- current document area -->
+    <div id="document">
+    {%- block body %}{%- endblock body %}
+    </div>
+    <!-- /current document area -->
+  </div>
+  <!-- /content -->
+  {% include 'footer.html' %}
+</div>
+</body>
+</html>
