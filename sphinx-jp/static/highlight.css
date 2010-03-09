@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div#document div.highlight-rest {
+	margin:1em;
+	padding: 1em;
+	border: 1px dotted #999;
+	background-color: #FFF;
+	font-family: "Courier New", Courier, mono;
+}
+
+pre {
+	background-color: #FFF;
+	font-family: "Courier New", Courier, mono;
+}
+
+.literal {
+	background-color: #F1F1F1;
+	padding: 0.3em;
+	border-bottom: 1px dashed #b4b4b4;
+	font-style: italic;
+}
