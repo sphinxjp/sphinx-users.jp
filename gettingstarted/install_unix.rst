@@ -28,10 +28,11 @@ Mac OS Xの `MacPorts <http://www.macports.org/>`_ を利用しているので�
 Ubuntuのaptコマンド
 -------------------
 
-Ubuntu LinuxなどのDebian系のOSの場合は、aptコマンドを使ってインストールすることができます。
+Ubuntu LinuxなどのDebian系のOSの場合は、以下のコマンドを使ってインストールすることができます。
 
-.. note::
-   後で書く
+.. code-block:: bash
+
+   $ ptitude install python-sphinx
 
 自分でインストールする
 ======================
