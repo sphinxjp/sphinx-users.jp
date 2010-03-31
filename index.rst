@@ -48,6 +48,7 @@ Sphinx Users JP 目次
    :maxdepth: 2
 
    intro
+   history
    gettingstarted/index
    code
    misc
