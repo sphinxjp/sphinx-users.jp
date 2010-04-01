@@ -1,57 +1,6 @@
+{%- block doctype -%}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-{%- macro searchbox() %}
-  {%- if pagename != "search" %}
-  <div id="searchbox">
-    <div>
-      <form class="search" name="search" action="{{ pathto('search') }}" method="get">
-        <input type="text" class="hint" name="q" size="18" />
-        <input type="submit" value="{{ _('Go') }}" />
-        <input type="hidden" name="check_keywords" value="yes" />
-        <input type="hidden" name="area" value="default" />
-      </form>
-    </div>
-  </div>
-  <script type="text/javascript">$('#searchbox').show(0);</script>
-  {%- endif %}
-{%- endmacro %}
-
-{%- macro showSource() %}
-{%- if show_source and has_source and sourcename %}
-<div id="source">
-  <p><a id="showsrc" href="{{ pathto('_sources/' + sourcename, true)|e }}" title="{{ _('Show Source') }}">{{ _('Show Source') }}</a></p>
-</div>
-{%- endif %}
-{%- endmacro %}
-
-{%- macro showindex() %}
-<p>
-    <script><!--
-    $(document).ready(function(){
-        $('.toggle').toggle(function() {
-              $('#headerIndex').show();
-            },
-            function() {
-              $('#headerIndex').hide()}
-            );
-    });
-    //-->
-    </script>
-    <a class="toggle" href="#">{{ _('Table Of Contents') }}</a>
-</p>
-{%- endmacro %}
-
-{%- macro headerIndex() %}
-{%- if not embedded %}
-<div id="headerIndex">
-  <div id="indexwrap">
-    <div id="indexHead"></div>
-    <div id="indexMid">{{ toctree() }}</div>
-    <div id="indexBtm"></div>
-  </div>
-</div>
-{%- endif %}
-{%- endmacro %}
-
+{%- endblock doctype -%}
 {%- macro relbar() %}
   <div class="relbar">
     {%- if prev %}
@@ -68,14 +17,49 @@
     {%- endif %}
   </div>
 {%- endmacro %}
+{%- macro sidebar() %}
+  <div id="sidebar" class="left">
+    <div id="sidebarWrap">
+      <div id="toc" class="sidebarRow">
+        <h3>{{ _('Table Of Contents') }}</h3>
+        {{ toctree() }}
+        </div>
+        <div id="rel" class="sidebarRow">
+        {%- block sidebarrel %}
+        {%- if prev %}
+          <div class="relRow prev">
+            <h4>{{ _('Previous topic') }}</h4>
+            <p class="topless"><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}">{{ prev.title }}</a></p>
+          </div>
+        {%- endif %}
+        {%- if next %}
+          <div class="relRow next">
+            <h4>{{ _('Next topic') }}</h4>
+            <p class="topless"><a href="{{ next.link|e }}" title="{{ _('next chapter') }}">{{ next.title }}</a></p>
+          </div>
+        {%- endif %}
+        {%- endblock %}
+      </div>
+      <div id="source" class="sidebarRow">
+      {%- block sidebarsourcelink %}
+      {%- if show_source and has_source and sourcename %}
+        <h3>{{ _('This Page') }}</h3>
+        <ul class="this-page-menu">
+          <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow">{{ _('Show Source') }}</a></li>
+        </ul>
+      {%- endif %}
+      {%- endblock %}
+      </div>
+    </div>
+  </div>
+{%- endmacro -%}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
   <title>{{ title }}</title>
   <link rel="stylesheet" type="text/css" href="{{ pathto('_static/' + style, 1) }}" />
   <link rel="stylesheet" type="text/css" href="{{ pathto('_static/pygments.css', 1) }}" />
-  <script type="text/javascript" src="{{ pathto('_static/tooltip.js', 1) }}" ></script>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-{%- if not embedded %}
+  {%- if not embedded %}
   <script type="text/javascript">
   var DOCUMENTATION_OPTIONS = {
     URL_ROOT:    '{{ pathto("", 1) }}',
@@ -91,31 +75,107 @@
   {%- if use_opensearch %}
   <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
   {%- endif %}
+  {%- if hasdoc('search') %}
+  <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+  {%- endif %}
 {%- endif %}
-  <script type="text/javascript">
-  $(document).ready(function() {
-    tooltip();
-  });
-  </script>
+  <!-- Sticky footer -->
+  <!--[if  IE 8]>
+  <style type="text/css">
+    #wrap {display:table;}
+  </style>
+  <![endif]-->
 </head>
 <body>
 <div id="wrapper">
-  {% include 'header.html' %}
-  {%- if pagename == "index" %}
-  <div id="showcase">
-    <img src="{{ theme_top_image }}" />
+  {% block header %}
+  <!-- header -->
+  <div id="header">
+    <div id="projInfo">
+      {%- if logo %}
+      <!-- logo -->
+      <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="{{ project }}" />
+      <!-- /logo -->
+      {%- endif %}
+      <h1 id="title">
+        <a href="{{ pathto('index') }}">{{ project }}</a>
+      </h1>
+      <p class="docdesc">{{ docstitle|e }}</p>
+    </div>
+    {%- if pagename != "search" %}
+    <div id="headerNav">
+      <div id="searchbox">
+        <form name="search" action="{{ pathto('search') }}" method="get">
+          <fieldset class="search">
+            <input type="text" class="hint" name="q" />
+            <button class="button" title="{{ _('Go') }}" />{{ _('Go') }}</button>
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">$('#searchbox').show(0);</script>
+    {%- endif %}
+    <div id="gnav">
+      <ul>
+        <li class="home"><p><a href="{{ pathto('index') }}" title="{{ project }}">{{ project }}</a></p></li>
+        <li class="modindex">
+          <p><a title="{{ _('Index') }}" href="{{ pathto('genindex') }}">{{ _('Index') }}</a></p>
+        </li>
+      </ul>
+    </div>
   </div>
-  {%- endif %}
+  <!-- /header -->
+  {% endblock header %}
+  {% block content %}
   <!-- content -->
   <div id="content">
     <!-- current document area -->
-    <div id="document">
+    <div id="document" class="left">
     {%- block body %}{%- endblock body %}
     </div>
     <!-- /current document area -->
+    <!-- sidebar -->
+    {{ sidebar() }}
+    <!-- /sidebar -->
   </div>
+  {% endblock content %}
   <!-- /content -->
-  {% include 'footer.html' %}
 </div>
+  <!-- footer -->
+  {% block footer %}
+  <div id="footer">
+    <div class="footerCol">
+      <h1><a href="{{ pathto('index') }}">{{ project }}</a></h1>
+      <p class="copy">
+      {%- if hasdoc('copyright') %}
+      {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a>{{ copyright }}. {% endtrans %}
+      {%- else %}
+      {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+      {%- endif %}
+      {%- if last_update %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_update }}.{% endtrans %}
+      {%- endif %}
+      </p>
+      <p class="sp">
+      {%- if show_sphinx %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+      {%- endif %}
+      </p>
+      {%- if last_updated %}
+      <p class="update">
+      {% trans last_updated=last_updated|e %}
+      Last updated on {{ last_updated }}.
+      {% endtrans %}
+      </p>
+      {%- endif %}
+    </div>
+    <div class="footerCol">
+    {{ relbar() }}
+    </div>
+  </div>
+ {% endblock footer %}
+ <!-- /footer -->
 </body>
 </html>
