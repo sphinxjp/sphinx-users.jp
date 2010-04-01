@@ -45,13 +45,7 @@ Sphinx Users JP 目次
 ======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   intro
    history
    gettingstarted/index
-   code
-   misc
-   rest
-   concepts
-
