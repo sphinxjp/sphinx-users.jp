@@ -5,10 +5,18 @@
 @import "document.css";
 @import "index.css";
 
-/* @group general */
+/* @group General */
+
+/* Sticky footer */
+html, body, div#wrapper {
+	height: 100%;
+}
+
+
 body {
-	color: #525252;
-	background-color: #273437;
+	background-color: #FEFEFE;
+	margin: 0 auto;
+	color: #222;
 }
 
 .left {
@@ -18,312 +26,343 @@ body {
 .right {
 	float: right;
 }
-
-.clear {
-	clear: both;
-}
 /* @end */
 
-/* @group layout */
+/* @group Structure */
 div#wrapper {
+	margin: 0 auto;
 	min-width: 960px;
+	font-size: 90%;
+	
+	/* Sticky footer */
+	height: auto;
+	min-height: 100%;
 }
 
 div#header {
-	padding: 1em 2em;
+	width: 100%;
+	background: #363B45 url(header_bg.png) repeat-x;
 	min-height: 180px;
-	background: url(header_bg.png) repeat-x;
-	color: #FFF;
+	border-bottom: 1px solid #333;
 }
 
-div#content{
-	margin: 0;
-	padding: 1em 2em;
-	background-color: #f9f9f9;
-	border-top: 1px solid #FFF;
-	border-bottom: 1px solid #000;
+div#content {
+	clear: both;
+	width: 95%;
+	margin: 0 auto;
+	
+	/* Sticky footer */
+	overflow: auto;
+	padding-bottom: 160px; /* same height as the footer */
 }
 
 div#document {
-	width: 90%;
-	margin: 0 auto;
-	background-color: #f9f9f9;
+	width: 65%;
+	margin: 0;
+	padding: 10px;
+	border-right: 1px solid #EEE;
+	background: #FFF url(../../../sphinx-jp/static/docBg.png) repeat-y right;
+}
+
+div#sidebar {
+	width: 30%;
+	float: left;
+	padding: 10px 0;
+	color: #444;
 }
 
 div#footer {
-	margin: 0;
-	padding: 2em;
-	min-height: 230px;
-	background-color: #3B3B3B;
-	clear: both;
+	background-color: #363B45;
+	border-top: 1px solid #999;
 	color: #FFF;
-	border-top: 1px solid #777;
-}
-
-/* @end */
-
-/* @group header */
-div#headerIndex {
-	display: none;
-	margin: 0 0.6em;
-	width: 330px;
-	float: right;
-}
-
-/* My Comment */
-
-div#headerIndex > div#indexwrap {
-	margin: 0;
-	min-height: 200px;
-	width: 330px;
-}
-
-div#headerIndex > div#indexwrap > div#indexHead {
-	text-align: center;
-	height: 60px;
-	font-weight: bold;
-	font-size: 110%;
-	margin: 0;
-	background: url(index_pop_head.png) no-repeat;
-}
-
-div#headerIndex > div#indexwrap > div#indexHead > h1 {
-	color: #FFF;
-	margin: 0;
-	padding-top: 1.5em;
-	text-shadow: rgba(254,255,254,0.3) 1px 1px 0;
-}
-
-div#headerIndex > div#indexwrap > div#indexMid {
-	margin: 0;
-	background: url(index_pop_mid.png) repeat-y;
-}
-
-div#headerIndex > div#indexwrap > div#indexMid ul {
-	list-style: none;
-	margin: 0 35px;
-	border: 1px solid #CCC;
-	background-color: #FFF;
-	width: 80%;
-	font-weight: bold;
-	border: none;
-}
-
-div#headerIndex > div#indexwrap > div#indexMid ul > li {
-	padding: 0 0.5em;
-	border-bottom: 1px dotted #CCC;
-}
-
-div#headerIndex > div#indexwrap > div#indexMid ul > li > ul {
-	list-style: disc;
-	font-weight: normal;
-	margin-left: 1.6em;
-}
-
-div#headerIndex > div#indexwrap > div#indexMid ul > li > ul > li {
-	border: none;
-}
-
-div#headerIndex > div#indexwrap > div#indexBtm {
-	min-height: 40px;
-	background: url(index_pop_btm.png) no-repeat;
-}
-
-img.logo {
-	width: 100px;
-	height: 100px;
-	float: left;
-}
-
-div#header > div#masthead > div#projInfo{
-	float: left;
-	margin: 0.5em 0 0 1em;
 	
+	/* Sticky footer */
+	clear: both;
+	position: relative;
+	margin-top: -160px; /* negative value of footer height */
+	height: 160px;
 }
 
-div#header h1#title {
-	display: inline;
-	font-size: 200%;
-	font-weight: bold;
-}
-
-div#header div#projInfo > p.docdesc {
-	font-weight: bold;
+/* Sticky footer Opera Fix*/
+body:before {
+        content:"";
+        height:100%;
+        float:left;
+        width:0;
+        margin-top:-32767px;/
 }
 
 /* @end */
 
-/* @group navigation */
-div#headerNav {
-	float: right;
-}
-
-div#headerNav > div#searchbox {
-	margin: 1em;
-}
-
-div.links > p {
-	display: block;
-	width: 105px;
-	height: 30px;
-	text-align: center;
-	font-weight: bold;
+/* @group Section */
+/* header */
+div#header img.logo {
+	height: 100px;
+	width: 100px;
 	float: left;
+	margin-right: 20px;
+}
+
+div#header div#projInfo {
+	width: 60%;
+	float: left;
+	margin: 20px 1em;
+}
+
+div#header div#headerNav {
+	width: 30%;
+	float: right;
+	margin: 20px 1em;
+}
+
+fieldset.search {
+	border: none;
+	width: 226px;
+	margin: 60px auto 0;
+}
+
+fieldset.search > input,
+fieldset.search > button {
+	border: none;
+	float: left;
+}
+
+fieldset.search input.hint {
+	width: 190px;
+	height: 20px;
+	padding: 3px;
+	color: #555;
+	font-size: 1.2em;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+fieldset.search input.hint:focus {
+	outline: none;
+}
+
+fieldset.search button.button {
+	width: 26px;
+	height: 27px;
+	text-indent: -9999px;
+	background: #FFF url(search.png) no-repeat 3px 3px;
+	border-top: 1px solid #999;
+}
+
+fieldset.search button.button:hover {
+	cursor: pointer;
+}
+
+div#header > div#gnav {
+	clear: both;
+	height: 50px;
+	padding-top: 20px;
+}
+
+div#header > div#gnav > ul {
+	list-style: none;
+	float: right;
+	width: 30%;
+	margin: 0 40px;
+}
+
+div#header > div#gnav > ul > li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+div#header > div#gnav > ul > li.home > p > a {
+	background: url(gnav_home.png) no-repeat;
+}
+
+div#header > div#gnav > ul > li.home > p > a:hover {
+	background: url(gnav_home.png) no-repeat 0 -40px;
+}
+
+div#header > div#gnav > ul > li.modindex > p > a {
+	background: url(gnav_mod.png) no-repeat;
+}
+
+div#header > div#gnav > ul > li.modindex > p > a:hover {
+	background: url(gnav_mod.png) no-repeat 0 -40px;
+}
+
+div#header > div#gnav > ul > li > p > a{
+	color: #FFF;
+	text-indent: -9999px;
+	width: 100px;
+	height: 40px;
+	display: block;
+}
+
+/* /header */
+
+/* sidebar */
+div.sidebarRow {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-top: 1px solid #DDD;
+}
+
+div#toc.sidebarRow {
+	border-top: 5px solid #363B45;
+}
+
+div#sidebar div#toc > h3,
+div#sidebar div#source > h3,
+div#sidebar div#rel h4 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	color: #1a253d;
+}
+
+div.sidebarRow > ul > li {
+	margin-left: 10px;
+	list-style: none;
+}
+
+div#sidebar ul {
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: square;
+}
+
+div#sidebar li {
+	margin-bottom: 5px;
+}
+
+div#sidebar li > a {
+	display: block;
+	width: 100%;
+}
+
+div#sidebar ul ul {
 	margin-left: 1em;
-	background: url(header_btn.png) no-repeat;
-	text-shadow: rgba(71,70,67,0.9) 1px 1px 0;
 }
 
-div#footer ul {
+div#sidebar div#rel div.relRow {
+	margin-bottom: 15px;
+}
+
+div#sidebar div#rel div.relRow.prev > h4 {
+	background: url(prev.png) no-repeat 0 2px;
+	text-indent: 25px;
+	font-size: 1em;
+}
+
+div#sidebar div#rel div.relRow.next > h4 {
+	background: url(next.png) no-repeat 0 2px;
+	text-indent: 25px;
+	font-size: 1em;
+}
+
+div#sidebar div#rel p.topless {
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+div#sidebar div#rel p > a {
+	display: block;
+	width: 100%;
+}
+
+div#sidebar div#source > ul.this-page-menu {
 	list-style: none;
-	margin: 0.5em 0 1em 1em;
 }
-/* @end */
 
-/* @group content */
-div.sidebar ul {
-	list-style: none;
+div#sidebar div#source > ul.this-page-menu > li {
+	font-weight: bold;
+	font-size: 0.9em;
+	background: url(show_source.png) no-repeat;
+	height: 35px;
+	padding-top: 3px;
+	text-indent: 40px;
 }
-/* @end */
 
-/* @group footer */
-div#footer > div#footerToc {
+/* /sidebar */
+
+/* footer */
+div#footer > div.footerCol {
 	float: left;
 	width: 40%;
-	margin-right: 30px;
+	margin: 10px;
 }
 
-div#footer p.title {
-	text-shadow: #212121 1px 1px 0;
-	margin-bottom: 0.5em;
-	font-size: 120%;
-	font-weight: bold;
-	border-bottom: 1px dotted #CCC;
-}
-
-div#footer > div#footerToc > h1 {
+div#footer > div.footerCol h1 {
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
-div#footer > div#footerToc  ul > li {
+div#footer > div.footerCol > p {
+	font-size: 0.9em;
+	color: #FFF;
+}
+
+div#footer > div.footerCol > p.sp {
+	margin-bottom: 1em;
+}
+
+div#footer > div.footerCol > p.update {
 	font-weight: bold;
 }
 
-div#footer > div#footerToc  ul > li > a {
-	font-size: 90%
+div#footer > div.footerCol > div.relbar > dl {
+	margin-bottom: 1em;
 }
+/* /footer */
 
-div#footer p.update {
-	clear: both;
-	font-size: 90%;
-}
+/* @end */
 
-div#footer > div.footerCol > div.relbar {
-	width: 50%;
-	float: left;
-	margin-top: 0.34em;
-}
-
-div#footer > div.footerCol > div.relbar > dl#relPrev {
-	margin-bottom: 1.5em;
-}
-
-div#footer > div.footerCol > div.relbar > dl > dt {
+/* @group Font style */
+div#header div#projInfo h1#title {
+	font-size: 2.5em;
 	font-weight: bold;
-	text-shadow: #212121 1px 1px 0;
-	height: 35px;
-	text-indent: 35px;
+	text-shadow: #666 -1px -1px 0;
 }
 
-div#footer > div.footerCol > div.relbar > dl > dt.prev {
-	background: url(prev.png) no-repeat;
-}
-
-div#footer > div.footerCol > div.relbar > dl > dt.next {
-	background: url(next.png) no-repeat;
-}
-
-div#footer > div.footerCol > div.relbar > dl > dd {
-	text-indent: 1em;
+div#header div#projInfo p.docdesc {
+	font-size: 0.9em;
 	font-weight: bold;
-}
-
-div#footer > div.footerCol > div.relbar > p > a {
-	text-shadow: rgba(71,70,67,0.9) 1px 1px 0;
-	font-weight: bold;
-}
-div#footer > div#source {
-	float: left;
-	margin-top: 1.5em;
-}
-
-div#footer > div#source > p {
-	background: url(show_source.png) no-repeat;
-	text-indent: 35px;
-	height: 35px;
-	font-weight: bold;
-}
-
-div#footer div.regal > p {
-	margin-top: 2em;
-	font-size: small;
-	text-align: center;
+	color: #FFF;
+	text-shadow: #666 -1px -1px 0;
 }
 
 /* @end */
 
-/* @group link */
-div#header a:link,
-div#header a:hover,
-div#header a:visited,
-div#header a:active {
-	text-decoration: none;
+/* @group List style */
+/* @end */
+
+/* @group Link style */
+div#header div#projInfo a,
+div#footer > div.footerCol h1 > a {
 	color: #FFF;
+	text-decoration: none;
 }
 
-div#headerIndex a:link {
+div#sidebar a:link,
+div#sidebar a:visited,
+div#sidebar a:active {
+	color: #444;
 	text-decoration: none;
-	color: #111;
 }
 
-div#headerIndex a:hover {
-	text-decoration: none;
-	color: #333;
-}
-
-div#headerIndex a:visited {
-	text-decoration: none;
-	color: #a64142;
-}
-
-div.links > p > a:link,
-div.links > p > a:visited {
-	text-decoration: none;
-	color: #FFF;
-} 
-
-div.links > p > a:hover {
-	text-decoration: none;
-	color: #34c746;
+div#sidebar a:hover {
+	color: #f95924;
 }
 
 div#footer a:link,
 div#footer a:visited,
 div#footer a:active {
+	color: #7bb4f3;
 	text-decoration: none;
-	color: #FFF;
 }
 
 div#footer a:hover {
-	color: #5f92fd;
-}
-
-div#footer div.regal > p > a:link,
-div#footer div.regal > p > a:hover,
-div#footer div.regal > p > a:visited,
-div#footer div.regal > p > a:active {
 	text-decoration: underline;
-	color: #5f92fd;
 }
-
 /* @end */
