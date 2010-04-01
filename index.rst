@@ -28,11 +28,9 @@ Sphinx-Users.jpのメーリングリストです。
 
 `Sphinx-Users.jp ML(dummy) <http://www.google.com/>`_
 
-Sphinx Users JP 目次
-======================
-
 .. toctree::
    :maxdepth: 1
 
    history
    gettingstarted/index
+   makingwebsite/index
