@@ -3,6 +3,8 @@
 Sphinx-Users.jp
 ===============
 
+.. image:: _static/screenshot.png
+
 \ `Sphinx <http://sphinx.pocoo.org/>`_\ は、美しいドキュメントを簡単に作成することができるツールです。もともとは、\ `Pythonのドキュメント <http://docs.python.org/dev/>`_\ を変換するために作られました。このSphinx-Users.jpのサイトも、Sphinxを使って作られています。
 
 Sphinx-Users.jpでは、Sphinx入門から一歩進んだ使い方まで、日本語情報を紹介しています。
