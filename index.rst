@@ -33,5 +33,7 @@ Sphinx-Users.jpのメーリングリストです。
 
    history
    gettingstarted/index
+   doc
+   mailinglist
    makingwebsite/index
-   tips/index
+   cookbook/index
