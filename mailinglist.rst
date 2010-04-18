@@ -5,6 +5,9 @@ Sphinx-Users.jp(略称#sphinxjp)は、ドキュメンテーションツールの
 
 #sphinxjpではメーリングリストへの参加＝コミュニティへの参加とみなします。入会金や会費などは一切かかりません。
 
+.. warning::
+   現在、会則を準備中です。上記の内容＋運営委員会のルールなどを記述した内容になる予定です。数日中の公開になる予定ですが、気になる方は公開までお待ちください。
+
 * `メーリングリスト登録ページ <http://www.python.jp/mailman/listinfo/sphinx-users>`_
 
 Sphinx-Users.jpの `Twitterアカウント <http://www.twitter.com/sphinxjp>`_ もあります。
