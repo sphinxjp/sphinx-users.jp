@@ -31,7 +31,7 @@ body {
 /* @group Structure */
 div#wrapper {
 	margin: 0 auto;
-	min-width: 960px;
+	min-width: 980px;
 	font-size: 90%;
 	
 	/* Sticky footer */
@@ -168,10 +168,10 @@ div#header > div#gnav > ul {
 
 div#header > div#gnav > ul > li {
 	float: left;
-	width: 100px;
+	width: 80px;
 	height: 40px;
 	margin-top: 0px;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 div#header > div#gnav > ul > li.home > p > a {
@@ -180,6 +180,14 @@ div#header > div#gnav > ul > li.home > p > a {
 
 div#header > div#gnav > ul > li.home > p > a:hover {
 	background: url(gnav_home.png) no-repeat 0 -40px;
+}
+
+div#header > div#gnav > ul > li.doc > p > a {
+	background: url(gnav_btn_doc.png) no-repeat;
+}
+
+div#header > div#gnav > ul > li.doc > p > a:hover {
+	background: url(gnav_btn_doc.png) no-repeat 0 -40px;
 }
 
 div#header > div#gnav > ul > li.modindex > p > a {
