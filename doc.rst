@@ -7,12 +7,12 @@
 .. warning::
    まだ1.0の正式版は出ていません
 
-* `本家ドキュメント日本語訳 <http://sphinx-users.jp/doc10/>`_
+* `1.0系 本家ドキュメント日本語訳 <http://sphinx-users.jp/doc10/>`_
 
 0.6系関連ドキュメント
 ---------------------
 
-* `本家ドキュメント日本語訳 <http://sphinx.shibu.jp>`_
+* `0.6系 本家ドキュメント日本語訳 <http://sphinx.shibu.jp>`_
 * `BPStudy #30発表資料 <http://tinyurl.com/yk58v48>`_
 
 
