@@ -23,10 +23,9 @@ Sphinxの公式ドキュメント、および、その日本語訳は以下を�
 
 メーリングリスト
 -----------------
-
 Sphinx-Users.jpのメーリングリストです。
 
-`Sphinx-Users.jp ML(dummy) <http://www.google.com/>`_
+:doc:`mailinglist`
 
 .. toctree::
    :maxdepth: 1
