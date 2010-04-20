@@ -13,8 +13,11 @@ sphinx-users.jp 会則
 
 第２条 （事務局所在地）
 -----------------------
-本会は事務局を 〒321-0904 栃木県宇都宮市陽東5-6-14-202 に置く。
+本会は事務局を以下の住所に置き、本会の所在地とする。
 
+|secretariat_address|
+
+.. |secretariat_address| image:: secretariat_address.png
 
 目的及び事業
 ============
