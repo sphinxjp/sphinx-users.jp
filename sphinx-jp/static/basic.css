@@ -301,6 +301,11 @@ dl.glossary dt {
     font-size: 1.1em;
 }
 
+ol li {
+    margin-left: 2em;
+    list-style: decimal outside none;
+}
+
 .field-list ul {
     margin: 0;
     padding-left: 1em;
