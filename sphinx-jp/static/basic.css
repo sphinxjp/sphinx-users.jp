@@ -247,8 +247,12 @@ div.body p.centered {
 /* -- tables ---------------------------------------------------------------- */
 
 table.docutils {
-    border: 0;
+    border: 1px solid #aaa;
     border-collapse: collapse;
+}
+
+table.docutils tr {
+	border-bottom: 1px solid #aaa;
 }
 
 table.docutils td, table.docutils th {
@@ -260,11 +264,15 @@ table.docutils td, table.docutils th {
 }
 
 table.field-list td, table.field-list th {
-    border: 0 !important;
+    border: 1px solid #aaa;
+}
+
+tr.field > th.field-name {
+	background-color: #f6f4f7;
 }
 
 table.footnote td, table.footnote th {
-    border: 0 !important;
+    border: 1px solid #aaa;
 }
 
 th {
@@ -290,10 +298,6 @@ dd {
     margin-top: 3px;
     margin-bottom: 10px;
     margin-left: 30px;
-}
-
-dt:target, .highlight {
-    background-color: #fbe54e;
 }
 
 dl.glossary dt {

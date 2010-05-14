@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-div#document div.highlight {
+pre {
 	margin:1em;
 	padding: 1em;
 	border-top: 1px solid #E4E4E4;
@@ -8,7 +8,7 @@ div#document div.highlight {
 	border-right: 1px solid #F3F3F3;
 	border-bottom: 1px solid #F3F3F3;
 	background-color: #f6f9fb;
-	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-family: "Courier New", Courier, mono;
 	font-size: 0.9em;
 }
 
