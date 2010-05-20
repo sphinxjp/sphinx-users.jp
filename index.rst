@@ -15,6 +15,7 @@ Sphinx-Users.jpは、Sphinxを活用して、ドキュメント作成をパワ�
    history
    gettingstarted/index
    doc
+   articles/index
    regulations
    mailinglist
    cookbook/index
