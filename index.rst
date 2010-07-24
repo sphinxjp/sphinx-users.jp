@@ -19,3 +19,4 @@ Sphinx-Users.jpは、Sphinxを活用して、ドキュメント作成をパワ�
    regulations
    mailinglist
    cookbook/index
+   event/index
