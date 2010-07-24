@@ -4,10 +4,11 @@ Sphinxドキュメント
 1.0系関連ドキュメント
 ---------------------
 
-.. warning::
-   まだ1.0の正式版は出ていません
+* 1.0系 本家ドキュメント日本語訳
 
-* `1.0系 本家ドキュメント日本語訳 <http://sphinx-users.jp/doc10/>`_
+  * `HTML版 <http://sphinx-users.jp/doc10/>`_
+  * `epub版 <http://sphinx-users.jp/doc10/sphinx.epub>`_
+  * `変更点のリリースノート <http://sphinx-users.jp/doc10/changes.html#release-1-0-jul-23-2010>`_
 
 0.6系関連ドキュメント
 ---------------------
