@@ -374,3 +374,18 @@ div#footer a:hover {
 	text-decoration: underline;
 }
 /* @end */
+
+/* @group Image(figure directive) style */
+
+div.figure .eventimage {
+	float: left;
+}
+div.figure p.caption {
+	padding-top: 1em;
+}
+div.section { /* reset float for figure (ugly..)*/
+	clear: both;
+}
+
+/* @end */
+
