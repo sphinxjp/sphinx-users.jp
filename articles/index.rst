@@ -7,7 +7,7 @@
 .. contents:: 資料集内索引
    :depth: 2
 
-プロジェクトのドキュメント作成
+プロジェクトのドキュメント作成
 =========================================================
 
 .. image:: expertpython_mini.jpg
@@ -41,3 +41,17 @@ Python Enhancement Proposal: 1
    :maxdepth: 2 
 
    pep1
+
+Python Enhancement Proposal: 3120
+==================================
+
+このPEPはデフォルトソースエンコーディングをASCIIからUTF-8へ変更することを提案します。代替となるソースエンコーディング、つまり明示的なエンコーディング定義をデフォルトよりも優先することは継続的にサポートします。
+
+:翻訳者: 森本哲也(2010/07/25)
+:原文: http://www.python.org/dev/peps/pep-3120/
+
+.. toctree::
+   :maxdepth: 2
+
+   pep3120
+
