@@ -14,7 +14,7 @@ Python Enhancement Proposal: 1
    Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003
 
 :PEP: 1
-:タイトル: PEP 提案とガイドライン
+:タイトル: PEPの目的とガイドライン
 :バージョン: 80667
 :最終更新日: 2010-04-30 21:21:52 +0200 (Fri, 30 Apr 2010)
 :著者: Barry Warsaw, Jeremy Hylton, David Goodger
@@ -24,6 +24,9 @@ Python Enhancement Proposal: 1
 :作成日時: 13-Jun-2000
 :投稿履歴: 21-Mar-2001, 29-Jul-2002, 03-May-2003
 
+.. note::
+
+   * 西尾さんより訳修正提案→反映(2010/7/27)
 
 .. What is a PEP?
    ==============

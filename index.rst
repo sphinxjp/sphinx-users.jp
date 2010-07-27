@@ -13,6 +13,7 @@ Sphinx-Users.jpは、Sphinxを活用して、ドキュメント作成をパワ�
    :maxdepth: 1
 
    history
+   example
    gettingstarted/index
    doc
    articles/index
