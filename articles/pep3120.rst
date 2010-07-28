@@ -1,0 +1,161 @@
+=================================
+Python Enhancement Proposal: 3120
+=================================
+
+.. PEP: 3120
+   Title: Using UTF-8 as the default source encoding
+   Version: $Revision$
+   Last-Modified: $Date$
+   Author: Martin von Löwis <martin@v.loewis.de>
+   Status: Final
+   Type: Standards Track
+   Content-Type: text/x-rst
+   Created: 15-Apr-2007
+   Python-Version: 3.0
+   Post-History:
+
+:PEP: 3120
+:タイトル: デフォルトソースエンコーディングとして UTF-8 を使用
+:バージョン: 56622
+:最終更新日: 2007-07-29 20:21:40 +0200 (Sun, 29 Jul 2007)
+:著者: Martin von Löwis <martin at v.loewis.de>
+:ステータス: ファイナル
+:タイプ: 標準トラック
+:Content-Type: text/x-rst
+:作成日: 15-Apr-2007
+:Python バージョン:  3.0
+:投稿履歴: 
+
+
+.. Specification
+   =============
+
+仕様
+====
+
+.. This PEP proposes to change the default source encoding from ASCII to
+   UTF-8. Support for alternative source encodings [#pep263]_ continues to
+   exist; an explicit encoding declaration takes precedence over the
+   default.
+
+このPEPはデフォルトソースエンコーディングをASCIIからUTF-8へ変更することを提案します。代替となるソースエンコーディング [#pep263]_ 、つまり明示的なエンコーディング定義をデフォルトよりも優先することは継続的にサポートします。
+
+
+.. A Bit of History
+   ================
+
+小歴史
+======
+
+.. In Python 1, the source encoding was unspecified, except that the
+   source encoding had to be a superset of the system's basic execution
+   character set (i.e. an ASCII superset, on most systems).  The source
+   encoding was only relevant for the lexis itself (bytes representing
+   letters for keywords, identifiers, punctuation, line breaks, etc).
+   The contents of a string literal was copied literally from the file
+   on source.
+
+システムの基本的な実行文字コードのスーパーセット(例えば、ほとんどのシステムではASCIIのスーパーセット)を使用しなければならなかったソースエンコーディングを除けば、Python1ではソースエンコーディングが未定義でした。ソースエンコーディングは、文法上のキーワード、識別子、句読点や改行等のキーワードを表す文字のバイトデータにのみ関係していました。そして、文字列のリテラルはソース上のファイルからそのままコピーされました。
+
+.. In Python 2.0, the source encoding changed to Latin-1 as a side effect
+   of introducing Unicode. For Unicode string literals, the characters
+   were still copied literally from the source file, but widened on a
+   character-by-character basis. As Unicode gives a fixed interpretation
+   to code points, this algorithm effectively fixed a source encoding, at
+   least for files containing non-ASCII characters in Unicode literals.
+
+Python2.0では、ソースエンコーディングはユニコード文字の提供による副作用でLatin-1へ変更されました。ユニコード文字列のリテラルは、それでもソースファイルからそのままコピーされていましたが、基本的には文字単位で拡張されました。ユニコードはコードポイントを固定して解釈されるので、少なくともユニコード文字列のリテラルにASCII文字を含まないファイルにとってはこのアルゴリズムは効率良くソースエンコーディングを扱いました。
+
+.. PEP 263 identified the problem that you can use only those Unicode
+   characters in a Unicode literal which are also in Latin-1, and
+   introduced a syntax for declaring the source encoding. If no source
+   encoding was given, the default should be ASCII. For compatibility
+   with Python 2.0 and 2.1, files were interpreted as Latin-1 for a
+   transitional period. This transition ended with Python 2.5, which
+   gives an error if non-ASCII characters are encountered and no source
+   encoding is declared.
+
+PEP263では、ユニコード文字列のリテラルの中にLatin-1も含めたユニコード文字が使用できるという課題を確認しました。そして、ソースエンコーディングを定義するための構文を紹介しました。もしソースエンコーディングが定義されていなければ、デフォルトはASCIIになります。Python2.0と2.1の互換性とファイルに関しては移行期間のためLatin-1として解釈されました。この移行期間はPython 2.5で終了しました。もしASCIIではない文字を発見して、ソースエンコーディングが定義されていなければエラーが発生します。
+
+
+.. Rationale
+   =========
+
+論理的根拠
+==========
+
+.. With PEP 263, using arbitrary non-ASCII characters in a Python file is
+   possible, but tedious. One has to explicitly add an encoding
+   declaration. Even though some editors (like IDLE and Emacs) support
+   the declarations of PEP 263, many editors still do not (and never
+   will); users have to explicitly adjust the encoding which the editor
+   assumes on a file-by-file basis.
+
+PEP263でPythonファイルにASCIIではない任意の文字コードを使用することが可能になりましたが、つまらないものでした。その理由の1つは明示的にエンコーディングの定義を追加しなければならない点です。(IDLEやEmacsのような)エディタによってはPEP263の定義をサポートしましたが、多くのエディタはまだサポートされていません(きっと今後もしないでしょう)。つまり、本来はエディタが基本機能としてファイル単位に推測するエンコーディングをユーザが明示的に指定しなければなりません。
+
+.. When the default encoding is changed to UTF-8, adding non-ASCII text
+   to Python files becomes easier and more portable: On some systems,
+   editors will automatically choose UTF-8 when saving text (e.g. on Unix
+   systems where the locale uses UTF-8). On other systems, editors will
+   guess the encoding when reading the file, and UTF-8 is easy to
+   guess. Yet other editors support associating a default encoding with a
+   file extension, allowing users to associate .py with UTF-8.
+
+そのデフォルトエンコーディングがUTF-8へ変更されると、Pythonが扱うファイルへASCIIではないテキストを追加することが簡単で移植性の高いものになります。つまり、(例えば、ロケールにUTF-8を使用するUnix)システムによっては、エディタはテキストファイルを保存するときに自動でUTF-8を選択するでしょう。一方、他のシステムでは、エディタはファイルを読み込んでエンコーディングを推測するでしょう。そして、UTF-8は推測し易いエンコーディングです。また別のエディタでは、UTF-8と.pyのようなファイル拡張子とデフォルトエンコーディングをユーザが関連付けるのをサポートします。
+
+.. For Python 2, an important reason for using non-UTF-8 encodings was
+   that byte string literals would be in the source encoding at run-time,
+   allowing then to output them to a file or render them to the user
+   as-is. With Python 3, all strings will be Unicode strings, so the
+   original encoding of the source will have no impact at run-time.
+
+Python2のために、UTF-8ではないエンコーディグを使用する大きな理由は、バイト文字列のリテラルが実行時にソースエンコーディングとなり、バイト文字列のリテラルをファイルへ出力する、又はユーザへそのまま表示するようにすることでした。Python3では、全ての文字列がユニコード文字列なのでソースファイルのオリジナルのエンコーディングは実行時に何の影響も与えません。
+
+
+.. Implementation
+   ==============
+
+実装
+====
+
+.. The parser needs to be changed to accept bytes > 127 if no source
+   encoding is specified; instead of giving an error, it needs to check
+   that the bytes are well-formed UTF-8 (decoding is not necessary,
+   as the parser converts all source code to UTF-8, anyway).
+
+そのパーサーはソースエンコーディングが指定されていない場合、127 バイトより大きなマルチバイト文字を許容するように変更する必要があります。つまり、エラーを発生させる代わりにマルチバイト文字列が一般的なUTF-8であるかをチェックします(デコーディングは必要ではなく、取りあえずパーサーが全ソースコードをUTF-8へ変換します)。
+
+.. IDLE needs to be changed to use UTF-8 as the default encoding.
+
+IDLEはデフォルトエンコーディングにUTF-8を使用するように変更する必要があります。
+
+
+.. References
+   ==========
+
+参照
+====
+
+.. [#pep263]
+   http://www.python.org/dev/peps/pep-0263/
+
+
+.. Copyright
+   =========
+
+著作権
+======
+
+.. This document has been placed in the public domain.
+
+このドキュメントはパブリック・ドメインに属します。
+
+..
+   Local Variables:
+   mode: indented-text
+   indent-tabs-mode: nil
+   sentence-end-double-space: t
+   fill-column: 70
+   coding: utf-8
+   End:
+
