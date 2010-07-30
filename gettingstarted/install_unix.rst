@@ -32,7 +32,7 @@ Ubuntu LinuxなどのDebian系のOSの場合は、以下のコマンドを使っ
 
 .. code-block:: bash
 
-   $ ptitude install python-sphinx
+   $ aptitude install python-sphinx
 
 自分でインストールする
 ======================
