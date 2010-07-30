@@ -44,3 +44,4 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * imocea API for Python ドキュメント: http://www.junkshed.net/imocea/doc/python/index.html
 * ダイナミックなモジュールシステム、OSGiを始めよう: http://kompiro.org/osgi/index.html
 * InfoPile ドキュメント: http://www.infopile.jp/html/index.html
+* Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
