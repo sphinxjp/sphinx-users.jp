@@ -71,7 +71,7 @@ Sphinx 1.0リリースによせて(Messages for Release 1.0)
 清水川(`@shimizukawa <http://twitter.com/shimizukawa>`_)
 ----------------------------------------------------------------------
 
-.. figure:: 20100724_release_party/toritougarashi.jpg
+.. figure:: 20100724_release_party/shimizukawa.jpg
   :class: eventimage
 
   普段からreSTでドキュメントを書いているので、イベントなどで資料を作成する際に手軽にSphinxでドキュメントを集約して利用することが出来ています。日本では英語のドキュメントを翻訳するのにも多く利用されており今後のSphinxの発展がとても楽しみです！自分も今後Extensionなどを作成して貢献できればと思っています。1.0リリースおめでとうございます！
