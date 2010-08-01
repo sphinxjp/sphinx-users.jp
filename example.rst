@@ -45,3 +45,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * ダイナミックなモジュールシステム、OSGiを始めよう: http://kompiro.org/osgi/index.html
 * InfoPile ドキュメント: http://www.infopile.jp/html/index.html
 * Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
+* PEP(Python Enhancement Proposal) 日本語訳: http://www.tdoc.info/PEP-ja/index.html
+* Flaskドキュメント日本語訳: http://a2c.bitbucket.org/flask/index.html
+* Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
+* jsonengine 日本語ドキュメント: http://jxck.bitbucket.org/jsonengine-doc-ja/build/html/index.html
