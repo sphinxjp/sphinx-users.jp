@@ -50,3 +50,5 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
 * jsonengine 日本語ドキュメント: http://jxck.bitbucket.org/jsonengine-doc-ja/build/html/index.html
 * PEP翻訳: http://pepja.googlecode.com/hg/build/html/index.html
+* PyMOTW(Python Module of the Week): http://www.doughellmann.com/PyMOTW/
+* PyMOTW(Python Module of the Week) 日本語訳: http://www.doughellmann.com/PyMOTW-ja/
