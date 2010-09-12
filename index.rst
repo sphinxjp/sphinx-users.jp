@@ -5,7 +5,8 @@ Sphinx-Users.jp
 
 **ニュース:**
 
-* 2010年09月04日にXPまつり2010の中でSphinxの紹介も行います。 :ref:`詳しくはこちら <event_xpmatsuri>`
+* 2010年09月14日22:00から、 `Lingr <http://lingr.com/signup?letmein=sphinxjp>`_ を使ってオンラインチュートリアルを行います。質問などがある方はぜひご参加ください。
+
 
 ----------------
 
