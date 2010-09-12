@@ -10,40 +10,16 @@ Sphinxの1.0からは、ePubファイルのビルドができるようになり�
 .. note::
    iPadでの表示、インストールの仕方は @takabow に協力いただきました。ありがとうございます。
 
-.. warning::
-   5/21現在、Sphinx 1.0は開発中です。まだリリースされていないため、不具合などによって動作に支障がある場合があります。
-
 Sphinx 1.0のインストール
 ========================
 
-まずはSphinx 1.0(開発版)をインストールします。通常の ``easy_install`` (もしくはdistribute, pip)を利用したインストールでは、最新安定版(0.6系)がインストールされてしまうため、手動でインストールする必要があります。
-
-.. image:: bitbucket.png
-   :width: 400pt
-
-ダウンロードをするには、 http://bitbucket.org/birkenfeld/sphinx にある、Sphinxのリポジトリの最新のコードを取得するか、Mercurialを利用して次のようにタイプしてダウンロードしてください。
+まずはSphinx 1.0以降をインストールします。通常の ``easy_install`` (もしくはdistribute, pip)を利用したインストール方法でインストールできます。
 
 .. code-block:: bash
 
-   $ hg clone https://shibu@bitbucket.org/birkenfeld/sphinx
-
-ファイルが展開できたら、コマンドラインから次のように実行してインストールしてください。
-
-.. code-block:: bash
-
-   $ sudo python setup.py install
+   $ sudo python setup.py -U install
 
 必要なファイルも取得してインストールしてくれます。これで準備完了です。
-
-.. note::
-
-   これをやってしまうと、安定版の0.6系を上書きしてしまい、通常の利用に影響を与える可能性がありますので、virtualenv、できれば virtualenvwrapper(Windowsでは使えません)を利用してください。
-
-   もしもvirtualenvwrapperを使い、sphinx10という環境を作ってその中にインストールすれば、必要なときだけ次のようにコマンドを実行すると、その環境を一時的に利用することができます。開発版のライブラリを利用するときは環境をこのように分離することをおすすめします。
-
-   .. code-block:: bash
-
-      $ workon sphinx10
 
 プロジェクトの作成
 ==================
