@@ -4,6 +4,7 @@ SphinxでかんたんePubファイル作成
 
 :日時: 2010/05/21
 :作者: 渋川よしき
+:最終更新: 2010/09/13
 
 Sphinxの1.0からは、ePubファイルのビルドができるようになります。ePubファイルというのは、iPadやソニーの電子ブックリーダーなどで利用できる、電子ブックのフォーマットです。原理的にはHTMLに、決まった形式のメタデータを含むファイルを追加して、zipで固めて拡張しをepubにしたものですが、Sphinxを使えば簡単に出力することができます。
 
@@ -31,7 +32,14 @@ Sphinx 1.0のインストール
 ePubの設定を追加
 ================
 
-次に、 `ePubのオプション <file:///Users/shibu/work/sphinx-docjp/docjp/_build/html/config.html#epub>`_ を見ながら、 :file:`conf.py` にePub用の設定を追加していきます。現時点の :program:`sphinx-quickstart` は、 :file:`conf.py` にこれらのオプションの追加をしてくれないため、自分で書き加える必要があります。
+次に、 `ePubのオプション <file:///Users/shibu/work/sphinx-docjp/docjp/_build/html/config.html#epub>`_ を見ながら、 :file:`conf.py` にePub用の設定を追加していきます。以前のバージョンの :program:`sphinx-quickstart` でプロジェクトを作った場合には、 :file:`conf.py` にこれらのオプションの追加をしてくれないため、自分で書き加える必要があります。
+
+現在のバージョンでは、途中で「ePub用の設定を加えるか？」ということを聞いてきます。忘れずに「Y」を選択しましょう。
+
+.. code-block:: bash
+
+   Sphinx can also add configuration for epub output:
+   > Do you want to use the epub builder (y/N) [n]: 
 
 次のリストは、ePub関連の、生成されるファイルに直に効いてくるオプションの一覧です。
 
@@ -128,5 +136,54 @@ iPadのiBooksを起動すると、ライブラリに追加されています。�
 .. image:: ipad.jpg
    :width: 450pt
 
+1.0のsphinx-quickstartで追加される内容
+=======================================
 
+Sphinx 1.0のsphinx-quickstartでは、途中でEPubビルダーを使用するか質問があります。
+もし、間違ってNにしてしまった、過去のバージョンから乗り換えたが、既に色々書き換えてしまったのでconf.pyの再作成は手間がかかるのでやりたくない、という方はこれをコピペして修正してください。
 
+.. code-block:: python
+
+   # -- Options for Epub output ---------------------------------------------------
+
+   # Bibliographic Dublin Core info.
+   epub_title = 'プロジェクト名'
+   epub_author = '著者名'
+   epub_publisher = '著者名'
+   epub_copyright = '年＋著者名'
+
+   # The language of the text. It defaults to the language option
+   # or en if the language is not set.
+   #epub_language = ''
+
+   # The scheme of the identifier. Typical schemes are ISBN or URL.
+   #epub_scheme = ''
+
+   # The unique identifier of the text. This can be a ISBN number
+   # or the project homepage.
+   #epub_identifier = ''
+
+   # A unique identification for the text.
+   #epub_uid = ''
+
+   # HTML files that should be inserted before the pages created by sphinx.
+   # The format is a list of tuples containing the path and title.
+   #epub_pre_files = []
+
+   # HTML files shat should be inserted after the pages created by sphinx.
+   # The format is a list of tuples containing the path and title.
+   #epub_post_files = []
+
+   # A list of files that should not be packed into the epub file.
+   #epub_exclude_files = []
+
+   # The depth of the table of contents in toc.ncx.
+   #epub_tocdepth = 3
+
+   # Allow duplicate toc entries.
+   #epub_tocdup = True
+
+変更履歴
+========
+
+:2010/09/13: Sphinx 1.0正式リリースの変更点に合わせて修正
