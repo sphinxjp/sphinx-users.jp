@@ -54,3 +54,4 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * PyMOTW(Python Module of the Week) 日本語訳: http://www.doughellmann.com/PyMOTW-ja/
 * Python Hack-a-thon #4ハンズオン 中級コース(清水川さん): http://www.freia.jp/taka/docs/pyhack4/
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://shimizukawa.bitbucket.org/python-distribute-ja/index.html
+* コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
