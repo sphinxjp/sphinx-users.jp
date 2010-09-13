@@ -23,7 +23,7 @@ Bitbukcet上に、``http://ユーザ名.bitbucket.org`` という名前でドキ
 公開手順
 --------
 
-1. アカウント名と同じ名前のリポジトリを作ります。
+1. ``アカウント名.bitbucket.org`` という名前のリポジトリを作ります。
 
 .. image:: bitbucket.png
 
