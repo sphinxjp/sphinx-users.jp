@@ -226,4 +226,8 @@ div#document fieldset.search button.button {
 
 /* @group hatena */
 /* hatena bookmark */
+div#document a.hatena-bookmark-count img {
+	margin: 0 4px;
+}
 /* @end */
+
