@@ -78,6 +78,28 @@
   {%- if hasdoc('search') %}
   <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
   {%- endif %}
+
+  <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+  <script type="text/javascript">
+  Hatena.Star.Token = '155526b156165586e5572b70458b327e4e7d6c32';
+  Hatena.Star.SiteConfig = {
+    entryNodes: {
+      '#document': {
+        uri: 'h1 a',
+        title: 'h1',
+        container: 'h1'
+      }
+    }
+  };
+  </script>
+
+  <script type="text/javascript" src="{{ pathto('_static/HatenaBookmark.js', 1) }}"></script>
+  <script type="text/javascript">
+  Hatena.xBookmark.SiteConfig = {
+    '#document h1 a': {},
+  };
+  </script>
+
 {%- endif %}
   <!-- Sticky footer -->
   <!--[if  IE 8]>
