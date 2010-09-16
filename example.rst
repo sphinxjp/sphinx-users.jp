@@ -71,5 +71,8 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * SurgoさんのWebサイト: http://works.surgo.jp/
 * Flaskドキュメント日本語訳: http://a2c.bitbucket.org/flask/index.html
 * PyMOTW(Python Module of the Week) 日本語訳: http://www.doughellmann.com/PyMOTW-ja/
-* Python Hack-a-thon #4ハンズオン 中級コース(清水川さん): http://www.freia.jp/taka/docs/pyhack4/
+* Python Hack-a-thon #4ハンズオン 中級コース(清水川): http://www.freia.jp/taka/docs/pyhack4/
+* XDV チュートリアル(清水川): http://www.freia.jp/taka/docs/xdv/
+* XP祭り2010: Pythonでアジャイル開発サイクル 2010ver(清水川): http://www.freia.jp/taka/docs/xpfest2010/
 * 渋川個人ウェブサイト http://www.shibu.jp
+
