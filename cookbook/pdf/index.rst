@@ -217,14 +217,13 @@ PDFの設定を追加
 
 .. code-block:: bash
 
-   (sphinx10)MacBook:chapter10 shibu$ make pdf
-   sphinx-build -b epub -d _build/doctrees   . _build/pdf
-   Making output directory...
-   Running Sphinx v1.0pre
-   (中略)
-   writing expert_python_programming_sample.epub file...
-
-   Build finished. The epub file is in _build/epub.
+   [rokujyouhitoma@localhost docs]# make pdf
+   sphinx-build -b pdf -d build/doctrees   source _build/pdf
+   Running Sphinx v1.0.4
+   （中略）
+   build succeeded.
+   
+   Build finished. The PDF files are in _build/pdf.
 
 :file:`_build/pdf/` フォルダの下に `expert_python_programming_sample.epub` ファイルが作成されます。
 
