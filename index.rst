@@ -5,6 +5,8 @@ Sphinx-Users.jp
 
 **ニュース:**
 
+* 2010年10月10日11:00から、 :doc:`event/20101010_translating_hackathon` を行います。Sphinxを使ってみたい方、翻訳してみたい方、Sphinxの拡張を作ってみたい方など、興味のある方はぜひご参加ください。
+
 * 2010年10月12日22:00から、 `Lingr <http://lingr.com/signup?letmein=sphinxjp>`_ を使ってオンラインチュートリアルを行います。質問などがある方はぜひご参加ください。
 
 
