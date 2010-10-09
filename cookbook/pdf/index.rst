@@ -4,7 +4,7 @@ SphinxでPDFファイル作成
 
 :日時: 2010/09/19
 :作者: 池 徹
-:最終更新: 2010/09/19
+:最終更新: 2010/10/9
 
 Sphinxは `rst2pdf <http://code.google.com/p/rst2pdf/>`_ と連携することによりPDFを出力することができます。
 
@@ -225,7 +225,7 @@ PDFの設定を追加
    
    Build finished. The PDF files are in _build/pdf.
 
-:file:`_build/pdf/` フォルダの下に `expert_python_programming_sample.epub` ファイルが作成されます。
+:file:`_build/pdf/` フォルダの下に `pdf` ファイルが作成されます。
 
 
 変更履歴
