@@ -7,6 +7,7 @@ SphinxでPDFファイル作成
 
 .. list-table::
    :header-rows: 1
+   :widths: 10 20 20
 
    - * 方法
      * メリット
@@ -21,12 +22,13 @@ SphinxでPDFファイル作成
      * - TeXが必要
        - Sphinx内蔵のスタイルと、日本語に適したpLaTeXの相性が良くない
 
-.. note::
-
-   これ以外にも、Word 2007を出力するビルダーが開発中であり、これを使うとGUIで簡単にスタイルが設定できるPDF作成環境ができる見込みです。
-
 .. toctree::
    :maxdepth: 2
 
    rst2pdf
    latex
+
+.. note::
+
+   これ以外にも、Word 2007を出力するビルダーが開発中であり、これを使うとGUIで簡単にスタイルが設定できるPDF作成環境ができる見込みです。
+
