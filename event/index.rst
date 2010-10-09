@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20101010_translating_hackathon
    20100910_osc_tokyo_fall
    20100905_translating_hackathon
    20100904_xp_matsuri
