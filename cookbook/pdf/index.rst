@@ -19,8 +19,9 @@ SphinxでPDFファイル作成
    - * latex経由
      * - 見た目の綺麗なPDFが作れる
      * - TeXが必要
+       - make一発では生成できない
        - Sphinx内蔵のスタイルと、日本語に適したpLaTeXの相性が良くない
-
+     
 .. toctree::
    :maxdepth: 2
 
