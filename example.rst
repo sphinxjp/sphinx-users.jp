@@ -61,7 +61,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * atig.rb ドキュメント: http://mzp.github.com/atig/index.html
 
 オリジナルテーマ
-===============
+================
 
 * Sphinx-Users.jp http://sphinx-users.jp
 * Django ドキュメント: http://djangoproject.jp/doc/ja/1.0/index.html
