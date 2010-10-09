@@ -16,7 +16,6 @@ SphinxでPDFファイル作成
      * - 日本語フォント埋め込みのPDFが簡単に作れる
        - TeXがいらない
      * - rst2pdfという外部拡張を読み込む必要がある。
-       - fontconfigのfc-matchコマンドを裏で使ってフォントを検索しているため、Windows環境ではcygwin環境などを使わないとうまくいかない。
    - * latex経由
      * - 見た目の綺麗なPDFが作れる
      * - TeXが必要
