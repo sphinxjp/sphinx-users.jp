@@ -12,4 +12,5 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
    makingwebsite/index
    translation
    epub/index
+   pdf/index
    hosting/index
