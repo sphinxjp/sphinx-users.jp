@@ -176,6 +176,10 @@ pLaTeXとdvipdfmxの実行
 
 * `Sphinx 1.0ドキュメントのPDF <http://sphinx-users.jp/doc10/sphinx.pdf>`_
 
+.. note::
+
+   このPDFはフォント埋め込みタイプではありませんので、Kindleなどに入れると文字が出ません。フォント埋め込みはdvipdfmxの設定で行えるようになるはずです。検証したらまた追記します。
+
 変更履歴
 ========
 
