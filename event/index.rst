@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20101203_jus_benkyoukai
    20101106_translating_hackathon
    20101010_translating_hackathon
    20100910_osc_tokyo_fall
