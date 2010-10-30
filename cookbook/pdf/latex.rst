@@ -166,7 +166,7 @@ pLaTeXとdvipdfmxの実行
 
     MacBook:latex shibu$ make all-dvi
 
-仕上げに、dvipdfmxを使ってPDFファイルを作ります。拡張子なしのdviファイル名を渡します。
+仕上げに、dvipdfmxを使ってPDFファイルを作ります。拡張子なしのdviファイル名(つまりは、ソースファイル(.tex)の拡張子無しと一緒)を渡します。
 
 .. code-block:: bash
 
