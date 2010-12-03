@@ -15,5 +15,5 @@ Sphinxドキュメント
 
 * `0.6系 本家ドキュメント日本語訳 <http://sphinx.shibu.jp>`_
 * `BPStudy #30発表資料 <http://tinyurl.com/yk58v48>`_
-
+* `InfoTalk #20発表資料 <https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B8X4zWf2QEfqMDNmNzMwZWUtZjdhZS00OTcxLWIyZmEtZWM3NmFmOTIzYjMw&hl=ja>`_
 
