@@ -3,13 +3,6 @@
 Sphinx-Users.jp
 ===============
 
-**ニュース:**
-
-* 2010年12月3日(金) 19:00から、 :doc:`event/20101203_jus_benkyoukai` にて、 ``「ドキュメントを作りたくなってしまう魔法のツール Sphinx」`` と題した発表を行わせていただきます。Sphinxを用いた事例や活用法などについて知りたい、興味のある方はぜひご参加ください。
-
-
-----------------
-
 .. image:: _static/screenshot.png
 
 \ `Sphinx <http://sphinx.pocoo.org/>`_\ （スフィンクス）は、美しいドキュメントを簡単に作成することができるツールです。もともとは、\ `Pythonのドキュメント <http://docs.python.org/dev/>`_\ を変換するために作られました。このSphinx-Users.jpのサイトも、Sphinxを使って作られています。
