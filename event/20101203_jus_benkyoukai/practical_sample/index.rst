@@ -213,6 +213,10 @@ Sphinxのインストールは開発環境構築と同時に行っておきま�
 デモ
 ====
 
+.. note::
+    :doc:`../../../articles/business-document-sample/index`
+    にStep2のドキュメントのSphinxデータとHTMLがあります。
+
 もし今日の発表者3名がJUS商事の『サービス基盤構築』を開発したら
 
 **Step1 Sphinxの初期ドキュメントから始める**
