@@ -229,5 +229,9 @@ div#document fieldset.search button.button {
 div#document a.hatena-bookmark-count img {
 	margin: 0 4px;
 }
+/* hatena star */
+div#document .hatena-star-star-container img.hatena-star-star {
+	margin: 3px;
+}
 /* @end */
 
