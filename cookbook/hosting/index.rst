@@ -148,7 +148,7 @@ Google App Engine上で静的ファイルを公開する方法を使ってホス
       DOCS_HOME=${HOME}/src/docs
       GAE_SDK_HOME=${HOME}/tool/google_appengine
       GAE_APP_HOME=${HOME}/gae/
-      GAE_APP_NAME=ymotongpoo
+      GAE_APP_NAME=hoge
       GAE_USER=<user mail address>
       GAE_PASS=<password>
       
