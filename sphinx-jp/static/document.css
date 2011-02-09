@@ -231,7 +231,7 @@ div#document a.hatena-bookmark-count img {
 }
 /* hatena star */
 div#document .hatena-star-star-container img.hatena-star-star {
-	margin: 3px;
+	margin: 3px 0;
 }
 /* @end */
 
