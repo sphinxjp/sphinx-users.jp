@@ -92,6 +92,25 @@ div#document img {
 	margin: 15px;
 }
 
+div#document .figure {
+	text-align: center;
+	margin: 10px;
+	background-color: #eee;
+	padding: 0.5em 1em;
+}
+div#document .figure img {
+	margin: 5px;
+}
+div#document .figure p.caption {
+	margin: 0 5px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+}
+div#document .figure div {
+	text-align: left;
+}
+
 /* @end general */
 
 /* 目次 */
