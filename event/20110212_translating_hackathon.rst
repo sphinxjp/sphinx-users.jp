@@ -113,3 +113,13 @@ Sphinx翻訳ハッカソン(2011/2/12)
 
 今回はみなさんTwitterに書いてくれましたので、togetterにまとめてあります。 `Sphinx + 翻訳 Hack-a-thon 2011.02 #sphinxjp at Oracle <http://togetter.com/li/99948>`_ を参照ください。
 
+以下、参加者のblogエントリ:
+
+* `海外で作られたPython製ノベルゲーム制作ツール、Ren&#39;Pyのドキュメント日本語訳(途中)を仮公開しました！ - ♪～プログラマ行進曲～♪ <http://d.hatena.ne.jp/kutakutatriangle/20110213/1297596936>`_
+* `Sphinx + 翻訳 Hack-a-thon 2011.02 に行ってきました - use No::Name; <http://d.hatena.ne.jp/navyfox_sh/20110212/1297533393>`_
+* `Sphinx翻訳ハッカソン(2011/2/12) に参加しました - A Better Project＠はてなダイアリー <http://d.hatena.ne.jp/potappo/20110213/1297528023>`_
+
+残念ながら参加出来なかった方のエントリ:
+
+* `CentOS 5.5にsphinxをインストール - b.l0g.jp <http://b.l0g.jp/2011/02/12/>`_
+
