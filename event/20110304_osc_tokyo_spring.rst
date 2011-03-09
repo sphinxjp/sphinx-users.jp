@@ -35,6 +35,8 @@ OSCでの活動内容
     そんな中で、Sphinxへの期待も大きく、Sphinxを使うとドキュメント作成が楽になるイメージを持ってくれた人が多かった印象です。
 
 
+.. _blockdiag: http://pypi.python.org/pypi/sphinxcontrib-blockdiag/
+.. _seqdiag: http://pypi.python.org/pypi/seqdiag/
 
 
 ブースやセミナーでのFAQと要望
@@ -57,8 +59,6 @@ OSCでの活動内容
 
 * blockdiag_ をGUIで修正出来ますか？
     * 現状できません。GUIで修正してコードをSphinxに貼り付けるというアイディアは良いかも。
-
-.. _blockdiag: http://pypi.python.org/pypi/sphinxcontrib-blockdiag/
 
 * blockdiag_ に吹き出しやコメントを付けることは出来ますか？
     * 現状できません。
