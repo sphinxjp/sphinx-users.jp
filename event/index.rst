@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20110319_translating_hackathon/index
    20110304_osc_tokyo_spring
    20110212_translating_hackathon
    20101210_general_meeting
