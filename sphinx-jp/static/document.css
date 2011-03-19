@@ -88,6 +88,10 @@ dl > dd {
 	text-indent: 1em;
 }
 
+dl > dd li {
+	text-indent: 0em;
+}
+
 div#document img {
 	margin: 15px;
 }
