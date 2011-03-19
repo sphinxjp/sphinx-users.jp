@@ -36,7 +36,8 @@ Sphinxやドキュメントに興味のある人が集まって、Sphinxを使�
       http://code.google.com/p/python-doc-ja/issues/list
     * 余力があれば diff の改良をして, 単語単位での差分を見易くするツールも
       作ります
-    * configparser.rst の翻訳をやっていて, もう少しで完了します. 
+    * configparser.rst の翻訳の成果
+      http://code.google.com/p/python-doc-ja/source/detail?r=703121b7c6358161ad18ccb773f6f84705340e70
 
 * Shoji Kumagai
     * Solr1.4 Enterprize Server の第２章 第１節「MusicBrainz」まで訳終了
