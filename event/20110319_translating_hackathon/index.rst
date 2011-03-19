@@ -61,10 +61,6 @@ Sphinxやドキュメントに興味のある人が集まって、Sphinxを使�
     * OpenGL MathematicsのDocumentを第三章冒頭まで粗訳しました。
       https://bitbucket.org/__aita__/glm-doc-ja
 
-* Shirou Wakayama
-    * とりあえず覗いてみただけです…Bitbucketの翻訳をやりたいなと思ってる
-      のですが、たぶん時間は取れませんz.
-
 * hokorobi
     * Sphinxと全然関係なくFreeplaneの翻訳をやります。
       http://freeplane.sourceforge.net/preview/
