@@ -52,6 +52,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * InfoPile ドキュメント: http://www.infopile.jp/html/index.html
 * Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
+* Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
 
 内蔵テーマ
 ==========
