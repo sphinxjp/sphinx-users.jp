@@ -52,7 +52,6 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * InfoPile ドキュメント: http://www.infopile.jp/html/index.html
 * Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
-* Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
 
 内蔵テーマ
 ==========
@@ -76,4 +75,5 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * XDV チュートリアル(清水川): http://www.freia.jp/taka/docs/xdv/
 * XP祭り2010: Pythonでアジャイル開発サイクル 2010ver(清水川): http://www.freia.jp/taka/docs/xpfest2010/
 * 渋川個人ウェブサイト http://www.shibu.jp
+* 日本Symfonyユーザ会: http://docs.symfony.gr.jp/symfony2/
 
