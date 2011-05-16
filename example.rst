@@ -11,12 +11,9 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 デフォルトテーマ
 ================
 
-* TortoiseHg マニュアル: http://tortoisehg.bitbucket.org/manual/0.9-ja/index.html
+* TortoiseHg マニュアル: http://tortoisehg.bitbucket.org/manual/2.0-ja/
 * Zope 2 関連ドキュメントと記事: http://docs.zope.jp/zope2/
 * Kay ドキュメント: http://kay-docs-jp.shehas.net/
-* PyCASL2 & PyCOMET2 ドキュメント: http://www.image.med.osaka-u.ac.jp/member/nakamoto/pycasl2/index.html
-* Quick Sequence Daigram Editor ドキュメント: http://www.shibu.jp/sdedit-jp/
-* Erlang Efficiency Guide: http://erlang.shibu.jp/efficiency_guide/
 * PyCASL2 & PyCOMET2 ドキュメント: http://www.image.med.osaka-u.ac.jp/member/nakamoto/pycasl2/index.html
 * Quick Sequence Daigram Editor ドキュメント: http://www.shibu.jp/sdedit-jp/
 * Erlang Efficiency Guide: http://erlang.shibu.jp/efficiency_guide/
@@ -25,12 +22,10 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Web Socket 翻訳: http://ymotongpoo.appspot.com/websocket_jp/index.html
 * OpenPNE Web API 仕様書: http://www.openpne.jp/developer/webapi/ja/index.html
 * OpenSocial with OpenPNE ドキュメント: http://www.openpne.jp/developer/opensocial/ja/index.html
-* voluntasさんのErlang講習テキスト: http://bitbucket.org/voluntas/practice-main/
 * foursquare API ドキュメント: http://alphawind.org/docs/foursquare-API/
-* Python 2.6.2 ドキュメント: http://pythonjp.sourceforge.jp/dev/index.html
+* Python 2.6.2 ドキュメント: http://www.python.jp/doc/nightly/
 * Another Do-It-Yourself Framework: http://dev-ehren.appspot.com/another-do-it-yourself/index.html
 * まるごと rhaco！: http://media.riaf.org/marugotoRst/index.html
-* imocea API for Python ドキュメント: http://www.junkshed.net/imocea/doc/python/index.html
 * ダイナミックなモジュールシステム、OSGiを始めよう: http://kompiro.org/osgi/index.html
 * PEP(Python Enhancement Proposal) 日本語訳: http://www.tdoc.info/PEP-ja/index.html
 * Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
@@ -45,7 +40,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Bazaar ドキュメント: http://doc.bazaar.canonical.com/ja/index.html
 * OpenCV C：日本語リファレンス(訳): http://opencv.jp/opencv-2svn/c/
 * OpenCV C++：日本語リファレンス(訳): http://opencv.jp/opencv-2svn/cpp/
-* OpenCV Python：日本語リファレンス(訳): http://opencv.jp/opencv-2svn/python/(リンク切れ)
+* OpenCV Python：日本語リファレンス(訳): http://opencv.jp/opencv-2svn/py/
 * groonga ドキュメント: http://groonga.org/docs/index.html
 * JdbcRunner ドキュメント: http://hp.vector.co.jp/authors/VA052413/jdbcrunner/manual_ja/index.html
 * South ドキュメント: http://ae35.bitbucket.org/south-doc-ja/index.html
