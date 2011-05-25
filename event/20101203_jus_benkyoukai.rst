@@ -63,5 +63,5 @@
    20101203_jus_benkyoukai/index
 
 .. _`すみだ産業会館 第一会議室`: http://www.sumidasangyokaikan.jp/info/index.html
-.. _`日本UNIXユーザ会 2010年12月勉強会`: 
+.. _`日本UNIXユーザ会 2010年12月勉強会`: http://www.jus.or.jp/benkyokai/10-12.html
 
