@@ -31,6 +31,7 @@ Sphinx-Users.jpは、Sphinxを活用して、ドキュメント作成をパワ�
    mailinglist
    cookbook/index
    event/index
+   reverse-dict/index
 
 参加方法
 --------
