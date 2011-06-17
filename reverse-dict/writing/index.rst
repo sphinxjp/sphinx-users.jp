@@ -10,7 +10,6 @@
    citation
    todo
    refer
-   japanese
    include
    note
    only
