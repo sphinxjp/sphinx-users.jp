@@ -13,6 +13,7 @@ SphinxはPythonで書かれているため、Sphinxのインストールにあ�
    :maxdepth: 2
 
    install_windows
+   install_windows_standalone
    install_unix
 
 プロジェクトの作成
