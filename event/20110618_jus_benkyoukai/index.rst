@@ -1,7 +1,16 @@
 日本UNIXユーザ会 2011年6月勉強会 (2011/6/18) 大阪
 ==================================================
 
-日本UNIXユーザ会の2011年6月の勉強会にて、以下の内容で発表させていただきます。
+プレゼン資料
+--------------
+
+.. raw:: html
+
+    <div style="width:425px" id="__ss_8348502"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/blockdiag-jus20116" title="ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会">ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8348502" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a> </div> </div>
+
+.. contents::
+
+日本UNIXユーザ会の2011年6月の勉強会にて、以下の内容で発表させていただきます(修了しました)。
 
 「ドキュメンテーションを加速するストレスフリーの作図ツール『blockdiag』」
 --------------------------------------------------------------------------
@@ -13,7 +22,7 @@
 
 
 内容:
-------
+~~~~~~
 
 システム開発や保守、運用の現場においてドキュメントは必須のものです。
 しかし、ドキュメントの作成・維持には多くのパワーがかかるため、
@@ -47,7 +56,7 @@
 
 
 対象とする参加者
-------------------
+~~~~~~~~~~~~~~~~~~
 
 * 様々な形式に加工できる定番のドキュメンテーションツールを探している方。
 * テキストベースで書いた仕様書などを納品物に使える形式に変換できるツールを探している方。
@@ -58,24 +67,64 @@
 .. _`新大阪丸ビル本館 3F 303会議室`: http://www.japan-life.co.jp/jp/buil/honkan/map.html
 .. _`日本UNIXユーザ会 2011年6月勉強会`: http://www.jus.or.jp/benkyokai/11-06.html
 
-資料:
-------
 
-**PDF**
+当日の質疑応答
+----------------
 
-`PDFファイルダウンロード(Google Docs)`
+blockdiag編
+~~~~~~~~~~~~~
+* Q, dot言語とのやりとりはできますか？(木村さん)
+    * A, ちょっと違っているので互換性はありません
+    * blockdiagの書式はGraphvizからぱくり..インスパイアされました
+    * 四角い線の方が仕事では使いやすかったので
+
+* Q, 既存のdotファイルからのコンバータはありますか？(木村さん)
+    * A, 今のところありません
+
+* Q, バージョンアップはどのようにすれば良いでしょうか？ (さがわさん)
+    * easy_install -U blockdiag です
+
+* Q, InteractiveShellはGAEなのでリソース制限ありますよね？
+    * もし使い始めたときに容量超えちゃって使えないと困るなと思って..
+    * A, 紹介直後は集中するんですが、それでもまだ20倍くらい余裕があります
+
+Sphinx編
+~~~~~~~~~
+
+* Q, PDF出せますか？
+    * A, 可能です。
+    * latexpdfで日本語出力する場合、sphinxにいくつかのpatchが必要です。
+
+* Q, easy_install で入れたのですがアンインストールはどうすれば良いでしょうか？
+    * A, 手動で削除しなければ行けませんが一言で伝えづらいです..
+
+* Q, Windowsのスタンドアロンインストーラを使いたいのですが既に手動でSphinxを入れていても大丈夫ですか？
+    * A, スタンドアロン版は完全に独立した環境となるのでプログラムが競合したりはしません。
+    * ただしPATHが新旧両方のディレクトリに通っている場合注意が必要です。
+
+* Q, Sphinxで保存時の文字コードがutf8以外の場合もlatexpdfで問題は無いでしょうか？
+    * A, latexpdfで出力する場合、かならずutf8でなければいけません。
+    * latexがutf8を認識できない環境なのですが..あきらめます.
+
+* Q, 図表番号が無いというのは本当ですか？
+    * A, 本当です。手動で図にキャプションを付ける方法で何とかしています。
+    * 今後その部分についてSphinxが改修される予定はありますか？
+    * A, 分かりません..
 
 
-**slideshare**
 
-.. raw:: html
+会場の様子
+-----------
 
-   <div style="width:425px" id="__ss_6084667"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/sphinx-6084667" title="ドキュメントを作りたくなってしまう魔法のツールSphinx">ドキュメントを作りたくなってしまう魔法のツールSphinx</a></strong><object id="__sse6084667" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6084667" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">shimizukawa</a>.</div></div>
+.. figure:: images/1_audience.jpg
 
+    15名ほどの参加者。大阪でのJUS勉強会は久しぶりの開催だとか。
 
-**HTML**
+.. figure:: images/2_tk0miya.jpg
 
-.. toctree::
+    小宮「みなさんblockdiagを使いましょう」
 
-   session/index
+.. figure:: images/3_shimizukawa.jpg
+
+    清水川「最近Sphinxの利用者が増えてきているようです」
 
