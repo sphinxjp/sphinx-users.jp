@@ -58,3 +58,24 @@
 .. _`新大阪丸ビル本館 3F 303会議室`: http://www.japan-life.co.jp/jp/buil/honkan/map.html
 .. _`日本UNIXユーザ会 2011年6月勉強会`: http://www.jus.or.jp/benkyokai/11-06.html
 
+資料:
+------
+
+**PDF**
+
+`PDFファイルダウンロード(Google Docs)`
+
+
+**slideshare**
+
+.. raw:: html
+
+   <div style="width:425px" id="__ss_6084667"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/sphinx-6084667" title="ドキュメントを作りたくなってしまう魔法のツールSphinx">ドキュメントを作りたくなってしまう魔法のツールSphinx</a></strong><object id="__sse6084667" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6084667" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">shimizukawa</a>.</div></div>
+
+
+**HTML**
+
+.. toctree::
+
+   session/index
+
