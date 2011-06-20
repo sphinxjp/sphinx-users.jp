@@ -1,12 +1,6 @@
 日本UNIXユーザ会 2011年6月勉強会 (2011/6/18) 大阪
 ==================================================
 
-プレゼン資料
---------------
-
-.. raw:: html
-
-    <div style="width:425px" id="__ss_8348502"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/blockdiag-jus20116" title="ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会">ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8348502" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a> </div> </div>
 
 .. contents::
 
@@ -67,6 +61,12 @@
 .. _`新大阪丸ビル本館 3F 303会議室`: http://www.japan-life.co.jp/jp/buil/honkan/map.html
 .. _`日本UNIXユーザ会 2011年6月勉強会`: http://www.jus.or.jp/benkyokai/11-06.html
 
+プレゼン資料
+--------------
+
+.. raw:: html
+
+    <div style="width:425px" id="__ss_8348502"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/blockdiag-jus20116" title="ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会">ドキュメンテーションを加速するストレスフリーの作図ツール『Blockdiag』 jus2011年6月勉強会</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8348502" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a> </div> </div>
 
 当日の質疑応答
 ----------------
@@ -87,6 +87,8 @@ blockdiag編
 * Q, InteractiveShellはGAEなのでリソース制限ありますよね？
     * もし使い始めたときに容量超えちゃって使えないと困るなと思って..
     * A, 紹介直後は集中するんですが、それでもまだ20倍くらい余裕があります
+
+Q&Aは :doc:`../20110304_osc_tokyo_spring` にも掲載しています。
 
 Sphinx編
 ~~~~~~~~~
@@ -111,6 +113,7 @@ Sphinx編
     * 今後その部分についてSphinxが改修される予定はありますか？
     * A, 分かりません..
 
+Q&Aは :doc:`../20110304_osc_tokyo_spring` にも掲載しています。
 
 
 会場の様子
