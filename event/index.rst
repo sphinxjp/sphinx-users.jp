@@ -4,7 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
-   20110723_artofcommunity1
+   20110723_artofcommunity1/index
    20110618_jus_benkyoukai/index
    20110319_translating_hackathon/index
    20110304_osc_tokyo_spring
