@@ -21,19 +21,12 @@ Sphinx-Users.jp
 Sphinx-Users.jpは、Sphinxを活用して、ドキュメント作成をパワーアップしたい人から、Sphinxの拡張機能をプログラミングする人まで、幅広くサポートしていくコミュニティを目指しています。本サイトでは、Sphinx入門から一歩進んだ使い方まで、日本語で情報を発信するとともに、 :doc:`mailinglist` や、 `Lingrによるチャット <http://lingr.com/room/sphinxjp>`_ を通じた情報交換の場、各種 :doc:`event/index` を開催していきます。
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
-   history
-   example
-   gettingstarted/index
-   doc
-   articles/index
-   regulations
-   mailinglist
-   cookbook/index
-   event/index
-   reverse-dict/index
+   technical.rst 
+   community.rst
+   introduction.rst
 
 参加方法
 --------
