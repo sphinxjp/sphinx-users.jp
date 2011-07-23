@@ -76,19 +76,19 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 
 Sphinxを紹介している資料等
 ============================
-* 2009/9/11 `渋日記: Pythonって何？という人のためのSphinxインストール入門 <http://blog.shibu.jp/article/32044108.html>`_
-* 2009/11/11 `渋日記: Sphinxについていろいろ考え中・・・ <http://blog.shibu.jp/article/33590187.html>`_
-* 2010/2/28 `渋日記: Sphinx紹介セッション@BPStudy #30 <http://blog.shibu.jp/article/35729439.html>`_
-* 2010/8/8 `渋日記: 日本語でSphinxを使う時のストレスを減らす拡張機能 <http://blog.shibu.jp/article/40049067.html>`_
-* 2010/9/29 `渋日記: Sphinx日本語検索対応の1.0版 <http://blog.shibu.jp/article/40995746.html>`_
-* 2010/9/3 XP祭り2010での発表スライド(`sphinxjp.themes.s6`_ 使用) by @shimizukawa `Pythonで アジャイル 開発サイクル 2010ver <http://www.freia.jp/taka/docs/xpfest2010/index.html>`_
-* 2010/11/6 `渋日記: Sphinx 1.1preの検索機能の修正 <http://blog.shibu.jp/article/41616999.html>`_
-* 2010/12/6 `JUS勉強会でSphinxの紹介をしました - YAMAGUCHI::weblog <http://d.hatena.ne.jp/ymotongpoo/20101206>`_
-* 2011/6/11 pykyotoでの発表スライド by @lab1092 `0611 sphinx pykyoto <http://www.slideshare.net/lab1092/0611-sphinx-pykyoto>`_
-* 2011/2/22 #ssmjp での発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ボクとSphinxとVimと。 <http://docs.ssm.myz.info/ssmjp.20110222.html>`_
-* 2011/4/9 qpstudyでの発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ドキュメント書いてますか？ <http://www.togakushi.zyns.com/qp/20110409.html>`_
-* 2011/5/2 WindowsでのSphinx,blockdiag,OMakeのセットアップ手順 `Sphinxの魔法にかかってみた - ふぞろいのGENGOたち <http://d.hatena.ne.jp/tyuki39/20110502/1304350133>`_
+
 * 2011/5/31 `Sphinxの国際化機能を使って複数言語用ドキュメントを用意する方法（概要）  - ククログ(2011-05-31) <http://www.clear-code.com/blog/2011/5/31.html>`_
+* 2011/5/2 WindowsでのSphinx,blockdiag,OMakeのセットアップ手順 `Sphinxの魔法にかかってみた - ふぞろいのGENGOたち <http://d.hatena.ne.jp/tyuki39/20110502/1304350133>`_
+* 2011/4/9 qpstudyでの発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ドキュメント書いてますか？ <http://www.togakushi.zyns.com/qp/20110409.html>`_
+* 2011/2/22 #ssmjp での発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ボクとSphinxとVimと。 <http://docs.ssm.myz.info/ssmjp.20110222.html>`_
+* 2011/6/11 pykyotoでの発表スライド by @lab1092 `0611 sphinx pykyoto <http://www.slideshare.net/lab1092/0611-sphinx-pykyoto>`_
+* 2010/12/6 `JUS勉強会でSphinxの紹介をしました - YAMAGUCHI::weblog <http://d.hatena.ne.jp/ymotongpoo/20101206>`_
+* 2010/11/6 `渋日記: Sphinx 1.1preの検索機能の修正 <http://blog.shibu.jp/article/41616999.html>`_
+* 2010/9/3 XP祭り2010での発表スライド(`sphinxjp.themes.s6`_ 使用) by @shimizukawa `Pythonで アジャイル 開発サイクル 2010ver <http://www.freia.jp/taka/docs/xpfest2010/index.html>`_
+* 2010/9/29 `渋日記: Sphinx日本語検索対応の1.0版 <http://blog.shibu.jp/article/40995746.html>`_
+* 2010/8/8 `渋日記: 日本語でSphinxを使う時のストレスを減らす拡張機能 <http://blog.shibu.jp/article/40049067.html>`_
+* 2010/2/28 `渋日記: Sphinx紹介セッション@BPStudy #30 <http://blog.shibu.jp/article/35729439.html>`_
+* 2009/11/11 `渋日記: Sphinxについていろいろ考え中・・・ <http://blog.shibu.jp/article/33590187.html>`_
+* 2009/9/11 `渋日記: Pythonって何？という人のためのSphinxインストール入門 <http://blog.shibu.jp/article/32044108.html>`_
 
 .. _sphinxjp.themes.s6: http://pypi.python.org/pypi/sphinxjp.themes.s6/
-
