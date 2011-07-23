@@ -55,15 +55,3 @@ Python Enhancement Proposal: 3120
 
    pep3120
 
-Sphinxのドキュメントサンプル：業務利用例
-==========================================
-:doc:`../event/20101203_jus_benkyoukai` の発表で使用した
-`ドキュメントを作りたくなってしまう魔法のツール Sphinx`
-のデモで使用したドキュメントのひな形です。プレゼンテーションの全文は
-:doc:`../event/20101203_jus_benkyoukai/index` にあります。
-
-.. toctree::
-   :maxdepth: 2
-
-   business-document-sample/index
-
