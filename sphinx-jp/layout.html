@@ -22,7 +22,7 @@
     <div id="sidebarWrap">
       <div id="toc" class="sidebarRow">
         <h3>{{ _('Table Of Contents') }}</h3>
-        {{ toctree() }}
+        {{ toctree(maxdepth=2, collapse=False) }}
         </div>
         <div id="rel" class="sidebarRow">
         {%- block sidebarrel %}
