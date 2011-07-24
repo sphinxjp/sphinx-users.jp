@@ -77,6 +77,8 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 Sphinxを紹介している資料等
 ============================
 
+* 2011/7/22 #odstudy 1 by @togakushi `ひとりSphinx <http://www.slideshare.net/tohakushi/hitori-sphinx>`_
+* 2011/7/22 #odstudy 1 by @tk0miya `手軽にメンテナンスできるドキュメントのヒミツ - blockdiag <http://www.slideshare.net/TakeshiKomiya/blockdiag-201107-odstudy>`_
 * 2011/5/31 `Sphinxの国際化機能を使って複数言語用ドキュメントを用意する方法（概要）  - ククログ(2011-05-31) <http://www.clear-code.com/blog/2011/5/31.html>`_
 * 2011/5/2 WindowsでのSphinx,blockdiag,OMakeのセットアップ手順 `Sphinxの魔法にかかってみた - ふぞろいのGENGOたち <http://d.hatena.ne.jp/tyuki39/20110502/1304350133>`_
 * 2011/4/9 qpstudyでの発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ドキュメント書いてますか？ <http://www.togakushi.zyns.com/qp/20110409.html>`_
