@@ -1,26 +1,6 @@
-sphinx-users.jpとは/メーリングリスト
-=====================================
+Sphinx-Users.jp一問一答
+-----------------------
 
-sphinx-users.jpとは
----------------------
-Sphinx-Users.jp(略称#sphinxjp)は、ドキュメンテーションツールのSphinxに関するコミュニティです。ドキュメントを書くのに活用したいというユーザ、拡張機能を開発したり、Sphinx本体のハックをしたい開発者が、疑問点を教え合った、成果を発表しあったり、情報交換を行ったりする場となります。
-
-メーリングリスト
-------------------
-
-#sphinxjpではメーリングリストへの参加＝コミュニティへの参加とみなします。
-入会金や会費などは一切かかりません。
-参加に際しては `sphinx-users.jp 会則 <regulations.html>`_ を確認して下さい。
-
-* `メーリングリスト登録ページ <http://www.python.jp/mailman/listinfo/sphinx-users>`_
-
-* `メーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_
-
-Sphinx-Users.jpの `Twitterアカウント <http://www.twitter.com/sphinxjp>`_ もあります。
-
-
-sphinx-users.jp 一問一答
--------------------------
 この一問一答は、Open Source People Network (オープンソースカンファレンス事務局) さんのイベント情報発信マガジン `OSPN Press 第7号 (2011/2/16発行) <http://www.ospn.jp/press/20110221ospn-press-no7.html>`_ に掲載されたものです。(掲載されなかったものも記載しています)
 
 

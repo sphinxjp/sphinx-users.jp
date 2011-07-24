@@ -4,6 +4,8 @@
 .. toctree::
    :maxdepth: 2
 
-   regulations
-   mailinglist
+   whatsthis
+   missionstatement
+   howtojoin
    event/index
+   regulations
