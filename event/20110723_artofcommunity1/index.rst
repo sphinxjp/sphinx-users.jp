@@ -88,22 +88,23 @@ Sphinxの拡張機能をプログラミングする人
 
 2.3.2 ミッションステートメントの構築
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ミッションステートメントには、コミュニティーが達成しようとしている約束、機会、定義を書きます。
 
 ここまでで作成したミッションや機会や定義などを使って400字程度の文章にまとめ、テスト1,テスト2,テスト3で確認します。
 
-.. glossary::
+.. code-block:: none
 
    Sphinx-users.jp とは
 
-      Sphinx-Users.jp(略称#sphinxjp)は、ドキュメンテーションツールのSphinxの普及を
-      主眼としたコミュニティです。
+      Sphinx-Users.jp(略称#sphinxjp)は、ドキュメンテーションツール
+      のSphinxの普及を主眼としたコミュニティです。
 
-      日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx
-      情報を発信します。また、MLやチャットでの情報交換、勉強会の開催などを通じて、
-      ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、
-      Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
-
+      日本で散らばっているSphinx関連情報を集めて、Webサイト、
+      イベントを通じてSphinx情報を発信します。また、MLやチャットでの
+      情報交換、勉強会の開催などを通じて、ドキュメントをパワーアップ
+      したい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を
+      開発したい開発者たちに”Fun”を提供していきます。
 
 * "Fun" -- Sphinxはなぜ楽しいのか？
 
@@ -144,9 +145,9 @@ Sphinxの拡張機能をプログラミングする人
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 コミュニケーションのツール
 
-:質問: メーリングリスト -> :doc:`../../mailinglist`
+:質問: メーリングリスト -> :ref:`mailinglist`
 :Q&A: http://answer.pythonpath.jp にsphinxタグで
-:課題要望報告: bitbucketのIssueTracker https://bitbucket.org/shibu/sphinx-usersjp-web/issues
+:課題要望報告: bitbucketのIssueTracker https://bitbucket.org/sphinxjp/website/issues
 
 
 Sphinx-users.jp サイト改善ToDo
