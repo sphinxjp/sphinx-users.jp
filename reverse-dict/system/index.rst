@@ -7,3 +7,4 @@ Sphinxに関して
    orphan
    lang
    smartpants
+   excludepatterns
