@@ -214,6 +214,7 @@ Sphinxのインストールは開発環境構築と同時に行っておきま�
 ====
 
 .. note::
+
     :doc:`../../../articles/business-document-sample/index`
     にStep2のドキュメントのSphinxデータとHTMLがあります。
 
