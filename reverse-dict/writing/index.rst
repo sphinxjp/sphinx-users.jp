@@ -19,3 +19,4 @@
    today
    hlist
    contents
+   vocabulary
