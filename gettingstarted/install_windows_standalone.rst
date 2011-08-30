@@ -10,16 +10,16 @@ Windowsへのインストール(スタンドアロンインストール)
 
 .. note::
 
-   * 20110618:
+   * 20110618_
 
      * 最初のリリース
 
-   * 20110620:
+   * 20110620_
 
      * 20110618版でblockdiagで日本語が使用できない問題を修正
      * オフラインでインストールに時間がかかる問題を修正
 
-   * 20110830:
+   * 20110830_
 
      * Sphinx-1.0.7をベースに、以下のパッチが当ててあります
 
@@ -30,6 +30,14 @@ Windowsへのインストール(スタンドアロンインストール)
      * 同梱のblockdiag系が8/30時点の最新版です
      * PILではなくPillow(互換ライブラリ)の独自ビルド版を使っています
      * PYTHONPATHが設定された一部の環境でインストール出来ない問題に対応
+
+   `other releases`_
+
+
+.. _20110618: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7.alpha20110618-py2.7-win32.exe
+.. _20110620: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7.alpha20110620-py2.7-win32.exe
+.. _20110830: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7alpha_20110830-py2.7-win32.zip
+.. _`other releases`: https://bitbucket.org/sphinxjp/website/downloads
 
 
 スタンドアロンインストーラの入手と実行
