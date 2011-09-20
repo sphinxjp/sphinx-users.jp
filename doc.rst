@@ -15,7 +15,7 @@
 * 1.0系 本家ドキュメント日本語訳
 
   * `1.0 HTML版 <http://sphinx-users.jp/doc10/>`_
-  * `1.0 epub版 <http://sphinx-users.jp/doc10/sphinx.epub>`_
+  * :download:`1.0 epub版 (2011/8/5) <sphinx.epub>`
   * `変更点のリリースノート <http://sphinx-users.jp/doc10/changes.html#release-1-0-jul-23-2010>`_
 
 0.6系関連ドキュメント
