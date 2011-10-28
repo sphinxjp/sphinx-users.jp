@@ -32,6 +32,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * jsonengine 日本語ドキュメント: http://jxck.bitbucket.org/jsonengine-doc-ja/build/html/index.html
 * PEP翻訳: http://pepja.googlecode.com/hg/build/html/index.html
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://shimizukawa.bitbucket.org/python-distribute-ja/index.html
+* astah* Plug-in開発チュートリアル: http://astah.change-vision.com/ja/plugin-tutorial/
 
 デフォルト＋カスタム
 ======================
