@@ -34,14 +34,12 @@ hack-a-thonは講習会ではないので自分で行動しないといけませ
 
 また、オープンソースカンファレンスなどのイベントへの参加も行っています。
 
-イベントの活動履歴については以下をご参照ください。
-http://sphinx-users.jp/event/index.html
+イベントの活動履歴については :ref:`こちら<event>` をご参照ください。
 
 メーリングリストなどへの参加はできますか？
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-誰でも参加出来ます。こちらを参照ください。
-http://sphinx-users.jp/mailinglist.html
+誰でも参加出来ます。 :ref:`こちら<mailinglist>` を参照ください。
 
 
 そのOSSの特徴は？
@@ -53,8 +51,7 @@ http://sphinx-users.jp/mailinglist.html
 ダウンロードはどこからできますか？
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Python でよく利用されているインストーラからインストールできます。 詳しくはこちらをご参照ください。
-http://sphinx-users.jp/gettingstarted/index.html
+Python でよく利用されているインストーラからインストールできます。 詳しくは :ref:`こちら<gettingstarted>` をご参照ください。
 
 
 読者に一言

@@ -43,8 +43,7 @@ Windowsへのインストール(スタンドアロンインストール)
 スタンドアロンインストーラの入手と実行
 ========================================
 
-`Sphinx-1.0.7alpha_20110830-py2.7-win32.zip <https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7alpha_20110830-py2.7-win32.zip>`_
-をダウンロードし実行してください。
+`こちら <https://bitbucket.org/sphinxjp/website/downloads/>`_ から最新版をダウンロードし、実行してください。
 
 .. tip::
 
