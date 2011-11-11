@@ -10,3 +10,4 @@
    system/index
    html/index
    pdf/index
+   epub/index
