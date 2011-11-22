@@ -4,6 +4,8 @@
 .. toctree::
    :maxdepth: 1
 
+   20111214_sphinx_handson/index
+   20111130_internetweek/index
    20110723_artofcommunity1/index
    20110618_jus_benkyoukai/index
    20110319_translating_hackathon/index
