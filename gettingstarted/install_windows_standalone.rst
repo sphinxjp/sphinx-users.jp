@@ -10,7 +10,7 @@ Windowsへのインストール(スタンドアロンインストール)
 
 .. note::
 
-   * 20110618_
+   * 20110618
 
      * 最初のリリース
 
@@ -31,19 +31,26 @@ Windowsへのインストール(スタンドアロンインストール)
      * PILではなくPillow(互換ライブラリ)の独自ビルド版を使っています
      * PYTHONPATHが設定された一部の環境でインストール出来ない問題に対応
 
+   * 20111025_
+
+     * ベースをSphinx-1.0.8に変更
+     * latexpdfja 時にgmakeコマンドからmakeコマンドを呼び出してしまう問題を修正
+     * 同梱のblockdiag系を10/24時点の最新版に更新
+
    `other releases`_
 
 
-.. _20110618: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7.alpha20110618-py2.7-win32.exe
 .. _20110620: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7.alpha20110620-py2.7-win32.exe
 .. _20110830: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.7alpha_20110830-py2.7-win32.zip
+.. _20111025: https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.8_ja_20111025-py2.7-win32.zip
 .. _`other releases`: https://bitbucket.org/sphinxjp/website/downloads
 
 
 スタンドアロンインストーラの入手と実行
 ========================================
 
-`こちら <https://bitbucket.org/sphinxjp/website/downloads/>`_ から最新版をダウンロードし、実行してください。
+`Sphinx-1.0.8_ja_20111025-py2.7-win32.zip <https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.0.8_ja_20111025-py2.7-win32.zip>`_
+をダウンロードし実行してください。
 
 .. tip::
 
@@ -55,33 +62,35 @@ Windowsへのインストール(スタンドアロンインストール)
 
    Python: 2.7
 
-   Sphinx: 1.0.7 + patches
+   Sphinx: 1.0.8 + japanese patches
 
    sphinxjp.themecore = 0.1.3
-   sphinxjp.themes.biz-blue-simple = 0.1.2
-   sphinxjp.themes.bizstyle = 0.1.2
+   sphinxjp.themes.bizstyle = 0.1.3
+   sphinxjp.themes.dotted 0.1.0
    sphinxjp.themes.htmlslide = 0.1.2
    sphinxjp.themes.s6 = 0.1.3
+   sphinxjp.themes.solarized 0.1.0
    sphinxjp.themes.sphinxjp = 0.1.1
+   sphinxjp.themes.trstyle 0.1.0
 
-   sphinxcontrib-actdiag = 0.2.0
-   sphinxcontrib-blockdiag = 0.9.0
-   sphinxcontrib-nwdiag = 0.2.0
-   sphinxcontrib-seqdiag = 0.2.0
+   sphinxcontrib-actdiag = 0.2.2
+   sphinxcontrib-blockdiag = 0.9.2
+   sphinxcontrib-nwdiag = 0.2.2
+   sphinxcontrib-seqdiag = 0.2.2
 
-   blockdiag = 0.8.9
-   blockdiagcontrib-class = 0.1.0
-   blockdiagcontrib-qb = 0.1.1
-   blockdiagcontrib-square = 0.1.0
-   seqdiag = 0.3.8
-   actdiag = 0.1.7
-   nwdiag = 0.4.0
+   blockdiag = 0.9.6
+   blockdiagcontrib-class = 0.1.1
+   blockdiagcontrib-qb = 0.1.2
+   blockdiagcontrib-square = 0.1.1
+   seqdiag = 0.5.1
+   actdiag = 0.2.0
+   nwdiag = 0.5.1
 
-   distribute = 0.6.20
-   docutils = 0.8
+   distribute = 0.6.21
+   docutils = 0.8.1
    funcparserlib = 0.3.5
    jinja2 = 2.6
-   pillow = 1.7.4
+   pillow = 1.7.5
    pygments = 1.4
    pypng = 0.0.12
    webcolors = 1.3.1
