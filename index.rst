@@ -3,6 +3,8 @@
 Sphinx-Users.jp
 ===============
 
+* 2011年12月10日(土) 9:30から :doc:`event/20111210_sphinx_morning/index` にてSphinxの勉強会を開催します。
+
 * 2011年12月14日(水) 19:30から :doc:`event/20111214_sphinx_handson/index` にてSphinxの導入とスタートアップのハンズオンイベントを開催します。
 
 * 2011年11月30日(水) 16:00から :doc:`event/20111130_internetweek/index` にてSphinxに関連してドキュメンテーションについての発表を行います。
