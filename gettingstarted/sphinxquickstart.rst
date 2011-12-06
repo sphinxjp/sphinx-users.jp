@@ -1,3 +1,5 @@
+.. _sphinx_quickstart:
+
 sphinx-quickstartの詳細説明
 ===========================
 
