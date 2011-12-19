@@ -4,9 +4,7 @@ Windowsへのインストール(スタンドアロンインストール)
 
 .. warning:: 
 
-   スタンドアロンインストーラは現在アルファバージョンです。
-   まだ実地検証が足りないため、みなさんのレポートお待ちしております！
-   レポート先はこちら :ref:`mailinglist`
+   スタンドアロンインストーラは現在アルファバージョンです。まだ実地検証が足りないため、みなさんのレポートお待ちしております！レポート先はこちら :ref:`mailinglist`
 
 .. note::
 
@@ -54,9 +52,7 @@ Windowsへのインストール(スタンドアロンインストール)
 
 .. tip::
 
-   Windows Vista以降で管理者権限が必要な場所へのインストールを行う場合は
-   「右クリックして管理者権限で実行」してください。
-   (管理権限は要求しないように作っています)
+   Windows Vista以降で管理者権限が必要な場所へのインストールを行う場合は「右クリックして管理者権限で実行」してください。(管理権限は要求しないように作っています)
 
 これでパス設定が行われ、以下のパッケージがインストールされます::
 
@@ -102,17 +98,20 @@ Windowsへのインストール(スタンドアロンインストール)
 
 これで完了です。インストールが終わったら、コマンドラインから、 ``sphinx-quickstart[エンター]`` とタイプしてみます。以下のように表示されていればインストールは成功です。Ctrl+Cキーを押して中断しましょう。インストール作業は以上です。次は :doc:`make_project` に進んでください。
 
+::
+
+  Welcome to the Sphinx 1.0.8 quickstart utility.
+
+  Please enter values for the following settings (just press Enter to
+  accept a default value, if one is given in brackets).
+
+  Enter the root path for documentation.
+  > Root path for the documentation [.]:
+
+
 .. warning::
 
-   もしも環境変数 ``PYTHONPATH`` を設定している場合、正しく動作しない可能性
-   があります。コマンドプロンプトで :command:`set PYTHONPATH`
-   と入力すると現在設定されているPYTHONPATHの値を確認することが出来ます。
-   この値を完全に消してしまうか(この設定を必要とする他のプログラムが動作しなく
-   鳴る可能性があるため、自己責任にてお願いします)、Sphinx関連のコマンドを実行
-   する前に必ず :command:`set PYTHONPATH=` と入力して、一時的に設定を解除して
-   ください。
+   もしも環境変数 ``PYTHONPATH`` を設定している場合、正しく動作しない可能性があります。コマンドプロンプトで :command:`set PYTHONPATH` と入力すると現在設定されているPYTHONPATHの値を確認することが出来ます。この値を完全に消してしまうか(この設定を必要とする他のプログラムが動作しなくなる可能性があるため、自己責任にてお願いします)、Sphinx関連のコマンドを実行する前に必ず :command:`set PYTHONPATH=` と入力して、一時的に設定を解除してください。
 
-   PYTHONPATHは、そのPCの利用者が自分で設定する場合以外に、古いThinkpadや
-   TracLightningなど一部のプログラムをインストールすると自動的に設定される
-   ことがあります。
+   PYTHONPATHは、そのPCの利用者が自分で設定する場合以外に、古いThinkpadやTracLightningなど一部のプログラムをインストールすると自動的に設定されることがあります。
 
