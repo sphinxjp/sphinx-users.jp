@@ -20,17 +20,30 @@ SphinxUsers.jpの総会を行います。会則では12月開催になってい�
 
 * 活動の振り返り
 
-  定期的なイベントの開催ができなかったのは反省点です。
-  
-  あと、Sphinxもかなり使われるようになってきて、コミュニティの外でブログなどに情報が書かれることが増えてきたので、きちんとサイトに吸収していきたい。
+  * イベント関係
 
-  * :doc:`20110212_translating_hackathon`
-  * :doc:`20110304_osc_tokyo_spring`
-  * :doc:`20110618_jus_benkyoukai/index`
-  * :doc:`20110723_artofcommunity1/index`
-  * :doc:`20111130_internetweek/index`
-  * :doc:`20111210_sphinx_morning/index`
-  * :doc:`20111214_sphinx_handson/index`
+    定期的なイベントの開催ができなかったのは反省点です。
+  
+    あと、Sphinxもかなり使われるようになってきて、コミュニティの外でブログなどに情報が書かれることが増えてきたので、きちんとサイトに吸収していきたい。
+
+    * :doc:`20110212_translating_hackathon`
+    * :doc:`20110304_osc_tokyo_spring`
+    * :doc:`20110618_jus_benkyoukai/index`
+    * :doc:`20110723_artofcommunity1/index`
+    * :doc:`20111130_internetweek/index`
+    * :doc:`20111210_sphinx_morning/index`
+    * :doc:`20111214_sphinx_handson/index`
+
+  * ウェブサイト
+
+    * ウェブサイトとドキュメントのリポジトリを、Bitbucketのsphinxjpアカウントに移動。
+    * sphinxjpのリポジトリにコミットすると、cronでpullしてビルドするようになりました。
+
+      * ウェブサイトは毎時0分
+      * 1.1ドキュメントは毎時20分
+      * 1.0ドキュメントは毎時40分
+
+    * 7月に、アート・オブ・コミュニティを見ながらウェブサイトの構成を直しました
 
 * 役員の改選
 
