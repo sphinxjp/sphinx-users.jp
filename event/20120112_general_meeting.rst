@@ -211,3 +211,12 @@ Webサイト
 会場の様子
 -----------
 
+
+.. figure:: 20120112_general_meeting/picture-01.jpg
+
+.. figure:: 20120112_general_meeting/picture-02.jpg
+
+.. figure:: 20120112_general_meeting/picture-03.jpg
+
+.. figure:: 20120112_general_meeting/picture-04.jpg
+
