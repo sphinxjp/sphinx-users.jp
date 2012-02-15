@@ -9,6 +9,7 @@
    replace
    citation
    todo
+   link
    refer
    include
    note
