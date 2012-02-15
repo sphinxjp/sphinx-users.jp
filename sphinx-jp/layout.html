@@ -51,37 +51,37 @@
       {%- endblock %}
       </div>
     </div>
-  </div>
-  <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <script>
-  new TWTR.Widget({
-    version: 2,
-    type: 'search',
-    search: '#sphinxjp',
-    interval: 30000,
-    title: '',
-    subject: 'Sphinx-users.jp: #sphinxjp',
-    width: 250,
-    height: 300,
-    theme: {
-      shell: {
-        background: '#8ec1da',
-        color: '#ffffff'
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#sphinxjp',
+      interval: 30000,
+      title: '',
+      subject: 'Sphinx-users.jp: #sphinxjp',
+      width: 250,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#8ec1da',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
       },
-      tweets: {
-        background: '#ffffff',
-        color: '#444444',
-        links: '#1985b5'
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        behavior: 'default'
       }
-    },
-    features: {
-      scrollbar: false,
-      loop: true,
-      live: true,
-      behavior: 'default'
-    }
-  }).render().start();
-  </script>
+    }).render().start();
+    </script>
+  </div>
 {%- endmacro -%}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
