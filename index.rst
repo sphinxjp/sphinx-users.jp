@@ -39,7 +39,7 @@ Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生
 参加方法
 --------
 
-ご自由に :ref:`mailinglist` や、 `Lingrのsphinxjpチャンネル <http://lingr.com/room/sphinxjp>`_ などにご参加ください。また、Sphinx-Users.jpが行うイベントも定期的に行います。
+ご自由に :ref:`mailinglist` にご参加ください。また、Sphinx-Users.jpが行うイベントも定期的に行います。
 
 イベント情報などは、Twitterの `SphinxUsers.jp公式アカウント <http://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <http://twitter.com/#search?q=%23sphinxjp>`_ になります。
 
