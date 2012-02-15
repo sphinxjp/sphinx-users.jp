@@ -10,4 +10,5 @@ Sphinx技術情報
    articles/index
    doc
    history
+   link
 
