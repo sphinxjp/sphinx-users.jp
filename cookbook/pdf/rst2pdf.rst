@@ -69,11 +69,11 @@ PDFの設定を追加
 
 :file:`conf.py` にPDF用の設定を自分で書き加える必要があります。
 
-まずは、 `sphinx.ext.autodoc` と `rst2pdf.pdfbuilder` を :file:`conf.py` の `extensions` に追加します。
+まずは `rst2pdf.pdfbuilder` を :file:`conf.py` の `extensions` に追加します。
 
 .. code-block:: python
 
-   extensions = ['sphinx.ext.autodoc','rst2pdf.pdfbuilder']
+   extensions = ['rst2pdf.pdfbuilder']
 
 
 次に、PDFの設定を追加します。
@@ -167,7 +167,7 @@ PDFの設定を追加
 .. code-block:: bash
 
    pdf:
-       $(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) _build/pdf
+       $(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
        @echo
        @echo "Build finished. The PDF files are in _build/pdf."
 
@@ -193,7 +193,15 @@ PDFの設定を追加
            "stdFont": "VL-PGothic-Regular",
 	   "stdBold": "VL-PGothic-Regular",
 	   "stdItalic": "VL-PGothic-Regular",
-	   "stdMono": "VL-Gothic-Regular"
+           "stdBoldItalic": "VL-PGothic-Regular",
+	   "stdMono": "VL-Gothic-Regular",
+           "stdMonoBold": "VL-Gothic-Regular",
+           "stdMonoItalic": "VL-Gothic-Regular",
+           "stdMonoBoldItalic": "VL-Gothic-Regular",
+           "stdSans": "VL-Gothic-Regular",
+           "stdSansBold": "VL-Gothic-Regular",
+           "stdSansItalic": "VL-Gothic-Regular",
+           "stdSansBoldItalic": "VL-Gothic-Regular"
        },
        "styles" : [
            ["base" , {
@@ -228,3 +236,4 @@ PDFの設定を追加
 
 :2010/09/19: 初版(池 徹)
 :2010/10/09: rst2pdf経由ということでタイトル変更。(渋川)
+:2012/02/15: conf.py およびスタイルシートの設定を更新。(小宮)
