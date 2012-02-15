@@ -22,3 +22,4 @@
    vocabulary
    emptylines
    emphasizelines
+   horizontal_line
