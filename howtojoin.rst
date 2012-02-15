@@ -86,11 +86,6 @@ Sphinx-Users.jpでは、python.jpのサーバをお借りしてメーリング�
 
 メーリングリストとしては `Sphinx開発元のML(英語) <http://groups.google.com/group/sphinx-dev>`_ もあります。こちらはSphinx-Users.jpの運営ではありませんが、拡張機能を開発した場合のPRなどはこちらでも行う方が良いでしょう。
 
-Lingrのチャット
----------------
-
-`Lingrのチャットの部屋 <http://lingr.com/signup?letmein=sphinxjp>`_ を用意しています。たまにオンラインチュートリアルイベントを開催したり、交流したりするのに利用されます。
-
 Twitter
 -------
 
