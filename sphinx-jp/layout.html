@@ -1,0 +1,206 @@
+{%- block doctype -%}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{%- endblock doctype -%}
+{%- macro relbar() %}
+  <div class="relbar">
+    {%- if prev %}
+    <dl id="relPrev">
+      <dt class="prev">{{ _('Previous topic') }}</dt>
+      <dd class="relTitle"><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}" {{ accesskey("N") }}>{{ prev.title }}</a></dd>
+    </dl>
+    {%- endif %}
+    {%- if next %}
+    <dl id="relNext">
+      <dt class="next">{{ _('Next topic') }}</dt>
+      <dd class="relTitle"><a href="{{ next.link|e }}" title="{{ _('next chapter')  }}" {{ accesskey("N") }}>{{ next.title }}</a></dd>
+    </dl>
+    {%- endif %}
+  </div>
+{%- endmacro %}
+{%- macro sidebar() %}
+  <div id="sidebar" class="left">
+    <div id="sidebarWrap">
+      <div id="toc" class="sidebarRow">
+        <h3>{{ _('Table Of Contents') }}</h3>
+        {{ toctree(maxdepth=2, collapse=False) }}
+        </div>
+        <div id="rel" class="sidebarRow">
+        {%- block sidebarrel %}
+        {%- if prev %}
+          <div class="relRow prev">
+            <h4>{{ _('Previous topic') }}</h4>
+            <p class="topless"><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}">{{ prev.title }}</a></p>
+          </div>
+        {%- endif %}
+        {%- if next %}
+          <div class="relRow next">
+            <h4>{{ _('Next topic') }}</h4>
+            <p class="topless"><a href="{{ next.link|e }}" title="{{ _('next chapter') }}">{{ next.title }}</a></p>
+          </div>
+        {%- endif %}
+        {%- endblock %}
+      </div>
+      <div id="source" class="sidebarRow">
+      {%- block sidebarsourcelink %}
+      {%- if show_source and has_source and sourcename %}
+        <h3>{{ _('This Page') }}</h3>
+        <ul class="this-page-menu">
+          <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow">{{ _('Show Source') }}</a></li>
+        </ul>
+      {%- endif %}
+      {%- endblock %}
+      </div>
+    </div>
+  </div>
+{%- endmacro -%}
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>{{ title }} :: ドキュメンテーションツール スフィンクス Sphinx-users.jp</title>
+  <link rel="stylesheet" type="text/css" href="{{ pathto('_static/' + style, 1) }}" />
+  <link rel="stylesheet" type="text/css" href="{{ pathto('_static/pygments.css', 1) }}" />
+  <meta name="description" content="Python製ドキュメンテーションビルダー、Sphinxの日本ユーザ会">
+  <meta name="keywords" content="Sphinx,スフィンクス,ドキュメンテーション,ツール,Python,reStructuredText,reST">
+  {%- if not embedded %}
+  <script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+    URL_ROOT:    '{{ pathto("", 1) }}',
+    VERSION:     '{{ release|e }}',
+    COLLAPSE_MODINDEX: false,
+    FILE_SUFFIX: '{{ file_suffix }}',
+    HAS_SOURCE:  {{ has_source|lower }}
+  };
+  </script>
+  {%- for scriptfile in script_files %}
+  <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+  {%- endfor %}
+  {%- if use_opensearch %}
+  <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+  {%- endif %}
+  {%- if hasdoc('search') %}
+  <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+  {%- endif %}
+
+  <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+  <script type="text/javascript">
+  Hatena.Star.Token = '155526b156165586e5572b70458b327e4e7d6c32';
+  Hatena.Star.SiteConfig = {
+    entryNodes: {
+      '#document': {
+        uri: 'h1 a',
+        title: 'h1',
+        container: 'h1'
+      }
+    }
+  };
+  </script>
+
+  <script type="text/javascript" src="{{ pathto('_static/HatenaBookmark.js', 1) }}"></script>
+  <script type="text/javascript">
+  Hatena.xBookmark.SiteConfig = {
+    '#document h1 a.headerlink': {},
+  };
+  </script>
+
+{%- endif %}
+  <!-- Sticky footer -->
+  <!--[if  IE 8]>
+  <style type="text/css">
+    #wrap {display:table;}
+  </style>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  {% block header %}
+  <!-- header -->
+  <div id="header">
+    <div id="projInfo">
+      {%- if logo %}
+      <!-- logo -->
+      <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="{{ project }}" />
+      <!-- /logo -->
+      {%- endif %}
+      <h1 id="title">
+        <a href="{{ pathto('index') }}">{{ project }}</a>
+      </h1>
+      <p class="docdesc">{{ docstitle|e }}</p>
+    </div>
+    {%- if pagename != "search" %}
+    <div id="headerNav">
+      <div id="searchbox">
+        <form name="search" action="{{ pathto('search') }}" method="get">
+          <fieldset class="search">
+            <input type="text" class="hint" name="q" />
+            <button class="button" title="{{ _('Go') }}" />{{ _('Go') }}</button>
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">$('#searchbox').show(0);</script>
+    {%- endif %}
+    <div id="gnav">
+      <ul>
+        <li class="home"><p><a href="{{ pathto('index') }}" title="{{ project }}">{{ project }}</a></p></li>
+        <li class="doc"><p><a href="{{ pathto('doc') }}" title="ドキュメント">ドキュメント</a></p></li>
+        <li class="modindex">
+          <p><a title="{{ _('Index') }}" href="{{ pathto('genindex') }}">{{ _('Index') }}</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- /header -->
+  {% endblock header %}
+  {% block content %}
+  <!-- content -->
+  <div id="content">
+    <!-- current document area -->
+    <div id="document" class="left">
+    {%- block body %}{%- endblock body %}
+    </div>
+    <!-- /current document area -->
+    <!-- sidebar -->
+    {{ sidebar() }}
+    <!-- /sidebar -->
+  </div>
+  {% endblock content %}
+  <!-- /content -->
+</div>
+  <!-- footer -->
+  {% block footer %}
+  <div id="footer">
+    <div class="footerCol">
+      <h1><a href="{{ pathto('index') }}">{{ project }}</a></h1>
+      <p class="copy">
+      {%- if hasdoc('copyright') %}
+      {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a>{{ copyright }}. {% endtrans %}
+      {%- else %}
+      {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+      {%- endif %}
+      {%- if last_update %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_update }}.{% endtrans %}
+      {%- endif %}
+      </p>
+      <p class="sp">
+      {%- if show_sphinx %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+      {%- endif %}
+      </p>
+      {%- if last_updated %}
+      <p class="update">
+      {% trans last_updated=last_updated|e %}
+      Last updated on {{ last_updated }}.
+      {% endtrans %}
+      </p>
+      {%- endif %}
+    </div>
+    <div class="footerCol">
+    {{ relbar() }}
+    </div>
+  </div>
+ {% endblock footer %}
+ <!-- /footer -->
+</body>
+</html>
