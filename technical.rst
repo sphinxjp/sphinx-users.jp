@@ -5,9 +5,10 @@ Sphinx技術情報
    :maxdepth: 2
 
    gettingstarted/index
-   doc
    reverse-dict/index
    cookbook/index
    articles/index
+   doc
    history
+   link
 

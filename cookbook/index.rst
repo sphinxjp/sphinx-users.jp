@@ -14,5 +14,7 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
    epub/index
    pdf/index
    hosting/index
+   ci/index
    websupport
    remotebuild/index
+   beginners/index

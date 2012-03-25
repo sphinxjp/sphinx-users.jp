@@ -21,6 +21,7 @@
   <div id="sidebar" class="left">
     <div id="sidebarWrap">
       <div id="toc" class="sidebarRow">
+        <h3><a href="http://sphinx-users.jp/doc11/">Sphinxリファレンス</h3>
         <h3>{{ _('Table Of Contents') }}</h3>
         {{ toctree(maxdepth=2, collapse=False) }}
         </div>
@@ -51,6 +52,36 @@
       {%- endblock %}
       </div>
     </div>
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#sphinxjp',
+      interval: 30000,
+      title: '',
+      subject: 'Sphinx-users.jp: #sphinxjp',
+      width: 250,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#8ec1da',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        behavior: 'default'
+      }
+    }).render().start();
+    </script>
   </div>
 {%- endmacro -%}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
@@ -144,7 +175,7 @@
     <div id="gnav">
       <ul>
         <li class="home"><p><a href="{{ pathto('index') }}" title="{{ project }}">{{ project }}</a></p></li>
-        <li class="doc"><p><a href="{{ pathto('doc') }}" title="ドキュメント">ドキュメント</a></p></li>
+        <li class="doc"><p><a href="http://sphinx-users.jp/doc11/" title="リファレンスマニュアル">リファレンスマニュアル</a></p></li>
         <li class="modindex">
           <p><a title="{{ _('Index') }}" href="{{ pathto('genindex') }}">{{ _('Index') }}</a></p>
         </li>

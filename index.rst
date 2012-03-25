@@ -26,7 +26,7 @@ Sphinx-Users.jp
 Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生成することができる、\ `Sphinx <http://sphinx.pocoo.org/>`_\ （スフィンクス）の普及を主眼としたコミュニティです。このSphinx-Users.jpのサイトもSphinxを使って作られています。
 
 
-日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。また、\ :ref:`mailinglist`\ や\ `Lingrによるチャット <http://lingr.com/room/sphinxjp>`_\ での情報交換、\  :doc:`勉強会 <event/index>` \の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
+日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。また、\ :ref:`mailinglist`\ での情報交換、\  :doc:`勉強会 <event/index>` \の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
 
 .. toctree::
    :maxdepth: 2
@@ -39,7 +39,7 @@ Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生
 参加方法
 --------
 
-ご自由に :ref:`mailinglist` や、 `Lingrのsphinxjpチャンネル <http://lingr.com/room/sphinxjp>`_ などにご参加ください。また、Sphinx-Users.jpが行うイベントも定期的に行います。
+ご自由に :ref:`mailinglist` にご参加ください。また、Sphinx-Users.jpが行うイベントも定期的に行います。
 
 イベント情報などは、Twitterの `SphinxUsers.jp公式アカウント <http://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <http://twitter.com/#search?q=%23sphinxjp>`_ になります。
 

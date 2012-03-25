@@ -9,6 +9,7 @@
    replace
    citation
    todo
+   link
    refer
    include
    note
@@ -22,3 +23,4 @@
    vocabulary
    emptylines
    emphasizelines
+   horizontal_line
