@@ -81,7 +81,7 @@ easy_install コマンドに以下の URL を指定して Sphinx パッケージ
 ---------------- 
 
 既に Sphinx がインストールされている場合は
-打田さんの修正内容を `パッチ化したもの <https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch>` を
+打田さんの修正内容を `パッチ化したもの <https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch>`_ を
 インストール済みの Sphinx に適用します。
 
 .. code-block:: bash
