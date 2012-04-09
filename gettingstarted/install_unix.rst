@@ -14,14 +14,14 @@ Mac OS Xの `MacPorts <http://www.macports.org/>`_ を利用しているので�
 
 .. code-block:: bash
 
-   $ sudo port install py26-sphinx
+   $ sudo port install py27-sphinx
 
-このままだと実行時のパスに追加されないため、python_selectもインストールして、python2.6が標準で使われるようにしてみましょう。
+このままだと実行時のパスに追加されないため、selectターゲットを使い、Python2.7が標準で使われるようにしてみましょう。
 
 .. code-block:: bash
 
-   $ sudo port install python_select
-   $ sudo python_select python26
+   $ sudo port select --set python python27
+   $ sudo port select --set sphinx py27-sphinx
 
 ``which sphinx-quickstart`` が応答を返してくればインストール完了です。
 
