@@ -8,3 +8,4 @@ Sphinxに関して
    lang
    smartpants
    excludepatterns
+   doctree
