@@ -3,6 +3,18 @@
 イベント
 ========
 
+2012年
+------
+* `Sphinx+翻訳 Hack-a-thon 2012.05 <http://connpass.com/event/462/>`_ (2012/5/27)
+* `Sphinx+翻訳 Hack-a-thon 2012.04 <http://connpass.com/event/379/>`_ (2012/4/22)
+* `Sphinx+翻訳 Hack-a-thon 2012.03 <http://connpass.com/event/305/>`_ (2012/3/25)
+* `Sphinxハンズオン#pyfes 出張版 <http://www.zusaar.com/event/158001>`_ (2012/3/17)
+* `Sphinx朝会@神戸 <http://atnd.org/events/25549>`_ (2012/3/4)
+* `Sphinxハンズオン#3 <http://atnd.org/events/25060>`_ (2012/2/22)
+* `Sphinx+翻訳 Hack-a-thon 2012.02 <http://connpass.com/event/277/>`_ (2012/2/15)
+* `Sphinxハンズオン#2 <http://atnd.org/events/23587>`_ (2012/1/25)
+* `Sphinx朝会@十三 <http://atnd.org/events/23747>`_ (2012/1/21)
+
 2011年
 ------
 
