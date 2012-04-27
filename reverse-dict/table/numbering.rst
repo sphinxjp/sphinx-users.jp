@@ -11,9 +11,10 @@ http://stackoverflow.com/questions/2686310/referencing-figures-with-numbers-in-s
 
 を見ると、その機能はまだ実装されていないそうです。
 
-一応実現方法はあって、
-http://article.gmane.org/gmane.text.docutils.user/5623 によると、refロー
-ルと ``label`` ロール、そして ``latex`` を直接使うそうです。
+ただし、PDF 出力(LaTeX経由)の場合のみ LaTeX の機能を利用することで実現できます。
+http://article.gmane.org/gmane.text.docutils.user/5623 によると、
+``raw`` ディレクティブで LaTeX コマンドの置き換えを行いつつ、
+``label`` ロールと ``ref`` ロールで定義と参照を行うことができるとのことです。
 
 :: 
 
