@@ -10,6 +10,8 @@
 
    20120916_sphinxconjp/index
 
+* `Sphinx+翻訳 Hack-a-thon 2012.07 <http://connpass.com/event/662/>`_ (2012/7/21)
+* `Sphinx+翻訳 Hack-a-thon 2012.06 <http://connpass.com/event/572/>`_ (2012/6/16)
 * `Sphinx+翻訳 Hack-a-thon 2012.05 <http://connpass.com/event/462/>`_ (2012/5/27)
 * `Sphinx+翻訳 Hack-a-thon 2012.04 <http://connpass.com/event/379/>`_ (2012/4/22)
 * `Sphinx+翻訳 Hack-a-thon 2012.03 <http://connpass.com/event/305/>`_ (2012/3/25)
