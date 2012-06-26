@@ -3,13 +3,15 @@
 Sphinx-Users.jp
 ===============
 
-* 2012年5月27日(日) 13:00から `Sphinx+翻訳 Hack-a-thon 2012.05 <http://connpass.com/event/462/>`_ にてSphinxの勉強会を開催します。
+* 2012年9月16日(日) に行われるSphinxConJP 2012の発表者を募集しています。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
 
-* 2011年12月10日(土) 9:30から :doc:`event/20111210_sphinx_morning/index` にてSphinxの勉強会を開催します。
+.. * 2012年5月27日(日) 13:00から `Sphinx+翻訳 Hack-a-thon 2012.05 <http://connpass.com/event/462/>`_ にてSphinxの勉強会を開催します。
 
-* 2011年12月14日(水) 19:30から :doc:`event/20111214_sphinx_handson/index` にてSphinxの導入とスタートアップのハンズオンイベントを開催します。
+.. * 2011年12月10日(土) 9:30から :doc:`event/20111210_sphinx_morning/index` にてSphinxの勉強会を開催します。
 
-* 2011年11月30日(水) 16:00から :doc:`event/20111130_internetweek/index` にてSphinxに関連してドキュメンテーションについての発表を行います。
+.. * 2011年12月14日(水) 19:30から :doc:`event/20111214_sphinx_handson/index` にてSphinxの導入とスタートアップのハンズオンイベントを開催します。
+
+.. * 2011年11月30日(水) 16:00から :doc:`event/20111130_internetweek/index` にてSphinxに関連してドキュメンテーションについての発表を行います。
 
 * 2011年7月23日に開催した :doc:`event/20110723_artofcommunity1/index` のレポートを掲載しました。
 

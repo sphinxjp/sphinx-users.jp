@@ -5,6 +5,11 @@
 
 2012年
 ------
+.. toctree::
+   :maxdepth: 1
+
+   20120916_sphinxconjp/index
+
 * `Sphinx+翻訳 Hack-a-thon 2012.05 <http://connpass.com/event/462/>`_ (2012/5/27)
 * `Sphinx+翻訳 Hack-a-thon 2012.04 <http://connpass.com/event/379/>`_ (2012/4/22)
 * `Sphinx+翻訳 Hack-a-thon 2012.03 <http://connpass.com/event/305/>`_ (2012/3/25)
