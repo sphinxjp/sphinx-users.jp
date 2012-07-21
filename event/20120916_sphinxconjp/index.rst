@@ -71,7 +71,7 @@ http://2012.pycon.jp/registration/index.html
      - Sphinxの平凡な使い方 ～業務での利用事例～
 
    - - 18:00 - 18:15 (15分)
-     -
+     - |takanory|
      - 鈴木たかのり
      - 社内でのSphinx、reSTの広め方
 
@@ -84,6 +84,7 @@ http://2012.pycon.jp/registration/index.html
 .. |shkumagai| image:: shkumagai.jpeg
 .. |shimizukawa| image:: shimizukawa.jpg
 .. |usaturn| image:: usaturn.png
+.. |takanory| image:: takanory.jpg
 .. |hekyo| image:: hekyo.jpg
 
 PyCon JP 2012 全体のタイムテーブルについては `プログラム - PyCon JP 2012 <http://2012.pycon.jp/program/index.html>`_ を参照して下さい。
