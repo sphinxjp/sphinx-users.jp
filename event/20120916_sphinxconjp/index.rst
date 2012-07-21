@@ -1,11 +1,17 @@
 SphinxCon JP 2012 開催 (2012/9/16)
 =====================================
 
+`PyCon JP 2012 <http://2012.pycon.jp/>`_ とのジョイントイベントである、
+SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
+
+.. image:: SphinxConJP2012-logo.png
+   :align: center
+   :scale: 80%
+   :alt: SphinxCon 2012 logo
+
 :日時: 2012/9/16(日)
 :場所: 産業技術大学院大学
 
-`PyCon JP 2012 <http://2012.pycon.jp/>`_ とのジョイントイベントである、
-SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
 
 Sphinxの発表者募集
 ----------------------
