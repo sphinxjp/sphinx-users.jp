@@ -15,7 +15,7 @@ Sphinxの発表者募集
 
 　テーマ：Sphinx に関すること
 　発表時間：15/25/45分のいずれか
-　募集期間：～7/22(日曜) 23:59 まで
+　募集期間：～7/21(土曜) 17:59 まで
 
 以下の URL から応募してください。
 https://docs.google.com/spreadsheet/viewform?pli=1&formkey=dGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE6MQ#gid=0
