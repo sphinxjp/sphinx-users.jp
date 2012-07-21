@@ -14,13 +14,51 @@ SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
 :場所: 産業技術大学院大学
 
 
-Sphinxの発表者募集
---------------------
+2012/9/16 (日) タイムテーブル
+-------------------------------
 
-発表者募集は 7/21(土曜) 17:59 に締め切りました(`応募頂いた内容 <https://docs.google.com/spreadsheet/ccc?key=0AmBOkRE1AxPHdGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE&pli=1#gid=0>`_)。応募頂いた皆様、ありがとうございました！
+発表者募集に `応募頂いた内容 <https://docs.google.com/spreadsheet/ccc?key=0AmBOkRE1AxPHdGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE&pli=1#gid=0>`_ から選考を行い、プログラムを決定いたしました。応募頂いた皆様、ありがとうございました！
 
-応募して頂いた皆様へは後ほどご連絡いたします。
-プログラムの発表まで少々お待ち下さい。
+決定したプログラムは以下の通りです。
+
+
+.. list-table::
+   :widths: 25 75
+   :header-rows: 2
+
+   - - 時刻
+     - 併設トラック1 (Room-60)
+
+   - - 15:15 - 15:40 (25分)
+     - Sphinx ではじめるドキュメント生活 2012 - 小宮 健 (@tk0miya)
+
+   - - 15:40 - 16:00 (20分)
+     - sphinx拡張 探訪 - しろう (@r_rudi)
+
+   - - 16:00 - 16:45 (15分)
+     - Tea Break
+
+   - - 16:45 - 17:10 (25分)
+     - Sphinx HTML theme 事始め - @shkumagai
+
+   - - 17:10 - 17:35 (25分)
+     - Sphinxを使って本を書こう - 清水川 (@shimizukawa)
+
+   - - 17:35 - 17:45 (10分)
+     - 休憩
+
+   - - 17:45 - 18:00 (15分)
+     - Sphinxの平凡な使い方 ～業務での利用事例～ - @usaturn
+
+   - - 18:00 - 18:15 (15分)
+     - 社内でのSphinx、reSTの広め方 - 鈴木たかのり
+
+   - - 18:15 - 18:30 (15分)
+     - Sphinxにおけるdocutilsの役割 - @hekyou
+
+
+PyCon JP 2012 全体のタイムテーブルについては `プログラム - PyCon JP 2012 <http://2012.pycon.jp/program/index.html>`_ を参照して下さい。
+
 
 
 イベント参加方法
