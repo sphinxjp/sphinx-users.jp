@@ -15,22 +15,12 @@ SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
 
 
 Sphinxの発表者募集
-----------------------
+--------------------
 
-イベント開催に合わせ、SphinxCon JP 2012 で話していただける方を募集します。
-ぜひこの機会に、普段使ってる Sphinx について多くの人に広めてみませんか?
+発表者募集は 7/21(土曜) 17:59 に締め切りました(`応募頂いた内容 <https://docs.google.com/spreadsheet/ccc?key=0AmBOkRE1AxPHdGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE&pli=1#gid=0>`_)。応募頂いた皆様、ありがとうございました！
 
-　テーマ：Sphinx に関すること
-　発表時間：15/25/45分のいずれか
-　募集期間：～7/21(土曜) 17:59 まで
-
-以下の URL から応募してください。
-https://docs.google.com/spreadsheet/viewform?pli=1&formkey=dGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE6MQ#gid=0
-
-応募結果は
-https://docs.google.com/spreadsheet/ccc?key=0AmBOkRE1AxPHdGxjVjV1eTRVVkEtNFJ5Z1d5OGZwMUE&pli=1#gid=0
-から確認することができます。
-もし誤りなどがあればMLへメールしてください。
+応募して頂いた皆様へは後ほどご連絡いたします。
+プログラムの発表まで少々お待ち下さい。
 
 
 イベント参加方法
