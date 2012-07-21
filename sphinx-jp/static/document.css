@@ -93,7 +93,8 @@ dl > dd li {
 }
 
 div#document img {
-	margin: 15px;
+	margin: 5px;
+	vertical-align: top;
 }
 
 div#document .figure {
