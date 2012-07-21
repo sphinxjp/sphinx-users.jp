@@ -36,6 +36,6 @@ Sphinxの発表者募集
 イベントの参加申し込みなどはPyCon JP 2012の方で行い、入場受付後はPyCon JP 2012とSphinxCon JP 2012
 どちらのセッションにも参加することができます。
 
-参加申し込み時期はまだ未定のようです。詳しくは http://2012.pycon.jp/ でのアナウンスをお待ちください。
-詳細が分かり次第、Sphinx-users.jp でもアナウンスする予定です。
+参加申し込みは以下のURLからお願いいたします。
+http://2012.pycon.jp/registration/index.html
 
