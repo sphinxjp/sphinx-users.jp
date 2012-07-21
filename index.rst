@@ -7,7 +7,8 @@ Sphinx-Users.jp
 
   .. image:: event/20120916_sphinxconjp/SphinxConJP2012-logo.png
      :align: center
-     :scale: 80%
+     :width: 580
+     :height: 93
      :alt: SphinxCon 2012 logo
      :target: event/20120916_sphinxconjp/index.html
 
