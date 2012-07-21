@@ -6,7 +6,8 @@ SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
 
 .. image:: SphinxConJP2012-logo.png
    :align: center
-   :scale: 80%
+   :width: 580
+   :height: 93
    :alt: SphinxCon 2012 logo
 
 :日時: 2012/9/16(日)
