@@ -45,7 +45,7 @@ http://2012.pycon.jp/registration/index.html
      - しろう (@r_rudi)
      - sphinx拡張 探訪
 
-   - - 16:00 - 16:45 (15分)
+   - - 16:00 - 16:45 (45分)
      -
      -
      - Tea Break
