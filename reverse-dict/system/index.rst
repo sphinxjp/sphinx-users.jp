@@ -9,3 +9,4 @@ Sphinxに関して
    smartpants
    excludepatterns
    doctree
+   load-config-from-ini
