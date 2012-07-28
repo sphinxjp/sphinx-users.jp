@@ -180,15 +180,14 @@ PDFの設定を追加
 .. code-block:: bash
 
    {
-       "embeddedFonts" :
-       [[
+       "embeddedFonts" : [
            "VL-Gothic-Regular.ttf",
 	   "VL-PGothic-Regular.ttf",
 	   "ipam.otf",
 	   "ipag.otf",
 	   "ipagp.otf",
 	   "ipamp.otf"
-       ]],
+       ],
        "fontsAlias" : {
            "stdFont": "VL-PGothic-Regular",
 	   "stdBold": "VL-PGothic-Regular",
@@ -211,7 +210,7 @@ PDFの設定を追加
 	       "wordWrap": "None"
     	   }]
         ]
-    } 
+    }
 
 
 ビルドと確認
