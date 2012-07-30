@@ -5,6 +5,7 @@
    :maxdepth: 1
 
    basic
+   linebreak
    replace-table
    include
    tab
