@@ -9,6 +9,7 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
 .. toctree::
    :maxdepth: 2 
 
+   changetheme/index
    makingwebsite/index
    translation
    epub/index
