@@ -8,8 +8,8 @@ Sphinxはテーマという形で、ドキュメントの見た目を変更す�
    `HTMLテーマのサポート <http://sphinx-users.jp/doc11/theming.html#id1>`_ の ``html_theme_options`` や
    :doc:`../../reverse-dict/html/custom-css-js` を参照して下さい。
 
-テーマの変更
---------------
+テーマの変更(オリジナルテーマの作成)
+------------------------------------------
 オリジナルのテーマを作成するにあたって、必要な準備をします。
 
 .. toctree::
