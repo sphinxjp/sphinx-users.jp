@@ -14,6 +14,16 @@ SphinxCon JP 2012 を 9/16(日)に開催することが決定しました。
 :場所: 産業技術大学院大学 併設トラック1 (Room-60)
 :参加費: 3,000円
 
+
+イベント参加方法
+--------------------
+
+本イベントは PyCon JP の一部として実施されますので、
+参加者/発表者ともに PyCon JP のチケット購入が必要になりますのでご注意ください。
+
+イベントの参加申し込みなどはPyCon JP 2012の方で行い、入場受付後はPyCon JP 2012とSphinxCon JP 2012
+どちらのセッションにも参加することができます。
+
 参加申し込みは以下のURLからお願いいたします。
 http://2012.pycon.jp/registration/index.html
 
@@ -36,14 +46,14 @@ http://2012.pycon.jp/registration/index.html
      - タイトル
 
    - - 15:15 - 15:40 (25分)
-     -
+     - |tk0miya|
      - 小宮 健 (@tk0miya)
-     - Sphinx ではじめるドキュメント生活 2012
+     - :ref:`session-16-1515-Room452-ja`
 
    - - 15:40 - 16:00 (20分)
-     -
+     - |r_rudi|
      - しろう (@r_rudi)
-     - sphinx拡張 探訪
+     - :ref:`session-16-1540-Room452-ja`
 
    - - 16:00 - 16:45 (45分)
      -
@@ -53,12 +63,12 @@ http://2012.pycon.jp/registration/index.html
    - - 16:45 - 17:10 (25分)
      - |shkumagai|
      - @shkumagai
-     - Sphinx HTML theme 事始め
+     - :ref:`session-16-1645-Room452-ja`
 
    - - 17:10 - 17:35 (25分)
      - |shimizukawa|
      - 清水川 (@shimizukawa)
-     - Sphinxを使って本を書こう
+     - :ref:`session-16-1710-Room452-ja`
 
    - - 17:35 - 17:45 (10分)
      -
@@ -68,19 +78,21 @@ http://2012.pycon.jp/registration/index.html
    - - 17:45 - 18:00 (15分)
      - |usaturn|
      - @usaturn
-     - Sphinxの平凡な使い方 ～業務での利用事例～
+     - :ref:`session-16-1745-Room452-ja`
 
    - - 18:00 - 18:15 (15分)
      - |takanory|
      - 鈴木たかのり
-     - 社内でのSphinx、reSTの広め方
+     - :ref:`session-16-1800-Room452-ja`
 
    - - 18:15 - 18:30 (15分)
      - |hekyo|
      - @hekyou
-     - Sphinxにおけるdocutilsの役割
+     - :ref:`session-16-1815-Room452-ja`
 
 
+.. |tk0miya| image:: tk0miya.jpg
+.. |r_rudi| image:: r_rudi.png
 .. |shkumagai| image:: shkumagai.jpeg
 .. |shimizukawa| image:: shimizukawa.jpg
 .. |usaturn| image:: usaturn.png
@@ -91,16 +103,160 @@ PyCon JP 2012 全体のタイムテーブルについては `プログラム - P
 
 
 
-イベント参加方法
---------------------
+セッション詳細
+-----------------
 
 
-本イベントは PyCon JP の一部として実施されますので、
-参加者/発表者ともに PyCon JP のチケット購入が必要になりますのでご注意ください。
+.. _session-16-1515-Room452-ja:
 
-イベントの参加申し込みなどはPyCon JP 2012の方で行い、入場受付後はPyCon JP 2012とSphinxCon JP 2012
-どちらのセッションにも参加することができます。
+Sphinx ではじめるドキュメント生活 2012
+######################################
+すぐれたドキュメントツールである Sphinx を使って、あなたのドキュメントを書いてみませんか。
+Sphinx は多くの OSS のマニュアル、リファレンスで採用されている他、
+IT企業でも利用されはじめています。
+ドキュメントを作りたくなってしまうとまで言われる Sphinx の魅力を皆さんにご紹介します。
 
-参加申し込みは以下のURLからお願いいたします。
-http://2012.pycon.jp/registration/index.html
+:言語: 日本語
+:日時: Sep 16 15:15-15:40
+:場所: Room 452
+
+Takeshi Komiya
+^^^^^^^^^^^^^^
+
+.. image:: tk0miya.jpg
+   :alt: Takeshi Komiya
+
+(株)タイムインターメディア所属
+
+blockdiag、Sphinx などといったドキュメンテーションツールに興味を持ち、
+ツール、拡張モジュールの開発やコミュニティ活動を行なっている。
+
+
+.. _session-16-1540-Room452-ja:
+
+sphinx拡張 探訪
+###############
+Sphinxの魅力の一つに多種多様な拡張があります。多くの人がさまざまな目的で開発したSphinx拡張を紹介し、Sphinxがいろいろなニーズに答えられることを伝えます。
+
+:言語: 日本語
+:日時: Sep 16 15:40-16:05
+:場所: Room 452
+
+Shiro Wakayama
+^^^^^^^^^^^^^^
+
+.. image:: r_rudi.png
+   :alt: Shiro Wakayama
+
+sphinx-jp, blockdiagなど
+
+
+.. _session-16-1645-Room452-ja:
+
+Sphinx HTML theme 事始め
+########################
+Sphinx には組み込みで複数のHTMLテーマが付属しており、defaultのテーマも用意されたパラメータに値を指定すれば、印象をガラリと変えることが可能になります。
+今回はSphinxのHTMLテーマの基本的な構成に触れながら、組み込みのテーマでできること、組み込みのHTMLテーマからのもうひと工夫の仕方を軸に、自分が考えるSphinxテーマカスタマイズ手法を紹介したいと思います。
+
+:言語: 日本語
+:日時: Sep 16 16:45-17:10
+:場所: Room 452
+
+Shoji Kumagai
+^^^^^^^^^^^^^
+
+.. image:: shkumagai.jpeg
+   :alt: Shoji Kumagai
+
+
+某A社, テストエンジニア
+
+
+.. _session-16-1710-Room452-ja:
+
+Sphinxを使って本を書こう
+########################
+私の過去2冊の翻訳・執筆した本の経験から、Sphinxを活用して執筆環境を自動化したときの手順とそのメリットなどを紹介します。
+
+:言語: 日本語
+:日時: Sep 16 17:10-17:35
+:場所: Room 452
+
+Takayuki Shimizukawa
+^^^^^^^^^^^^^^^^^^^^
+
+
+
+.. image:: shimizukawa.jpg
+   :alt: Takayuki Shimizukawa
+
+
+BeProud所属。Sphinx-users.jp 副会長。訳書・著書「エキスパートPythonプログラミング」「Pythonプロフェッショナルプログラミング」。
+
+
+.. _session-16-1745-Room452-ja:
+
+Sphinxの平凡な使い方 ～業務での利用事例～
+#########################################
+ターゲットは、Sphinxに興味はあるけど、まだ使ったことが無い人です。
+
+:言語: 日本語
+:日時: Sep 16 17:45-18:00
+:場所: Room 452
+
+Goh Yamada
+^^^^^^^^^^
+
+
+
+.. image:: usaturn.png
+   :alt: Goh Yamada
+
+
+所属: ネットサポート株式会社
+
+
+.. _session-16-1800-Room452-ja:
+
+社内でのSphinx、reSTの広め方
+############################
+自分以外誰も Sphinx, reStructuredText を使ったことがない状況で、8名ほどのチームメンバーが全員が普通に使用するようになるまでの物語。
+
+:言語: 日本語
+:日時: Sep 16 18:00-18:15
+:場所: Room 452
+
+Takanori Suzuki
+^^^^^^^^^^^^^^^
+
+
+
+.. image:: takanory.jpg
+   :alt: Takanori Suzuki
+
+
+PyCon JP 2011, 2012 スタッフ
+Plone 研究会
+Python mini Hack-a-thon の主催の一人
+
+
+.. _session-16-1815-Room452-ja:
+
+Sphinxにおけるdocutilsの役割
+############################
+docutilsがreStructuredTextを処理する流れについて
+docutilsの使い方の概要
+
+:言語: 日本語
+:日時: Sep 16 18:15-18:30
+:場所: Room 452
+
+@hekyou
+^^^^^^^
+
+.. image:: hekyo.jpg
+   :alt: @hekyou
+
+
+blockdiag, bookathon
 
