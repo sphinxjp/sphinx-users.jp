@@ -24,3 +24,4 @@
    emptylines
    emphasizelines
    horizontal_line
+   strike
