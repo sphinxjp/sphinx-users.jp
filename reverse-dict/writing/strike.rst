@@ -22,7 +22,7 @@ rst内の表記::
 
   ここに :strike:`取り消し線` を引きます
 
-参照： :doc:`custom-css-js`
+参照： :doc:`../html/custom-css-js`
 
 ~~~~~~~
 適用例
