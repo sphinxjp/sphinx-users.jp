@@ -3,16 +3,9 @@
 Sphinx-Users.jp
 ===============
 
-* 2012年9月16日(日) に行われるSphinxConJP 2012の発表者を募集しています。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
+* 2012年9月16日(日) にSphinxConJP 2012が開催されました。ご来場頂いた皆さん、ありがとうございました。当日の資料とビデオを順次公開中です。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
 
-  .. image:: event/20120916_sphinxconjp/SphinxConJP2012-logo.png
-     :align: center
-     :width: 580
-     :height: 93
-     :alt: SphinxCon 2012 logo
-     :target: event/20120916_sphinxconjp/index.html
-
-* 2012年8月19日(土) に `Sphinx+翻訳 Hack-a-thon 2012.08 <http://connpass.com/event/816/>`_ を開催します。
+.. * 2012年8月19日(土) に `Sphinx+翻訳 Hack-a-thon 2012.08 <http://connpass.com/event/816/>`_ を開催します。
 
 .. * 2012年7月21日(土) に `Sphinx+翻訳 Hack-a-thon 2012.07 <http://connpass.com/event/662/>`_ を開催します。
 
