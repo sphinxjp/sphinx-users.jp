@@ -5,6 +5,9 @@
 
 2012年
 ------
+
+* `Sphinx+翻訳 Hack-a-thon 2012.10 <http://connpass.com/event/1046/>`_ (2012/10/13)
+
 .. toctree::
    :maxdepth: 1
 

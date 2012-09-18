@@ -3,6 +3,8 @@
 Sphinx-Users.jp
 ===============
 
+* 2012年10月13日(土) に `Sphinx+翻訳 Hack-a-thon 2012.10 <http://connpass.com/event/1046/>`_ を開催します。
+
 * 2012年9月16日(日) にSphinxConJP 2012が開催されました。ご来場頂いた皆さん、ありがとうございました。当日の資料とビデオを順次公開中です。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
 
 .. * 2012年8月19日(土) に `Sphinx+翻訳 Hack-a-thon 2012.08 <http://connpass.com/event/816/>`_ を開催します。
