@@ -51,7 +51,7 @@ Sphinxは確かにPythonで書かれていますが、Sphinxの拡張機能を�
      * * `Bitbucket <http://bitbucket.org>`_ へのユーザ登録
        * `#sphinxjpのIssue <https://bitbucket.org/sphinxjp/website/issues?status=new&status=open>`_ にチケットを投稿する勇気
 
-   - * 自分のノウハウを#sphinxのサイトに公開したい
+   - * 自分のノウハウを#sphinxjpのサイトに公開したい
      * * ご自分のノウハウ
        * Bitbucketへのユーザ登録
        * Mercurial(hg)を使う能力
