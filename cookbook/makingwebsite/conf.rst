@@ -56,8 +56,9 @@ Pygmentsに組込まれているスタイルは、以下の様に確認します
 
    >>> from pygments.styles import STYLE_MAP
    >>> STYLE_MAP.keys()
-   ['manni', 'perldoc', 'borland', 'colorful', 'default', 'murphy', 'vs', 'trac',
-   'tango', 'fruity', 'autumn', 'bw', 'emacs', 'pastie', 'friendly', 'native']
+   ['monokai', 'manni', 'rrt', 'perldoc', 'borland', 'colorful', 'default', 
+    'murphy', 'vs', 'trac', 'tango', 'fruity', 'autumn', 'bw', 'emacs', 'vim', 
+    'pastie', 'friendly', 'native']
 
 optionセクション
 -----------------
