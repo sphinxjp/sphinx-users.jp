@@ -237,7 +237,7 @@ Goh Yamada
 
 
 :発表資料:
-   準備中
+   http://www.slideshare.net/goyamada92/sphinx-14566291
 :ビデオ:
    http://www.youtube.com/watch?v=SoehUIC3RKc&feature=plcp
 
