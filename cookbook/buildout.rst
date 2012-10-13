@@ -184,4 +184,4 @@ Sphinx 経由で PDF を出力したい場合は、以下のように buildout.c
    interpreter = py
 
    [versions]
-   sphinx = 1.1.3sphinxjp-latexk
+   sphinx = 1.1.3sphinxjp-latex
