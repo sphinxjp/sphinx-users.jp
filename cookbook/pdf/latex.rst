@@ -75,7 +75,7 @@ easy_install コマンドに以下の URL を指定して Sphinx パッケージ
 
 .. code-block:: bash
 
-   $ easy_install https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.1.2sphinxjp-latex.tar.gz
+   $ easy_install https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.1.3sphinxjp-latex.tar.gz
 
 パッチを適用する
 ---------------- 
