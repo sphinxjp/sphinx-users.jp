@@ -237,7 +237,7 @@ Goh Yamada
 
 
 :発表資料:
-   準備中
+   http://www.slideshare.net/goyamada92/sphinx-14566291
 :ビデオ:
    http://www.youtube.com/watch?v=SoehUIC3RKc&feature=plcp
 
@@ -263,7 +263,7 @@ Plone 研究会
 Python mini Hack-a-thon の主催の一人
 
 :発表資料:
-   準備中
+   http://www.slideshare.net/takanory/how-to-spread-rest-and-sphinx
 :ビデオ:
    http://www.youtube.com/watch?v=vKuhuxcCxM0&feature=plcp
 
@@ -288,7 +288,7 @@ docutilsの使い方の概要
 blockdiag, bookathon
 
 :発表資料:
-   準備中
+   https://gist.github.com/3730720
 :ビデオ:
    http://www.youtube.com/watch?v=kiUMwzTjMGY&feature=plcp
 
