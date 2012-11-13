@@ -31,7 +31,7 @@ SphinxConでは7つの発表を行い、それぞれスライドとビデオを�
    部屋には入れない方もいました。
 
 
-.. figure:: spihnxconjp2012-speakers.jpg
+.. figure:: sphinxconjp2012-speakers.jpg
 
    初めてのSphinxConで発表した7人！
 
