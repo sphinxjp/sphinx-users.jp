@@ -51,7 +51,7 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
 イベントの参加に際し、参加者の方へのご連絡や、会場の広さに対する混み具合など
 を共有するために、お手数ですが以下のURLから参加登録をお願いいたします。
 
-* http://connpass.com/event/1379/preview/
+* http://connpass.com/event/1379
 
 
 注意事項
