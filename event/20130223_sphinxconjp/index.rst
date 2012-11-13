@@ -4,6 +4,7 @@ SphinxCon JP 2013 Spring 開催 (2013/2/23)
 `オープンソースカンファレンス 2013 Tokyo/Spring`_
 との併設イベントとして、SphinxCon JP 2013 Spring を 2013/2/23(土)に開催します。
 
+
 .. _`オープンソースカンファレンス 2013 Tokyo/Spring`: http://www.ospn.jp/osc2013-spring/
 
 .. image:: SphinxConJP2013Spring-logo.png
@@ -24,6 +25,11 @@ SphinxCon JP 2013 Spring 開催 (2013/2/23)
 .. _`[アクセスマップ]`: http://www.meisei-u.ac.jp/access/hinomap/index.html
 .. _`[キャンパスマップ]`: http://www.meisei-u.ac.jp/campus/hino.html
 .. _`[OpenStreetMap]`: http://osm.org/go/7Q5NCaP8O-
+
+
+.. figure:: sphinxcon-jp-2012-attendees.jpg
+
+   2012年に開催した :doc:`../20120916_sphinxconjp/index` の様子
 
 
 開催概要
