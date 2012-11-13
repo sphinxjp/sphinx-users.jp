@@ -15,6 +15,8 @@
 2012年
 ------
 
+.. * `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ (2012/12/16)
+
 * `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ (2012/11/11)
 
 * `Sphinx+翻訳 Hack-a-thon 2012.10 <http://connpass.com/event/1046/>`_ (2012/10/13)

@@ -5,7 +5,7 @@ Sphinx-Users.jp
 
 * 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催します。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
-.. * 2012年12月??日(日) に `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1237/>`_ を開催します。
+.. * 2012年12月16日(日) に `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ を開催します。
 
 * 2012年11月11日(日) に `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ を開催しました。
 
