@@ -1,4 +1,4 @@
-SphinxCon JP 2013 Spring 開催 (2013/2/23)
+SphinxCon JP 2013 Spring (2013/2/23)
 ===============================================
 
 `オープンソースカンファレンス 2013 Tokyo/Spring`_
@@ -29,7 +29,7 @@ SphinxCon JP 2013 Spring 開催 (2013/2/23)
 
 .. figure:: sphinxcon-jp-2012-attendees.jpg
 
-   2012年に開催した :doc:`../20120916_sphinxconjp/index` の様子
+   2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
 
 
 開催概要
