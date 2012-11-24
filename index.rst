@@ -7,6 +7,8 @@ Sphinx-Users.jp
 
 .. * 2012年12月16日(日) に `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ を開催します。
 
+* 2012年12月1日から `Sphinx アドベントカレンダー 2012 <http://connpass.com/event/1441/>`_ を行います。 
+
 * 2012年12月12日(水) に :doc:`event/20121212_general_meeting/index` を開催します。
 
 * 2012年11月11日(日) に `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ を開催しました。
