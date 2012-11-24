@@ -19,3 +19,4 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
    websupport
    remotebuild/index
    beginners/index
+   multidoc/index
