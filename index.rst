@@ -3,16 +3,21 @@
 Sphinx-Users.jp
 ===============
 
-* 2012年9月16日(日) に行われるSphinxConJP 2012の発表者を募集しています。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
+* 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催します。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
-  .. image:: event/20120916_sphinxconjp/SphinxConJP2012-logo.png
-     :align: center
-     :width: 580
-     :height: 93
-     :alt: SphinxCon 2012 logo
-     :target: event/20120916_sphinxconjp/index.html
+.. * 2012年12月16日(日) に `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ を開催します。
 
-* 2012年8月19日(土) に `Sphinx+翻訳 Hack-a-thon 2012.08 <http://connpass.com/event/816/>`_ を開催します。
+* 2012年12月1日から `Sphinx アドベントカレンダー 2012 <http://connpass.com/event/1441/>`_ を行います。 
+
+* 2012年12月12日(水) に :doc:`event/20121212_general_meeting/index` を開催します。
+
+* 2012年11月11日(日) に `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ を開催しました。
+
+.. * 2012年10月13日(土) に `Sphinx+翻訳 Hack-a-thon 2012.10 <http://connpass.com/event/1046/>`_ を開催します。
+
+* 2012年9月16日(日) にSphinxConJP 2012が開催されました。ご来場頂いた皆さん、ありがとうございました。当日の資料とビデオを順次公開中です。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
+
+.. * 2012年8月19日(土) に `Sphinx+翻訳 Hack-a-thon 2012.08 <http://connpass.com/event/816/>`_ を開催します。
 
 .. * 2012年7月21日(土) に `Sphinx+翻訳 Hack-a-thon 2012.07 <http://connpass.com/event/662/>`_ を開催します。
 

@@ -17,6 +17,15 @@ Sphinxの標準機能に、LaTeXを経由したPDF出力が入っています。
 .. warning::
    追加情報や、協力してくれる方がいらっしゃいましたら、 `Sphinx-users <http://sphinx-users.jp/howtojoin.html>`_ までご連絡ください。
 
+Sphinx で利用する LaTeX について
+================================
+
+Sphinx で日本語文章を書く場合は文字コードに UTF-８が利用されるため、PDF を作成する際には UTF-8 対応版の pLaTeX である必要があります。
+内部では ebb, mendex, platex, dvipdfmx の各コマンドを利用していますので、
+これらが利用できる環境を用意します。
+
+ここでは TeX ディストリビューションである TeXLive (2011以降) を例にして説明します。
+
 TeXLive2011/MacTeX2011のインストール
 ====================================
 
@@ -75,7 +84,7 @@ easy_install コマンドに以下の URL を指定して Sphinx パッケージ
 
 .. code-block:: bash
 
-   $ easy_install https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.1.2sphinxjp-latex.tar.gz
+   $ easy_install https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.1.3sphinxjp-latex.tar.gz
 
 パッチを適用する
 ---------------- 

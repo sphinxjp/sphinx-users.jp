@@ -12,7 +12,12 @@ Windowsの場合は、Pythonが入っていない場合がほとんどだと思�
 http://python.org を開きます。Pythonの総本山です。英語が多いですが、恐れないで行きましょう！左側のサイドバーから、Quick Linksの中のWindows Installerをクリックしてダウンロードして、インストールします。
 
 .. warning::
-   Pythonには2系と3系がありますが、Sphinxはまだ3系では動作しないため、2.6、2.7の系列をインストールしてください。
+   Pythonには2系と3系があります。Sphinx-1.1.3はPython-3.2でも動作しますが、Python-3.3では動作しません。
+   一般的にはまだPython-2.6、2.7の系列が多く使われているので、何かあった場合の
+   サポートをML等で受けやすいと思います。
+
+   以降の説明ではPython-2.6を前提として進めます。
+
 
 .. image:: installpython.jpg
 
