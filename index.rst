@@ -3,6 +3,9 @@
 Sphinx-Users.jp
 ===============
 
+`Sphinx <http://sphinx-doc.org/>`_ とは、ドキュメントを簡単に作れるツールです。このサイトはSphinxユーザーのための日本語サイトです。
+
+
 * 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催します。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
 .. * 2012年12月16日(日) に `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ を開催します。
