@@ -30,7 +30,7 @@ Werkzeugのバージョン0.1では、品質の高いドキュメントを作る
 Python標準のドキュメントツールに
 ================================
 
-その後は機能拡張されて、 `Pythonの2.6以降のドキュメント <http://docs.python.org/>`_ を生成するためのツールとしても使われるようになり、それまで使われてきたTeXの独自スタイルから置き換えられました。
+その後は機能拡張されて、 `Pythonの2.6以降のドキュメント <http://docs.python.org/>`_ (`日本語 <http://docs.python.jp>`_)を生成するためのツールとしても使われるようになり、それまで使われてきたTeXの独自スタイルから置き換えられました。
 
 .. image:: pythondoc.jpg
 
@@ -41,7 +41,8 @@ Python標準のドキュメントツールに
 その後はPython系のツールやライブラリを中心に、数多くのプロジェクトでも、ドキュメントツールとして活用されるようになりました。
 
 .. note::
-   `Project Using Sphinx <http://sphinx.pocoo.org/examples.html>`_ 
+   * `Project Using Sphinx <http://sphinx-doc.org/examples.html>`_
+   * :doc:`example`
 
 今後のSphinx
 ============

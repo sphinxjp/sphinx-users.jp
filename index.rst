@@ -3,7 +3,7 @@
 Sphinx-Users.jp
 ===============
 
-Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生成することができるドキュメンテーションツール、 Sphinx_ （スフィンクス）の普及を主眼としたコミュニティです。このSphinx-Users.jpのサイトもSphinxを使って作られています。
+Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生成することができるドキュメンテーションツール、 Sphinx_ （スフィンクス）の普及を主眼としたコミュニティです。SphinxはPythonの公式ドキュメントだけでなく、このSphinx-Users.jpのサイトも含め多くのマニュアルやサイトで使用されており、詳細を :doc:`history` で紹介しています。
 
 .. _Sphinx: http://sphinx-doc.org/
 
@@ -11,8 +11,8 @@ Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生
 
 Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。また、\ :ref:`mailinglist`\ での情報交換、\  :doc:`勉強会 <event/index>` \の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
 
-ニュース
------------
+イベント・ニュース
+--------------------
 
 * 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催します。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
