@@ -11,7 +11,7 @@ Sphinxのドキュメントサンプル：業務利用例
 デモで使用したSphinxのドキュメントサンプルを以下のリンクからダウンロード出来ます。
 
 * Step2:ドキュメントの例(Sphinxデータ) :download:`2portfolio.zip <2portfolio.zip>`
-* `Step2:ドキュメントの例(HTML) <2portfolio/index.html>`_
+* :doc:`Step2:ドキュメントの例(HTML) <2portfolio/index>`
 
 Step1 Sphinxの初期ドキュメントから始める
 =========================================
@@ -24,17 +24,17 @@ Step1 Sphinxの初期ドキュメントから始める
 Step2 ドキュメントの最初のアウトプットを作成
 =============================================
 
-前述の、 `読者のターゲット別に章節の構成 <../../event/20101203_jus_benkyoukai/practical_sample/index.html#readers-targeting>`_ をおおまかに用意します。この段階でドキュメントの大枠は用意できました。そして、いつでもドキュメントを作成、変更、HTML出力まで動作するようになりました。しかしもう一歩踏み込んで、既に分かっている情報を書いてしまいましょう。
+前述の、 :ref:`読者のターゲット別に章節の構成 <readers-targeting>` をおおまかに用意します。この段階でドキュメントの大枠は用意できました。そして、いつでもドキュメントを作成、変更、HTML出力まで動作するようになりました。しかしもう一歩踏み込んで、既に分かっている情報を書いてしまいましょう。
 
 .. figure:: slide2.png
 
 * Step2:ドキュメントの例(Sphinxデータ) :download:`2portfolio.zip <2portfolio.zip>`
-* `Step2:ドキュメントの例(HTML) <2portfolio/index.html>`_
+* :doc:`Step2:ドキュメントの例(HTML) <2portfolio/index>`
 
 Step3 既に分かっている情報を書き足します
 =========================================
 
-`マネージャー、設計者、開発者それぞれに必要となる情報を用意 <../../event/20101203_jus_benkyoukai/practical_sample/index.html#sharing-information>`_ します。ここまでの情報がそろっていれば、プロジェクト開始時にメンバーに情報が行き渡らないということはあまりなくなると思います。
+:ref:`マネージャー、設計者、開発者それぞれに必要となる情報を用意 <sharing-information>` します。ここまでの情報がそろっていれば、プロジェクト開始時にメンバーに情報が行き渡らないということはあまりなくなると思います。
 
 .. figure:: slide3.png
 

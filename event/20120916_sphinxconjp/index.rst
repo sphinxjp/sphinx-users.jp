@@ -8,7 +8,7 @@ SphinxCon JP 2012 (2012/9/16)
 
 .. note::
 
-   `English page is here <index_en.html>`_
+   :doc:`English page is here <index_en>`
 
 `PyCon JP 2012 <http://2012.pycon.jp/>`_ とのジョイントイベントである、
 SphinxCon JP 2012 を 9/16(日)に開催しました。

@@ -44,7 +44,7 @@ Sphinxは拡張ができます。新しい構文を追加したり、外部ツ�
 * OMakeマニュアル 日本語訳: http://omake-japanese.sourceforge.jp/
 * Web Socket 翻訳: http://ymotongpoo.appspot.com/websocket_jp/index.html
 * OpenPNE Web API 仕様書: http://www.openpne.jp/developer/webapi/ja/index.html
-* Python 2.6.2 ドキュメント: http://pythonjp.sourceforge.jp/dev/index.html
+* Python 2.7.3 ドキュメント: http://docs.python.jp/2/
 * Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
 * OpenCV C++：日本語リファレンス(訳): http://opencv.jp/opencv-2svn/cpp/
 * PyMOTW(Python Module of the Week) 日本語訳: http://www.doughellmann.com/PyMOTW-ja/

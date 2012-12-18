@@ -99,7 +99,7 @@ Sphinx日本語ドキュメント翻訳のワークフロー
 
 フォークするには、フォークしたいプロジェクトのページ(今回はSphinx)を見て、その中のアイコンが並んでいる中から、forkというリンクをクリックします。
 
-あたらしく自分のリポジトリができます。Sphinxの日本語訳は http://bitbucket.org/shibu/sphinx-domains-docjp というリポジトリで行っています。リポジトリができたら、そこに書いてある説明を見て、ローカルにリポジトリのクローンを作成します。なお、BitbucketのリポジトリはMercurialなので、Mercurialのインストールが必要となります。
+あたらしく自分のリポジトリができます。Sphinxの日本語訳は http://bitbucket.org/sphinxjp/doc11 というリポジトリで行っています。リポジトリができたら、そこに書いてある説明を見て、ローカルにリポジトリのクローンを作成します。なお、BitbucketのリポジトリはMercurialなので、Mercurialのインストールが必要となります。
 
 .. code-block:: bash
 

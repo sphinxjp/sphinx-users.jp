@@ -6,7 +6,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 
 .. note::
 
-   もしも、ここに掲載していないものがありましたら、 `ここのチケット <http://bitbucket.org/shibu/sphinx-usersjp-web/>`_ でご一報ください。
+   もしも、ここに掲載していないものがありましたら、 `ここのチケット <http://bitbucket.org/sphinxjp/website/issues>`_ でご一報ください。
 
 デフォルトテーマ
 ================
@@ -45,7 +45,6 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * groonga ドキュメント: http://groonga.org/docs/index.html
 * JdbcRunner ドキュメント: http://hp.vector.co.jp/authors/VA052413/jdbcrunner/manual_ja/index.html
 * South ドキュメント: http://ae35.bitbucket.org/south-doc-ja/index.html
-* InfoPile ドキュメント: http://www.infopile.jp/html/index.html
 * Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
 * Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
