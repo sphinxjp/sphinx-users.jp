@@ -3,7 +3,7 @@ SphinxCon JP 2012 (2012/9/16)
 
 .. note::
 
-   `Japanese page is here <index.html>`_
+   :doc:`Japanese page is here <index>`
 
 
 We held the first Sphinx Conference with `PyCon JP 2012 <http://2012.pycon.jp/>`_ in last September 16.
