@@ -175,7 +175,7 @@ base.html
         Last updated on {{ sg.last_updated }}.
       {%- endif %}
       {%- if sg.show_sphinx %}
-        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a>
         {{ sg.sphinx_version }}.
       {%- endif %}
       {%- endif %}
