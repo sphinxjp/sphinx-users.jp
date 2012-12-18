@@ -53,4 +53,6 @@ Python標準のドキュメントツールに
 
 また、iPadで読むことができる、ePubフォーマットでビルドすることもできます。今後ますます活躍の場が広がっていくでしょう。
 
-参考URL: `Armin Ronacherのブログ <http://lucumr.pocoo.org/2008/3/21/sphinx-python-documentation-tool-released>`_
+参考: `Armin Ronacherのブログ` *(2012年末現在、当該エントリリンク切れ)*
+
+.. .. _`Armin Ronacherのブログ`: http://lucumr.pocoo.org/2008/3/21/sphinx-python-documentation-tool-released
