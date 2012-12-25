@@ -20,6 +20,7 @@
 .. toctree::
    :maxdepth: 1
 
+   Sphinx Advent Calendar: Day25: Sphinxの過去と、未来 <20121200_sphinx-advent-calendar/day25-sphinx-past-and-future>
    20121212_general_meeting/index
 
 * `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ (2012/11/11)
