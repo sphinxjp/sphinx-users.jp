@@ -8,7 +8,7 @@ Sphinxの過去と、未来
 :著者: `Georg Brandl`_
 :日付: 2012/12/25
 :原文: `Sphinx, past and future`__
-:翻訳: @r_rudi, @shimizukawa
+:翻訳: `@r_rudi`_, `@shimizukawa`_
 
 .. __: http://pythonic.pocoo.org/2012/12/25/sphinx-past-and-future
 .. _`Georg Brandl`: http://www.pocoo.org/team/#georg-brandl
