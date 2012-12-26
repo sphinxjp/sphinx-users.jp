@@ -118,7 +118,7 @@ Sphinx_ はいまや5歳になってるし、たぶん今までの歴史を振�
 .. page</a>; the best thing was that a couple of big projects like
 .. Django, numpy and matplotlib jumped on the train quite fast.
 
-そういうことはあるけど、Sphinxはあっという間に人気になり、私はとてもびっくりしたよ。`Sphinxを使っているプロジェクト`_ の `編集履歴`_ を見てみてよ。Django、numpy、matplotlibなどのいくつかの大きなプロジェクトはとても早い時期から導入したね。
+そういうことはあるけど、Sphinxはあっという間に人気になり、私はとてもびっくりしたよ。 `Sphinxを使っているプロジェクト`_ の `編集履歴`_ を見てみてよ。Django、numpy、matplotlibなどのいくつかの大きなプロジェクトはとても早い時期から導入したね。
 
 .. _`Sphinxを使っているプロジェクト`: http://sphinx-doc.org/examples.html
 .. _`編集履歴`: https://bitbucket.org/birkenfeld/sphinx/history-node/c9e52dbef198/EXAMPLES?page=5
