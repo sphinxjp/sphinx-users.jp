@@ -21,10 +21,7 @@ Sphinxの過去と、未来
 .. href="http://connpass.com/event/1441/">Sphinx conference</a> this
 .. year, with 70 people present.]
 
-このエントリーは日本語の `Sphinx Advent Calendar 2012`__ に参加して
-くれないかというリクエストに応えて書いています。
-彼らはすごいよ！彼らは今年Sphinx Conferenceを開催して、イベントには
-70人もの人たちが集まったんだ！
+このエントリーは日本語の `Sphinx Advent Calendar 2012`__ に参加してくれないかというリクエストに応えて書いています。彼らはすごいよ！彼らは今年Sphinx Conferenceを開催して、イベントには70人もの人たちが集まったんだ！
 
 .. __: http://connpass.com/event/1441/
 
@@ -32,8 +29,7 @@ Sphinxの過去と、未来
 .. years old, and it is probably not unreasonable to take a quick look
 .. back at the history, as well as the future.
 
-Sphinx_ はいまや5歳になってるし、たぶん今までの歴史を振り返り、将来を語
-るのに良い時期じゃないかな。
+Sphinx_ はいまや5歳になってるし、たぶん今までの歴史を振り返り、将来を語るのに良い時期じゃないかな。
 
 .. _Sphinx: http://sphinx-doc.org/
 
@@ -47,13 +43,7 @@ Sphinx_ はいまや5歳になってるし、たぶん今までの歴史を振�
 .. documentation -- although we always stressed we'd accept any form of
 .. text. 
 
-このプロジェクトは2007年前半のいつ頃かに始まった。 `この投稿`__ は私
-がPythonメーリングリストで見つけた中で一番古い。この時、Pythonのドキュ
-メント作成のためのソースはLaTeXで書かれていた。私は科学的な文章を書
-くときには絶対LaTeXを使うぐらい好きだけど、その時(今もだけど)思ったのは、
-LaTeXはコードのドキュメントを書くには適していないってこと。あれは明らかに
-マークアップ言語ではないし、ドキュメントへの協力を躊躇させてしまう。そ
-れで我々はいつもいろんな形式のテキストを受け取るのに苦しんでいたんだ。
+このプロジェクトは2007年前半のいつ頃かに始まった。 `この投稿`__ は私がPythonメーリングリストで見つけた中で一番古い。この時、Pythonのドキュメント作成のためのソースはLaTeXで書かれていた。私は科学的な文章を書くときには絶対LaTeXを使うぐらい好きだけど、その時(今もだけど)思ったのは、LaTeXはコードのドキュメントを書くには適していないってこと。あれは明らかにマークアップ言語ではないし、ドキュメントへの協力を躊躇させてしまう。それで我々はいつもいろんな形式のテキストを受け取るのに苦しんでいたんだ。
 
 .. __: http://mail.python.org/pipermail/doc-sig/2007-May/003606.html
 
@@ -64,11 +54,7 @@ LaTeXはコードのドキュメントを書くには適していないってこ
 .. 4-letter language, which is not something a Python developer relishes
 .. in hacking in).
 
-また、そのソースは簡単には使えなかったし、HTMLページ(しかもそのHTMLペー
-ジにはほとんどのユーザにエラーが出ていた)からドキュメントソース中のファ
-イルへのマッピングは分かりにくかった。あ、そのときソースからHTMLに変換
-するのに使っていたツールチェインについては聞かないで。(これはPython使い
-がハックしたいと思わない例の4文字の言語と密接に関連してた)
+また、そのソースは簡単には使えなかったし、HTMLページ(しかもそのHTMLページにはほとんどのユーザにエラーが出ていた)からドキュメントソース中のファイルへのマッピングは分かりにくかった。あ、そのときソースからHTMLに変換するのに使っていたツールチェインについては聞かないで。(これはPython使いがハックしたいと思わない例の4文字の言語と密接に関連してた)
 
 .. <p>My code sought to change this, using the already somewhat established reStructuredText and its implementation "docutils" as the
 .. basis.  reST is maybe not the prettiest markup language out there, but at the time (and even more today) it fulfilled several requirements:
@@ -79,10 +65,7 @@ LaTeXはコードのドキュメントを書くには適していないってこ
 .. <li>a strong bond to Python (reST is specified as markup language in several PEPs)
 .. </ul>
 
-私は、その頃一部で使われ始めていたreStructuredTextとその実装の「docutils」
-を基盤としたコードを書いて、この状況を変えようとしていた。
-reSTはたぶん一番きれいなマークアップ言語ではないだろうけど、その時は
-(そして今も)いくつかの要求を満たしていたんだ。
+私は、その頃一部で使われ始めていたreStructuredTextとその実装の「docutils」を基盤としたコードを書いて、この状況を変えようとしていた。reSTはたぶん一番きれいなマークアップ言語ではないだろうけど、その時は(そして今も)いくつかの要求を満たしていたんだ。
 
 - 軽量なマークアップ(シンプルで、読むのに「邪魔」になる文字がない)
 - 簡単に拡張できる (codeでもマークアップでも)
@@ -98,13 +81,7 @@ reSTはたぶん一番きれいなマークアップ言語ではないだろう�
 .. story...)  Some features were still missing, and some took a long time
 .. to finally get implemented, such as chapter numbering.
 
-新しいフォーマット(それと Armin_ が作った新しい「グリーンな」デザイン)
-はたくさんの「+1」を受け取り、新しいツールチェインがPython-devで
-受け入れられた。それで、8月に私はPythonドキュメントをすべて変換したんだ。
-(ところで、あれは初期のPython 3000の作業をしてる真っ最中だったんだ。
-これに関してはまた別の興味をそそられる物語があってね…)いくつかの機能は
-まだなかったし、チャプター番号の自動採番とか実装に長い時間がかかった機能
-もあるけどね。
+新しいフォーマット(それと Armin_ が作った新しい「グリーンな」デザイン)はたくさんの「+1」を受け取り、新しいツールチェインがPython-devで受け入れられた。それで、8月に私はPythonドキュメントをすべて変換したんだ。(ところで、あれは初期のPython 3000の作業をしてる真っ最中だったんだ。これに関してはまた別の興味をそそられる物語があってね…)いくつかの機能はまだなかったし、チャプター番号の自動採番とか実装に長い時間がかかった機能もあるけどね。
 
 .. _Armin: http://lucumr.pocoo.org/
 
@@ -115,12 +92,7 @@ reSTはたぶん一番きれいなマークアップ言語ではないだろう�
 .. people actually <i>were</i> using.  If you still remember, let me
 .. know!)
 
-こうしてPythonは素敵で輝いている新しいドキュメンテーションツールを手に入れ、
-たくさんの人が「うちでも使える？」って聞いてきた。私はそんな反応があるとは
-思ってもなかった。なんでかというと「古いLaTeXシステム」は公開されていたけれ
-ど、誰もそれを使っているようには見えなかったからね [1]_ 。
-(事実、今思い返してみても、誰がLaTeXシステムを使って **いた** か本当に
-思い出せないよ。もし覚えていたら教えてね！)
+こうしてPythonは素敵で輝いている新しいドキュメンテーションツールを手に入れ、たくさんの人が「うちでも使える？」って聞いてきた。私はそんな反応があるとは思ってもなかった。なんでかというと「古いLaTeXシステム」は公開されていたけれど、誰もそれを使っているようには見えなかったからね [1]_ 。(事実、今思い返してみても、誰がLaTeXシステムを使って **いた** か本当に思い出せないよ。もし覚えていたら教えてね！)
 
 .. [1] 訳注: ドキュメントを書きたがっている人がいるとは思っていなかった
 
@@ -134,14 +106,7 @@ reSTはたぶん一番きれいなマークアップ言語ではないだろう�
 .. since used and which are great projects.  (Amusingly, the latter also
 .. uses an "eye of Horus" logo.  No, I didn't know about this then.)
 
-それでも、Pythonicでドキュメント変換を簡単にしたシステムは、良いものを
-作ったように見えたんだ。すぐにSphinxという名前をつけたプロジェクトが誕
-生した。今は、他で使われていないもっと良い名前を見つけたいと願ってるけ
-ど、その時はpython.orgのWebサイトで使っている "Pyramid" システムとかけ
-てたんだ。 `CMU Sphinx`_ と `Sphinx search`_ は両方共私は使ったことがあるし、
-どちらもすごいプロジェクトだ。彼らには謝らなければならないね。
-(おもしろいことに、Sphinx searchも「ホルスの目」のロゴを使ってるんだ。
-いや、私はその時ほんとにそのことを知らなかったんだよ)
+それでも、Pythonicでドキュメント変換を簡単にしたシステムは、良いものを作ったように見えたんだ。すぐにSphinxという名前をつけたプロジェクトが誕生した。今は、他で使われていないもっと良い名前を見つけたいと願ってるけど、その時はpython.orgのWebサイトで使っている "Pyramid" システムとかけてたんだ。 `CMU Sphinx`_ と `Sphinx search`_ は両方共私は使ったことがあるし、どちらもすごいプロジェクトだ。彼らには謝らなければならないね。(おもしろいことに、Sphinx searchも「ホルスの目」のロゴを使ってるんだ。いや、私はその時ほんとにそのことを知らなかったんだよ)
 
 .. _`CMU Sphinx`: http://cmusphinx.sourceforge.net/
 .. _`Sphinx search`: http://sphinxsearch.com/
@@ -153,9 +118,7 @@ reSTはたぶん一番きれいなマークアップ言語ではないだろう�
 .. page</a>; the best thing was that a couple of big projects like
 .. Django, numpy and matplotlib jumped on the train quite fast.
 
-そういうことはあるけど、Sphinxはあっという間に人気になり、私はとてもびっくりしたよ。
-`Sphinxを使っているプロジェクト`_ の `編集履歴`_ を見てみてよ。Django、numpy、
-matplotlibなどのいくつかの大きなプロジェクトはとても早い時期から導入したね。
+そういうことはあるけど、Sphinxはあっという間に人気になり、私はとてもびっくりしたよ。`Sphinxを使っているプロジェクト`_ の `編集履歴`_ を見てみてよ。Django、numpy、matplotlibなどのいくつかの大きなプロジェクトはとても早い時期から導入したね。
 
 .. _`Sphinxを使っているプロジェクト`: http://sphinx-doc.org/examples.html
 .. _`編集履歴`: https://bitbucket.org/birkenfeld/sphinx/history-node/c9e52dbef198/EXAMPLES?page=5
@@ -177,19 +140,7 @@ matplotlibなどのいくつかの大きなプロジェクトはとても早い�
 .. comfortable putting into your source files.  That's why Python does it
 .. that way.
 
-コードベースをPython用に完全に合わせていたので、全部のPython固有
-のコードやハードコード文字列を取り除くのにはかなり時間がかかったよ。で
-も、一旦その作業が終わると、拡張機能を素早く実装できるようになったんだ。
-Pythonが使っていないけど他ので使っている一番大きな機能は autodoc_ だね。
-私は、autodocはドキュメントの *自動生成* と *手書き* との間のほぼ完璧な
-バランスを取れていると思っているから、とても大事な機能だね。
-自動生成されたものは大抵醜い獣となり、すでに良く知っているソフトウェア
-でなければ理解できない程度になる。
-チュートリアルはソースコードの中にいれたくないから、置き場所がない。
-手書きのドキュメントは書くのが退屈で山のように書く必要があるけれど、
-大体の場合これがあるとドキュメントが読みやすくて分かりやすくなるから、
-個別の解説文はソースコードの中に入れられるようになる。
-だからPythonはこの方法を取っているんだ。
+コードベースをPython用に完全に合わせていたので、全部のPython固有のコードやハードコード文字列を取り除くのにはかなり時間がかかったよ。でも、一旦その作業が終わると、拡張機能を素早く実装できるようになったんだ。Pythonが使っていないけど他ので使っている一番大きな機能は autodoc_ だね。私は、autodocはドキュメントの *自動生成* と *手書き* との間のほぼ完璧なバランスを取れていると思っているから、とても大事な機能だね。自動生成されたものは大抵醜い獣となり、すでに良く知っているソフトウェアでなければ理解できない程度になる。チュートリアルはソースコードの中にいれたくないから、置き場所がない。手書きのドキュメントは書くのが退屈で山のように書く必要があるけれど、大体の場合これがあるとドキュメントが読みやすくて分かりやすくなるから、個別の解説文はソースコードの中に入れられるようになる。だからPythonはこの方法を取っているんだ。
 
 .. _autodoc: http://sphinx-doc.org/ext/autodoc.html
 
@@ -199,10 +150,7 @@ Pythonが使っていないけど他ので使っている一番大きな機能�
 .. from a logical point of view, not an implementation point of view.
 .. Then you include documentation of the API items from docstrings.
 
-autodocは理にかなってると思えるこれら両方の様式を兼ね備えている。ドキュメ
-ントの全構造を手で書き、必要に応じて解説文を書き、実装の観点からではな
-く論理的な観点からAPIの説明を分かりやすく並べ変える。それから、
-各APIのdocstringをドキュメントに埋め込む
+autodocは理にかなってると思えるこれら両方の様式を兼ね備えている。ドキュメントの全構造を手で書き、必要に応じて解説文を書き、実装の観点からではなく論理的な観点からAPIの説明を分かりやすく並べ変える。それから、各APIのdocstringをドキュメントに埋め込む
 
 
 .. <p>Other than autodoc, lots of other features were added over the years.  The highlights are, in no special order:
@@ -214,8 +162,7 @@ autodocは理にかなってると思えるこれら両方の様式を兼ね備�
 .. <li>Support for more output formats, such as Texinfo and Epub
 .. </ul>
 
-この何年かでautodocの他に、たくさんの機能が追加された。
-コードハイライトは特別な機能ではなくなったね。
+この何年かでautodocの他に、たくさんの機能が追加された。コードハイライトは特別な機能ではなくなったね。
 
 - intersphinx_ で複数のドキュメントをつなぐ
 - doctest_ を含めて、Sphinxから実行できるように
@@ -236,10 +183,7 @@ autodocは理にかなってると思えるこれら両方の様式を兼ね備�
 .. the reach of Sphinx to languages other than Python.  As can be
 .. expected, we have not taken over the whole world ... yet :)
 
-これまでのマイルストーンは `ここ`_ で見れるよ。「大きな」 1.0リリースは
-2010年に domain_ の追加とともに行われた。
-domainはPython以外の言語へとSphinxの範囲を広げたんだ。でも期待したようには
-世界全体を取れていない… まだ、ね :)
+これまでのマイルストーンは `ここ`_ で見れるよ。「大きな」 1.0リリースは2010年に domain_ の追加とともに行われた。domainはPython以外の言語へとSphinxの範囲を広げたんだ。でも期待したようには世界全体を取れていない… まだ、ね :)
 
 .. _`ここ`: http://sphinx-doc.org/changes.html
 .. _domain: http://sphinx-doc.org/domains.html
@@ -252,12 +196,7 @@ domainはPython以外の言語へとSphinxの範囲を広げたんだ。でも�
 .. requests.  And with my graduate studies beginning, I found myself with
 .. less and less time to master that mountain of work.
 
-最近までSphinxはわりと独裁的に開発されていた。あ、それまでも多くの貢献が
-あったんだよ！2010年には、Sphinxにサマーオブコード学生達が何人かやってきて
-Python 3の移植、国際化、Webアプリケーションインタフェースといった機能を
-開発してくれたんだ。でも、最終的には私は全ての修正やプルリクエストに目を通し
-てきた。でも、私の大学院生活が始まった時、大量のやるべき事の前に、自分の
-人生がとても短い時間でしかないことが分かったんだ。
+最近までSphinxはわりと独裁的に開発されていた。あ、それまでも多くの貢献があったんだよ！2010年には、Sphinxにサマーオブコード学生達が何人かやってきてPython 3の移植、国際化、Webアプリケーションインタフェースといった機能を開発してくれたんだ。でも、最終的には私は全ての修正やプルリクエストに目を通してきた。でも、私の大学院生活が始まった時、大量のやるべき事の前に、自分の人生がとても短い時間でしかないことが分かったんだ。
 
 .. <p>Therefore, this year we formed a team of developers working on the
 .. future of Sphinx.  So far, the push privileges have been given to
@@ -272,8 +211,7 @@ Python 3の移植、国際化、Webアプリケーションインタフェース
 .. <li>Takayuki Shimizukawa
 .. </ul>
 
-こういった事があって、今年、Sphinxの未来を作っていく開発者のチームを
-編成したんだ。これまでのところ、以下の人たちにpush権限を与えている。
+こういった事があって、今年、Sphinxの未来を作っていく開発者のチームを編成したんだ。これまでのところ、以下の人たちにpush権限を与えている。
 
 - Ervin Hegedüs
 - Jon Waltman
@@ -293,11 +231,7 @@ Python 3の移植、国際化、Webアプリケーションインタフェース
 .. Since the formation of the development team, a lot has moved and the
 .. 1.2 release with mostly bug fixes and a few new features is very near.
 
-私は彼ら全員にとても感謝しています。また、新しい `sphinx-dev ML`_
-を開発者の連携のために立ち上げ、それまでその名前で利用者向けのサポートを
-行っていたMLを `sphinx-users ML`_ に移した。この開発者チームの編成により
-物事が動き始め、たくさんのバグといくつかの新機能を搭載した1.2がもうすぐ
-リリースされることになった。
+私は彼ら全員にとても感謝しています。また、新しい `sphinx-dev ML`_ を開発者の連携のために立ち上げ、それまでその名前で利用者向けのサポートを行っていたMLを `sphinx-users ML`_ に移した。この開発者チームの編成により物事が動き始め、たくさんのバグといくつかの新機能を搭載した1.2がもうすぐリリースされることになった。
 
 .. _`sphinx-dev ML`: http://groups.google.com/group/sphinx-dev/
 .. _`sphinx-users ML`: http://groups.google.com/group/sphinx-users/
@@ -306,9 +240,7 @@ Python 3の移植、国際化、Webアプリケーションインタフェース
 .. there are always some things missing.  Well, these are my and the
 .. team's thoughts about the future development:
 
-これからどうするのかって？私は機能的には十分だと思っているけど、いつだって
-なにかしら不足はあるものだね。そう、私と開発者チームはこれからの開発
-でこんなことを考えている。
+これからどうするのかって？私は機能的には十分だと思っているけど、いつだってなにかしら不足はあるものだね。そう、私と開発者チームはこれからの開発でこんなことを考えている。
 
 .. <ul>
 .. <li>Our version of fully automatic doc generation, sphinx-apidoc, is
@@ -324,19 +256,11 @@ Python 3の移植、国際化、Webアプリケーションインタフェース
 .. like to merge these features, which at the moment use incompatible markup.
 .. </ul>
 
-- 私が完全な自動化をあんまり好きではないため、自動ドキュメント生成の
-  sphinx-apidocはそんなに頭が良くない。でも、他の人は興味があると思
-  う。
-- Autodocはもっとデバッグが簡単になるべき。例えば、中間生成されて
-  いるreSTにアクセスできるべき。
-- 国際化機能はそんなに広く使われていない。おそらく実装にいくつかの
-  欠点がまだあるから。我々は欠点を修正し、できる限り多くの言語に
-  Sphinx自身のドキュメントを翻訳する事で、良い例を作っていきたい。
-- Webアプリケーションサポートはもっと簡単に使えるようになるべき。
-  例えばコメントを含めたりユーザーからの提案を簡単にしたり。
-- docutilsは数式やコードハイライトなど、Sphinxが開拓してきた多くの機能
-  をサポートしようと成長してきた。私はこういった、違うマークアップで
-  同じ機能を提供している部分を統合したいと思っているよ。
+- 私が完全な自動化をあんまり好きではないため、自動ドキュメント生成のsphinx-apidocはそんなに頭が良くない。でも、他の人は興味があると思う。
+- Autodocはもっとデバッグが簡単になるべき。例えば、中間生成されているreSTにアクセスできるべき。
+- 国際化機能はそんなに広く使われていない。おそらく実装にいくつかの欠点がまだあるから。我々は欠点を修正し、できる限り多くの言語にSphinx自身のドキュメントを翻訳する事で、良い例を作っていきたい。
+- Webアプリケーションサポートはもっと簡単に使えるようになるべき。例えばコメントを含めたりユーザーからの提案を簡単にしたり。
+- docutilsは数式やコードハイライトなど、Sphinxが開拓してきた多くの機能をサポートしようと成長してきた。私はこういった、違うマークアップで同じ機能を提供している部分を統合したいと思っているよ。
 
 .. <p>That's it for now.  Merry Christmas!
 
