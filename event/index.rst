@@ -11,20 +11,26 @@
 
    20130223_sphinxconjp/index
 
+* `Sphinx+翻訳 Hack-a-thon 2013.1 <http://connpass.com/event/1564/>`_ (2013/1/27)
 
 2012年
 ------
-
-.. * `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ (2012/12/16)
 
 .. toctree::
    :maxdepth: 1
 
    Sphinx Advent Calendar 2012, Day25: Sphinxの過去と、未来 <20121200_sphinx-advent-calendar/day25-sphinx-past-and-future>
+
+* `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ (2012/12/16)
+* `Sphinx Advent Calendar 2012 <http://connpass.com/event/1441/>`_ (2012/12/1 - 12/25)
+
+.. toctree::
+   :maxdepth: 1
+
    20121212_general_meeting/index
 
+* `Sphinxハンズオン#4 <http://connpass.com/event/1315/>`_ (2012/11/11)
 * `Sphinx+翻訳 Hack-a-thon 2012.11 <http://connpass.com/event/1237/>`_ (2012/11/11)
-
 * `Sphinx+翻訳 Hack-a-thon 2012.10 <http://connpass.com/event/1046/>`_ (2012/10/13)
 
 .. toctree::

@@ -18,7 +18,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 * 2013年1月27日(日) に `Sphinx+翻訳 Hack-a-thon 2013.1 <http://connpass.com/event/1564/>`_ を開催します。
 
-* 2012年12月1日から25日まで実施した `Sphinx アドベントカレンダー 2012 <http://connpass.com/event/1441/>`_ は無事完走しました！ありがとうございました。
+* 2012年12月1日から25日まで実施した `Sphinx Advent Calendar 2012 <http://connpass.com/event/1441/>`_ は無事完走しました！ありがとうございました。
 
 * 2012年12月12日(水) に開催した :doc:`event/20121212_general_meeting/index` のレポートを掲載しました。
 
