@@ -13,5 +13,6 @@ Sphinxでは(がんばれば)対象となる言語を増やすこともできま
 
 .. toctree::
 
+   basic
    create
 
