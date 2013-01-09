@@ -1,5 +1,10 @@
+====================
 ドメインの処理の流れ
 ====================
+
+:date: 2013/01/01
+:last modified: 2013/01/09
+:author: 渋川よしき
 
 1. ドメインの登録
 
@@ -71,9 +76,27 @@
 
   SphinxのPythonドメインでは、メソッド説明を書く時に、 ``.. py:method:: ClassName#methodName`` という名前でも書けますし、 ``.. py:class:: ClassName`` ディレクティブを書いて、その中に ``.. py:method:: methodName`` と書くこともできます。どちらの場合も同じロール名で参照できる必要があるため、文脈情報を利用して、完全修飾名を作ります。 ``self.env.temp_data`` でソースを検索してみてください。登録と情報取得はそれほど難しくはありません。
 
+  ディレクティブの完全修飾名を作るのに、ディレクティブのネスト情報を参照する必要があるかもしれません。ディレクティブはネストされたとき、出るときに :py:meth:`before_content` と :py:meth:`after_content` が呼ばれるので、この中でスタックを自前で記録していけばさまざまなことができます。直前の親の型がルールに従ってないとNGなどもできると思います。 ``names`` に関してはこのセクションの最後で説明しています。
+
+  .. code-block:: py
+
+    def before_content(self):
+        if self.names:
+            self.env.temp_data.setdefault('rb:directivenest', []).append(self.names[0][0])
+
+    def after_content(self):
+        if 'db:columnfamily' in self.env.temp_data and self.names:
+            self.env.temp_data['rb:directivenest'].pop()
+
 * タグを追加して、情報を整形する(135行目〜)
 
   Sphinxの ``addnodes`` モジュールの関数を利用して、ドキュメントを整形します。返り値を最初に書きたい、後に書きたいなどはここを調整することで変更することができます。
+
+* 最後に、完全修飾名と、明示的に付与されたプリフィックス(なければ空文字でOK)を ``return`` 返す
+
+  例えば、 ``.. py:function:: modulename.function`` と書かれれば、 ``'modulename.'`` がプリフィックスです。
+  ここで返した値は ``self.names`` に格納されるので、あとで参照できます。
+
 
 ロールの実装
 ============
