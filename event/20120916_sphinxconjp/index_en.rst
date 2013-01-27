@@ -55,12 +55,12 @@ We had 7 sessions in SphinxCon, and slides and videos are in Sessions_ section.
    - - 15:15 - 15:40 (25min)
      - |tk0miya|
      - Takeshi Komiya (@tk0miya)
-     - :ref:`session-16-1515-Room452-ja`
+     - :ref:`session-16-1515-room452-en`
 
    - - 15:40 - 16:00 (20min)
      - |r_rudi|
      - Shirou (@r_rudi)
-     - :ref:`session-16-1540-Room452-ja`
+     - :ref:`session-16-1540-room452-en`
 
    - - 16:00 - 16:45 (45min)
      -
@@ -70,12 +70,12 @@ We had 7 sessions in SphinxCon, and slides and videos are in Sessions_ section.
    - - 16:45 - 17:10 (25min)
      - |shkumagai|
      - @shkumagai
-     - :ref:`session-16-1645-Room452-ja`
+     - :ref:`session-16-1645-room452-en`
 
    - - 17:10 - 17:35 (25min)
      - |shimizukawa|
      - Takayuki Shimizukawa (@shimizukawa)
-     - :ref:`session-16-1710-Room452-ja`
+     - :ref:`session-16-1710-room452-en`
 
    - - 17:35 - 17:45 (10min)
      -
@@ -85,17 +85,17 @@ We had 7 sessions in SphinxCon, and slides and videos are in Sessions_ section.
    - - 17:45 - 18:00 (15min)
      - |usaturn|
      - @usaturn
-     - :ref:`session-16-1745-Room452-ja`
+     - :ref:`session-16-1745-room452-en`
 
    - - 18:00 - 18:15 (15min)
      - |takanory|
      - Takanori Suzuki
-     - :ref:`session-16-1800-Room452-ja`
+     - :ref:`session-16-1800-room452-en`
 
    - - 18:15 - 18:30 (15min)
      - |hekyo|
      - @hekyou
-     - :ref:`session-16-1815-Room452-ja`
+     - :ref:`session-16-1815-room452-en`
 
 
 .. |tk0miya| image:: tk0miya.jpg
@@ -115,7 +115,7 @@ Sessions
 -----------------
 
 
-.. _session-16-1515-Room452-ja:
+.. _session-16-1515-room452-en:
 
 Documentation with Sphinx
 ######################################
@@ -142,7 +142,7 @@ I'm interested in the documentation tools. I have been developing tools and exte
    http://www.youtube.com/watch?v=YRa-eN9Chy0
 
 
-.. _session-16-1540-Room452-ja:
+.. _session-16-1540-room452-en:
 
 Explore Sphinx Extensions
 ###########################
@@ -165,7 +165,7 @@ sphinx-jp, blockdiag and etc.
    *(No Video)*
 
 
-.. _session-16-1645-Room452-ja:
+.. _session-16-1645-room452-en:
 
 Sphinx HTML Theme Creation First Steps
 #########################################
@@ -191,7 +191,7 @@ The A inc. Testing Engineer
    http://www.youtube.com/watch?v=Po4yAQQ2qLc&feature=plcp
 
 
-.. _session-16-1710-Room452-ja:
+.. _session-16-1710-room452-en:
 
 Writing a Book Using Sphinx
 ###############################
@@ -214,7 +214,7 @@ BePROUD inc. Sphinx-users.jp vice chairman. PyCon JP 2012 vice chairman. 'Expert
 :Video:
    http://www.youtube.com/watch?v=7VOJpFHnPWg&feature=plcp
 
-.. _session-16-1745-Room452-ja:
+.. _session-16-1745-room452-en:
 
 How to use Sphinx
 ####################
@@ -238,7 +238,7 @@ NetSupport inc.
    http://www.youtube.com/watch?v=SoehUIC3RKc&feature=plcp
 
 
-.. _session-16-1800-Room452-ja:
+.. _session-16-1800-room452-en:
 
 How to disperse Sphinx and reST
 ##################################
@@ -264,7 +264,7 @@ Python mini Hack-a-thon event owner.
    http://www.youtube.com/watch?v=vKuhuxcCxM0&feature=plcp
 
 
-.. _session-16-1815-Room452-ja:
+.. _session-16-1815-room452-en:
 
 docutils in sphinx
 ####################
