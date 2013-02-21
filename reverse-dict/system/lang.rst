@@ -5,7 +5,7 @@
 
 conf.pyの ``language`` を変更します。
 
-::
+.. code-block:: python
 
   language = "ja"
 

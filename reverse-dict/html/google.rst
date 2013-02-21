@@ -7,7 +7,7 @@ Google AnalyticsやGoogle Adsenceを貼りたい
 テーマにもよりますが、Google Adsenceを貼る場合サイドバーの検索部分の下
 が良いでしょう。その場合、 ``layout.html`` を以下の用に作成します。
 
-::
+.. code-block:: jinja
 
   {% extends "!layout.html" %}
   
@@ -24,7 +24,7 @@ Google AnalyticsやGoogle Adsenceを貼りたい
     既存のlayout.htmlを上書きする設定
 ``{%block sidebarsearch %}``
     サイドバーの検索を上書きするという宣言
-``{{ super()}}`` 
+``{{ super()}}``
     ベースのlayout部分を埋め込む
 ``{% endblock %}``
     block(ここではsidebarsearch)の終わり
@@ -32,7 +32,7 @@ Google AnalyticsやGoogle Adsenceを貼りたい
 Google Analyticsの場合、どこでも構いませんが、一番下の ``footer`` が良
 く使われる場所でしょう。
 
-::
+.. code-block:: jinja
 
   {% block footer %}
   {{ super() }}

@@ -35,7 +35,7 @@
 適応例
 ~~~~~~
 
-::
+.. code-block:: rst
 
   .. contents:: これは目次です
      :depth: 2

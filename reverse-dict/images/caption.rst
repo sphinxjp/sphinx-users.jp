@@ -6,7 +6,7 @@
 ``image`` は単に画像を貼るだけですが、 ``figure`` を使うことで画像の説
 明(キャプション)も定義できます。
 
-:: 
+.. code-block:: rst
 
   .. figure:: ファイル名
      :scale: 40%
@@ -17,7 +17,7 @@
 
 しかし、HTMLに書きだした場合
 
-:: 
+.. code-block:: html
 
   <p class="caption">
 

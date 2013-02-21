@@ -8,7 +8,7 @@ HTMLに出力した場合、標準ではダブルクォーテーション(")が�
 
 この変換を行わないようにするには、conf.pyの以下の設定を変更します。
 
-::
+.. code-block:: python
 
   html_use_smartypants = False
 

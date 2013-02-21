@@ -7,7 +7,7 @@ rawディレクティブを使うと、HTMLを直接記述できます。
 
 ここでは一例としてcheckboxを使ってみます。
 
-:: 
+.. code-block:: rst
 
   .. raw:: html
   
@@ -17,7 +17,7 @@ rawディレクティブを使うと、HTMLを直接記述できます。
 replaceで別ディレクティブを使うときは、replaceを記述するとエラーになり
 ます。
 
-:: 
+.. code-block:: rst
 
   .. |check| raw:: html
   

@@ -5,7 +5,7 @@ TODOを記録しておきたい
 
 ``conf.py`` に
 
-:: 
+.. code-block:: python
 
   extensions = ['sphinx.ext.todo' ]
   
@@ -14,7 +14,7 @@ TODOを記録しておきたい
   
 とtodo拡張を加えておき、TODOを書いておきたい場所に
 
-:: 
+.. code-block:: rst
 
   .. todo:: ブロック図を書く
 
@@ -22,7 +22,7 @@ TODOを記録しておきたい
 
 また、
 
-::
+.. code-block:: rst
 
   .. todolist:: 
 

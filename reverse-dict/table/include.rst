@@ -17,7 +17,7 @@ url
 encoding
     文字コードを指定する
 
-::
+.. code-block:: rst
 
   .. csv-table:: 外部ファイル読み込みサンプル
      :file: sample.csv
@@ -33,7 +33,7 @@ sample.csvの中身は以下のようなcsvファイルです。実際にはEUC-
 ``encoding`` を指定しないと、 ``Unable to decode input data.`` という
 エラーが出ます。
 
-::
+.. code-block:: csv
 
   "header","foo","bar"
   "これはEUC-JP","で書いた","CSVファイルだったりします"

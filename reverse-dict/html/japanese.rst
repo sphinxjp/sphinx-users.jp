@@ -18,9 +18,9 @@
 
 3. ``conf.py`` を以下のように書き換えます。
 
-::
+   .. code-block:: python
 
-  sys.path.insert(0, os.path.abspath('.')) # コメントを外します
-  extensions = ['japanesesupport', 'その他の拡張'] # 加えます
+      sys.path.insert(0, os.path.abspath('.')) # コメントを外します
+      extensions = ['japanesesupport', 'その他の拡張'] # 加えます
 
 
