@@ -8,3 +8,4 @@
    scale
    inline
    target
+   numbering
