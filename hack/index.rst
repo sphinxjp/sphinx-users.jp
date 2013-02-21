@@ -10,4 +10,5 @@ Sphinxハッキングガイドは、プログラマー向けのSphinx拡張開�
    :maxdepth: 2 
 
    start
+   errors
    domain/index
