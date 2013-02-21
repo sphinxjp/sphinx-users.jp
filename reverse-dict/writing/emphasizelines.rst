@@ -3,7 +3,7 @@
 
 Sphinx 1.1から導入された emphasize-lines を使います。
 
-::
+.. code-block:: rst
 
   .. code-block:: python
      :emphasize-lines: 3,5

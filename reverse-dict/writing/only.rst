@@ -12,7 +12,7 @@
 この式では ``html and (latex or draft)`` のように ``and`` や ``or`` な
 どの演算子を使えます。
 
-::
+.. code-block:: rst
 
   .. only:: html or singlehtml
   

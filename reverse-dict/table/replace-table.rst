@@ -11,7 +11,7 @@ replaceを使ってテーブルに画像を貼る
 
 まず、 ``replace`` で ``image`` を定義しておきます。
 
-::
+.. code-block:: rst
 
   .. |python| image:: ../img/python-logo-master-v3-TM.png
      :scale: 50
@@ -21,7 +21,7 @@ replaceを使ってテーブルに画像を貼る
   
 こうしておけば、 ``table`` はシンプルに記述できます。
 
-::
+.. code-block:: rst
 
   ========= ========
    Python    Ruby

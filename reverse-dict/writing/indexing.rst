@@ -5,7 +5,7 @@
 
 ``index`` を使います。
 
-:: 
+.. code-block:: rst
 
   .. index::
      single: execution; context

@@ -6,7 +6,7 @@
 conf.pyの ``exclude_patterns`` を設定します。これらのパスはソースディレ
 クトリからの相対パスです。
 
-::
+.. code-block:: python
 
   # library/xml.rstファイルを無視します
   exclude_patterns = ['library/xml.rst']

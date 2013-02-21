@@ -5,7 +5,7 @@
 
 ``note`` や ``warning`` を使います。
 
-::
+.. code-block:: rst
 
   .. note::
   

@@ -3,13 +3,13 @@
 
 ``image`` と ``replace`` を組み合わせます。
 
-:: 
+.. code-block:: rst
 
   .. |logo| image:: ../img/python.png
 
 と事前に定義しておき、
 
-::
+.. code-block:: rst
 
   文章の途中に画像を埋め込みたい場合はよくありますよね。 |logo| という感じとか
 

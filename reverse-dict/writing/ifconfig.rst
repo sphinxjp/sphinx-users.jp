@@ -10,13 +10,13 @@
 
 準備として、 ``conf.py`` のextensionsにifconfigを追加します。
 
-::
+.. code-block:: python
 
   extensions = ['sphinx.ext.ifconfig' ]
 
 こうしておいて、以下のように記述します。
 
-::
+.. code-block:: rst
 
  .. ifconfig:: version in ('0.0.1')
 
@@ -28,7 +28,7 @@
 独自の設定値を追加したい場合は ``conf.py`` ファイルにsetup関数を書き加
 え、その中で ``add_config_value()`` を使用します。
 
-::
+.. code-block:: python
 
   def setup(app):
       app.add_config_value('releaselevel', '', True)
