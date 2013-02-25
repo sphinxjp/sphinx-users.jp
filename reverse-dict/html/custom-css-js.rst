@@ -6,6 +6,7 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 2. conf.py に以下の行を追加します
 
    .. code-block:: python
+
       def setup(app):
           app.add_stylesheet('custom.css')
 
