@@ -97,6 +97,7 @@
   例えば、 ``.. py:function:: modulename.function`` と書かれれば、 ``'modulename.'`` がプリフィックスです。
   ここで返した値は ``self.names`` に格納されるので、あとで参照できます。
 
+なお、self.contents, self.optionsにオプションの値が入っています。
 
 ロールの実装
 ============
