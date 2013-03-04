@@ -2,7 +2,10 @@ SphinxCon JP 2013 Spring (2013/2/23)
 ===============================================
 
 `オープンソースカンファレンス 2013 Tokyo/Spring`_
-との併設イベントとして、SphinxCon JP 2013 Spring を 2013/2/23(土)に開催します。
+との併設イベントとして、SphinxCon JP 2013 Spring を 2013/2/23(土)に開催しました。
+
+.. contents::
+   :local:
 
 
 .. _`オープンソースカンファレンス 2013 Tokyo/Spring`: http://www.ospn.jp/osc2013-spring/
@@ -27,9 +30,9 @@ SphinxCon JP 2013 Spring (2013/2/23)
 .. _`[OpenStreetMap]`: http://osm.org/go/7Q5NCaP8O-
 
 
-.. figure:: sphinxcon-jp-2012-attendees.jpg
-
-   2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
+.. .. figure:: sphinxcon-jp-2012-attendees.jpg
+.. 
+..    2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
 
 
 開催概要
@@ -94,3 +97,62 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
    :飲食: 自由
    :途中入退場: 可
 
+
+開催報告
+---------
+
+.. figure:: photo-booth.jpg
+
+   2/22(金)のブースの様子
+
+   ブースには金曜日に40人くらいの来客がありました。
+
+.. figure:: photo-opening.jpg
+
+   2/23(土) SphinxCon 2013 オープニング
+
+   朝10時に多摩まで来る人が少なかったのが残念。
+
+.. figure:: photo-sphinx-related-books.jpg
+
+   Sphinx関連書籍、AdventCalendar2012のeBook
+
+   ブースやSphinxConに展示した書籍関連です。eBookは `Sphinx Advent Calendar 2012`_
+   の内容をSphinxでePub, mobiに変換したものを表示しています。
+
+
+* オープニング挨拶 (副会長 山田, 会長 清水川) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/6264hZI5pN8" frameborder="0" allowfullscreen></iframe>
+
+.. __: http://www.youtube.com/watch?v=6264hZI5pN8
+
+* 発表: `Sphinxで始めるドキュメント生活 2013`_ (小宮) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/vUodkdUpsiI" frameborder="0" allowfullscreen></iframe>
+
+.. _`Sphinxで始めるドキュメント生活 2013`: http://www.slideshare.net/TakeshiKomiya/sphinx-2013
+
+.. __: http://www.youtube.com/watch?v=vUodkdUpsiI
+
+* 発表: Sphin利用事例 (末広) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/j3RyrCrhpLA" frameborder="0" allowfullscreen></iframe>
+
+.. __: http://www.youtube.com/watch?v=j3RyrCrhpLA
+
+* 発表: `Sphinx 1.2 Preview`_ (清水川)[Videoなし]
+
+  .. raw:: html
+
+     <iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinx120-preview/index.html" frameborder="0"></iframe>
+
+
+.. _`Sphinx Advent Calendar 2012`: http://connpass.com/event/1441/
+.. _`Sphinx 1.2 Preview`: http://shimizukawa.bitbucket.org/sphinx120-preview/index.html
