@@ -32,6 +32,12 @@ Bitbukcet上に、 ``http://ユーザ名.bitbucket.org`` という名前でド�
 4. コミットして、Bitbucketに変更をPushします。
 5. ``http://ユーザ名.bitbucket.org`` にアクセスすると、作成したファイルが見られます。
 
+.. tip::
+
+   DirectoryIndexのように、index.htmlが無い場合に自動的にファイル一覧を表示する機能は無いので、
+   サブディレクトリに複数のドキュメントを分けて置きたい場合等は、ルートディレクトリに自分で
+   index.htmlを用意する必要があります。
+
 参考: `Free Hosting at BitBucket <http://hgtip.com/tips/beginner/2009-10-13-free-hosting-at-bitbucket/>`_
 
 
