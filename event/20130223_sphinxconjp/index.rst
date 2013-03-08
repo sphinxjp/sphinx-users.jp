@@ -139,11 +139,19 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
 
 .. __: http://www.youtube.com/watch?v=vUodkdUpsiI
 
-* 発表: Sphin利用事例 (末広) [Video__]
+* 発表: Sphin利用事例 `こんな症状によく効くSphinx`_ (末広) [Video__]
 
   .. raw:: html
 
      <iframe width="560" height="315" src="http://www.youtube.com/embed/j3RyrCrhpLA" frameborder="0" allowfullscreen></iframe>
+
+  スライド
+
+  .. raw:: html
+
+     <iframe width="558" height="418" src="http://bols.bitbucket.org/sphinx_con_2013/index.html" frameborder="0" style="border: 1px solid black;"></iframe>
+
+.. _`こんな症状によく効くSphinx`: http://bols.bitbucket.org/sphinx_con_2013/index.html
 
 .. __: http://www.youtube.com/watch?v=j3RyrCrhpLA
 
