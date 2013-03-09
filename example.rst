@@ -52,7 +52,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 内蔵テーマ
 ==========
 
-* Sphinx ドキュメント: http://sphinx-users.jp/doc10/
+* Sphinx ドキュメント: http://sphinx-users.jp/doc11/
 * Python Project Howto (日本語訳): http://www.hexacosa.net/pph_ja/
 * atig.rb ドキュメント: http://mzp.github.com/atig/index.html
 
