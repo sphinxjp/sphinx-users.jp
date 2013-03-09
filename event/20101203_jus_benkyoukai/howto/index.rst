@@ -64,7 +64,7 @@ reST = reStructuredText
 
 .. note::
 
-   http://sphinx-users.jp/doc10/rest.html
+   http://sphinx-users.jp/doc11/rest.html
 
 テキストでも見やすい形
 

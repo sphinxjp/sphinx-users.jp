@@ -1,7 +1,7 @@
 定義を書くために独自ディレクティブを追加したい
 ==============================================
 
-拡張APIの `add_object_type <http://sphinx-users.jp/doc10/ext/appapi.html#sphinx.application.Sphinx.add_object_type>`_ 関数を使って、簡単に独自のディレクティブを定義することができます。専門用語が頻繁に出てくるような技術文書で力を発揮します。
+拡張APIの `add_object_type <http://sphinx-users.jp/doc11/ext/appapi.html#sphinx.application.Sphinx.add_object_type>`_ 関数を使って、簡単に独自のディレクティブを定義することができます。専門用語が頻繁に出てくるような技術文書で力を発揮します。
 
 次のような用途で使うことができます。
 
