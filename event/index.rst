@@ -24,6 +24,9 @@
 * `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ (2012/12/16)
 * `Sphinx Advent Calendar 2012 <http://connpass.com/event/1441/>`_ (2012/12/1 - 12/25)
 
+  * :download:`epubファイル <SphinxAdventCalendar2012.epub>`
+  * :download:`mobiファイル <SphinxAdventCalendar2012.mobi>`
+
 .. toctree::
    :maxdepth: 1
 
