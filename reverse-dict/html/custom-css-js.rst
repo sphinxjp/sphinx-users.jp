@@ -16,7 +16,7 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 
 Sphinx標準テーマであれば、add_stylesheetやadd_javascriptを使ってcssやjsを追加することが出来ます。
 
-.. seealso:: http://sphinx-users.jp/doc12/ext/appapi.html#sphinx.application.Sphinx.add_stylesheet
+.. seealso:: http://docs.sphinx-users.jp/ext/appapi.html#sphinx.application.Sphinx.add_stylesheet
 
 .. note::
 
