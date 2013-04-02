@@ -57,7 +57,7 @@ https://bitbucket.org/birkenfeld/sphinx-contrib
 
 拡張機能を作成する場合は下記のものを参照することになるでしょう。
 
-* `Sphinx本体の拡張の説明 <http://sphinx-users.jp/doc11/extensions.html>`_
+* `Sphinx本体の拡張の説明 <http://sphinx-users.jp/doc12/extensions.html>`_
 * `他の人の作ったSphinx拡張 <https://bitbucket.org/birkenfeld/sphinx-contrib>`_
 * `Sphinxのソースコード <https://bitbucket.org/birkenfeld/sphinx>`_
 * `Docutilsのドキュメント及びソース <http://docutils.sourceforge.net/docs/index.html>`_

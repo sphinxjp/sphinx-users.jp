@@ -32,7 +32,7 @@ Sphinx 1.0のインストール
 ePubの設定を追加
 ================
 
-次に、 `ePubのオプション <http://sphinx-users.jp/doc11/config.html#epub>`_ を見ながら、 :file:`conf.py` にePub用の設定を追加していきます。以前のバージョンの :program:`sphinx-quickstart` でプロジェクトを作った場合には、 :file:`conf.py` にこれらのオプションの追加をしてくれないため、自分で書き加える必要があります。
+次に、 `ePubのオプション <http://sphinx-users.jp/doc12/config.html#epub>`_ を見ながら、 :file:`conf.py` にePub用の設定を追加していきます。以前のバージョンの :program:`sphinx-quickstart` でプロジェクトを作った場合には、 :file:`conf.py` にこれらのオプションの追加をしてくれないため、自分で書き加える必要があります。
 
 現在のバージョンでは、途中で「ePub用の設定を加えるか？」ということを聞いてきます。忘れずに「Y」を選択しましょう。
 
