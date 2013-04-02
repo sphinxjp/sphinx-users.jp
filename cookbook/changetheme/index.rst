@@ -21,7 +21,7 @@ Sphinxには、標準で以下の9つのテーマ [#f1]_ が用意されてい�
 * epub
 
 まずは、標準のテーマを他のテーマへ変更する方法を確認しましょう。
-詳細については `公式ドキュメント <http://sphinx-users.jp/doc12/theming.html>`_ を参照して下さい。
+詳細については `公式ドキュメント <http://docs.sphinx-users.jp/theming.html>`_ を参照して下さい。
 
 
 手順
