@@ -13,6 +13,10 @@ Sphinxが使っているreStructuredTextにはコメントアウト機能があ�
 
    Sphinxにi18n機能が入る前から利用していたワークフローです。i18n機能を利用したtipsも今後作られるでしょう。
 
+   (2013/4/2 更新)
+   `Sphinx1.2のドキュメント <http://bitbucket.org/sphinxjp/doc12>`_ 翻訳はSphinxのi18n機能を利用しています。
+   翻訳そのものは `Transifex <https://www.transifex.com/projects/p/sphinx-doc-1_2_0/>`_ で行っています。
+
 基本的なやり方
 ==============
 
