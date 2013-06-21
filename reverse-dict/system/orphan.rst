@@ -13,7 +13,7 @@ document isn't included in any toctreeという警告が出る
 
 これを解決するには、ファイルの先頭に ``orphan`` を書きます。
 
-::
+.. code-block:: rst
 
   :orphan: 
 

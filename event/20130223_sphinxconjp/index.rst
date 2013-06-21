@@ -2,7 +2,10 @@ SphinxCon JP 2013 Spring (2013/2/23)
 ===============================================
 
 `オープンソースカンファレンス 2013 Tokyo/Spring`_
-との併設イベントとして、SphinxCon JP 2013 Spring を 2013/2/23(土)に開催します。
+との併設イベントとして、SphinxCon JP 2013 Spring を 2013/2/23(土)に開催しました。
+
+.. contents::
+   :local:
 
 
 .. _`オープンソースカンファレンス 2013 Tokyo/Spring`: http://www.ospn.jp/osc2013-spring/
@@ -14,7 +17,7 @@ SphinxCon JP 2013 Spring (2013/2/23)
    :alt: SphinxCon 2013 Spring logo
 
 :日時: 2013/2/23(土) (併設のOSCは前日の22(金)も開催されます)
-:場所: `明星大学`_ 日野キャンパス 28号館
+:場所: `明星大学`_ 日野キャンパス 28号館 4F 402教室
 :参加費: 無料, `イベント参加方法`_ をご確認ください
 :交通:
    * 多摩モノレール 「中央大学・明星大学駅」から大学まで直結。会場まで徒歩6分
@@ -27,9 +30,9 @@ SphinxCon JP 2013 Spring (2013/2/23)
 .. _`[OpenStreetMap]`: http://osm.org/go/7Q5NCaP8O-
 
 
-.. figure:: sphinxcon-jp-2012-attendees.jpg
-
-   2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
+.. .. figure:: sphinxcon-jp-2012-attendees.jpg
+.. 
+..    2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
 
 
 開催概要
@@ -62,16 +65,17 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
 タイムテーブル 2013/2/23 (土)
 -------------------------------
 
-詳細は決定次第お伝えいたします
+全体(確定)
+   * 10:00 - 10:30 開会式他
+   * 15:50 - 16:00 閉会式
 
-全体
-   10:00〜15:00
+セミナー(確定)
+   * 11:30 - 12:00 Sphinxの紹介プレゼン
+   * 15:00 - 15:30 Sphinxの紹介プレゼン
 
-セミナー
-   調整中
-
-ハンズオン
-   調整中
+ハンズオン(確定)
+   * 10:30 - 11:10 ハンズオン(インストール)
+   * 13:00 - 14:30 ハンズオン(クイックスタート)
 
    :持ち物: PC
    :ネットワーク: 会場の無線LANが利用できます
@@ -79,7 +83,9 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
    :飲食: 自由
    :途中入退場: 可
 
-ハッカソン
+ハッカソン(確定)
+   * 10:30 ～ 15:30 hack-a-thon
+
    Sphinx-users.jp が毎月開催している、ディスカッションやコーディングを
    自由に行うことのできるイベントの出張版です。
    自由入退出可ですので、PC をお持ちになって一緒に Sphinx を使ってみましょう。
@@ -91,3 +97,70 @@ SphinxCon JP 2013 Spring では、セミナー・ハンズオン・ハッカソ�
    :飲食: 自由
    :途中入退場: 可
 
+
+開催報告
+---------
+
+.. figure:: photo-booth.jpg
+
+   2/22(金)のブースの様子
+
+   ブースには金曜日に40人くらいの来客がありました。
+
+.. figure:: photo-opening.jpg
+
+   2/23(土) SphinxCon 2013 オープニング
+
+   朝10時に多摩まで来る人が少なかったのが残念。
+
+.. figure:: photo-sphinx-related-books.jpg
+
+   Sphinx関連書籍、AdventCalendar2012のeBook
+
+   ブースやSphinxConに展示した書籍関連です。eBookは `Sphinx Advent Calendar 2012`_
+   の内容をSphinxでePub, mobiに変換したものを表示しています。
+
+
+* オープニング挨拶 (副会長 山田, 会長 清水川) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/6264hZI5pN8" frameborder="0" allowfullscreen></iframe>
+
+.. __: http://www.youtube.com/watch?v=6264hZI5pN8
+
+* 発表: `Sphinxで始めるドキュメント生活 2013`_ (小宮) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/vUodkdUpsiI" frameborder="0" allowfullscreen></iframe>
+
+.. _`Sphinxで始めるドキュメント生活 2013`: http://www.slideshare.net/TakeshiKomiya/sphinx-2013
+
+.. __: http://www.youtube.com/watch?v=vUodkdUpsiI
+
+* 発表: Sphin利用事例 `こんな症状によく効くSphinx`_ (末広) [Video__]
+
+  .. raw:: html
+
+     <iframe width="560" height="315" src="http://www.youtube.com/embed/j3RyrCrhpLA" frameborder="0" allowfullscreen></iframe>
+
+  スライド
+
+  .. raw:: html
+
+     <iframe width="558" height="418" src="http://bols.bitbucket.org/sphinx_con_2013/index.html" frameborder="0" style="border: 1px solid black;"></iframe>
+
+.. _`こんな症状によく効くSphinx`: http://bols.bitbucket.org/sphinx_con_2013/index.html
+
+.. __: http://www.youtube.com/watch?v=j3RyrCrhpLA
+
+* 発表: `Sphinx 1.2 Preview`_ (清水川)[Videoなし]
+
+  .. raw:: html
+
+     <iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinx120-preview/index.html" frameborder="0"></iframe>
+
+
+.. _`Sphinx Advent Calendar 2012`: http://connpass.com/event/1441/
+.. _`Sphinx 1.2 Preview`: http://shimizukawa.bitbucket.org/sphinx120-preview/index.html

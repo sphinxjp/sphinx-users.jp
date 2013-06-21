@@ -10,7 +10,7 @@ sphinx 1.1からはepub_coverをconf.pyで設定することでカバー画像�
 ファイルが設定されていない場合、画像だけとなります。なにも設定しないと、
 カバーが出力されません。
 
-例::
+.. code-block:: python
 
   epub_cover = ('_static/cover.png', 'epub-cover.html')
   epub_cover = ('_static/cover.png', '')  # HTMLなし

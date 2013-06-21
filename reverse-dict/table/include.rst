@@ -17,7 +17,7 @@ url
 encoding
     文字コードを指定する
 
-::
+.. code-block:: rst
 
   .. csv-table:: 外部ファイル読み込みサンプル
      :file: sample.csv

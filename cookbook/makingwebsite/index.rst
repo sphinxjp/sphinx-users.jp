@@ -8,7 +8,7 @@ Sphinxはテーマという形で、ドキュメントの見た目を変更す�
    オリジナルのテーマを変更する前に :doc:`../changetheme/index` を参照してください。
 
    また、既存のテーマを多少変更したい場合は、
-   `HTMLテーマのサポート <http://sphinx-users.jp/doc11/theming.html#id1>`_ の ``html_theme_options`` や
+   `HTMLテーマのサポート <http://docs.sphinx-users.jp/theming.html#id1>`_ の ``html_theme_options`` や
    :doc:`../../reverse-dict/html/custom-css-js` を参照して下さい。
 
 準備

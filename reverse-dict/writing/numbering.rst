@@ -8,7 +8,7 @@
 1 章、1.1節などのように番号を振りたい場合、 ``toctree`` に ``numberd``
 オプションを加えます。
 
-:: 
+.. code-block:: rst
 
   .. toctree::
      :maxdepth: 2

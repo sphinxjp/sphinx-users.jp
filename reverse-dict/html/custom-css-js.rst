@@ -3,7 +3,9 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 --------------------------------------------------------------------
 
 1. _static/custom.css を用意します(ファイル名は任意)。
-2. conf.py に以下の行を追加します::
+2. conf.py に以下の行を追加します
+
+   .. code-block:: python
 
       def setup(app):
           app.add_stylesheet('custom.css')
@@ -14,7 +16,7 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 
 Sphinx標準テーマであれば、add_stylesheetやadd_javascriptを使ってcssやjsを追加することが出来ます。
 
-.. seealso:: http://sphinx-users.jp/doc11/ext/appapi.html#sphinx.application.Sphinx.add_stylesheet
+.. seealso:: http://docs.sphinx-users.jp/ext/appapi.html#sphinx.application.Sphinx.add_stylesheet
 
 .. note::
 

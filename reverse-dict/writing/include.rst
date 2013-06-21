@@ -9,7 +9,7 @@
 一方、 ``literalinclude`` はその名のとおり、literalとしてそのまま読み込
 まれます。
 
-::
+.. code-block:: rst
 
   .. include:: 読み込むファイルパス
   .. literalinclude:: 読み込むファイルパス

@@ -1,5 +1,5 @@
 
-.. _images-numbering:
+.. _table-numbering:
 
 表に番号を自動で振りたい
 --------------------------------------------
@@ -16,7 +16,7 @@ http://article.gmane.org/gmane.text.docutils.user/5623 によると、
 ``raw`` ディレクティブで LaTeX コマンドの置き換えを行いつつ、
 ``label`` ロールと ``ref`` ロールで定義と参照を行うことができるとのことです。
 
-:: 
+.. code-block:: rst
 
   .. role:: ref
   

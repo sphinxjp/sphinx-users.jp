@@ -4,7 +4,7 @@
 taget オプションを使います。これにより、画像をクリックするとそのURIに飛
 ぶようになります。
 
-:: 
+.. code-block:: rst
 
   .. image:: ../img/python.png
      :target: http://python.org

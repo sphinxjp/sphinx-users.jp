@@ -16,12 +16,12 @@ scale
 heightとwidthは以下の単位を付けることができます。(例: 1cm) これらはCSS
 での定義と同じです。なにもつけない場合は ``px`` となります。
 
-:: 
+::
 
   "em", "ex", "px", "in", "cm", "mm", "pt", "pc"
 
 
-:: 
+.. code-block:: rst
 
   - scaleを使った場合
   

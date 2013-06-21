@@ -5,7 +5,7 @@ metaタグを指定したい
 
 HTML出力時にmetaタグを指定するには ``meta`` を使います。
 
-::
+.. code-block:: rst
 
   .. meta::
      :description: 説明文
@@ -29,7 +29,7 @@ Content-Typeが指定されることになります。
 
 以下のようなmetaタグが挿入されます。
 
-:: 
+.. code-block:: html
 
     <meta content="説明文" name="description" /> 
     <meta content="sphinx, rest, dictonary" name="keywords" /> 

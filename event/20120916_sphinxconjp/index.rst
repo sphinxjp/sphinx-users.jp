@@ -66,12 +66,12 @@ SphinxConでは7つの発表を行い、それぞれスライドとビデオを�
    - - 15:15 - 15:40 (25分)
      - |tk0miya|
      - 小宮 健 (@tk0miya)
-     - :ref:`session-16-1515-Room452-ja`
+     - :ref:`session-16-1515-room452-ja`
 
    - - 15:40 - 16:00 (20分)
      - |r_rudi|
      - しろう (@r_rudi)
-     - :ref:`session-16-1540-Room452-ja`
+     - :ref:`session-16-1540-room452-ja`
 
    - - 16:00 - 16:45 (45分)
      -
@@ -81,12 +81,12 @@ SphinxConでは7つの発表を行い、それぞれスライドとビデオを�
    - - 16:45 - 17:10 (25分)
      - |shkumagai|
      - @shkumagai
-     - :ref:`session-16-1645-Room452-ja`
+     - :ref:`session-16-1645-room452-ja`
 
    - - 17:10 - 17:35 (25分)
      - |shimizukawa|
      - 清水川 (@shimizukawa)
-     - :ref:`session-16-1710-Room452-ja`
+     - :ref:`session-16-1710-room452-ja`
 
    - - 17:35 - 17:45 (10分)
      -
@@ -96,17 +96,17 @@ SphinxConでは7つの発表を行い、それぞれスライドとビデオを�
    - - 17:45 - 18:00 (15分)
      - |usaturn|
      - @usaturn
-     - :ref:`session-16-1745-Room452-ja`
+     - :ref:`session-16-1745-room452-ja`
 
    - - 18:00 - 18:15 (15分)
      - |takanory|
      - 鈴木たかのり
-     - :ref:`session-16-1800-Room452-ja`
+     - :ref:`session-16-1800-room452-ja`
 
    - - 18:15 - 18:30 (15分)
      - |hekyo|
      - @hekyou
-     - :ref:`session-16-1815-Room452-ja`
+     - :ref:`session-16-1815-room452-ja`
 
 
 .. |tk0miya| image:: tk0miya.jpg
@@ -125,7 +125,7 @@ PyCon JP 2012 全体のタイムテーブルについては `プログラム - P
 -----------------
 
 
-.. _session-16-1515-Room452-ja:
+.. _session-16-1515-room452-ja:
 
 Sphinx ではじめるドキュメント生活 2012
 ######################################
@@ -154,7 +154,7 @@ blockdiag、Sphinx などといったドキュメンテーションツールに�
    http://www.youtube.com/watch?v=YRa-eN9Chy0
 
 
-.. _session-16-1540-Room452-ja:
+.. _session-16-1540-room452-ja:
 
 sphinx拡張 探訪
 ###############
@@ -177,7 +177,7 @@ sphinx-jp, blockdiagなど
    *(録画失敗)*
 
 
-.. _session-16-1645-Room452-ja:
+.. _session-16-1645-room452-ja:
 
 Sphinx HTML theme 事始め
 ########################
@@ -202,7 +202,7 @@ Shoji Kumagai
    http://www.youtube.com/watch?v=Po4yAQQ2qLc&feature=plcp
 
 
-.. _session-16-1710-Room452-ja:
+.. _session-16-1710-room452-ja:
 
 Sphinxを使って本を書こう
 ########################
@@ -226,7 +226,7 @@ BeProud所属。Sphinx-users.jp 副会長。訳書・著書「エキスパート
 :ビデオ:
    http://www.youtube.com/watch?v=7VOJpFHnPWg&feature=plcp
 
-.. _session-16-1745-Room452-ja:
+.. _session-16-1745-room452-ja:
 
 Sphinxの平凡な使い方 ～業務での利用事例～
 #########################################
@@ -251,7 +251,7 @@ Goh Yamada
    http://www.youtube.com/watch?v=SoehUIC3RKc&feature=plcp
 
 
-.. _session-16-1800-Room452-ja:
+.. _session-16-1800-room452-ja:
 
 社内でのSphinx、reSTの広め方
 ############################
@@ -277,7 +277,7 @@ Python mini Hack-a-thon の主催の一人
    http://www.youtube.com/watch?v=vKuhuxcCxM0&feature=plcp
 
 
-.. _session-16-1815-Room452-ja:
+.. _session-16-1815-room452-ja:
 
 Sphinxにおけるdocutilsの役割
 ############################

@@ -5,7 +5,7 @@
 
 ``replace`` を使います。
 
-::
+.. code-block:: rst
 
    .. |ex1| replace:: 例1
 
@@ -21,7 +21,7 @@
 ただし、複数のrstファイルに分けている場合には使えないので、別のファイル
 (例えばdefinition.txt)に ``replace`` を書いておき、
 
-::
+.. code-block:: rst
 
   .. include:: definition.txt
 
@@ -33,7 +33,7 @@ Sphinxのversion 1.0以降であれば、 ``rst_prolog`` を使う方法もあ�
 ``rst_prolog`` とは各rstファイルの先頭に追加するものを記載する変数です。
 これを利用する場合、 ``conf.py`` に以下のように書きます。
 
-::
+.. code-block:: python
 
   rst_prolog= u"""
   .. |ex1| replace:: 例1
@@ -41,7 +41,7 @@ Sphinxのversion 1.0以降であれば、 ``rst_prolog`` を使う方法もあ�
 
 あるいは、 ``include`` と組み合わせて
 
-::
+.. code-block:: python
 
   rst_prolog= u"""
   .. include:: definition.txt

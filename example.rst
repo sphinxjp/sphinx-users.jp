@@ -52,7 +52,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 内蔵テーマ
 ==========
 
-* Sphinx ドキュメント: http://sphinx-users.jp/doc10/
+* Sphinx ドキュメント: http://docs.sphinx-users.jp/
 * Python Project Howto (日本語訳): http://www.hexacosa.net/pph_ja/
 * atig.rb ドキュメント: http://mzp.github.com/atig/index.html
 
@@ -73,6 +73,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * 渋川個人ウェブサイト http://www.shibu.jp
 * 日本Symfonyユーザ会: http://docs.symfony.gr.jp/symfony2/
 * fullflex SG商品紹介ページ(株式会社アクセンス・テクノロジー): http://fullflex.accense.com/sg/
+* Chef Docs: http://docs.opscode.com/
 
 Sphinxを紹介している資料等
 ============================
