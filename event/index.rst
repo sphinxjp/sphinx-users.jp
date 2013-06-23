@@ -6,6 +6,8 @@
 2013年
 ------
 
+* `Sphinx+翻訳 Hack-a-thon 2013.7 <http://connpass.com/event/2758/>`_ (2013/7/14)
+* `granpark.rb 「今日から始めるSphinx ハンズオン」 <http://www.zusaar.com/event/817003>`_ (2013/6/21)
 * `Sphinx+翻訳 Hack-a-thon 2013.6 <http://connpass.com/event/2431/>`_ (2013/6/16)
 * `Sphinx+翻訳 Hack-a-thon 2013.5 <http://connpass.com/event/2373/>`_ (2013/5/12)
 * `Sphinx+翻訳 Hack-a-thon 2013.4 <http://connpass.com/event/2112/>`_ (2013/4/14)
