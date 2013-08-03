@@ -23,20 +23,13 @@
 2012年
 ------
 
-.. toctree::
-   :maxdepth: 1
-
-   Sphinx Advent Calendar 2012, Day25: Sphinxの過去と、未来 <20121200_sphinx-advent-calendar/day25-sphinx-past-and-future>
 
 * `Sphinx+翻訳 Hack-a-thon 2012.12 <http://connpass.com/event/1380/>`_ (2012/12/16)
-* `Sphinx Advent Calendar 2012 <http://connpass.com/event/1441/>`_ (2012/12/1 - 12/25)
-
-  * :download:`epubファイル <SphinxAdventCalendar2012.epub>`
-  * :download:`mobiファイル <SphinxAdventCalendar2012.mobi>`
 
 .. toctree::
    :maxdepth: 1
 
+   20121200_sphinx-advent-calendar/index
    20121212_general_meeting/index
 
 * `Sphinxハンズオン#4 <http://connpass.com/event/1315/>`_ (2012/11/11)
