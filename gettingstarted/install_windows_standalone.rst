@@ -33,7 +33,7 @@ Install standalone Sphinx
 
 ::
 
-  Welcome to the Sphinx 1.0.8 quickstart utility.
+  Welcome to the Sphinx 1.2b1 quickstart utility.
 
   Please enter values for the following settings (just press Enter to
   accept a default value, if one is given in brackets).
@@ -52,13 +52,13 @@ Install standalone Sphinx
 Sphinx standalone installer
 ==============================
 
-* `SphinxInstaller-1.2b1.20130715-py2.7-win32.zip`_
+* `SphinxInstaller-1.2b1.20130803-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.2b1.20130715-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2b1.20130715-py2.7-win32.zip
+.. _SphinxInstaller-1.2b1.20130803-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2b1.20130803-py2.7-win32.zip
 
 Includes::
 
-   Python: 2.7.3
+   Python: 2.7.5
 
    Sphinx: 1.2b1
 
@@ -85,7 +85,7 @@ Includes::
    nwdiag = 0.9.4
    seqdiag = 0.8.2
 
-   docutils = 0.10
+   docutils = 0.11
    funcparserlib = 0.3.6
    jinja2 = 2.7
    markupsafe = 0.18
@@ -94,7 +94,7 @@ Includes::
    pypng = 0.0.15
    webcolors = 1.4
 
-   setuptools = 0.8
+   setuptools = 0.9.8
    buildout.locallib = 0.3.0
    gp.vcsdevelop = 2.2.3
    zc.recipe.egg = 2.0.0
@@ -103,6 +103,10 @@ Includes::
 
 Release Note
 --------------
+
+* 20130803 (Sphinx-1.2b1 + Python-2.7)
+
+  * docutils-0.11, Python-2.7.5, setuptools-0.9.8 に更新
 
 * 20130715 (Sphinx-1.2b1 + Python-2.7)
 
