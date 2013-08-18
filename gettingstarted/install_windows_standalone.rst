@@ -2,6 +2,11 @@
 Windowsへのインストール(スタンドアロンインストール)
 ====================================================
 
+スタンドアロンインストーラは Python、Sphinx そしてよく利用される Sphinx 拡張群を
+ひとつにまとめた Windows 用のインストールパッケージです。
+このスタンドアロンインストーラを利用することで、いくつものパッケージを個別に入れることなく、
+Sphinx 本体と関連するコンポーネントを一度にインストールできます。
+
 スタンドアロンインストーラはみなさんの利用レポートをお待ちしております。
 レポート先はこちら :ref:`mailinglist`
 (We are looking forward to your usage reports for Standalone-installer. Earlier report is here: :ref:`mailinglist`)
