@@ -57,9 +57,9 @@ Install standalone Sphinx
 Sphinx standalone installer
 ==============================
 
-* `SphinxInstaller-1.2b1.20130803-py2.7-win32.zip`_
+* `SphinxInstaller-1.2b1.20130818-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.2b1.20130803-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2b1.20130803-py2.7-win32.zip
+.. _SphinxInstaller-1.2b1.20130818-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2b1.20130818-py2.7-win32.zip
 
 Includes::
 
@@ -100,7 +100,7 @@ Includes::
    webcolors = 1.4
 
    setuptools = 0.9.8
-   buildout.locallib = 0.3.0
+   buildout.locallib = 0.3.1
    gp.vcsdevelop = 2.2.3
    zc.recipe.egg = 2.0.0
    zc.buildout = 2.2.0
@@ -108,6 +108,10 @@ Includes::
 
 Release Note
 --------------
+
+* 20130818 (Sphinx-1.2b1 + Python-2.7)
+
+  * 同梱したPython環境内にインストール済みのeasy_installが動作しない問題を修正。
 
 * 20130803 (Sphinx-1.2b1 + Python-2.7)
 
