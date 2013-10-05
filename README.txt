@@ -11,7 +11,11 @@
    i. https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py を入手
    ii. ``python ez_setup.py`` を実行
 
-3. HTMLを生成する
+3. Sphinx-1.2以降とsphinxjpテーマをインストール
+
+   i. ``easy_install Sphinx Pillow sphinxjp.themes.sphinxjp`` を実行
+
+4. HTMLを生成する
 
    i. ``make html`` を実行
 

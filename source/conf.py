@@ -64,7 +64,7 @@ language = 'ja'
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
-exclude_trees = ['_build', '_themes']
+exclude_trees = ['_build', '_template']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -91,17 +91,18 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'sphinx-jp'
+html_theme = 'sphinxjp'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'top_image': ''
+    'hatena_star': True,
+    'hatena_star_token': '155526b156165586e5572b70458b327e4e7d6c32',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_themes']
+#html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -133,7 +134,9 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '*': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html', 'twitter.html'],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
