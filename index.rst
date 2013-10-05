@@ -1,5 +1,12 @@
 .. トップページ
 
+.. meta::
+
+   :description: Python製ドキュメンテーションビルダー、Sphinxの日本ユーザ会
+   :keywords:
+      Sphinx,スフィンクス,ドキュメンテーション,ツール,Python,
+      reStructuredText,reST
+
 Sphinx-Users.jp
 ===============
 
