@@ -185,6 +185,159 @@ http://pypi.python.org/pypi/sphinxjp.themes.trstyle/
     html_theme = 'trstyle'
 
 
+sphinxjp.themes.basicstrap
+---------------------------
+https://pypi.python.org/pypi/sphinxjp.themes.basicstrap/
+
+.. image:: img/basicstrap/default.png
+
+* インストール方法例::
+
+    easy_install sphinxjp.themes.basicstrap
+
+* conf.pyの書き換え::
+
+    extensions = ['sphinxjp.themecore']
+    html_theme = 'basicstrap'
+
+    # 下記オプションで内部テーマを変更する事が可能です。※必須ではありません
+    # また、これ以外にも細かい設定変更が可能です。
+    html_theme_options = {
+        'inner_theme': True,
+        'inner_theme_name': 'bootswatch-amelia',
+    }
+
+また、細かく設定を変更すれば、フォントサイズの変更や `Google Web Fonts <http://www.google.com/fonts>`_ の利用、 `Bootswatch <http://bootswatch.com/>`_ の各種テーマの利用ができます。
+詳しくは、 `ドキュメント <http://pythonhosted.org/sphinxjp.themes.basicstrap/>`_ や
+作者ブログ記事（ `0.2.0リリース <http://tell-k.hatenablog.com/entry/2013/02/13/005959>`_ / `0.3.0リリース <http://tell-k.hatenablog.com/entry/2013/07/06/143329>`_ ）もご覧ください。
+
+以下、利用できるテーマの一覧です。
+
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+|    bootswatch-amelia                                       |    bootswatch-cerulean                                     |    bootswatch-cosmo                                        |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+| .. figure:: img/basicstrap/bootswatch-amelia.png           | .. figure:: img/basicstrap/bootswatch-cerulean.png         | .. figure:: img/basicstrap/bootswatch-cosmo.png            |
+|    :scale: 28 %                                            |    :scale: 28 %                                            |    :scale: 28 %                                            |
+|    :alt: bootswatch-amelia                                 |    :alt: bootswatch-cerulean                               |    :alt: bootswatch-cosmo                                  |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+|    bootswatch-cyborg                                       |    bootswatch-flatly                                       |    bootswatch-journal                                      |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+| .. figure:: img/basicstrap/bootswatch-cyborg.png           | .. figure:: img/basicstrap/bootswatch-flatly.png           | .. figure:: img/basicstrap/bootswatch-journal.png          |
+|    :scale: 28 %                                            |    :scale: 28 %                                            |    :scale: 28 %                                            |
+|    :alt: bootswatch-cyborg                                 |    :alt: bootswatch-flatly                                 |    :alt: bootswatch-journal                                |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+|    bootswatch-readable                                     |    bootswatch-simplex                                      |    bootswatch-slate                                        |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+| .. figure:: img/basicstrap/bootswatch-readable.png         | .. figure:: img/basicstrap/bootswatch-simplex.png          | .. figure:: img/basicstrap/bootswatch-slate.png            |
+|    :scale: 28 %                                            |    :scale: 28 %                                            |    :scale: 28 %                                            |
+|    :alt: bootswatch-readable                               |    :alt: bootswatch-simplex                                |    :alt: bootswatch-slate                                  |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+|    bootswatch-spacelab                                     |    bootswatch-united                                       |                                                            |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+| .. figure:: img/basicstrap/bootswatch-spacelab.png         | .. figure:: img/basicstrap/bootswatch-united.png           |                                                            |
+|    :scale: 28 %                                            |    :scale: 28 %                                            |                                                            |
+|    :alt: bootswatch-spacelab                               |    :alt: bootswatch-united                                 |                                                            |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+|    bootswatch-spruce                                       |    bootswatch-superhero                                    |    geo-bootstrap                                           |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+| .. figure:: img/basicstrap/bootswatch-spruce.png           | .. figure:: img/basicstrap/bootswatch-superhero.png        | .. figure:: img/basicstrap/geo-bootstrap.png               |
+|    :scale: 28 %                                            |    :scale: 28 %                                            |    :scale: 28 %                                            |
+|    :alt: bootswatch-spruce                                 |    :alt: bootswatch-superhero                              |    :alt: geo-bootstrap                                     |
++------------------------------------------------------------+------------------------------------------------------------+------------------------------------------------------------+
+
+
+mitsuhiko / flask-sphinx-themes
+--------------------------------
+https://github.com/mitsuhiko/flask-sphinx-themes
+
+.. image:: img/flask.png
+
+* インストール方法例
+    このテーマは手動でインストールが必要です。
+
+    #. githubからソースを取得する::
+
+        git clone https://github.com/mitsuhiko/flask-sphinx-themes.git
+
+       gitについて良くわからない場合は、githubの「Download ZIP」のボタンからダウンロードしても構いません。
+
+    #. sourceフォルダ直下に「_themes」フォルダを作成し、以下のように配置する。（flask以外にflask_smallもあり）::
+
+        source/_themes/flask/theme.conf
+
+* conf.pyの書き換え::
+
+    # 出来るだけ先頭に以下を記述する。
+    sys.path.append(os.path.abspath('_themes'))
+
+    html_theme = 'flask'
+    html_theme_path = ['_themes']
+
+詳しくは、githubページのREADMEをご覧ください。
+
+
+Pylons / pylons_sphinx_theme
+-----------------------------
+https://github.com/Pylons/pylons_sphinx_theme
+
+.. image:: img/pylons.png
+
+* インストール方法例
+    このテーマは手動でインストールが必要です。
+
+    #. githubからソースを取得する::
+
+        git clone https://github.com/Pylons/pylons_sphinx_theme.git
+
+       gitについて良くわからない場合は、githubの「Download ZIP」のボタンからダウンロードしても構いません。
+
+    #. sourceフォルダ直下に「_themes」フォルダを作成し、以下のように配置する。（pylons以外にpylonsfwやpyramidもあり）
+
+        source/_themes/pylons/theme.conf
+
+
+* conf.pyの書き換え::
+
+    # 出来るだけ先頭に以下を記述する。
+    sys.path.append(os.path.abspath('_themes'))
+
+    html_theme = 'pylons'
+    html_theme_path = ['_themes']
+
+詳しくは、githubページのREADMEをご覧ください。
+
+
+kellycreativetech / proBlue
+-----------------------------
+https://github.com/kellycreativetech/proBlue
+
+.. image:: img/proBlue.png
+
+* インストール方法例
+    このテーマは手動でインストールが必要です。
+
+    #. githubからソースを取得する::
+
+        git clone https://github.com/kellycreativetech/proBlue.git
+
+       gitについて良くわからない場合は、githubの「Download ZIP」のボタンからダウンロードしても構いません。
+
+    #. sourceフォルダ直下に「_themes」フォルダを作成し、以下のように配置する。（proBlueフォルダは自分で作る）
+
+        source/_themes/proBlue/theme.conf
+
+* conf.pyの書き換え::
+
+    # 出来るだけ先頭に以下を記述する。
+    sys.path.append(os.path.abspath('_themes'))
+
+    html_theme = 'proBlue'
+    html_theme_path = ['_themes']
+
+詳しくは、githubページのREADMEをご覧ください。
+
+
+
 .. rubric:: 脚注
 
 .. [#f1] バージョン1.1.3現在。
