@@ -51,7 +51,7 @@ easy_installコマンドのインストール
 
 Pythonには ``easy-install`` という、外部ライブラリをインストールするのに便利なコマンドがあります。何かインストールしたいプログラムやライブラリがあったとすると、コマンドを一つ入力するだけで、実行するのに必要なものも一緒にダウンロードしてくれます。
 
-* http://peak.telecommunity.com/dist/ez_setup.py
+* https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 
 上記のリンクを右クリックして保存します。URLを開くと、ブラウザによってはそのままダウンロードできます。ファイルの中身が見えても、おちついて、右クリックで保存をすれば大丈夫です。
 
