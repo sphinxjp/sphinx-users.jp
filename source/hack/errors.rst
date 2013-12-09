@@ -49,7 +49,7 @@ sphinx.application.warn()を使うことで、build時に警告表示が出来�
 
 ::
 
-   Running Sphinx v1.1.3
+   Running Sphinx v1.2
    loading pickled environment... done
    WARNING: ------ Print Warning
    ------ Print Info
@@ -66,12 +66,10 @@ sphinx.application.warn()を使うことで、build時に警告表示が出来�
 
 - info
 
-があり、こちらは最後のwarningの数には含まれません。また、2013年1月に入っ
-てから
+があり、こちらは最後のwarningの数には含まれません。また、Sphinx-1.2から
 
 - verbose
 - debug
 
-と `-v` オプションが追加されました。執筆時点での1.1.3では使えませんが、
-将来のバージョンでは使えるようになると思います。
+と `-v` オプションが追加されました。
 
