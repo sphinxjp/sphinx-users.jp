@@ -23,7 +23,8 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * OpenPNE Web API 仕様書: http://www.openpne.jp/developer/webapi/ja/index.html
 * OpenSocial with OpenPNE ドキュメント: http://www.openpne.jp/developer/opensocial/ja/index.html
 * foursquare API ドキュメント: http://alphawind.org/docs/foursquare-API/
-* Python 2.6.2 ドキュメント: http://www.python.jp/doc/release/
+* Python 2.7 ドキュメント: http://docs.python.jp/2/
+* Python 3.3 ドキュメント: http://docs.python.jp/3/
 * Another Do-It-Yourself Framework: http://dev-ehren.appspot.com/another-do-it-yourself/index.html
 * まるごと rhaco！: http://media.riaf.org/marugotoRst/index.html
 * ダイナミックなモジュールシステム、OSGiを始めよう: http://kompiro.org/osgi/index.html

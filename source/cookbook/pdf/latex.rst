@@ -69,47 +69,34 @@ bittorrentを使ってダウンロードすることもできます。ダウン�
 
 .. image:: texlive.png
 
-Sphinxへ日本語PDFパッチを適用する
-=================================
 
-Sphinx(現時点の最新版 1.1.3)に打田さんが開発された `日本語 PDF まわりの修正 <http://www.python.jp/pipermail/sphinx-users/2011-November/000173.html>`_ を適用します。
+.. note::
 
-.. note:: 現在開発中の Sphinx-1.2 系では日本語 PDF パッチは適用されています。
-          そのため、1.2 以降のバージョンを利用する場合はこの作業は不要です。
-          2013/10/3 現在、β版として Sphinx-1.2b3 がリリースされています。
+   Sphinx-1.1.3へ日本語PDFパッチを適用する
 
-パッチ適用済みのSphinxをインストールする
-----------------------------------------
+   Sphinx-1.2 (2013/12/10リリース)に打田さんのパッチが取り込まれています。
+   パッチ適用は1.1.3を利用する場合のみ必要な手順です。
+   1.2を使用している場合はこの手順は不要です。
+   また、このノートで提供されているパッチは1.2よりも古いものです。
 
-もしご利用の環境にまだ Sphinx がインストールされていない場合は
-パッチ適用済みの Sphinx パッケージを利用してインストールします。
+   Sphinx-1.1.3に打田さんが開発された `日本語 PDF まわりの修正 <http://www.python.jp/pipermail/sphinx-users/2011-November/000173.html>`_ を適用します。
 
-easy_install コマンドに以下の URL を指定して Sphinx パッケージのインストールを行います。
+   インストールされているSphinx-1.1.3に打田さんの修正内容を
+   `パッチ化したもの <https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch>`_ を適用します。
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   $ easy_install https://bitbucket.org/sphinxjp/website/downloads/Sphinx-1.1.3sphinxjp-latex.tar.gz
-
-パッチを適用する
----------------- 
-
-既に Sphinx がインストールされている場合は
-打田さんの修正内容を `パッチ化したもの <https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch>`_ を
-インストール済みの Sphinx に適用します。
-
-.. code-block:: bash
-
-   $ cd /tmp
-   $ wget https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch
-   $ cd /usr/lib/pymodules/python2.6/sphinx
-   $ sudo patch -p1 < /tmp/uchida-sphinxjp-japanese-latex.patch
-   patching file sphinx/quickstart.py
-   patching file sphinx/texinputs/Makefile
-   patching file sphinx/texinputs/fncychap.sty
-   patching file sphinx/texinputs/sphinx.sty
-   Hunk #3 succeeded at 430 with fuzz 1 (offset -3 lines).
-   Hunk #4 succeeded at 502 (offset -3 lines).
-   patching file sphinx/writers/latex.py
+      $ cd /tmp
+      $ wget https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch
+      $ cd /usr/lib/pymodules/python2.6/sphinx
+      $ sudo patch -p1 < /tmp/uchida-sphinxjp-japanese-latex.patch
+      patching file sphinx/quickstart.py
+      patching file sphinx/texinputs/Makefile
+      patching file sphinx/texinputs/fncychap.sty
+      patching file sphinx/texinputs/sphinx.sty
+      Hunk #3 succeeded at 430 with fuzz 1 (offset -3 lines).
+      Hunk #4 succeeded at 502 (offset -3 lines).
+      patching file sphinx/writers/latex.py
 
 Sphinxプロジェクトの作成
 ========================

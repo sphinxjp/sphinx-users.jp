@@ -340,4 +340,4 @@ https://github.com/kellycreativetech/proBlue
 
 .. rubric:: 脚注
 
-.. [#f1] バージョン1.1.3現在。
+.. [#f1] バージョン1.2現在。
