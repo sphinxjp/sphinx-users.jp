@@ -67,13 +67,13 @@ Includes::
 
    Sphinx: 1.2
 
-   sphinxjp.themecore = 0.1.3
+   sphinxjp.themecore = 0.2.0
    sphinxjp.themes.bizstyle = 0.1.5
    sphinxjp.themes.dotted = 0.1.1
    sphinxjp.themes.htmlslide = 0.1.4
    sphinxjp.themes.impressjs = 0.1.2
-   sphinxjp.themes.s6 = 0.2.0
-   sphinxjp.themes.sphinxjp = 0.2.0
+   sphinxjp.themes.s6 = 0.3.0
+   sphinxjp.themes.sphinxjp = 0.3.0
    sphinxjp.themes.trstyle = 0.1.1
 
    sphinxcontrib-actdiag = 0.6.0
