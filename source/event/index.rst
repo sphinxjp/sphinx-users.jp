@@ -3,9 +3,22 @@
 イベント
 ========
 
+2014年
+------
+
+* `Sphinx+翻訳 Hack-a-thon 2014.1 <http://connpass.com/event/4397/>`_ (2014/1/26)
+
+
 2013年
 ------
 
+.. toctree::
+   :maxdepth: 1
+
+   20131210_general_meeting/index
+
+* `Sphinx+翻訳 Hack-a-thon 2013.12 <http://connpass.com/event/4247/>`_ (2013/12/8)
+* `Sphinx+翻訳 Hack-a-thon 2013.11 <http://connpass.com/event/3926/>`_ (2013/11/23)
 * `Sphinx+翻訳 Hack-a-thon 2013.10 <http://connpass.com/event/3490/>`_ (2013/10/12)
 * `A social gathering with Georg <http://connpass.com/event/3489/>`_ (2013/9/18)
 * Sphinxスプリント (In `PyCon APAC 開発 Sprint <http://apac-2013.pycon.jp/ja/program/sprint.html>`_ ) (2013/9/16)
