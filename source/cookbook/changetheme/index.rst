@@ -114,7 +114,16 @@ epub
 標準で提供されているテーマの他に、有志によって様々なテーマが公開されています。
 ここで紹介するサードパーティ製のテーマはPythonのパッケージ管理ツール\ :command:`easy_install`\ や\ :command:`pip`\ を用いてインストールします。
 
-標準のテーマと違い、\ ``conf.py``\ の書き換える箇所が複数になる場合があるので注意して下さい。
+.. tip::
+
+   Sphinx 1.2でsphinxjp.themecoreの機能が標準に取り込まれました。
+   そのため、1.2以降をお使いの場合はhtml_themeを書き換えるだけでテーマ
+   の変更が可能です。1.2より前をお使いの場合は、sphinxjp.themecoreをイ
+   ンストールしたうえで、以下の行を \ ``conf.py``\ に追加してください。
+
+   ::
+
+     extensions = ['sphinxjp.themecore']
 
 
 sphinxjp.themes.bizstyle
@@ -131,7 +140,6 @@ http://pypi.python.org/pypi/sphinxjp.themes.bizstyle/
 * conf.pyの書き換え::
 
     html_theme = 'bizstyle'
-    extensions = ['sphinxjp.themecore']
 
     # 下記オプションでバックグラウンドの色を変更する事が可能です。※必須ではありません
     html_theme_options = {'maincolor' : "#696969"}
@@ -149,7 +157,6 @@ http://pypi.python.org/pypi/sphinxjp.themes.dotted/
 
 * conf.pyの書き換え::
 
-   extensions = ['sphinxjp.themecore']
    html_theme = 'dotted'
 
 
@@ -165,7 +172,6 @@ http://pypi.python.org/pypi/sphinxjp.themes.sphinxjp/
 
 * conf.pyの書き換え::
 
-   extensions = ['sphinxjp.themecore']
    html_theme = 'sphinxjp'
 
 
@@ -181,7 +187,6 @@ http://pypi.python.org/pypi/sphinxjp.themes.trstyle/
 
 * conf.pyの書き換え::
 
-    extensions = ['sphinxjp.themecore']
     html_theme = 'trstyle'
 
 
@@ -197,7 +202,6 @@ https://pypi.python.org/pypi/sphinxjp.themes.basicstrap/
 
 * conf.pyの書き換え::
 
-    extensions = ['sphinxjp.themecore']
     html_theme = 'basicstrap'
 
     # 下記オプションで内部テーマを変更する事が可能です。※必須ではありません
