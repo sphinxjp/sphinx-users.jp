@@ -3,107 +3,76 @@ LaTeX経由でのPDF作成
 ====================
 
 :日時: 2010/10/10
-:作者: 渋川よしき/小宮健
-:最終更新: 2012/03/25
+:作者: 渋川よしき/小宮健/波田野裕一
+:最終更新: 2014/01/26
 
 Sphinxの標準機能に、LaTeXを経由したPDF出力が入っています。英語の文章であれば簡単に成功しますが、日本語ではスムーズに行かないところもあります。
 
 ここでは日本語ならではの情報を集約します。
 
-.. note::
-
-   この説明手順はMacOSX 11.3(64bit)、Debian/GNU Linux 6.0.3(32bit)で検証しています。
-
 .. warning::
+
    追加情報や、協力してくれる方がいらっしゃいましたら、 `Sphinx-users <http://sphinx-users.jp/howtojoin.html>`_ までご連絡ください。
 
-Sphinx で利用する LaTeX について
-================================
+Sphinx で利用する TeXディストリビューション
+=============================================
 
-Sphinx で日本語文章を書く場合は文字コードに UTF-８が利用されるため、PDF を作成する際には UTF-8 対応版の pLaTeX である必要があります。
-内部では ebb, mendex, platex, dvipdfmx の各コマンドを利用していますので、
-これらが利用できる環境を用意します。
+Sphinx で日本語文章を書く場合は文字コードに UTF-8が利用されるため、PDF を作成する際には UTF-8 対応版の pLaTeX である必要があります。
+内部では ebb, mendex, platex, dvipdfmx の各コマンドを利用していますので、これらが利用できる環境を用意します。
 
-ここでは TeX ディストリビューションである TeXLive (2011以降) を例にして説明します。
+.. ここでは TeX ディストリビューションである TeXLive (2011以降) を例にして説明します。
 
-TeXLive2011/MacTeX2011のインストール
-====================================
+.. TeXディストリビューションのインストール
+.. ========================================
 
 .. image:: texlive_web.png
 
-TeX系の処理系には色々あります(pLaTeX、tetex、xetex、pdflatexなど)が、現在活発に開発されていているのが、
-`TeXLive <http://tug.org/texlive/>`_ というディストリビューションです。
-Windows、Linux、FreeBSDなどに対応しており、環境の作りやすさを考慮して、これを使って説明をしていきます。
+.. TeX系の処理系には色々あります(pLaTeX、tetex、xetex、pdflatexなど)が、現在活発に開発されていているのが、
+.. `TeXLive <http://tug.org/texlive/>`_ というディストリビューションです。
+ここでは、Windows、OSX、Linux、FreeBSDなどに対応しており、環境の作りやすさを考慮して、 `TeXLive <http://tug.org/texlive/>`_ というディストリビューションを使って説明をしていきます。
 
 .. note::
 
-   MacOS 向けには `MacTeX <http://www.tug.org/mactex/>`_ というディストリビューションが提供されているのでこちらを利用します。
+  TeXの処理系の中には、アスキー・メディアワークスが開発を行っていて、日本語の扱いに長けたpTeX/pLaTeXがあります。
+  TeXLive2010からは、このpLaTeXも内蔵されたため、簡単に品質の高い日本語のドキュメントが作れるようになりました。
 
-TeXの処理系の中には、アスキー・メディアワークスが開発を行っていて、日本語の扱いに長けたpTeX/pLaTeXがあります。
-TeXLive2010からは、このpLaTeXも内蔵されたため、簡単に品質の高い日本語のドキュメントが作れるようになりました。
+TeXLiveのインストール
+========================================
 
-.. warning::
+.. toctree::
+   :maxdepth: 1
 
-   LinuxのパッケージやMacPortsでインストールできるTeXLiveは、今のところ2009までです。
-   この説明で使うplatexが追加されたのは2010以降になるため、もしTeXLive 2009で同じように実行したい場合には、
-   `pTeXLive <http://tutimura.ath.cx/ptexlive/>`_ を追加でインストールしてください。
+   ./latex-install-tl
+   ./latex-install-osx
+   ./latex-install-linux
+   ./latex-install-freebsd
 
-インストーラのダウンロード
---------------------------
-
-開発元が推奨しているのは、ネットワークインストールです。下記のページから、install-tl.zip (Windows用)か、install-tl-unix.tar.gzをダウンロードして、展開してください。
-
-* `TeXLive 2011のネットワークインストーラ <http://www.tug.org/texlive/acquire-netinstall.html>`_
-
-DVDイメージ(2GBある)もあります。社内から外にアクセスしにくいなどの環境でインストールする場合はこちらが良いでしょう。
-bittorrentを使ってダウンロードすることもできます。ダウンロードしたら、DVDに焼いたり、イメージファイルをマウントしてください。
-
-* `DVDイメージダウンロード <http://www.tug.org/texlive/acquire-iso.html>`_
-
-インストール
-------------
-
-プログラムを実行してインストールしてください。WindowsではGUIのインストーラが、それ以外ではコンソールのインストーラが起動しますが、使い勝手に差はありません。
-
-基本的にはデフォルトの設定のままで大丈夫です。もしインストール先を換えたい場合などは、インストーラの最初の設定画面で設定できます。
-
-.. image:: texlive.png
-
-
-.. note::
-
-   Sphinx-1.1.3へ日本語PDFパッチを適用する
-
-   Sphinx-1.2 (2013/12/10リリース)に打田さんのパッチが取り込まれています。
-   パッチ適用は1.1.3を利用する場合のみ必要な手順です。
-   1.2を使用している場合はこの手順は不要です。
-   また、このノートで提供されているパッチは1.2よりも古いものです。
-
-   Sphinx-1.1.3に打田さんが開発された `日本語 PDF まわりの修正 <http://www.python.jp/pipermail/sphinx-users/2011-November/000173.html>`_ を適用します。
-
-   インストールされているSphinx-1.1.3に打田さんの修正内容を
-   `パッチ化したもの <https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch>`_ を適用します。
-
-   .. code-block:: bash
-
-      $ cd /tmp
-      $ wget https://bitbucket.org/sphinxjp/website/downloads/uchida-sphinxjp-japanese-latex.patch
-      $ cd /usr/lib/pymodules/python2.6/sphinx
-      $ sudo patch -p1 < /tmp/uchida-sphinxjp-japanese-latex.patch
-      patching file sphinx/quickstart.py
-      patching file sphinx/texinputs/Makefile
-      patching file sphinx/texinputs/fncychap.sty
-      patching file sphinx/texinputs/sphinx.sty
-      Hunk #3 succeeded at 430 with fuzz 1 (offset -3 lines).
-      Hunk #4 succeeded at 502 (offset -3 lines).
-      patching file sphinx/writers/latex.py
-
-Sphinxプロジェクトの作成
+Sphinxへのパッチ適用
 ========================
 
-日本語PDFパッチを適用したあと、 `sphinx-quickstart` コマンドでSphinxプロジェクトを作成します。
-もし既存のプロジェクトがある場合でも、新規にプロジェクトを作成して
-rst ファイルやテンプレート、静的ファイルなどを上書きコピーしてください。
+Sphinx1.1.3については、打田さんのパッチを適用することで、日本語 LaTeX 経由でのPDF出力を改善することができます。
+
+.. toctree::
+   :maxdepth: 1
+
+   ./latex-sphinx113
+
+.. note::
+
+   Sphinx-1.2 (2013/12/10リリース)に打田さんのパッチが取り込まれています。
+   1.2以降を使用している場合はこの手順は不要です。
+
+Sphinxプロジェクトの作成/再作成
+================================
+
+`sphinx-quickstart` コマンドでSphinxプロジェクトを作成します。
+
+もし既存のプロジェクトがある場合でも、新規にプロジェクトを作成して rst ファイルやテンプレート、静的ファイルなどを上書きコピーしてください。
+これは、古いバージョンのSphinxで生成された conf.py や Makefile が 日本語出力に対応していないために上書き更新をするために行ないます。
+
+.. note::
+
+  既にindex.rstのコンテンツがある場合は、一旦退避して、sphinx-quickstart後に書き戻します。
 
 Sphinxプロジェクトの設定変更
 ============================
@@ -117,6 +86,9 @@ Sphinxプロジェクトの設定変更
 
    # LaTeX の docclass 設定
    latex_docclass = {'manual': 'jsbook'}
+
+.. note::
+  この設定をしない場合、「しおり」が作成されなかったり、文字化けすることがあります。
 
 ビルドの実行
 ============
@@ -150,7 +122,11 @@ Sphinxプロジェクトの設定変更
    pdflatex finished; the PDF files are in build/latex.
 
 お疲れ様でした！これでPDFファイルができました。
-ビルドディレクトリ配下のlatexディレクトリにPDFファイルが生成されているはずです。
+
+PDFの完成
+============
+
+ビルドディレクトリ配下のlatexディレクトリ(デフォルト設定の場合は _build/latex)にPDFファイルが生成されているはずです。
 
 .. note::
 
@@ -162,3 +138,4 @@ Sphinxプロジェクトの設定変更
 
 :2010/10/10: 初版(渋川)
 :2012/03/25: 打田さんの Sphinx パッチおよび TeXLive 2011 をベースに記事を更新
+:2014/01/26: MacPortsによるOSXへのインストール、FreeBSDへのインストールを追加し、記事を再構成&更新 (波田野)
