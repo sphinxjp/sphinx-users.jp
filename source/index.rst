@@ -21,9 +21,9 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 イベント・ニュース
 --------------------
 
-* 2013年9月 に 世界初の Sphinx をテーマにした書籍 `Sphinxをはじめよう <http://www.oreilly.co.jp/books/9784873116488/>`_ がオライリー・ジャパンより発売されました。
+最新のイベント情報については `シリーズ：Sphinx-users.jp <http://connpass.com/series/52/>`_ で確認して下さい。
 
-* 2013年3月31日(日) に `Sphinx+翻訳 Hack-a-thon 2013.3 <http://connpass.com/event/1946/>`_ を開催します。
+* 2013年9月 に 世界初の Sphinx をテーマにした書籍 `Sphinxをはじめよう <http://www.oreilly.co.jp/books/9784873116488/>`_ がオライリー・ジャパンより発売されました。
 
 * 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催しました。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
