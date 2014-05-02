@@ -6,5 +6,6 @@
 
    example
    templates
+   book_usage
 
 
