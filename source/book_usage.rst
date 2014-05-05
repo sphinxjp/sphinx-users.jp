@@ -9,8 +9,11 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
    もしも、ここに掲載していないものがありましたら、 `ここのチケット <http://bitbucket.org/sphinxjp/website/issues>`_ でご一報ください。
 
 
+* IT業界を楽しく生き抜くための「つまみぐい勉強法」: http://gihyo.jp/book/2010/978-4-7741-4259-3
 * エキスパートPythonプログラミング: http://www.amazon.co.jp/dp/4048686291/
 * アジャイルな時間管理術 ポモドーロテクニック入門: http://www.amazon.co.jp/dp/4048689525/
+* Plone 4 Book  ～プロが伝授するプロのためのオープンソース・コンテンツ・マネジメント・システム～: http://www.amazon.co.jp/dp/4903408027
 * Pythonプロフェッショナルプログラミング: http://www.amazon.co.jp/dp/4798032948/
 * Sphinxをはじめよう: http://www.oreilly.co.jp/books/9784873116488/
 * とおるメモ: http://www.amazon.co.jp/dp/B00CABL4XY
+
