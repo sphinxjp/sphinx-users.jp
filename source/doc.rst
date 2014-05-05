@@ -1,6 +1,15 @@
 発表資料
 ========
 
+2012年
+------
+
+12/21 BPStudy #64
+~~~~~~~~~~~~~~~~~
+
+* `発表資料「ドキュメントを作りたくなってしまう魔法のツール Sphinx 2012年版」 <http://www.slideshare.net/goyamada92/sphinx-is-magictool>`_
+
+
 2011年
 ------
 
@@ -8,7 +17,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `公式サイトのプログラムのページ <https://internetweek.jp/program/t3/>`_
-  
+
   ログインできるユーザのみ、資料をダウンロードできます。後日公開予定です。
 
 6/18 日本UNIXユーザ会2011年6月勉強会
@@ -35,10 +44,10 @@
 8/20 InfoTalk #20
 ~~~~~~~~~~~~~~~~~
 
-* `発表資料 <https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B8X4zWf2QEfqMDNmNzMwZWUtZjdhZS00OTcxLWIyZmEtZWM3NmFmOTIzYjMw&hl=ja>`_
+* `発表資料「Sphinxによるセマンティックな情報デザイン」 <https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B8X4zWf2QEfqMDNmNzMwZWUtZjdhZS00OTcxLWIyZmEtZWM3NmFmOTIzYjMw&hl=ja>`_
 
 2/26 BPStudy #30
 ~~~~~~~~~~~~~~~~
 
-* `発表資料 <http://tinyurl.com/yk58v48>`_
+* `発表資料「たのしいドキュメンテーション」 <http://tinyurl.com/yk58v48>`_
 
