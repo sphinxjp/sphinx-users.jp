@@ -29,6 +29,7 @@ Sphinx で日本語文章を書く場合は文字コードに UTF-8が利用さ�
 
 .. TeX系の処理系には色々あります(pLaTeX、tetex、xetex、pdflatexなど)が、現在活発に開発されていているのが、
 .. `TeXLive <http://tug.org/texlive/>`_ というディストリビューションです。
+
 ここでは、Windows、OSX、Linux、FreeBSDなどに対応しており、環境の作りやすさを考慮して、 `TeXLive <http://tug.org/texlive/>`_ というディストリビューションを使って説明をしていきます。
 
 .. note::
