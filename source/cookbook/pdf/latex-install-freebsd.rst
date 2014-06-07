@@ -1,8 +1,8 @@
 ========================================
-FreeBSDへのTeXliveインストール
+FreeBSDへのTeX liveインストール
 ========================================
 
-FreeBSDでは、/usr/ports/print/texlive-full をビルドすると TexLiveがインストールされます。
+FreeBSDでは、/usr/ports/print/texlive-full をビルドすると TeX Live がインストールされます。
 
 .. code-block:: bash
 
@@ -12,5 +12,5 @@ FreeBSDでは、/usr/ports/print/texlive-full をビルドすると TexLiveが�
 
 .. note::
 
-  2014年1月時点で、TexLive2012がインストールされました。
+  2014年1月時点で、TeX Live 2012 がインストールされました。
 
