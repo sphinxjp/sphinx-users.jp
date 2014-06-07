@@ -1,5 +1,5 @@
 =========================================================
-インストーラによるTeXLiveインストール (Windows / UNIX)
+インストーラによるTeX Liveインストール (Windows / UNIX)
 =========================================================
 
 インストーラのダウンロード
@@ -7,7 +7,7 @@
 
 開発元が推奨しているのは、ネットワークインストールです。下記のページから、install-tl.zip (Windows用)か、install-tl-unix.tar.gzをダウンロードして、展開してください。
 
-* `TeXLive のネットワークインストーラ <http://www.tug.org/texlive/acquire-netinstall.html>`_
+* `TeX Live のネットワークインストーラ <http://www.tug.org/texlive/acquire-netinstall.html>`_
 
 DVDイメージ(2GBある)もあります。社内から外にアクセスしにくいなどの環境でインストールする場合はこちらが良いでしょう。
 bittorrentを使ってダウンロードすることもできます。ダウンロードしたら、DVDに焼いたり、イメージファイルをマウントしてください。
