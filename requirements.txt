@@ -2,3 +2,4 @@ Pillow
 Sphinx
 sphinxjp.themes.sphinxjp
 boto_rsync
+sphinxcontrib.gist
