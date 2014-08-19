@@ -3,4 +3,6 @@
 .*.orig
 _build
 .*~
-
+^bin/
+^include/
+^lib/
