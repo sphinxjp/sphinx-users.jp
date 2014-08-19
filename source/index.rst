@@ -27,26 +27,6 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 * 2013年2月23日(土) に SphinxCon JP 2013 Spring を開催しました。詳しくは :doc:`event/20130223_sphinxconjp/index` を参照して下さい。
 
-* 2012年12月1日から25日まで実施した `Sphinx Advent Calendar 2012 <http://connpass.com/event/1441/>`_ は無事完走しました！ありがとうございました。
-
-* 2012年12月12日(水) に開催した :doc:`event/20121212_general_meeting/index` のレポートを掲載しました。
-
-* 2012年9月16日(日) にSphinxConJP 2012が開催されました。ご来場頂いた皆さん、ありがとうございました。当日の資料とビデオを順次公開中です。詳しくは :doc:`event/20120916_sphinxconjp/index` を参照してください。
-
-.. * 2011年11月30日(水) 16:00から :doc:`event/20111130_internetweek/index` にてSphinxに関連してドキュメンテーションについての発表を行います。
-
-* 2011年7月23日に開催した :doc:`event/20110723_artofcommunity1/index` のレポートを掲載しました。
-
-* 2011年6月18日に開催した :doc:`event/20110618_jus_benkyoukai/index` のレポートおよび資料を掲載しました。
-
-.. * 2011年6月18日(金) 15:15から、 :doc:`event/20110618_jus_benkyoukai/index` にて、 ``「ドキュメンテーションを加速するストレスフリーの作図ツール『blockdiag』」`` と題した発表を行わせていただきます。blockdiag 60%, Sphinx40%くらいの構成を予定しています。blockdiagおよびSphinxを用いた事例や活用法などについて知りたい、興味のある方はぜひご参加ください。
-
-.. * 2011年4月2日(土)か、4月9日(土)あたりに Sphinx + 翻訳 Hack-a-thon を行う予定です。会場に集まって行うか、オンラインで行うかはまだ未定ですが、日程が決まり次第メーリングリストで告知します。
-
-.. * 2011年4月2日(土) 11:00から、 :doc:`event/20110402_translating_hackathon/index` を行います。Sphinxを使ってみたい方、翻訳してみたい方、Sphinxの拡張を作ってみたい方など、興味のある方はぜひご参加ください。
-
-.. --------------
-
 
 参加方法
 --------
