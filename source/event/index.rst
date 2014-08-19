@@ -6,6 +6,11 @@
 2014年
 ------
 
+* `Sphinx Tea Night 2014.09 <http://sphinxjp.connpass.com/event/7444/>`_ (2014/9/11)
+* `Sphinx Tea Night 2014.08 <http://sphinxjp.connpass.com/event/6913/>`_ (2014/8/14)
+* `Sphinx+翻訳 Hack-a-thon 2014.7 <http://sphinxjp.connpass.com/event/6983/>`_ (2014/7/13)
+* `Sphinx Tea Night 2014.06 <http://sphinxjp.connpass.com/event/5899/>`_ (2014/6/11)
+* `Sphinx+翻訳 Hack-a-thon 2014.6 <http://sphinxjp.connpass.com/event/6502/>`_ (2014/6/7)
 * `Sphinx+翻訳 Hack-a-thon 2014.5 <http://connpass.com/event/6143/>`_ (2014/5/17)
 * `Sphinx Tea Night 2014.05 <http://connpass.com/event/5577/>`_ (2014/5/14)
 * `Sphinx+翻訳 Hack-a-thon 2014.4 <http://connpass.com/event/5679/>`_ (2014/4/26)
