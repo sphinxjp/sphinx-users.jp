@@ -2,20 +2,11 @@
 このサイトのビルド手順
 ========================
 
-1. Pythonをインストール
+1. Sphinx と関連パッケージをインストール
 
-   i. http://python.org/download/ からPython2.7を入手してインストール
+   i. ``pip install -r requiments.txt`` を実行
 
-2. easy_install コマンドをインストール
-
-   i. https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py を入手
-   ii. ``python ez_setup.py`` を実行
-
-3. Sphinx-1.2以降とsphinxjpテーマをインストール
-
-   i. ``easy_install Sphinx Pillow sphinxjp.themes.sphinxjp`` を実行
-
-4. HTMLを生成する
+2. HTMLを生成する
 
    i. ``make html`` を実行
 
