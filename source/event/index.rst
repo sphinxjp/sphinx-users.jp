@@ -39,7 +39,7 @@
    Sphinx+翻訳 Hack-a-thon 2013.11 (2013/11/23) <http://connpass.com/event/3926/>
    Sphinx+翻訳 Hack-a-thon 2013.10 (2013/10/12) <http://connpass.com/event/3490/>
    A social gathering with Georg (2013/09/18) <http://connpass.com/event/3489/>
-   SphinxスプリントIn `PyCon APAC 開発 Sprint (2013/09/16) <http://apac-2013.pycon.jp/ja/program/sprint.html>
+   SphinxスプリントIn PyCon APAC 開発 Sprint (2013/09/16) <http://apac-2013.pycon.jp/ja/program/sprint.html>
    Sphinx+翻訳 Hack-a-thon 2013.8 (2013/08/17) <http://connpass.com/event/3038/>
    Sphinx+翻訳 Hack-a-thon 2013.7 (2013/07/14) <http://connpass.com/event/2758/>
    granpark.rb 「今日から始めるSphinx ハンズオン」 (2013/06/21) <http://www.zusaar.com/event/817003>
