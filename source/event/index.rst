@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20141026_sphinxconjp/index
    Sphinxスプリント in PyCon JP 2014 (2014/09/15) <http://sphinxjp.connpass.com/event/8090/>
    Sphinx Tea Night 2014.09 (2014/09/11) <http://sphinxjp.connpass.com/event/7444/>
    Sphinx+翻訳 Hack-a-thon 2014.8 (2014/08/23) <http://sphinxjp.connpass.com/event/7703/>
