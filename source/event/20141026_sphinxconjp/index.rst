@@ -51,11 +51,18 @@ SphinxCon JP 2014 では、セミナー(発表形式)・ハンズオン(Sphinx�
 
 本イベントは、参加者/発表者ともに入場は無料です。
 
-参加は事前登録制とさせていただきます。
+参加には事前登録が必要です。
 お手数ですが以下のURLから参加登録をお願いいたします。
 
 * http://sphinxjp.connpass.com/event/8448
 
+
+発表者の募集について (Call for Paper)
+--------------------------------------
+
+発表は `こちらから申し込みいただけます`__ 。 今年のテーマ「Sphinxをはじめよう」に沿った発表の応募をお待ちしております！
+
+.. __: https://docs.google.com/forms/d/1nolep06JPEM5QwwYV25J0OArKdWThTZLzl2ZmjjVTd0/viewform
 
 タイムテーブル 2014/10/26 (日)
 -------------------------------
@@ -97,7 +104,7 @@ SphinxCon JP 2014 では、セミナー(発表形式)・ハンズオン(Sphinx�
 ..   * 17:00 - 17:20 演題5(20)
 ..   * 17:30 - 17:50 演題6(20)
 
-.. __: https://docs.google.com/spreadsheet/viewform?formkey=dFpzTU1JNU56UG9ReWNTUWpMSmJpT0E6MA#gid=0
+.. __: https://docs.google.com/forms/d/1nolep06JPEM5QwwYV25J0OArKdWThTZLzl2ZmjjVTd0/viewform
 
 
 ハッカソン(予定)
