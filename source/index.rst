@@ -25,6 +25,10 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 * 2014年10月26日(日) に SphinxCon JP 2014 を開催します。詳しくは :doc:`event/20141026_sphinxconjp/index` を参照して下さい。
 
+  .. image:: event/20141026_sphinxconjp/SphinxConJP2014-logo.png
+     :width: 75%
+     :alt: SphinCon JP 2014
+
 * 2014年9月15(月,祝) に `Sphinxスプリント in PyCon JP 2014 <http://sphinxjp.connpass.com/event/8090/>`__ を開催します。また、9月13日(土)のコミュニティーブース、14日(日)の `ポスターセッション <https://pycon.jp/2014/schedule/posters/list/>`__ に出展します。
 
 * 2013年9月 に 世界初の Sphinx をテーマにした書籍 `Sphinxをはじめよう <http://www.oreilly.co.jp/books/9784873116488/>`_ がオライリー・ジャパンより発売されました。
