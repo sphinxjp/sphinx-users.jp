@@ -28,6 +28,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
   .. image:: event/20141026_sphinxconjp/SphinxConJP2014-logo.png
      :width: 75%
      :alt: SphinCon JP 2014
+     :target: event/20141026_sphinxconjp/index.html
 
 * 2014年9月15(月,祝) に `Sphinxスプリント in PyCon JP 2014 <http://sphinxjp.connpass.com/event/8090/>`__ を開催します。また、9月13日(土)のコミュニティーブース、14日(日)の `ポスターセッション <https://pycon.jp/2014/schedule/posters/list/>`__ に出展します。
 
