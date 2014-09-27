@@ -64,6 +64,16 @@ Sphinxをまだ本格的に使っていない方にとっては、新たなド�
 
 .. __: https://docs.google.com/forms/d/1nolep06JPEM5QwwYV25J0OArKdWThTZLzl2ZmjjVTd0/viewform
 
+Sphinx Tシャツの作成、頒布について
+-----------------------------------
+SphinxCon JP チームでは SphinxCon JP 2014 の開催に合わせて Sphinx Tシャツを作成します。
+Tシャツをご希望の方は `お申込みフォーム`__ にてお申し込みをお願い致します。
+(1枚 1,000円を予定しています)
+
+お申込みは 10/12(日)まで受け付けております。
+
+.. __: https://docs.google.com/forms/d/1whOe0HP6mvL155FQKfLh-UIob4rwxVQ47hHXKL3GEYQ/viewform
+
 タイムテーブル 2014/10/26 (日)
 -------------------------------
 
