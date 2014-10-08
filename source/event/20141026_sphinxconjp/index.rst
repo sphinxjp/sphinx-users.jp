@@ -79,7 +79,7 @@ Tシャツをご希望の方は `お申込みフォーム`__ にてお申し込�
      * 14:00 - 14:25 :ref:`Welcome to Sphinx-1.3 (清水川) <sphinxconjp2014_seminar01>`
      * 14:25 - 14:50 :ref:`SIerでもSphinxを使いたい！総括 (kk_Ataka) <sphinxconjp2014_seminar02>`
      * 14:50 - 15:15 :ref:`SphinxとLaTeXで作る英文マニュアル (力武 健次) <sphinxconjp2014_seminar03>`
-     * 15:15 - 15:25 休
+     * 15:15 - 15:25 休憩
      * 15:25 - 15:50 :ref:`Markdownもはじめよう (高橋征義) <sphinxconjp2014_seminar04>`
      * 15:50 - 16:15 :ref:`Sphinx拡張 探訪 2014 (小宮 健 (@tk0miya)) <sphinxconjp2014_seminar05>`
      * 16:15 - 16:25 休憩
