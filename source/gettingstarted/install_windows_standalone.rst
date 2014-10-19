@@ -57,45 +57,45 @@ Install standalone Sphinx
 Sphinx standalone installer
 ==============================
 
-* `SphinxInstaller-1.2.20131210-py2.7-win32.zip`_
+* `SphinxInstaller-1.2.3.20141014-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.2.20131210-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.20131210-py2.7-win32.zip
+.. _SphinxInstaller-1.2.3.20141014-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.3.20141014-py2.7-win32.zip
 
 Includes::
 
-   Python: 2.7.5
+   Python: 2.7.6
 
-   Sphinx: 1.2
+   Sphinx: 1.2.3
 
    sphinxjp.themecore = 0.2.0
-   sphinxjp.themes.bizstyle = 0.1.5
-   sphinxjp.themes.dotted = 0.1.1
+   sphinxjp.themes.bizstyle = 0.1.6
+   sphinxjp.themes.dotted = 0.1.2
    sphinxjp.themes.htmlslide = 0.1.4
-   sphinxjp.themes.impressjs = 0.1.2
+   sphinxjp.themes.impressjs = 0.1.3
    sphinxjp.themes.s6 = 0.3.0
-   sphinxjp.themes.sphinxjp = 0.3.0
+   sphinxjp.themes.sphinxjp = 0.3.1
    sphinxjp.themes.trstyle = 0.1.1
 
-   sphinxcontrib-actdiag = 0.6.0
-   sphinxcontrib-blockdiag = 1.3.0
-   sphinxcontrib-nwdiag = 0.7.0
-   sphinxcontrib-seqdiag = 0.6.0
+   sphinxcontrib-actdiag = 0.7.2
+   sphinxcontrib-blockdiag = 1.4.4
+   sphinxcontrib-nwdiag = 0.8.2
+   sphinxcontrib-seqdiag = 0.7.2
 
-   blockdiag = 1.3.2
+   blockdiag = 1.4.5
    blockdiagcontrib-class = 0.1.3
    blockdiagcontrib-qb = 0.1.3
    blockdiagcontrib-square = 0.1.3
-   actdiag = 0.5.1
-   nwdiag = 1.0.0
-   seqdiag = 0.9.0
+   actdiag = 0.5.3
+   nwdiag = 1.0.3
+   seqdiag = 0.9.3
 
-   docutils = 0.11
+   docutils = 0.12
    funcparserlib = 0.3.6
-   jinja2 = 2.7.1
-   markupsafe = 0.18
-   pillow = 2.2.1
+   jinja2 = 2.7.3
+   markupsafe = 0.23
+   pillow = 2.6.1
    pygments = 1.6
-   pypng = 0.0.16
+   pypng = 0.0.17
    webcolors = 1.4
 
    setuptools = 0.9.8
@@ -105,8 +105,18 @@ Includes::
    zc.buildout = 2.2.1
 
 
+* `SphinxInstaller-1.3b1.20141014-py2.7-win32.zip`_
+
+.. _SphinxInstaller-1.3b1.20141014-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141014-py2.7-win32.zip
+
 Release Note
 --------------
+
+* 20141014
+
+  * Sphinx-1.2.3 + Python-2.7, その他同梱パッケージを更新
+  * Sphinx-1.3b1 + Python-2.7, その他同梱パッケージを更新
+
 
 * 20131210 (Sphinx-1.2 + Python-2.7)
 
