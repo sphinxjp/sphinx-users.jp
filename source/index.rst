@@ -23,6 +23,9 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <http://connpass.com/series/52/>`_ で確認して下さい。
 
+* 2014年10月21日: Sphinxnについてのインタビュー記事が掲載されました。
+  `OSSをHackしてキャリアが広がる～海外生まれのドキュメントツール『Sphinx』を開発・運営する日本人メンバーに聞く - エンジニアtype <http://engineer.typemag.jp/article/sphinx-hack>`__
+
 * 2014年10月26日(日) に SphinxCon JP 2014 を開催します。詳しくは :doc:`event/20141026_sphinxconjp/index` を参照して下さい。
 
   .. image:: event/20141026_sphinxconjp/SphinxConJP2014-logo.png
