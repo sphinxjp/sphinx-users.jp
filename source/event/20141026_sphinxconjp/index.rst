@@ -3,6 +3,12 @@ SphinxCon JP 2014 (2014/10/26)
 
 Sphinx Conferenceを開催します！ :doc:`2012年 <../20120916_sphinxconjp/index>` 、:doc:`2013年 <../20130223_sphinxconjp/index>` と、他のイベントと併催してきたSphinxカンファレンスですが、今回は単独イベントとして開催します。
 
+.. image:: SphinxConJP2014-logo.png
+   :align: center
+   :width: 580
+   :height: 93
+   :alt: SphinxCon 2014 logo
+
 すぐれたドキュメントツールである Sphinx を使って、あなたのドキュメントを書いてみませんか。 Sphinx は多くの OSS のマニュアル、リファレンスで採用されている他、 IT企業でも利用されはじめています。 ドキュメントを作りたくなってしまうとまで言われる Sphinx の魅力を皆さんにご紹介します。
 
 今年の SphinxCon JP のテーマは **Sphinxをはじめよう** です。
@@ -15,12 +21,6 @@ Sphinxをまだ本格的に使っていない方にとっては、新たなド�
 
 .. contents::
    :local:
-
-.. image:: SphinxConJP2014-logo.png
-   :align: center
-   :width: 580
-   :height: 93
-   :alt: SphinxCon 2014 logo
 
 
 開催概要
