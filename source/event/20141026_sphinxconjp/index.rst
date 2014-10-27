@@ -12,6 +12,9 @@ SphinxCon JP 2014 は多くの方にご参加いただき、盛況のうちに�
    :height: 93
    :alt: SphinxCon 2014 logo
 
+.. contents::
+   :local:
+
 開催概要
 ----------
 
@@ -22,10 +25,6 @@ SphinxCon JP 2014 は多くの方にご参加いただき、盛況のうちに�
 Sphinxをまだ本格的に使っていない方にとっては、新たなドキュメンテーションツールとの出会いを提供したいと思います。また、Sphinxを既に使っている方には、他の人のプレゼンテーションや会場での交流等を通じて、新しい使い方を知るきっかけになればと思います。
 
 本イベントでは、セミナー(発表形式)・ハンズオン(Sphinx入門)・ハッカソン(各自自由に手を動かす)の組み合わせで、これから Sphinx を始めてみたい方や実際に運用を始めている方に向けて Sphinx の魅力をお伝えします。
-
-.. contents::
-   :local:
-
 
 :日時: 2014/10/26(日)
 :場所: `VOYAGE GROUP様`_ (東京都渋谷区神泉町8-16渋谷ファーストプレイス８Ｆ)
@@ -38,11 +37,6 @@ Sphinxをまだ本格的に使っていない方にとっては、新たなド�
 .. _VOYAGE GROUP様: http://voyagegroup.com/company/access/
 .. _[アクセスマップ]: http://voyagegroup.com/company/access/
 .. _[GoogleMap]: https://www.google.co.jp/maps/place/VoyageGroup/@35.6553195,139.6937795,17z/data=!3m1!4b1!4m2!3m1!1s0x60188b55a7bf82b7:0xb0fd4271fd87016?hl=ja
-
-
-.. figure:: ../20120916_sphinxconjp/standing-atendees.jpg
-
-   2012年に開催された :doc:`../20120916_sphinxconjp/index` の様子
 
 
 タイムテーブル 2014/10/26 (日)
@@ -218,3 +212,24 @@ shkumagai
 
 株式会社クロスリスティング所属
 エンジニアとしてPython, Common Lispを使った広告プラットフォームの開発と運用に従事。Sphinx-Users.jp ヒラ会員
+
+開催報告
+---------
+
+.. figure:: photo-seminar1.jpg
+
+   セミナーの様子 (1)
+
+   40名を超える方が参加し、セミナーの内容に耳を傾けました。
+
+.. figure:: photo-seminar2.jpg
+
+   セミナーの様子 (2)
+
+   7名の方にそれぞれ異なるテーマについて話してもらいました。
+
+.. figure:: photo-after-party.jpg
+
+   懇親会の様子の様子
+
+   ドリンク片手に Sphinx やドキュメンテーション全般について熱い議論(?)が交わされました。
