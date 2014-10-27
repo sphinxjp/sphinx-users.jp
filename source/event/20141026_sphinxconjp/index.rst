@@ -257,3 +257,5 @@ shkumagai
    懇親会の様子の様子
 
    ドリンク片手に Sphinx やドキュメンテーション全般について熱い議論(?)が交わされました。
+
+* `SphinxCon JP 2014 - Togetterまとめ <http://togetter.com/li/737278>`
