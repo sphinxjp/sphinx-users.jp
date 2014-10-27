@@ -117,6 +117,10 @@ Sphinx-1.3 はHTMLにおける検索機能の強化、numfig機能の実装（�
 * Python mini hack-a-thon 運営
 * PyCon JP イベント運営・社団法人運営
 
+.. raw:: html
+
+     <iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinxconjp2014-welcome-to-sphinx-1.3/index.html" frameborder="0"></iframe>
+
 .. _sphinxconjp2014_seminar02:
 
 SIerでもSphinxを使いたい！総括
@@ -135,6 +139,10 @@ kk_Ataka
 
 参加プロジェクト: jekyllrb-ja (Rubyの静的サイト生成ツール「Jekyll」の翻訳プロジェクト)
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40723958" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kk_Ataka/20141026-sphinx-forsiersummarysiersphinx" title="SIerでもSphinxを使いたい！総括" target="_blank">SIerでもSphinxを使いたい！総括</a> </strong> from <strong><a href="//www.slideshare.net/kk_Ataka" target="_blank">kk_Ataka</a></strong> </div>
+
 .. _sphinxconjp2014_seminar03:
 
 SphinxとLaTeXで作る英文マニュアル
@@ -146,6 +154,10 @@ HTML版とLaTeXを通じたPDF文書の双方を制作する上での作業工�
 力武 健次
 
 力武健次技術士事務所 所長．1990年からインターネットの仕事に携わる．Erlang/OTP, FreeBSD使い．
+
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="2dde40e03d8c013286d30a707911af0b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 .. _sphinxconjp2014_seminar04:
 
@@ -164,6 +176,10 @@ Sphinx使いのみなさんなら当然ふだんはreSTで生活をされてい�
 高橋征義
 
 プログラマ。株式会社達人出版会代表取締役、一般社団法人日本Rubyの会代表理事。Re:VIEWコミッタ。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40727178" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/takahashim/sphinx-markdown" title="Markdownもはじめよう" target="_blank">Markdownもはじめよう</a> </strong> from <strong><a href="//www.slideshare.net/takahashim" target="_blank">masayoshi takahashi</a></strong> </div>
 
 .. _sphinxconjp2014_seminar05:
 
@@ -186,6 +202,10 @@ Sphinx には様々な開発者によって開発された数多くの拡張が�
 blockdiag、Sphinx などといったドキュメンテーションツールに興味を持ち、
 ツール、拡張モジュールの開発やコミュニティ活動を行なっている。
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40727933" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TakeshiKomiya/sphinx-2014" title="Sphinx拡張 探訪 2014 #sphinxjp" target="_blank">Sphinx拡張 探訪 2014 #sphinxjp</a> </strong> from <strong><a href="//www.slideshare.net/TakeshiKomiya" target="_blank">Takeshi Komiya</a></strong> </div>
+
 .. _sphinxconjp2014_seminar06:
 
 検索エンジンOktavia
@@ -199,6 +219,10 @@ Oktaviaの実装の中身について紹介します。ブラウザで動かす�
 渋川よしき
 
 Sphinx-Users.jpファウンダー
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40722231" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shibukawa/oktavia-sphinxcon" title="Oktavia全文検索エンジン - SphinxCon JP 2014" target="_blank">Oktavia全文検索エンジン - SphinxCon JP 2014</a> </strong> from <strong><a href="//www.slideshare.net/shibukawa" target="_blank">Yoshiki Shibukawa</a></strong> </div>
 
 .. _sphinxconjp2014_seminar07:
 
