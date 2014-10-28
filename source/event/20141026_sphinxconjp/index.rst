@@ -240,6 +240,9 @@ shkumagai
 開催報告
 ---------
 
+写真
+~~~~~~
+
 .. figure:: photo-seminar1.jpg
 
    セミナーの様子 (1)
@@ -258,4 +261,18 @@ shkumagai
 
    ドリンク片手に Sphinx やドキュメンテーション全般について熱い議論(?)が交わされました。
 
+そのほかの写真はFlickrにまとめてあります。 https://flic.kr/s/aHsk55FLyZ
+
+.. raw:: html
+
+   <object width="640" height="480"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157648579210049%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157648579210049%2F&set_id=72157648579210049&jump_to="></param> <param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157648579210049%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157648579210049%2F&set_id=72157648579210049&jump_to=" width="640" height="480"></embed></object>
+
+
+ツイートまとめ
+~~~~~~~~~~~~~~~~~~~~
+
 * `SphinxCon JP 2014 - Togetterまとめ <http://togetter.com/li/737278>`_
+
+.. raw:: html
+
+  <script src="http://togetter.com/js/parts.js"></script><script>tgtr.ExtendWidget({id:'737278',url:'http://togetter.com/'});</script>
