@@ -258,4 +258,4 @@ shkumagai
 
    ドリンク片手に Sphinx やドキュメンテーション全般について熱い議論(?)が交わされました。
 
-* `SphinxCon JP 2014 - Togetterまとめ <http://togetter.com/li/737278>`
+* `SphinxCon JP 2014 - Togetterまとめ <http://togetter.com/li/737278>`_
