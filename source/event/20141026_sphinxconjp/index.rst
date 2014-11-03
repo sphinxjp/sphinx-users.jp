@@ -237,6 +237,11 @@ shkumagai
 株式会社クロスリスティング所属
 エンジニアとしてPython, Common Lispを使った広告プラットフォームの開発と運用に従事。Sphinx-Users.jp ヒラ会員
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40992269" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shojikumagai/sphinx-html-theme-hacks" title="Sphinx HTML Theme Hacks" target="_blank">Sphinx HTML Theme Hacks</a> </strong> from <strong><a href="//www.slideshare.net/shojikumagai" target="_blank">Shoji Kumagai</a></strong> </div>
+
+
 開催報告
 ---------
 
