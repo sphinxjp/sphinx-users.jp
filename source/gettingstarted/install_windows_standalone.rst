@@ -63,7 +63,7 @@ Sphinx standalone installer
 
 Includes::
 
-   Python: 2.7.6
+   Python: 2.7.8
 
    Sphinx: 1.2.3
 
@@ -105,17 +105,22 @@ Includes::
    zc.buildout = 2.2.1
 
 
-* `SphinxInstaller-1.3b1.20141014-py2.7-win32.zip`_
+* `SphinxInstaller-1.3b1.20141115-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.3b1.20141014-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141014-py2.7-win32.zip
+.. _SphinxInstaller-1.3b1.20141115-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141115-py2.7-win32.zip
 
 Release Note
 --------------
 
+* 20141115
+
+  * Sphinx-1.2.3 + Python-2.7.8, その他同梱パッケージを更新
+  * Sphinx-1.3b1 + Python-2.7.8, その他同梱パッケージを更新
+
 * 20141014
 
-  * Sphinx-1.2.3 + Python-2.7, その他同梱パッケージを更新
-  * Sphinx-1.3b1 + Python-2.7, その他同梱パッケージを更新
+  * Sphinx-1.2.3 + Python-2.7.6, その他同梱パッケージを更新
+  * Sphinx-1.3b1 + Python-2.7.6, その他同梱パッケージを更新
 
 
 * 20131210 (Sphinx-1.2 + Python-2.7)
