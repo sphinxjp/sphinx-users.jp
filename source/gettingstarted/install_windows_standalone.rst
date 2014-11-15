@@ -57,9 +57,9 @@ Install standalone Sphinx
 Sphinx standalone installer
 ==============================
 
-* `SphinxInstaller-1.2.3.20141014-py2.7-win32.zip`_
+* `SphinxInstaller-1.2.3.20141115-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.2.3.20141014-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.3.20141014-py2.7-win32.zip
+.. _SphinxInstaller-1.2.3.20141115-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.3.20141115-py2.7-win32.zip
 
 Includes::
 
@@ -76,25 +76,25 @@ Includes::
    sphinxjp.themes.sphinxjp = 0.3.1
    sphinxjp.themes.trstyle = 0.1.1
 
-   sphinxcontrib-actdiag = 0.7.2
-   sphinxcontrib-blockdiag = 1.4.4
-   sphinxcontrib-nwdiag = 0.8.2
-   sphinxcontrib-seqdiag = 0.7.2
+   sphinxcontrib-actdiag = 0.8.0
+   sphinxcontrib-blockdiag = 1.5.0
+   sphinxcontrib-nwdiag = 0.9.0
+   sphinxcontrib-seqdiag = 0.8.0
 
-   blockdiag = 1.4.5
+   blockdiag = 1.4.7
    blockdiagcontrib-class = 0.1.3
    blockdiagcontrib-qb = 0.1.3
    blockdiagcontrib-square = 0.1.3
    actdiag = 0.5.3
    nwdiag = 1.0.3
-   seqdiag = 0.9.3
+   seqdiag = 0.9.4
 
    docutils = 0.12
    funcparserlib = 0.3.6
    jinja2 = 2.7.3
    markupsafe = 0.23
    pillow = 2.6.1
-   pygments = 1.6
+   pygments = 2.0.1
    pypng = 0.0.17
    webcolors = 1.4
 
