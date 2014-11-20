@@ -105,12 +105,16 @@ Includes::
    zc.buildout = 2.2.1
 
 
-* `SphinxInstaller-1.3b1.20141115-py2.7-win32.zip`_
+* `SphinxInstaller-1.3b1.20141120-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.3b1.20141115-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141115-py2.7-win32.zip
+.. _SphinxInstaller-1.3b1.20141120-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141120-py2.7-win32.zip
 
 Release Note
 --------------
+
+* 20141120
+
+  * Sphinx-1.3b1版インストーラがSphinx-1.2.3をインストールしていた問題を修正
 
 * 20141115
 
