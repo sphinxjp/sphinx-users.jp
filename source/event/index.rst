@@ -3,13 +3,26 @@
 イベント
 ========
 
+2015年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   Sphinx Tea Night 2015.01 (2015/1/8) <http://sphinxjp.connpass.com/event/10547/>
+
 2014年
 ------
 
 .. toctree::
    :maxdepth: 1
 
+   Sphinx+翻訳 Hack-a-thon 2014.12 (2014/12/20) <http://sphinxjp.connpass.com/event/10217/>
+   Sphinx-users.jp 定期総会 (2014/12/4) <http://sphinxjp.connpass.com/event/9205/>
+   Sphinx+翻訳 Hack-a-thon 2014.11 (2014/11/15) <http://sphinxjp.connpass.com/event/9032/>
+   Sphinx Tea Night 2014.11 (2014/11/13) <http://sphinxjp.connpass.com/event/9263/>
    20141026_sphinxconjp/index
+   Sphinx Tea Night 2014.10 (2014/10/9) <http://sphinxjp.connpass.com/event/8102/>
    Sphinxスプリント in PyCon JP 2014 (2014/09/15) <http://sphinxjp.connpass.com/event/8090/>
    Sphinx Tea Night 2014.09 (2014/09/11) <http://sphinxjp.connpass.com/event/7444/>
    Sphinx+翻訳 Hack-a-thon 2014.8 (2014/08/23) <http://sphinxjp.connpass.com/event/7703/>
