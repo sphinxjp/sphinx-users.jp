@@ -18,7 +18,7 @@
    :maxdepth: 1
 
    Sphinx+翻訳 Hack-a-thon 2014.12 (2014/12/20) <http://sphinxjp.connpass.com/event/10217/>
-   Sphinx-users.jp 定期総会 (2014/12/4) <http://sphinxjp.connpass.com/event/9205/>
+   20141204_general_meeting/index
    Sphinx+翻訳 Hack-a-thon 2014.11 (2014/11/15) <http://sphinxjp.connpass.com/event/9032/>
    Sphinx Tea Night 2014.11 (2014/11/13) <http://sphinxjp.connpass.com/event/9263/>
    20141026_sphinxconjp/index
