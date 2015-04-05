@@ -4,7 +4,7 @@
 
 1. Sphinx と関連パッケージをインストール
 
-   i. ``pip install -r requiments.txt`` を実行
+   i. ``pip install -r requirements.txt`` を実行
 
 2. HTMLを生成する
 
