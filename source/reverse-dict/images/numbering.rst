@@ -18,19 +18,14 @@ numfig拡張を使う
 
 .. code-block:: bash
 
-   # 好きなところに移り
-   % cd /path/to/somewhere
-   # リポジトリをclone
-   % hg clone https://bitbucket.org/arjones6/sphinx-numfig
+   % pip install sphinx-numfig
 
 conf.py に以下のように書き加えます。
 
 .. code-block:: python
 
-   # リポジトリをパスに追加
-   sys.path.insert(0, os.path.abspath('/path/to/sphinx-numfig'))
    # extensionsに追加
-   extensions = ['numfig']
+   extensions = ['sphinx_numfig']
 
 この状態で以下のように記述します。
 
