@@ -77,7 +77,7 @@ Sphinxのソースコード自体や、ビルド結果のHTMLは本体のコー�
 
 .. code-block:: bash
 
-   $ git submodule add -b gh-pages git@github.com:[ユーザ名]/リポジトリ名[].git doc/_build/html
+   $ git submodule add -b gh-pages git@github.com:[ユーザ名]/[リポジトリ名].git doc/_build/html
 
 これで、 ``doc/_build/html`` が ``gh-pages`` ブランチそのものになりました。 ``make html`` 後にこのフォルダ内でコミットしてpushしつつ、プロジェクトのルートで ``doc/_build/html`` をコミットすればプロジェクトのコード等と結果のHTMLの同期がをとることができます。また、JavaScript関連のリポジトリで、プロジェクトをビルドした結果をサンプルコードとして提供したい場合も、プロジェクトのビルド結果をここに入れるようなビルドスクリプトでも用意してあげると捗ると思います。
 
