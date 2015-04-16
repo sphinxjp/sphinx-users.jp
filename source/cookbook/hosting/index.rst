@@ -85,6 +85,27 @@ subtreeという仕組みを使う方法もありますが、gitのsubmoduleの�
 
 * http://qiita.com/mizchi/items/17e2eb04c34b18aff921
 
+.. warning::
+
+   サブモジュール化した状態でmake cleanすると、デフォルトの設定だとサブフォルダの対象のフォルダがまるごと消えてしまいます。
+   htmlフォルダは削除されないように修正してください。
+
+   .. code-block:: make
+
+      clean:
+          rm -rf $(BUILDDIR)/html/*
+          rm -rf $(BUILDDIR)/doctrees
+
+   .. code-block:: bat
+
+      if "%1" == "clean" (
+          for /d %%i in (%BUILDDIR%\html) do rmdir /q /s %%i
+          del /q /s %BUILDDIR%\html\*
+          for /d %%i in (%BUILDDIR%\doctrees) do rmdir /q /s %%i
+          del /q /s %BUILDDIR%\doctrees\*
+          goto end
+      )
+
 参考
 ----
 
