@@ -9,6 +9,12 @@
 .. toctree::
    :maxdepth: 1
 
+   Sphinx Tea Night 2015.05 (2015/05/14) <http://sphinxjp.connpass.com/event/12975/>
+   Sphinx+翻訳 Hack-a-thon 2015.04 (2015/04/18) <http://sphinxjp.connpass.com/event/13390/>
+   Sphinx Tea Night 2015.04 (2015/04/16) <http://sphinxjp.connpass.com/event/13468/>
+   Sphinx+翻訳 Hack-a-thon 2015.03 (2015/03/14) <http://sphinxjp.connpass.com/event/12557/>
+   Sphinx Tea Night 2015.03 (2015/03/12) <http://sphinxjp.connpass.com/event/11155/>
+   Sphinx+翻訳 Hack-a-thon 2015.02 (2015/02/21) <http://sphinxjp.connpass.com/event/11651/>
    Sphinx Tea Night 2015.02 (2015/02/12) <http://sphinxjp.connpass.com/event/10549/>
    Sphinx+翻訳 Hack-a-thon 2015.01 (2015/01/18) <http://sphinxjp.connpass.com/event/10790/>
    Sphinx Tea Night 2015.01 (2015/01/8) <http://sphinxjp.connpass.com/event/10547/>
