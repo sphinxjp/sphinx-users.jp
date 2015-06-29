@@ -9,7 +9,7 @@
 
 この問題を解決するには日本語拡張を使います。
 
-1. `ここから <http://dl.dropbox.com/u/218108/files/japanesesupport.py>`_
+1. `ここから <https://bitbucket.org/sphinxjp/goodies/raw/86cd22393f6d707fa7fe394b47cd0db4e1968e2f/exts/japanesesupport/japanesesupport.py>`_
    ``japanesesupport.py`` をダウンロードします。
 
 2. ダウンロードした ``japanesesupport.py`` を ``conf.py`` を置いてある場所に移動
