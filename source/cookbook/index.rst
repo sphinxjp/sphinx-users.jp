@@ -14,6 +14,7 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
    translation
    epub/index
    pdf/index
+   vcs/index
    hosting/index
    ci/index
    buildout
