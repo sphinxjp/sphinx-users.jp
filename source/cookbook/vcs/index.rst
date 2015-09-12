@@ -5,5 +5,5 @@
 .. toctree::
    :maxdepth: 2
 
-   manage_a_sphinxproject_in_the_sourcetree&github
+   manage_a_sphinxproject_in_the_sourcetree_github
 
