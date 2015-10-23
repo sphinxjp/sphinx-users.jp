@@ -20,6 +20,8 @@
 に分けられ、そのいずれもが現れるかもしれません。
 構文の詳細は、 `reStructuredText Markup Specification`_ のDirectives sectionを参照してください。
 
+.. contents:: 紹介するディレクティブ一覧
+   :local:
 
 警告
 ====
