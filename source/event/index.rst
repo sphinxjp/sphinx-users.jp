@@ -12,7 +12,7 @@
    Sphinx-users.jp 2015年 定期総会 (2015/12/??) <http://sphinxjp.connpass.com/event/21866/>
    Sphinx Tea Night 2015.11 (2015/11/12) <http://sphinxjp.connpass.com/event/20063/>
    日本UNIXユーザー会 Sphinxワークショップ@関西 (2015/10/31) <http://sphinxjp.connpass.com/event/22023/>
-   Sphinx+翻訳 Hack-a-thon 2015.10 in PyCon JP 2015 (2015/10/12) <http://sphinxjp.connpass.com/event/20535/>
+   20151010_pyconjp/index
    Sphinx Tea Night 2015.10 (2015/10/08) <http://sphinxjp.connpass.com/event/18912/>
    Sphinx+翻訳 Hack-a-thon 2015.09 (2015/09/12) <http://sphinxjp.connpass.com/event/18791/>
    Sphinx Tea Night 2015.09 (2015/09/10) <http://sphinxjp.connpass.com/event/18910/>
