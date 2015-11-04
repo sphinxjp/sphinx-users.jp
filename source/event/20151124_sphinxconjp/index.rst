@@ -115,8 +115,8 @@ Talks
 基調講演: ドキュメントシステムはこれを使え2015年版
 ####################################################
 
-* 鹿野 桂一郎 氏 (@golden_lucky)
-* 19:00-19:30
+:Time: 19:00-19:30
+:Name: 鹿野 桂一郎 氏 (@golden_lucky)
 
 
 
@@ -125,11 +125,14 @@ Talks
 Sphinx で電子書籍を書こうと色々やってみた
 ###########################################
 
-* @momijiame
-* 19:30-19:45
+:Time: 19:30-19:45
+:Name: @momijiame
+:BIO: とある ISP
+:Keywords: 事例紹介
 
 .. image:: momijiame.png
    :alt: @momijiame
+   :width: 100
 
 
 自分で電子書籍を書いてみたいと考えたとき、ツールとして最初に思いついたのが Sphinx でした。ですが、その時点では Sphinx をまったく使ったことがなかったのです。そんな Sphinx 素人が試行錯誤の末になんとなくそれっぽいものを書けるようになるまでについてをお話します。
@@ -139,11 +142,14 @@ Sphinx で電子書籍を書こうと色々やってみた
 Markdownを使おう(仮)
 #######################
 
-* @r_rudi
-* 19:45-20:00
+:Time: 19:45-20:00
+:Name: @r_rudi
+:BIO: ツキノワ株式会社 CTO, 「Sphinxをはじめよう」執筆者の一人
+:Keywords: 事例紹介
 
 .. image:: r_rudi.png
    :alt: @r_rudi
+   :width: 100
 
 
 .. _sphinxconjp2015_seminar03:
@@ -151,11 +157,14 @@ Markdownを使おう(仮)
 Sphinxで手軽に作るドキュメント
 #################################
 
-* @usaturn
-* 20:15-20:30
+:Time: 20:15-20:30
+:Name: @usaturn
+:BIO: X-LISTING Co., Ltd.
+:Keywords: 事例紹介
 
 .. image:: usaturn.png
    :alt: @usaturn
+   :width: 100
 
 「これ、メンバに共有しないとなあ」「この手順、もう一度やろうとしたら絶対忘れているよなあ」
 というシーンは日常業務の中でよくある事だと思います。
@@ -172,8 +181,10 @@ Sphinxで手軽に作るドキュメント
 Sphinxで社内勉強会(Git)の資料を作ってみた
 #############################################
 
-* @takuan_osho
-* 20:30-20:45
+:Time: 20:30-20:45
+:Name: @takuan_osho
+:BIO: 趣味プログラマ。Sphinx + 翻訳 Hack-a-thonの「翻訳」という部分に惹かれて参加したのをきっかけにOSSやコミュニティ活動に関わるようになる。
+:Keywords: 事例紹介
 
 CUIを使った経験もそれほどない同僚を相手にGitの社内勉強会をするにあたり、Sphinxを使って勉強会の資料を作った時の話をします。
 勉強会の内容を理解してもらえるように、どんな点に気をつけて資料を作成したか、その工夫点を話すことが出来ればと思っています。
@@ -181,6 +192,7 @@ CUIを使った経験もそれほどない同僚を相手にGitの社内勉強�
 
 .. image:: takuan_osho.jpg
    :alt: @takuan_osho
+   :width: 100
 
 
 .. _sphinxconjp2015_seminar05:
@@ -188,11 +200,14 @@ CUIを使った経験もそれほどない同僚を相手にGitの社内勉強�
 APIドキュメントの話
 ######################
 
-* @tk0miya
-* 20:45-21:00
+:Time: 20:45-21:00
+:Name: @tk0miya
+:BIO: (株)タイムインターメディア所属。むかし blockdiag というツールを作っていたらしい。たまに Sphinx を直したり、拡張を作ったりしている。
+:Keywords: apidoc, automation, API
 
 .. image:: tk0miya.jpg
    :alt: @tk0miya
+   :width: 100
 
 みなさん、API ドキュメントをどのように書いていますか？
 あるプロジェクトでの経験を元に、最近のトレンドについてご紹介します。
@@ -203,11 +218,14 @@ APIドキュメントの話
 Whole project documentation done with Sphinx
 ##############################################
 
-* 21:00-21:15
-* 洪 民憙 / Hong Minhee
+:Time: 21:00-21:15
+:Name: 洪 民憙 / Hong Minhee
+:BIO: Work at Spoqa (http://www.spoqa.jp/). A F/OSS enthusiast. The author of several Python packages like Wand, libsass, sphinxcontrib-httpdomain, and sphinxcontrib-autoprogram. Sphinx user since 2010. See also my website: http://hongmihee.org/
+:Keywords: httpdomain, autoprogram, sphinx extension
 
 .. image:: HongMinhee.jpg
    :alt: 洪 民憙 / Hong Minhee
+   :width: 100
 
 As project being larger, more than one docs for the project used to be necessary for different audiences: internal design docs, internal Python API reference, external HTTP API reference, glossary…
 
