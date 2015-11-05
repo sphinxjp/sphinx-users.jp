@@ -117,11 +117,13 @@ Talks
 
 :Time: 19:00-19:30
 :Name: 鹿野 桂一郎 氏 (@golden_lucky)
+:BIO: 理工系ドキュメント専門GOLDEN-LUKYCK代表
 
 .. image:: golden_lucky.jpg
    :alt: @golden_lucky
    :width: 100
 
+人間とドキュメントの前向きな関係には、書き始めるフェーズと、書き終えるまでのフェーズと、運用されるフェーズの3段階があります。この3つのフェーズで書き手と読み手のつらさを軽減してくれる（とされている）仕組みのいくつかを客観的に紹介します。
 
 .. _sphinxconjp2015_seminar01:
 
