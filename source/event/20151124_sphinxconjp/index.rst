@@ -220,8 +220,8 @@ APIドキュメントの話
 
 .. _sphinxconjp2015_seminar06:
 
-Whole project documentation done with Sphinx
-##############################################
+All docs lead to Sphinx
+#########################
 
 :Time: 21:00-21:15
 :Name: 洪 民憙 / Hong Minhee
