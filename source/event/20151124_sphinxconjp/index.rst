@@ -3,7 +3,7 @@ SphinxCon JP 2015 (2015/11/24)
 ===============================
 (English version is put later)
 
-これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、:doc:`2013年 <../20130223_sphinxconjp/index>` 、:doc:`2015年 <../20141026_sphinxconjp/index>` と、開催してきたSphinxCon JPは、今年4回目の開催となります。
+これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、:doc:`2013年 <../20130223_sphinxconjp/index>` 、:doc:`2014年 <../20141026_sphinxconjp/index>` と、開催してきたSphinxCon JPは、今年4回目の開催となります。
 
 .. image:: SphinxConJP2015-logo.png
    :align: center
