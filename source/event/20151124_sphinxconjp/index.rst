@@ -118,6 +118,9 @@ Talks
 :Time: 19:00-19:30
 :Name: 鹿野 桂一郎 氏 (@golden_lucky)
 
+.. image:: golden_lucky.png
+   :alt: @golden_lucky
+   :width: 100
 
 
 .. _sphinxconjp2015_seminar01:
