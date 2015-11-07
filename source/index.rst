@@ -23,14 +23,14 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <http://connpass.com/series/52/>`_ で確認して下さい。
 
-* 2015年10月12(月,祝) に `Sphinx+翻訳 Hack-a-thon 2015.10 in PyCon JP 2015 <http://sphinxjp.connpass.com/event/20535/>`__ を開催します。
+* 2015年11月24日 に SphinxCon JP 2015 を開催します。詳しくは :doc:`event/20151124_sphinxconjp/index` を参照して下さい。
 
-* 2014年10月26日 に SphinxCon JP 2014 を開催しました。詳しくは :doc:`event/20141026_sphinxconjp/index` を参照して下さい。
-
-  .. image:: event/20141026_sphinxconjp/SphinxConJP2014-logo.png
+  .. image:: event/20151124_sphinxconjp/SphinxConJP2015-logo.png
      :width: 75%
-     :alt: SphinCon JP 2014
-     :target: event/20141026_sphinxconjp/index.html
+     :alt: SphinCon JP 2015
+     :target: event/20151124_sphinxconjp/index.html
+
+* 2015年10月12(月,祝) に `Sphinx+翻訳 Hack-a-thon 2015.10 in PyCon JP 2015 <http://sphinxjp.connpass.com/event/20535/>`__ を開催します。
 
 * 2014年10月21日: Sphinxについてのインタビュー記事が掲載されました。
   `OSSをHackしてキャリアが広がる～海外生まれのドキュメントツール『Sphinx』を開発・運営する日本人メンバーに聞く - エンジニアtype <http://engineer.typemag.jp/article/sphinx-hack>`__
