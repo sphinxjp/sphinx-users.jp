@@ -57,13 +57,15 @@ Install standalone Sphinx
 Sphinx standalone installer
 ==============================
 
-* `SphinxInstaller-1.2.3.20141115-py2.7-win32.zip`_
+* `SphinxInstaller-1.2.3.20151109-py2.7-win32.zip`_
+* `SphinxInstaller-1.3.1.20151109-py2.7-win32.zip`_
 
-.. _SphinxInstaller-1.2.3.20141115-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.3.20141115-py2.7-win32.zip
+.. _SphinxInstaller-1.2.3.20151109-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.2.3.20151109-py2.7-win32.zip
+.. _SphinxInstaller-1.3.1.20151109-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3.1.20151109-py2.7-win32.zip
 
-Includes::
+Includes for 1.2.3::
 
-   Python: 2.7.8
+   Python: 2.7.10
 
    Sphinx: 1.2.3
 
@@ -76,41 +78,93 @@ Includes::
    sphinxjp.themes.sphinxjp = 0.3.1
    sphinxjp.themes.trstyle = 0.1.1
 
-   sphinxcontrib-actdiag = 0.8.0
-   sphinxcontrib-blockdiag = 1.5.0
-   sphinxcontrib-nwdiag = 0.9.0
-   sphinxcontrib-seqdiag = 0.8.0
+   sphinxcontrib-actdiag = 0.8.4
+   sphinxcontrib-blockdiag = 1.5.4
+   sphinxcontrib-nwdiag = 0.9.4
+   sphinxcontrib-seqdiag = 0.8.4
 
-   blockdiag = 1.4.7
+   blockdiag = 1.5.3
    blockdiagcontrib-class = 0.1.3
    blockdiagcontrib-qb = 0.1.3
    blockdiagcontrib-square = 0.1.3
-   actdiag = 0.5.3
-   nwdiag = 1.0.3
-   seqdiag = 0.9.4
+
+   actdiag = 0.5.4
+   nwdiag = 1.0.4
+   seqdiag = 0.9.5
 
    docutils = 0.12
    funcparserlib = 0.3.6
-   jinja2 = 2.7.3
+   jinja2 = 2.8
    markupsafe = 0.23
-   pillow = 2.6.1
-   pygments = 2.0.1
-   pypng = 0.0.17
-   webcolors = 1.4
+   pillow = 3.0.0
+   pygments = 2.0.2
+   pypng = 0.0.18
+   webcolors = 1.5
 
-   setuptools = 0.9.8
-   buildout.locallib = 0.3.1
+   setuptools = 7.0
    gp.vcsdevelop = 2.2.3
-   zc.recipe.egg = 2.0.1
-   zc.buildout = 2.2.1
+   zc.recipe.egg = 2.0.3
+   zc.buildout = 2.2.5
 
 
-* `SphinxInstaller-1.3b1.20141120-py2.7-win32.zip`_
+Includes for 1.3.1::
 
-.. _SphinxInstaller-1.3b1.20141120-py2.7-win32.zip: https://bitbucket.org/sphinxjp/website/downloads/SphinxInstaller-1.3b1.20141120-py2.7-win32.zip
+   Python: 2.7.10
+
+   Sphinx: 1.3.1
+   alabaster = 0.7.6
+   sphinx-rtd-theme = 0.1.9
+
+   sphinxjp.themecore = 0.2.0
+   sphinxjp.themes.bizstyle = 0.1.6
+   sphinxjp.themes.dotted = 0.1.2
+   sphinxjp.themes.htmlslide = 0.1.4
+   sphinxjp.themes.impressjs = 0.1.3
+   sphinxjp.themes.s6 = 0.3.0
+   sphinxjp.themes.sphinxjp = 0.3.1
+   sphinxjp.themes.trstyle = 0.1.1
+
+   sphinxcontrib-actdiag = 0.8.4
+   sphinxcontrib-blockdiag = 1.5.4
+   sphinxcontrib-nwdiag = 0.9.4
+   sphinxcontrib-seqdiag = 0.8.4
+
+   blockdiag = 1.5.3
+   blockdiagcontrib-class = 0.1.3
+   blockdiagcontrib-qb = 0.1.3
+   blockdiagcontrib-square = 0.1.3
+
+   actdiag = 0.5.4
+   nwdiag = 1.0.4
+   seqdiag = 0.9.5
+
+   babel = 2.1.1
+   colorama = 0.3.3
+   docutils = 0.12
+   funcparserlib = 0.3.6
+   jinja2 = 2.8
+   markupsafe = 0.23
+   pillow = 3.0.0
+   pygments = 2.0.2
+   pypng = 0.0.18
+   pytz = 2015.7
+   six = 1.10.0
+   snowballstemmer = 1.2.0
+   webcolors = 1.5
+
+   setuptools = 7.0
+   gp.vcsdevelop = 2.2.3
+   zc.recipe.egg = 2.0.3
+   zc.buildout = 2.2.5
+
 
 Release Note
 --------------
+
+* 20151109
+
+  * Sphinx-1.3.1 + Python-2.7.10, その他同梱パッケージを更新
+  * Sphinx-1.2.3 + Python-2.7.10, その他同梱パッケージを更新
 
 * 20141120
 
