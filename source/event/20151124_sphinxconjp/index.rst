@@ -44,14 +44,14 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * 18:30- 受付
 * 18:50- 開会
 * 19:00- 基調講演 (30分) 鹿野 桂一郎 氏 (@golden_lucky) 「ドキュメントシステムはこれを使え2015年版」
-* 19:30- 「Sphinx で電子書籍を書こうと色々やってみた」@momijiame(15分)
-* 19:45- 「Markdownを使おう(仮)」@r_rudi(15分)
+* 19:30- 「Sphinx で電子書籍を書こうと色々やってみた」@momijiameさん(15分)
+* 19:45- 「Markdownを使おう(仮)」@r_rudiさん(15分)
 * 20:00- ピザ登場 - ここからビアバッシュ -
 * 20:05- VOYAGEさんからのご案内(10分)
-* 20:15- 「Sphinxで手軽に作るドキュメント」@usaturn(15分)
-* 20:30- 「Sphinxで社内勉強会(Git)の資料を作ってみた」@takuan_osho(15分)
-* 20:45- 「APIドキュメントの話」@tk0miya(15分)
-* 21:00- 「Whole project documentation done with Sphinx」洪 民憙（ホン・ミンニ）(15分)
+* 20:15- 「Sphinxで手軽に作るドキュメント」@usaturnさん(15分)
+* 20:30- 「Sphinxで社内勉強会(Git)の資料を作ってみた」@takuan_oshoさん(15分)
+* 20:45- 「APIドキュメントの話」@tk0miyaさん(15分)
+* 21:00- 「Whole project documentation done with Sphinx」洪 民憙（ホン・ミンニ）さん(15分)
 * 21:15-21:50 歓談+LT3本くらい
 * 21:50 クロージング, 後片付け
 * 22:00 解散
@@ -98,7 +98,7 @@ Time Table
 * 20:15- "Sphinxで手軽に作るドキュメント" @usaturn (15 min)
 * 20:30- "Sphinxで社内勉強会(Git)の資料を作ってみた" @takuan_osho (15 min)
 * 20:45- "APIドキュメントの話" @tk0miya (15 min)
-* 21:00- "Whole project documentation done with Sphinx" Hong Minhee (15 min)
+* 21:00- "Whole project documentation done with Sphinx" Mr. Hong Minhee (15 min)
 * 21:15-21:50 Socialing + LightningTalks
 * 21:50 Closing, cleaning
 * 22:00 Clsoe
@@ -131,7 +131,7 @@ Sphinx で電子書籍を書こうと色々やってみた
 ###########################################
 
 :Time: 19:30-19:45
-:Name: @momijiame
+:Name: @momijiameさん
 :BIO: とある ISP
 :Keywords: 事例紹介
 
@@ -148,7 +148,7 @@ Markdownを使おう(仮)
 #######################
 
 :Time: 19:45-20:00
-:Name: @r_rudi
+:Name: @r_rudiさん
 :BIO: ツキノワ株式会社 CTO, 「Sphinxをはじめよう」執筆者の一人
 :Keywords: 事例紹介
 
@@ -163,7 +163,7 @@ Sphinxで手軽に作るドキュメント
 #################################
 
 :Time: 20:15-20:30
-:Name: @usaturn
+:Name: @usaturnさん
 :BIO: X-LISTING Co., Ltd.
 :Keywords: 事例紹介
 
@@ -187,7 +187,7 @@ Sphinxで社内勉強会(Git)の資料を作ってみた
 #############################################
 
 :Time: 20:30-20:45
-:Name: @takuan_osho
+:Name: @takuan_oshoさん
 :BIO: 趣味プログラマ。Sphinx + 翻訳 Hack-a-thonの「翻訳」という部分に惹かれて参加したのをきっかけにOSSやコミュニティ活動に関わるようになる。
 :Keywords: 事例紹介
 
@@ -206,7 +206,7 @@ APIドキュメントの話
 ######################
 
 :Time: 20:45-21:00
-:Name: @tk0miya
+:Name: @tk0miyaさん
 :BIO: (株)タイムインターメディア所属。むかし blockdiag というツールを作っていたらしい。たまに Sphinx を直したり、拡張を作ったりしている。
 :Keywords: apidoc, automation, API
 
@@ -224,7 +224,7 @@ All docs lead to Sphinx
 #########################
 
 :Time: 21:00-21:15
-:Name: 洪 民憙 / Hong Minhee
+:Name: 洪 民憙さん / Mr. Hong Minhee
 :BIO: Work at Spoqa (http://www.spoqa.jp/). A F/OSS enthusiast. The author of several Python packages like Wand, libsass, sphinxcontrib-httpdomain, and sphinxcontrib-autoprogram. Sphinx user since 2010. See also my website: http://hongmihee.org/
 :Keywords: httpdomain, autoprogram, sphinx extension
 
