@@ -41,9 +41,11 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 参加方法
 --------
 
-ご自由に :ref:`mailinglist` にご参加ください。また、Sphinx-Users.jpが行うイベントも定期的に行います。
+ご自由に :ref:`mailinglist` にご参加ください。
+チャット用のチャンネルとして :ref:`slack` も用意しています。
 
-イベント情報などは、Twitterの `SphinxUsers.jp公式アカウント <http://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <http://twitter.com/#search?q=%23sphinxjp>`_ になります。
+また、Sphinx-Users.jpでは定期的にイベントを開催しています。
+イベントの開催情報は、Twitterの `SphinxUsers.jp公式アカウント <http://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <http://twitter.com/#search?q=%23sphinxjp>`_ になります。
 
 もし、ここに掲載している内容にミスが見つかったり、追加のコンテンツの希望、もしくは「これを載せて」という方は、このサイトのソースをホスティングしている、Bitbukcet内の `課題トラッカー <http://bitbucket.org/sphinxjp/website/issues?status=new&status=open>`_ のチケットを作成してください。
 
