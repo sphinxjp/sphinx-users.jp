@@ -93,6 +93,14 @@ Sphinx-Users.jpの公式ハッシュタグは `#sphinxjp <http://twitter.com/#!/
 
 Sphinx-Users.jpの情報を呟く `@sphinxjp <http://twitter.com/#!/sphinxjp>`_ 公式アカウントもあります。
 
+.. _slack:
+
+Slack
+-----
+
+Sphinx-users.jp コミュニティの公式チャットとしてSlackを運用しています。
+Slackに参加を希望される方は https://sphinxjp.herokuapp.com/ より登録をお願いします。
+
 Answer
 ------
 
