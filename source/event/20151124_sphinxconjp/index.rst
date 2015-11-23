@@ -225,7 +225,7 @@ All docs lead to Sphinx
 
 :Time: 21:00-21:15
 :Name: 洪 民憙さん / Mr. Hong Minhee
-:BIO: Work at Spoqa (http://www.spoqa.jp/). A F/OSS enthusiast. The author of several Python packages like Wand, libsass, sphinxcontrib-httpdomain, and sphinxcontrib-autoprogram. Sphinx user since 2010. See also my website: http://hongmihee.org/
+:BIO: Work at Spoqa (http://www.spoqa.jp/). A F/OSS enthusiast. The author of several Python packages like Wand, libsass, sphinxcontrib-httpdomain, and sphinxcontrib-autoprogram. Sphinx user since 2010. See also my website: http://hongminhee.org/
 :Keywords: httpdomain, autoprogram, sphinx extension
 
 .. image:: HongMinhee.jpg
