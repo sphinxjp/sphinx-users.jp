@@ -51,7 +51,7 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * 20:15- 「Sphinxで手軽に作るドキュメント」@usaturnさん(15分)
 * 20:30- 「Sphinxで社内勉強会(Git)の資料を作ってみた」@takuan_oshoさん(15分)
 * 20:45- 「APIドキュメントの話」@tk0miyaさん(15分)
-* 21:00- 「Whole project documentation done with Sphinx」洪 民憙（ホン・ミンニ）さん(15分)
+* 21:00- 「All docs lead to Sphinx」洪 民憙（ホン・ミンニ）さん(15分)
 * 21:15-21:50 歓談+LT3本くらい
 * 21:50 クロージング, 後片付け
 * 22:00 解散
@@ -98,7 +98,7 @@ Time Table
 * 20:15- "Sphinxで手軽に作るドキュメント" @usaturn (15 min)
 * 20:30- "Sphinxで社内勉強会(Git)の資料を作ってみた" @takuan_osho (15 min)
 * 20:45- "APIドキュメントの話" @tk0miya (15 min)
-* 21:00- "Whole project documentation done with Sphinx" Mr. Hong Minhee (15 min)
+* 21:00- "All docs lead to Sphinx" Mr. Hong Minhee (15 min)
 * 21:15-21:50 Socialing + LightningTalks
 * 21:50 Closing, cleaning
 * 22:00 Clsoe
