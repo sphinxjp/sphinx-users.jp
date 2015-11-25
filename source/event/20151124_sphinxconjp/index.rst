@@ -167,8 +167,9 @@ Markdownを使おう(仮)
    :alt: @r_rudi
    :width: 100
 
+.. raw::
 
-`発表資料 <https://dl.dropboxusercontent.com/u/218108/sphinxcon2015/markdown.html>`_
+   <script async class="speakerdeck-embed" data-id="6c138b278410432b909d0a8e96ad96b2" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
 
 .. _sphinxconjp2015_seminar03:
 
