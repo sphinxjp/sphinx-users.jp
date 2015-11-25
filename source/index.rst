@@ -23,7 +23,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。
 
-* 2015年11月24日 に SphinxCon JP 2015 を開催します。詳しくは :doc:`event/20151124_sphinxconjp/index` を参照して下さい。
+* 2015年11月24日(火) に :doc:`SphinxCon JP 2015 <event/20151124_sphinxconjp/index>` を開催しました。
 
   .. image:: event/20151124_sphinxconjp/SphinxConJP2015-logo.png
      :width: 75%
