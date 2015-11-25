@@ -3,6 +3,9 @@ SphinxCon JP 2015 (2015/11/24)
 ===============================
 (English version is put later)
 
+SphinxCon JP 2015 は多くの方にご参加いただき、盛況のうちに終了しました。
+当日の総参加者は 47名でした(スタッフ、発表者含む)。
+
 これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、:doc:`2013年 <../20130223_sphinxconjp/index>` 、:doc:`2014年 <../20141026_sphinxconjp/index>` と、開催してきたSphinxCon JPは、今年4回目の開催となります。
 
 .. image:: SphinxConJP2015-logo.png
@@ -125,6 +128,10 @@ Talks
 
 人間とドキュメントの前向きな関係には、書き始めるフェーズと、書き終えるまでのフェーズと、運用されるフェーズの3段階があります。この3つのフェーズで書き手と読み手のつらさを軽減してくれる（とされている）仕組みのいくつかを客観的に紹介します。
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/dipot9VGeXCxDK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/k16shikano/2015-55455604" title="ドキュメントシステムはこれを使え2015年版" target="_blank">ドキュメントシステムはこれを使え2015年版</a> </strong> from <strong><a href="//www.slideshare.net/k16shikano" target="_blank">Keiichiro Shikano</a></strong> </div>
+
 .. _sphinxconjp2015_seminar01:
 
 Sphinx で電子書籍を書こうと色々やってみた
@@ -142,6 +149,10 @@ Sphinx で電子書籍を書こうと色々やってみた
 
 自分で電子書籍を書いてみたいと考えたとき、ツールとして最初に思いついたのが Sphinx でした。ですが、その時点では Sphinx をまったく使ったことがなかったのです。そんな Sphinx 素人が試行錯誤の末になんとなくそれっぽいものを書けるようになるまでについてをお話します。
 
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="8cf97edb879a424b97b0c15815bab246" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 .. _sphinxconjp2015_seminar02:
 
 Markdownを使おう(仮)
@@ -156,6 +167,8 @@ Markdownを使おう(仮)
    :alt: @r_rudi
    :width: 100
 
+
+`発表資料 <https://dl.dropboxusercontent.com/u/218108/sphinxcon2015/markdown.html>`_
 
 .. _sphinxconjp2015_seminar03:
 
@@ -180,6 +193,9 @@ Sphinxで手軽に作るドキュメント
 
 当発表ではSphinxを使い手軽にドキュメント作成を始める手順を実例を交えながらご紹介します。
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/qJWWoLKkVXuAB2" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/easily-make-itusingsphinxforsphinxcon" title="Easily make it_using_sphinx_for_sphinxcon" target="_blank">Easily make it_using_sphinx_for_sphinxcon</a> </strong> from <strong><a href="//www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
 
 .. _sphinxconjp2015_seminar04:
 
@@ -191,14 +207,16 @@ Sphinxで社内勉強会(Git)の資料を作ってみた
 :BIO: 趣味プログラマ。Sphinx + 翻訳 Hack-a-thonの「翻訳」という部分に惹かれて参加したのをきっかけにOSSやコミュニティ活動に関わるようになる。
 :Keywords: 事例紹介
 
-CUIを使った経験もそれほどない同僚を相手にGitの社内勉強会をするにあたり、Sphinxを使って勉強会の資料を作った時の話をします。
-勉強会の内容を理解してもらえるように、どんな点に気をつけて資料を作成したか、その工夫点を話すことが出来ればと思っています。
-
-
 .. image:: takuan_osho.jpg
    :alt: @takuan_osho
    :width: 100
 
+CUIを使った経験もそれほどない同僚を相手にGitの社内勉強会をするにあたり、Sphinxを使って勉強会の資料を作った時の話をします。
+勉強会の内容を理解してもらえるように、どんな点に気をつけて資料を作成したか、その工夫点を話すことが出来ればと思っています。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/KVj96GlxHHOGDR" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/takushimizu/use-case-of-making-inhouse-training-documents-with-sphinx" title="Sphinxで社内勉強会(Git)の資料を作ってみた" target="_blank">Sphinxで社内勉強会(Git)の資料を作ってみた</a> </strong> from <strong><a href="//www.slideshare.net/takushimizu" target="_blank">Taku Shimizu</a></strong> </div>
 
 .. _sphinxconjp2015_seminar05:
 
@@ -217,6 +235,9 @@ APIドキュメントの話
 みなさん、API ドキュメントをどのように書いていますか？
 あるプロジェクトでの経験を元に、最近のトレンドについてご紹介します。
 
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/K36FX7MvYzcgii" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TakeshiKomiya/api-sphinxjp" title="APIドキュメントの話 #sphinxjp" target="_blank">APIドキュメントの話 #sphinxjp</a> </strong> from <strong><a href="//www.slideshare.net/TakeshiKomiya" target="_blank">Takeshi Komiya</a></strong> </div>
 
 .. _sphinxconjp2015_seminar06:
 
@@ -236,3 +257,23 @@ As project being larger, more than one docs for the project used to be necessary
 
 I’ve tried to write all docs for the project only using Sphinx. As a result, I even made two sphinxcontrib extensions. In the talk I’m going to share my experience about that, and introduce sphinxcontrib-httpdomain and sphinxcontrib-autoprogram I made.
 
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="d0e75e40fe7344ef8209acc2504061c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+開催報告
+=========
+
+写真
+~~~~~
+
+(準備中)
+
+ツイートまとめ
+~~~~~~~~~~~~~~~
+
+* `SphinxCon JP 2015 - Togetterまとめ <http://togetter.com/li/904532>`_
+
+.. raw:: html
+
+   <script src="http://togetter.com/js/parts.js"></script><script>tgtr.ExtendWidget({id:'904532',url:'http://togetter.com/'});</script>
