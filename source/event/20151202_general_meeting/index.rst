@@ -66,7 +66,7 @@ sphinx-users MLとconnpassで参加者を募集しました。
 
   * @usaturn (副会長） @tk0miya 推薦: 2015年のやり残しをもっと発展させたいと思っていると思うので、推薦します。
   * @takuan_osho (副会長） @tcsh 推薦: EPUB3に期待、活動が見える人を推したい
-  * @shimizukawa (会計） @tk0miya 推薦: お金関係はそのままやっておしい
+  * @shimizukawa (会計） @tk0miya 推薦: お金関係はそのままやってほしい
 
 * 決定:
 
@@ -187,7 +187,7 @@ sphinx-users MLとconnpassで参加者を募集しました。
 * @shkumagai: Sphinxテーマで本を書いてくれないか、と言われてたんだけど今年はその暇が全くなくて、SoftwareDesignの連載にテーマの作り方記事を書きました。雑誌Authorデビューという自分的には大きめなイベントだったなと思います。あと、D3.jsをラップしたSphinx拡張( https://pypi.python.org/pypi/sphinxcontrib.nvd3 )を作りました。使い方は http://pythonhosted.org/sphinxcontrib.nvd3/ に一通り書いてあります。来年は本にするようにネタを書いていきたい。あと11月11日に入籍しました。
 
 
-* @tcsh: awscliとsphinxのごちゃまぜハンズオンをやりました。お茶会を2015年もやりました。手順書はSphinx楽だよ、ということでquiitaに記事を書きました。自分でドキュメントを作って本にしたいと思ってます。今年はreSTを60万行くらい書きました。
+* @tcsh: awscliとsphinxのごちゃまぜハンズオンをやりました。お茶会を2015年もやりました。手順書はSphinx楽だよ、ということでQiitaに記事を書きました。自分でドキュメントを作って本にしたいと思ってます。今年はreSTを60万行くらい書きました。
 
 * @moco_beta: Sphinx検索を楽にするピュアPythonエンジンに差し替えるPR出しました。来年はjanomeをSphinxで使えるようにしたい。検索ネタでSoftwareDesign記事書きました。レビューしてね。
 
