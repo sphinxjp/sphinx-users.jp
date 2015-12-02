@@ -9,7 +9,7 @@
 .. toctree::
    :maxdepth: 1
 
-   Sphinx-users.jp 2015年 定期総会 (2015/12/??) <http://sphinxjp.connpass.com/event/21866/>
+   20151202_general_meeting/index
    20151124_sphinxconjp/index
    Sphinx Tea Night 2015.11 (2015/11/12) <http://sphinxjp.connpass.com/event/20063/>
    日本UNIXユーザー会 Sphinxワークショップ@関西 (2015/10/31) <http://sphinxjp.connpass.com/event/22023/>
