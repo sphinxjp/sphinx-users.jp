@@ -269,22 +269,22 @@ I’ve tried to write all docs for the project only using Sphinx. As a result, I
 ~~~~~
 
 .. figure:: report1.*
-   :width: 500
+   :width: 80%
 
    鹿野 桂一郎 さん (@golden_lucky) の基調講演
 
 .. figure:: report2.*
-   :width: 500
+   :width: 80%
 
    @momijiame さんの「Sphinxで電子書籍を書こうと色々やってみた」
 
 .. figure:: report3.*
-   :width: 500
+   :width: 80%
 
    ビアバッシュのドリンク（この3倍くらい飲みました）スポンサーのVOYAGEさん、ありがとうございました
 
 .. figure:: report4.*
-   :width: 500
+   :width: 80%
 
    ホンミンニさんの「All docs lead to Sphinx」英語での発表です
 
@@ -293,7 +293,7 @@ I’ve tried to write all docs for the project only using Sphinx. As a result, I
 
 .. raw:: html
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/albums/72157660913888579" title="2015/11/24 Sphinx Con JP 2015 #sphinxjp"><img src="https://farm1.staticflickr.com/593/22649227874_23127ce391.jpg" width="500" height="195" alt="2015/11/24 Sphinx Con JP 2015 #sphinxjp"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/albums/72157660913888579" title="2015/11/24 Sphinx Con JP 2015 #sphinxjp"><img src="https://farm1.staticflickr.com/778/23195027501_b2a09401de_c.jpg" width="800" height="534" alt="2015/11/24 Sphinx Con JP 2015 #sphinxjp"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 ツイートまとめ

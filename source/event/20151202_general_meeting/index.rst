@@ -217,5 +217,5 @@ sphinx-users MLとconnpassで参加者を募集しました。
 
 .. raw:: html
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/albums/72157659600155343" title="2015/12/02 Sphinx-users.jp 2015年総会"><img src="https://farm6.staticflickr.com/5656/22840264654_7e5eacbc47.jpg" width="500" height="375" alt="2015/12/02 Sphinx-users.jp 2015年総会"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/albums/72157659600155343" title="2015/12/02 Sphinx-users.jp 2015年総会"><img src="https://farm6.staticflickr.com/5656/22840264654_7e5eacbc47.jpg" width="800" height="534" alt="2015/12/02 Sphinx-users.jp 2015年総会"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
