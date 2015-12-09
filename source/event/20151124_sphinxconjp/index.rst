@@ -47,14 +47,14 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * 18:30- 受付
 * 18:50- 開会
 * 19:00- 基調講演 (30分) 鹿野 桂一郎 氏 (@golden_lucky) 「ドキュメントシステムはこれを使え2015年版」
-* 19:30- 「Sphinx で電子書籍を書こうと色々やってみた」@momijiameさん(15分)
-* 19:45- 「Markdownを使おう(仮)」@r_rudiさん(15分)
+* 19:30- 「Sphinxで電子書籍を書こうと色々やってみた」@momijiameさん(15分)
+* 19:45- 「SphinxでMarkdownを使う(仮)」@r_rudiさん(15分)
 * 20:00- ピザ登場 - ここからビアバッシュ -
 * 20:05- VOYAGEさんからのご案内(10分)
 * 20:15- 「Sphinxで手軽に作るドキュメント」@usaturnさん(15分)
 * 20:30- 「Sphinxで社内勉強会(Git)の資料を作ってみた」@takuan_oshoさん(15分)
-* 20:45- 「APIドキュメントの話」@tk0miyaさん(15分)
-* 21:00- 「All docs lead to Sphinx」洪 民憙（ホン・ミンニ）さん(15分)
+* 20:45- 「APIドキュメントのはなし」@tk0miyaさん(15分)
+* 21:00- 「All docs lead to Sphinx」洪 民憙（ホンミンニ）さん(15分)
 * 21:15-21:50 歓談+LT3本くらい
 * 21:50 クロージング, 後片付け
 * 22:00 解散
@@ -94,13 +94,13 @@ Time Table
 * 18:30- Registration
 * 18:50- Opening
 * 19:00- Keynote (30 min) Mr. Keiichiro Shikano (@golden_lucky) 「ドキュメントシステムはこれを使え2015年版」
-* 19:30- "Sphinx で電子書籍を書こうと色々やってみた" @momijiame (15 min)
-* 19:45- "Markdownを使おう(仮)" @r_rudi (15 min)
+* 19:30- "Sphinxで電子書籍を書こうと色々やってみた" @momijiame (15 min)
+* 19:45- "SphinxでMarkdownを使う(仮)" @r_rudi (15 min)
 * 20:00- Time of Pizza and Beer from here
 * 20:05- Sponsor announce from VOYAGE (10 min)
 * 20:15- "Sphinxで手軽に作るドキュメント" @usaturn (15 min)
 * 20:30- "Sphinxで社内勉強会(Git)の資料を作ってみた" @takuan_osho (15 min)
-* 20:45- "APIドキュメントの話" @tk0miya (15 min)
+* 20:45- "APIドキュメントのはなし" @tk0miya (15 min)
 * 21:00- "All docs lead to Sphinx" Mr. Hong Minhee (15 min)
 * 21:15-21:50 Socialing + LightningTalks
 * 21:50 Closing, cleaning
@@ -268,7 +268,33 @@ I’ve tried to write all docs for the project only using Sphinx. As a result, I
 写真
 ~~~~~
 
-(準備中)
+.. figure:: report1.*
+   :width: 500
+
+   鹿野 桂一郎 さん (@golden_lucky) の基調講演
+
+.. figure:: report2.*
+   :width: 500
+
+   @momijiame さんの「Sphinxで電子書籍を書こうと色々やってみた」
+
+.. figure:: report3.*
+   :width: 500
+
+   ビアバッシュのドリンク（この3倍くらい飲みました）スポンサーのVOYAGEさん、ありがとうございました
+
+.. figure:: report4.*
+   :width: 500
+
+   ホンミンニさんの「All docs lead to Sphinx」英語での発表です
+
+
+その他の写真
+
+.. raw:: html
+
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/albums/72157660913888579" title="2015/11/24 Sphinx Con JP 2015 #sphinxjp"><img src="https://farm1.staticflickr.com/593/22649227874_23127ce391.jpg" width="500" height="195" alt="2015/11/24 Sphinx Con JP 2015 #sphinxjp"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 
 ツイートまとめ
 ~~~~~~~~~~~~~~~
