@@ -89,6 +89,24 @@
 
    <iframe src="//www.slideshare.net/slideshow/embed_code/key/9EwlSgEy8zyAR5" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shojikumagai/sphinx-html-theme-hacks" title="Sphinx HTML Theme Hacks" target="_blank">Sphinx HTML Theme Hacks</a> </strong> from <strong><a href="//www.slideshare.net/shojikumagai" target="_blank">Shoji KUMAGAI</a></strong> </div>
 
+2013年
+------
+
+2/23 `SphinxCon JP 2013 Spring <http://sphinx-users.jp/event/20130223_sphinxconjp/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/5XkPTiwLqVb3TT" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TakeshiKomiya/sphinx-2013" title="Sphinx ではじめるドキュメント生活 2013 #sphinxconjp" target="_blank">Sphinx ではじめるドキュメント生活 2013 #sphinxconjp</a> </strong> from <strong><a href="//www.slideshare.net/TakeshiKomiya" target="_blank">Takeshi Komiya</a></strong> </div>
+
+.. raw:: html
+
+   <div class="section"><iframe width="558" height="418" src="http://bols.bitbucket.org/sphinx_con_2013/index.html" frameborder="0" style="border: 1px solid black;"></iframe></div>
+
+.. raw:: html
+
+   <div class="section"><iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinx120-preview/index.html" frameborder="0"></iframe></div>
+
 2012年
 ------
 
