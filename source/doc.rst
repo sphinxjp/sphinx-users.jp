@@ -1,6 +1,10 @@
 発表資料
 ========
 
+.. contents::
+   :local:
+
+
 2015年
 ------
 
@@ -173,7 +177,7 @@
 
   .. raw:: html
 
-     <div style="width:425px" id="__ss_6084667"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/shimizukawa/sphinx-6084667" title="ドキュメントを作りたくなってしまう魔法のツールSphinx">ドキュメントを作りたくなってしまう魔法のツールSphinx</a></strong><object id="__sse6084667" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6084667" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=sphinx-101208185959-phpapp01&stripped_title=sphinx-6084667&userName=shimizukawa" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/shimizukawa">shimizukawa</a>.</div></div>
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/jhhGuQYXiy1NPR" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-6084667" title="ドキュメントを作りたくなってしまう魔法のツールSphinx" target="_blank">ドキュメントを作りたくなってしまう魔法のツールSphinx</a> </strong> from <strong><a href="//www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
 8/20 InfoTalk #20
 ~~~~~~~~~~~~~~~~~
