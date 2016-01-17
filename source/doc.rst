@@ -110,11 +110,39 @@
 2012年
 ------
 
-12/21 BPStudy #64
-~~~~~~~~~~~~~~~~~
 
-* `発表資料「ドキュメントを作りたくなってしまう魔法のツール Sphinx 2012年版」 <http://www.slideshare.net/goyamada92/sphinx-is-magictool>`_
 
+12/21 `BPStudy #64 <http://bpstudy.connpass.com/event/1546/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/pBMPz2XQHWOjhw" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/sphinx-is-magictool" title="BPstudy#64 ドキュメントを作りたくなってしまう魔法のツール Sphinx 2012年版" target="_blank">BPstudy#64 ドキュメントを作りたくなってしまう魔法のツール Sphinx 2012年版</a> </strong> from <strong><a href="//www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
+
+9/16 `SphinxCon JP 2012 <http://sphinx-users.jp/event/20120916_sphinxconjp/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/EgD1KW2Zm22cfT" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TakeshiKomiya/sphinx-2012-pyconjp-sphinxconjp" title="Sphinx ではじめるドキュメント生活 2012 #pyconjp #sphinxconjp" target="_blank">Sphinx ではじめるドキュメント生活 2012 #pyconjp #sphinxconjp</a> </strong> from <strong><a href="//www.slideshare.net/TakeshiKomiya" target="_blank">Takeshi Komiya</a></strong> </div>
+
+* `sphinx拡張 探訪 <sphinx拡張 探訪>`_
+
+* `Sphinx HTML theme 事始め <http://shkumagai.github.io/slides/sphinxcon.jp.201209/#/title>`_
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/NHdJSbgFZuPSX3" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-pyconjp-2012" title="Sphinxを使って本を書こう #pyconjp 2012" target="_blank">Sphinxを使って本を書こう #pyconjp 2012</a> </strong> from <strong><a href="//www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/mumYXR8YPEMFdR" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/sphinx-14566291" title="Sphinxの使い方事例" target="_blank">Sphinxの使い方事例</a> </strong> from <strong><a href="//www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/laCbloU3epcpoL" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/takanory/how-to-spread-rest-and-sphinx" title="How to spread reST and Sphinx" target="_blank">How to spread reST and Sphinx</a> </strong> from <strong><a href="//www.slideshare.net/takanory" target="_blank">Takanori Suzuki</a></strong> </div>
+
+* `Sphinxにおけるdocutilsの役割 <https://gist.github.com/hekyou/3730720>`_
 
 2011年
 ------
