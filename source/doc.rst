@@ -53,6 +53,42 @@
 
    <iframe src="//www.slideshare.net/slideshow/embed_code/key/sSPVJJCHbsvUyt" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-53764167" title="Sphinxで作る貢献しやすいドキュメント翻訳の仕組み" target="_blank">Sphinxで作る貢献しやすいドキュメント翻訳の仕組み</a> </strong> from <strong><a href="//www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
+2014年
+------
+
+10/26 `SphinxCon JP 2014 <http://sphinx-users.jp/event/20141026_sphinxconjp/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinxconjp2014-welcome-to-sphinx-1.3/index.html" frameborder="0"></iframe>
+
+`Welcome to Sphinx-1.3 <http://shimizukawa.bitbucket.org/sphinxconjp2014-welcome-to-sphinx-1.3/index.html>`_
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/40723958" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kk_Ataka/20141026-sphinx-forsiersummarysiersphinx" title="SIerでもSphinxを使いたい！総括" target="_blank">SIerでもSphinxを使いたい！総括</a> </strong> from <strong><a href="//www.slideshare.net/kk_Ataka" target="_blank">kk_Ataka</a></strong> </div>
+
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="2dde40e03d8c013286d30a707911af0b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/G5LKNB1QFCoMcz" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/takahashim/sphinx-markdown" title="Markdownもはじめよう" target="_blank">Markdownもはじめよう</a> </strong> from <strong><a href="//www.slideshare.net/takahashim" target="_blank">masayoshi takahashi</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/xuWilHOsu7e8qM" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TakeshiKomiya/sphinx-2014" title="Sphinx拡張 探訪 2014 #sphinxjp" target="_blank">Sphinx拡張 探訪 2014 #sphinxjp</a> </strong> from <strong><a href="//www.slideshare.net/TakeshiKomiya" target="_blank">Takeshi Komiya</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/NY1iTE01MRK0df" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shibukawa/oktavia-sphinxcon" title="Oktavia全文検索エンジン - SphinxCon JP 2014" target="_blank">Oktavia全文検索エンジン - SphinxCon JP 2014</a> </strong> from <strong><a href="//www.slideshare.net/shibukawa" target="_blank">Yoshiki Shibukawa</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/9EwlSgEy8zyAR5" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shojikumagai/sphinx-html-theme-hacks" title="Sphinx HTML Theme Hacks" target="_blank">Sphinx HTML Theme Hacks</a> </strong> from <strong><a href="//www.slideshare.net/shojikumagai" target="_blank">Shoji KUMAGAI</a></strong> </div>
+
 2012年
 ------
 
