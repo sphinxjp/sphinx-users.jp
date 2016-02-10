@@ -6,8 +6,7 @@
 
 参加に際しては :doc:`sphinx-users.jp 会則 <regulations>` を確認して下さい。
 
-* `メーリングリスト登録ページ <http://www.python.jp/mailman/listinfo/sphinx-users>`_
-* `メーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_
+.. contents::
 
 ================
 必要なスキルは？
@@ -81,8 +80,8 @@ Sphinx-Users.jpでコミュニティとして用意しているコミュニケ�
 
 Sphinx-Users.jpでは、python.jpのサーバをお借りしてメーリングリストを運用しています。日本語で投稿できますので、Sphinxの使い方の質問、PR、ご意見などに活用ください。
 
-* `メーリングリスト登録ページ <http://www.python.jp/mailman/listinfo/sphinx-users>`_
-* `メーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_
+* `メーリングリスト <https://groups.google.com/forum/#!forum/sphinx-users-jp>`_ (2016年～)
+* `2016年以前のメーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_
 
 メーリングリストとしては `Sphinx開発元のML(英語) <http://groups.google.com/group/sphinx-dev>`_ もあります。こちらはSphinx-Users.jpの運営ではありませんが、拡張機能を開発した場合のPRなどはこちらでも行う方が良いでしょう。
 
@@ -101,10 +100,10 @@ Slack
 Sphinx-users.jp コミュニティの公式チャットとしてSlackを運用しています。
 Slackに参加を希望される方は https://sphinxjp.herokuapp.com/ より登録をお願いします。
 
-Answer
+Q & A
 ------
 
-石本さん(`@atsuoishimoto <http://twitter.com/#!/atsuoishimoto>`_)の管理されている、 `pythonpath.jpのAnswer <http://answer.pythonpath.jp/tags/sphinx/>`_ を公式の質問サイトとします。MLで聞くのはコワイという方は、 ``sphinx`` ハッシュタグを付けて、こちらもご利用ください。
+`スタックオーバーフロー <http://ja.stackoverflow.com/questions/tagged/sphinx>`__ を公式の質問サイトとします。MLで聞くのはコワイという方は、 ``sphinx`` タグを付けて、こちらもご利用ください。
 
 .. _combitbucket:
 
