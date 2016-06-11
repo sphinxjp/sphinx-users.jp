@@ -200,3 +200,7 @@ latex_documents = [
 #latex_use_modindex = True
 
 todo_include_todos = True  # should be True due to the todolist directive
+
+
+def setup(app):
+    app.add_stylesheet('custom.css')
