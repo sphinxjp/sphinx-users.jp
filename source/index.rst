@@ -12,7 +12,7 @@ Sphinx-Users.jp
 
 Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生成することができるドキュメンテーションツール、 Sphinx_ （スフィンクス）の普及を主眼としたコミュニティです。SphinxはPythonの公式ドキュメントだけでなく、このSphinx-Users.jpのサイトも含め多くのマニュアルやサイトで使用されており、詳細を :doc:`history` で紹介しています。
 
-.. _Sphinx: http://www.sphinx-doc.org/ja/
+.. _Sphinx: http://www.sphinx-doc.org/ja/stable/
 
 .. image:: _static/screenshot.png
 
