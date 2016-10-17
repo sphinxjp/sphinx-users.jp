@@ -2,6 +2,10 @@
 インストーラによるTeX Liveインストール (Windows / UNIX 系 OS)
 =============================================================
 
+Windows のみ
+============
+Windows の場合のみ別途 make コマンドが必要がです。
+推奨されている物はありませんので `Gow (Gnu On Windows) <https://github.com/bmatzelle/gow/releases>`_ や `Make for Windows <http://gnuwin32.sourceforge.net/packages/make.htm>`_ などをインストールしてパスを通して下さい。
 
 TeX 環境の構築
 ==============
@@ -40,7 +44,8 @@ TeX 環境は TeX のディストリビューション「TeX Live」のインス
 .. figure:: texlive_installer_02.png
    :scale: 50 %
 
-7. 「用紙のサイズ」「メニューのショートカット」「TeXworks フロントエンド」について聞かれますが、標準のままにして「次へ」をクリックします。
+7. 「用紙のサイズ」「メニューのショートカット」「TeXworks フロントエンド」について聞かれます。
+    PDF 出力するだけであれば「TeXworks フロントエンド」のみ不要ですのでチェックを外して「次へ」をクリックして下さい。
 
 .. figure:: texlive_installer_03.png
    :scale: 50 %
