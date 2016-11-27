@@ -22,4 +22,5 @@ Sphinxクックブックでは、Sphinxの活用方法、Tips集、Sphinx拡張�
    remotebuild/index
    multidoc/index
    columndirective/index
+   pageinfo/index
 
