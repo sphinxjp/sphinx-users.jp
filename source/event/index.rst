@@ -3,6 +3,8 @@
 イベント
 ========
 
+こちらは過去のイベントレポートのページです。募集中のイベントなど、最新のイベント情報については、Connpassの `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。Sphinx-Users.jpでは、イベントの募集にConnpassを利用しています。
+
 2016年
 ------
 
@@ -20,7 +22,7 @@
    20151202_general_meeting/index
    20151124_sphinxconjp/index
    Sphinx Tea Night 2015.11 (2015/11/12) <http://sphinxjp.connpass.com/event/20063/>
-   日本UNIXユーザー会 Sphinxワークショップ@関西 (2015/10/31) <http://sphinxjp.connpass.com/event/22023/>
+   20151031-sphinx-workshop-kansai/index
    20151010_pyconjp/index
    Sphinx Tea Night 2015.10 (2015/10/08) <http://sphinxjp.connpass.com/event/18912/>
    Sphinx+翻訳 Hack-a-thon 2015.09 (2015/09/12) <http://sphinxjp.connpass.com/event/18791/>

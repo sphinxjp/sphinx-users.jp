@@ -12,7 +12,7 @@ Sphinx-Users.jp
 
 Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生成することができるドキュメンテーションツール、 Sphinx_ （スフィンクス）の普及を主眼としたコミュニティです。SphinxはPythonの公式ドキュメントだけでなく、このSphinx-Users.jpのサイトも含め多くのマニュアルやサイトで使用されており、詳細を :doc:`history` で紹介しています。
 
-.. _Sphinx: http://www.sphinx-doc.org/ja/
+.. _Sphinx: http://www.sphinx-doc.org/ja/stable/
 
 .. image:: _static/screenshot.png
 
@@ -23,6 +23,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。
 
+* 2016年07月29日(金) に `#ssmjp プレゼンツ「ささみのさは Sphinx のさ」 <http://ssm.pkan.org/?p=1175>`_ を開催します。
 * 2015年11月24日(火) に :doc:`SphinxCon JP 2015 <event/20151124_sphinxconjp/index>` を開催しました。
 
   .. image:: event/20151124_sphinxconjp/SphinxConJP2015-logo.png

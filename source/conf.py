@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Sphinx-Users.jp'
-copyright = u'2010-2013, Sphinx-Users.jp'
+copyright = u'2010-2016, Sphinx-Users.jp'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -200,3 +200,7 @@ latex_documents = [
 #latex_use_modindex = True
 
 todo_include_todos = True  # should be True due to the todolist directive
+
+
+def setup(app):
+    app.add_stylesheet('custom.css')
