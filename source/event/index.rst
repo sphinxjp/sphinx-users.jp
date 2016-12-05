@@ -3,6 +3,14 @@
 イベント
 ========
 
+2016年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   20161205_general_meeting/index
+
 2015年
 ------
 
