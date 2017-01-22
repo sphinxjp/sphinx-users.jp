@@ -12,6 +12,13 @@ build:
         name: build html
         code: |
           sphinx-build -M html source $WERCKER_CACHE_DIR/build -N -T
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_URL
+        icon_url: http://wwwhere.io/img/thumbs/wercker.jpg
+        channel: sphinxjp-website
+        username: wercker
+        branch: master
 
 deploy:
   steps:
@@ -22,3 +29,10 @@ deploy:
         source-dir: $WERCKER_CACHE_DIR/build/html
         opts: --acl-public
         delete-removed: false
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_URL
+        icon_url: http://wwwhere.io/img/thumbs/wercker.jpg
+        channel: sphinxjp-website
+        username: wercker
+        branch: master
