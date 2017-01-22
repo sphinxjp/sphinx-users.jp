@@ -1,0 +1,24 @@
+box: sphinxjp/sphinx-users.jp
+
+build:
+  steps:
+    - script:
+        name: echo python information
+        code: |
+          echo "python version $(python --version) running"
+          echo "pip version $(pip --version) running"
+          echo "sphinx-build version $(sphinx-build --version) running"
+    - script:
+        name: build html
+        code: |
+          sphinx-build -M html source $WERCKER_CACHE_DIR/build -N -T
+
+deploy:
+  steps:
+    - s3sync:
+        key-id: $S3_KEY
+        key-secret: $S3_SECRET
+        bucket-url: s3://sphinx-users.jp/
+        source-dir: $WERCKER_CACHE_DIR/build/html
+        opts: --acl-public
+        delete-removed: false
