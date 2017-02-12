@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Sphinx-Users.jp'
-copyright = u'2010-2016, Sphinx-Users.jp'
+copyright = u'2010-2017, Sphinx-Users.jp'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -99,6 +99,7 @@ html_theme = 'sphinxjp'
 html_theme_options = {
     'hatena_star': True,
     'hatena_star_token': '155526b156165586e5572b70458b327e4e7d6c32',
+    'repository_url': 'https://github.com/sphinxjp/sphinx-users.jp',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
