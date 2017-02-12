@@ -1,8 +1,7 @@
 .*.pyc
 .*.swp
 .*.orig
-_build
+_build/
+build/
 .*~
-^bin/
-^include/
-^lib/
+
