@@ -94,11 +94,15 @@ Sphinxプロジェクトの設定変更
 ビルドの実行
 ============
 
-``make latexpdfja`` と実行すれば、ファイルが生成されます。
+``make latexpdf`` と実行すれば、ファイルが生成されます。
+
+.. note::
+
+   1.5より前のバージョンでは、latexpdfjaとタイプしていください。1.5以降は他の言語と仕組みが統合されたので末尾のjaは省略できるようになりました。互換性のためにjaを付けてもビルドはできます。
 
 .. code-block:: bash
 
-   $ make latexpdfja
+   $ make latexpdf
    sphinx-build -b latex -d build/doctrees   source build/latex
    Making output directory...
    Running Sphinx v1.1.2
@@ -140,3 +144,4 @@ PDFの完成
 :2010/10/10: 初版(渋川)
 :2012/03/25: 打田さんの Sphinx パッチおよび TeX Live 2011 をベースに記事を更新
 :2014/01/26: MacPortsによるOSXへのインストール、FreeBSDへのインストールを追加し、記事を再構成&更新 (波田野)
+:2017/02/23: ``make latexpdfja`` -> ``make latexpdf`` (渋川)
