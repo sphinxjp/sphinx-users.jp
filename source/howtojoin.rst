@@ -47,14 +47,15 @@ Sphinxは確かにPythonで書かれていますが、Sphinxの拡張機能を�
        * 英語のドキュメントを作成する能力 [#]_
 
    - * #sphinxjpのサイトの間違いを見つけたので訂正したい
-     * * `Bitbucket <http://bitbucket.org>`_ へのユーザ登録
-       * `#sphinxjpのIssue <https://bitbucket.org/sphinxjp/website/issues?status=new&status=open>`_ にチケットを投稿する勇気
+     * * `Github <http://github.com>`_ へのユーザ登録
+       * `#sphinxjpのIssue <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ にチケットを投稿する勇気
+       * 軽微な修正であれば、ウェブサイト上から編集アイコンを押すことでその場で修正＆Pull Request送信もできます
 
    - * 自分のノウハウを#sphinxjpのサイトに公開したい
      * * ご自分のノウハウ
-       * Bitbucketへのユーザ登録
-       * Mercurial(hg)を使う能力
-       * Bitbucketでforkして、PullRequestを出す勇気 [#]_
+       * GitHubへのユーザ登録
+       * gitを使う能力
+       * GitHubでforkして、Pull Requestを出す勇気 [#]_
 
    - * 採用事例に自分の例も追加して欲しい
      * * 採用された事例やテンプレート 
@@ -107,17 +108,12 @@ Q & A
 
 .. _combitbucket:
 
-Bitbucket
+GitHub
 ---------
 
-Bitbucketはソースコード管理システム上に作られたSNSです。Sphinx-Users.jpのウェブサイトもSphinxで作成されていますが、 `このソースコードはすべてBitbucket <https://bitbucket.org/sphinxjp/website>`_ に載っています。ここにコミットすると、毎時0分にsphinx-users.jpのウェブサイト上でビルドされてウェブが更新されます。
+GitHubはソースコード管理システム上に作られたSNSです。Sphinx-Users.jpのウェブサイトもSphinxで作成されていますが、 `このソースコードはすべてGitHub <https://github.com/sphinxjp/sphinx-users.jp>`_ に載っています。ここにコミットすると、ビルドされてウェブが更新されます。
 
-Sphinx-Users.jpのウェブサイトにドキュメントを掲載したい場合には、MLなどで表明してもらえれば、コミット権を提供することもできますし、Sphinx-Users.jpのウェブサイトのリポジトリをフォークして、自分のリポジトリ上で編集を加えてから、pull-requestを投げることも可能です。
+Sphinx-Users.jpのウェブサイトにドキュメントを掲載したい場合には、MLなどで表明してもらえれば、コミット権を提供することもできますし、軽微な修正であればGitHubサイト上で編集アイコンを押せば簡単に修正リクエストを送ることもできます。新規ページ追加などはSphinx-Users.jpのウェブサイトのリポジトリをフォークして、自分のリポジトリ上で編集を加えてから、Pull Requestを投げることも可能です。
 
-Pull Requestというのは、「こういう修正したから、本家の方で取り込んでください」という依頼を投げる仕組みです。もちろん、メールで通知することもできますが、BitbucketのPull Requestの仕組みを使うと、取り込み側は1ボタンで取り込むことができるというメリットがあります。今後のオープンソースの開発のスタンダードとなりうるワークフローです。
-
-.. note::
-
-   `Bitbucketのドキュメントの日本語訳 <http://confluence.atlassian.jp/pages/viewpage.action?pageId=25133116>`_ もあります。
-
+Pull Requestというのは、「こういう修正したから、本家の方で取り込んでください」という依頼を投げる仕組みです。GitHubのPull Requestの仕組みを使うと、取り込み側は1ボタンで取り込むことができるというメリットがあります。現在オープンソースの開発のスタンダードとなっているワークフローです。
 
