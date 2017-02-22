@@ -1,12 +1,38 @@
 .. _images-numbering:
 
 図に番号を自動で振り、参照したい
---------------------------------------------
+=======================================
+
+Sphinx 1.3以降
+---------------------
+
+1.3以降は ``conf.py`` に次の設定をするだけで使えます。
+
+.. code-block:: python
+   :caption: conf.py
+
+   numfig = True
+
+次のように使います。画像、各種テーブル(list-tableディレクティブ、csv-tableディレクティブなど)、コードブロック(code-blockディレクティブ)などに使えます。
+
+.. code-block:: rst
+   :caption: rstファイル
+
+   この計算結果については :numref:`graph` を御覧ください。
+
+   .. figure:: example_figure.png
+      :name: graph
+
+      例のための図
+
+詳しいリファレンスは `こちら <http://docs.sphinx-users.jp/markup/inline.html?highlight=numref#role-numref>`_ を参照してください。
+
+Sphinx 1.2以前
+---------------------
 
 図に自動で番号を割り振って、文中からその番号で参照したい、ということが
-あります。(例: 図1では…) しかし残念ながら現段階では標準では使えず、
+あります。(例: 図1では…) しかし残念ながら1.2系列までは標準では使えず、
 numfig拡張を使って実現できます。
-
 
 numfig拡張を使う
 ++++++++++++++++++
@@ -23,6 +49,7 @@ numfig拡張を使う
 conf.py に以下のように書き加えます。
 
 .. code-block:: python
+   :caption: conf.py
 
    # extensionsに追加
    extensions = ['sphinx_numfig']
@@ -30,6 +57,7 @@ conf.py に以下のように書き加えます。
 この状態で以下のように記述します。
 
 .. code-block:: rst
+   :caption: rstファイル
 
    :page:`example-fig` ページの :num:`図 #example-fig` は :ref:`example-fig` というラベルの図です。
 
