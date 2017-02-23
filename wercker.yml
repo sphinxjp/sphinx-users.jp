@@ -11,7 +11,7 @@ build:
     - script:
         name: build html
         code: |
-          sphinx-build -M html source $WERCKER_CACHE_DIR/build -N -T
+          sphinx-build -M html source build -N -T
   after-steps:
     - slack-notifier:
         url: $SLACK_URL
@@ -26,7 +26,7 @@ deploy:
         key-id: $S3_KEY
         key-secret: $S3_SECRET
         bucket-url: s3://sphinx-users.jp/
-        source-dir: $WERCKER_CACHE_DIR/build/html
+        source-dir: build/html
         opts: --acl-public
         delete-removed: false
   after-steps:
