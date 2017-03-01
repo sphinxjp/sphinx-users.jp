@@ -25,3 +25,4 @@
    emphasizelines
    horizontal_line
    strike
+   space
