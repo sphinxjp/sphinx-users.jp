@@ -1,4 +1,4 @@
-インラインマークアップ前後のスペースをなんとかしたい
+インラインマークアップ前後にスペースを入れたくない
 ====================================================
 
 Sphinxが使っているreSturucturedTextでは、インラインマークアップの前後にスペースが必要でした。スペースなしでは単語の区切りを認識しないため、インラインマークアップが無視されます。
@@ -25,11 +25,6 @@ Sphinxが使っているreSturucturedTextでは、インラインマークアッ
 
    SphinxでHTMLファイルをビルドするときは\ ``make html``\ とタイプします。
 
-japanesesupport
----------------
-
-:doc:`../html/japanese` に書かれているjapanesesupportを使うと、スペースを置いておいても削除されます。
-
 Docutilsの\ ``character-level-inline-markup``\ オプション
 ---------------------------------------------------------
 
@@ -51,3 +46,11 @@ Sphinxから使うには、 ``docutils.conf`` というファイルを作り、 
    :caption: NGだったけどOKになった例
 
    SphinxでHTMLファイルをビルドするときは``make html``とタイプします。
+
+
+参考
+---------------
+
+この項目はreSturucturedTextを書く際の空白を入れたくない場合に関するものです。
+
+:ref:`japanesesupport` に書かれているjapanesesupportを使うと、HTML出力時に不自然なスペースを削除できます。

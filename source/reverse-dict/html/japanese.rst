@@ -1,5 +1,7 @@
 .. index:: japanesesupport, conf.py;japanesesupport, extensions;japanesesupport
 
+.. _japanesesupport:
+
 不自然な空白が表示される
 ------------------------------------------
 
@@ -22,5 +24,3 @@
 
       sys.path.insert(0, os.path.abspath('.')) # コメントを外します
       extensions = ['japanesesupport', 'その他の拡張'] # 加えます
-
-
