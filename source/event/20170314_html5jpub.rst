@@ -33,6 +33,13 @@ Sphinxのアウトプットを魅力的にするためにも仲良くしたいCS
 
 * 村田さんが言われていた、EPUBが先行して導入したが、あまり普及していないという要素は積極的に取り入れたい。もちろん、索引とかも。
 
+ということをTwitterに書いたら、三廻部氏からフィードバックが。 ``<wbr>`` を使うと、改行が必要な時は改行になり、そうじゃないときはスペースも入らないというタグらしい。これはhtml5としても、xhtmlとしてもvalid。英単語でハイフンを入れたい場合は ``&shy;`` 。なるほど。日本語だと、句読点の後は積極的に ``<wbr>`` を入れてあげるとかしても良さそう。漢字の熟語で、複数の熟語が合成されているものは途中に ``&shy;`` かな。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/shibu_jp">@shibu_jp</a> ゼロ幅スペースと、改行してもいいけどスペースじゃない、の間には微妙に溝がある気がしますねえ。後者をちゃんと満たそうとすると「スペース文字」を使わない、ということになるので、例えばHTMLだと&lt;wbr&gt;?</p>&mdash; Dai MIKURUBE (@dmikurube) <a href="https://twitter.com/dmikurube/status/841650457252515840">March 14, 2017</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 メモ
 ========
 
