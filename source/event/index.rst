@@ -5,6 +5,14 @@
 
 こちらは過去のイベントレポートのページです。募集中のイベントなど、最新のイベント情報については、Connpassの `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。Sphinx-Users.jpでは、イベントの募集にConnpassを利用しています。
 
+2017年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   20170314_html5jpub
+
 2016年
 ------
 
