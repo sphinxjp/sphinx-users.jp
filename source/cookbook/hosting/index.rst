@@ -112,6 +112,62 @@ subtreeという仕組みを使う方法もありますが、gitのsubmoduleの�
 * https://help.github.com/articles/creating-project-pages-manually/ 公式ドキュメント
 * http://d.hatena.ne.jp/hide_o_55/20130526/1369555706 Doxygenで生成したドキュメントをGitHub Pagesで手軽に公開する方法(応用編)
 
+
+GitLab Pages を使ってドキュメントを公開
+===========================================
+
+GitLabを使えば、GitLab PipelineによるSphinxのドキュメントビルドと、GitLab PagesでのHTMLホスティングができます。
+
+必要なもの
+----------
+
+* GitLabのアカウント
+* git
+
+
+手順
+---------------
+
+1. まずGitLabにリポジトリを作ります。例として、hellosphinxというリポジトリを作りました。
+
+   - https://gitlab.com/shimizukawa/hellosphinx
+
+2. このリポジトリに、Sphinxの 'conf.py' と 'index.rst' ファイルを作成します。
+
+   既存のSphinxプロジェクトがあればそれを使っても構いません。
+
+   - https://gitlab.com/shimizukawa/hellosphinx/blob/master/index.rst
+   - https://gitlab.com/shimizukawa/hellosphinx/blob/master/conf.py
+
+3. リポジトリに '.gitlab-ci.yml' を作成します。
+
+   公式のドキュメントにある内容をそのまま使ってOKです。
+
+   - https://gitlab.com/pages/sphinx#gitlab-ci
+
+   今回は、Makefileを用意していないので、ちょっと書き換えました。
+   以下のファイルでは ``make html`` コマンドの代わりに ``sphinx-build -M html . _build`` を実行しています。
+
+   - https://gitlab.com/shimizukawa/hellosphinx/blob/master/.gitlab-ci.yml
+
+4. '.gitlab-ci.yml' があると、自動的にGitLab Pipelineが実行されます。
+
+   - https://gitlab.com/shimizukawa/hellosphinx/pipelines
+
+5. ビルドしたHTMLが公開されました！
+
+   URLは ``<username|groupname>.gitlab.io/<reponame>`` です。
+
+   - https://shimizukawa.gitlab.io/hellosphinx/
+
+
+なお、GitLabではプライベートリポジトリを無料で作成できますが、GitLab Pagesに公開したページは誰でもアクセスできます。アクセス権を設定する要望が `gitlab-ce#33422 <https://gitlab.com/gitlab-org/gitlab-ce/issues/33422>`__ で行われています。今のところ（2017/6/11現在）、一般公開したくないページについては、GitLab Pagesでこっそり公開するか、別のところで公開する必要があります。
+
+参考
+
+- https://pages.gitlab.io/
+- https://gitlab.com/pages/sphinx
+
 Bitbucket.orgを使ってドキュメントを公開
 ============================================
 
