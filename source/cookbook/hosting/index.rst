@@ -115,7 +115,7 @@ subtreeという仕組みを使う方法もありますが、gitのsubmoduleの�
 Bitbucket.orgを使ってドキュメントを公開
 ============================================
 
-Bitbukcet上に、 ``http://ユーザ名.bitbucket.org`` という名前でドキュメントを公開できます。
+Bitbukcet上に、 ``http://ユーザ名.bitbucket.io`` という名前でドキュメントを公開できます。
 
 必要なもの
 ----------
@@ -126,14 +126,14 @@ Bitbukcet上に、 ``http://ユーザ名.bitbucket.org`` という名前でド�
 公開手順
 --------
 
-1. ``ユーザ名.bitbucket.org`` という名前のリポジトリを作ります。
+1. ``ユーザ名.bitbucket.io`` という名前のリポジトリを作ります。
 
 .. image:: bitbucket.png
 
 2. リポジトリを作った後のOverviewのページに表示されているコマンド(hg clone)を実行します
 3. SphinxでビルドしたHTML群を登録します。
 4. コミットして、Bitbucketに変更をPushします。
-5. ``http://ユーザ名.bitbucket.org`` にアクセスすると、作成したファイルが見られます。
+5. ``http://ユーザ名.bitbucket.io`` にアクセスすると、作成したファイルが見られます。
 
 .. tip::
 
