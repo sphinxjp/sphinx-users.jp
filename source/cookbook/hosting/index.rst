@@ -206,7 +206,7 @@ Herokuを使えば、利用者がサイトにアクセスしたタイミング�
 
 .. note::
 
-   Herokuのgitは、HerokuのAccount Settingsページに登録したSSH鍵を使って、 ``git@heroku.com:<YOUR-HEROKU-PROJECT-NAME>.git`` でアクセスできます。
+   Herokuのgitは、HerokuのAccount Settingsページに登録したSSH鍵を使って、 ``git@heroku.com:<YOUR-HEROKU-PROJECT-NAME>.git`` でアクセスできます。例えばhellosphinx-herokuプロジェクトなら ``git@heroku.com:hellosphinx-heroku.git`` です。
 
 
 リポジトリに以下のファイルを用意します。
@@ -226,7 +226,7 @@ Herokuを使えば、利用者がサイトにアクセスしたタイミング�
       web: sh run.sh
 
 :runtime.txt:
-   Herokuで実行するランチタイムを指定します::
+   Herokuで実行するランタイムを指定します::
 
       python-3.6.1
 
