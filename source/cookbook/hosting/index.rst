@@ -168,6 +168,133 @@ GitLabを使えば、GitLab PipelineによるSphinxのドキュメントビル�
 - https://pages.gitlab.io/
 - https://gitlab.com/pages/sphinx
 
+
+Heroku を使ってドキュメントを公開（BASIC認証付き）
+===================================================
+
+Herokuを使えば、利用者がサイトにアクセスしたタイミングでプロセスを起動できます。
+プロセス起動時にmake htmlを実行し、簡易的なWebアプリケーションでHTMLを参照させることで、Sphinxドキュメントをホスティングします。Webアプリケーションが必要なところが不便ですが、代わりにBASIC認証をかけることができます。
+
+メリット
+
+* Herokuの無料プランを使える
+* BASIC認証を設定できるため、公開したくないドキュメントのホスティングに良いよ
+
+デメリット
+
+* Herokuの設定と、Heroku用設定ファイルが必要
+* Webアプリのコードが必要
+
+必要なもの
+----------
+
+* Herokuのアカウント
+* git
+
+
+手順
+---------------
+
+1. まずHerokuにプロジェクトを作ります。例として、hellosphinx-herokuというプロジェクトを作ります。
+
+2. SphinxのプロジェクトとWebアプリのコードを用意（後述）
+
+3. Herokuにあるgitリポジトリにpush
+
+   詳しくはHerokuのプロジェクトページ（例えばhellosphinx-herokuプロジェクト）のDeployタブを見てください。
+
+
+.. note::
+
+   Herokuのgitは、HerokuのAccount Settingsページに登録したSSH鍵を使って、 ``git@heroku.com:<YOUR-HEROKU-PROJECT-NAME>.git`` でアクセスできます。
+
+
+リポジトリに以下のファイルを用意します。
+
+.. note::
+
+   ここで紹介するコードは以下のリポジトリにあります
+   https://gitlab.com/shimizukawa/hellosphinx-heroku
+
+:doc/:
+   Sphinxドキュメントのソースディレクトリ。index.rstやconf.pyを置きます。
+
+:Procfile:
+   Herokuのプロセス定義。
+   Webアプリとしてrun.shを実行します::
+
+      web: sh run.sh
+
+:runtime.txt:
+   Herokuで実行するランチタイムを指定します::
+
+      python-3.6.1
+
+:run.sh:
+   起動時にSphinxドキュメントをビルドして、ビルドしたHTMLを表示するWebアプリケーション ``main.py`` を起動します。
+   環境変数は ``main.py`` で使います。
+   ::
+
+      export HTML_PATH=_build/html
+      export BASIC_AUTH=hello:sphinx
+
+      sphinx-build -M html doc _build
+      python main.py
+
+:requirements.txt:
+   Herokuが起動時に環境にインストールするパッケージを指定しておきます。
+   ::
+
+      sphinx
+      bottle
+
+:main.py:
+
+   指定ディレクトリにある静的ファイルを返すWebアプリの実装です。
+   ``HTML_PATH`` 環境変数でSphinxのビルド済みHTMLのパスを指定します。
+   ``BASIC_AUTH`` 環境変数にIDとパスワードを指定するとBASIC認証も設定できます（無指定なら無認証）。
+   ::
+
+      import os
+      import bottle
+
+      ROOT = os.path.join(os.environ.get('HTML_PATH', '.'))
+      AUTH = os.environ.get('BASIC_AUTH', None)
+      PORT = int(os.environ.get('PORT', '8080'))
+
+
+      def check(username, password):
+          return ':'.join([username, password]) == AUTH
+
+
+      def server_static(path):
+          if path.endswith('/'):
+              path += 'index.html'
+          return bottle.static_file(path, root=ROOT)
+
+      if AUTH is not None:
+          server_static = bottle.auth_basic(check)(server_static)
+
+      server_static = bottle.route('<path:path>')(server_static)
+
+      if __name__ == '__main__':
+          bottle.run(host='0.0.0.0', port=PORT)
+
+
+
+GitLabとの連携
+---------------
+
+Herouのgitに直接pushするには、利用者全員がHerokuのアカウントを持っている必要があります。また、Herokuのgitを使った場合、コードリポジトリに欲しい機能（IssueやPull Request）などはありません。そこで、コード管理をGitLabで行い、GitLabにpushされたコードを自動的にHerokuにPushする機能を設定すると便利です。GitLabではプライベートリポジトリも無料で使用できます。
+
+.. figure:: gitlab-gitsync.*
+
+
+.. note::
+
+   Herokuのgitは、HerokuのAccount Settingsページで生成できるAPI Keyを使って ``https://heroku:<YOUR-API-KEY>@git.heroku.com/<YOUR-HEROKU-PROJECT-NAME>.git`` でアクセスできます。
+
+
 Bitbucket.orgを使ってドキュメントを公開
 ============================================
 
