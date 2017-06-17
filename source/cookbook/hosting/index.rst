@@ -288,6 +288,7 @@ GitLabとの連携
 Herouのgitに直接pushするには、利用者全員がHerokuのアカウントを持っている必要があります。また、Herokuのgitを使った場合、コードリポジトリに欲しい機能（IssueやPull Request）などはありません。そこで、コード管理をGitLabで行い、GitLabにpushされたコードを自動的にHerokuにPushする機能を設定すると便利です。GitLabではプライベートリポジトリも無料で使用できます。
 
 .. figure:: gitlab-gitsync.*
+   :width: 100%
 
 
 .. note::
