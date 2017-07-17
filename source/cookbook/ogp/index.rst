@@ -10,14 +10,9 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
 このような、SNS投稿にコンテンツ内容を表示するための仕組みとして、 `Open Graph protocol (OGP) <http://ogp.me/>`__ という仕組みがあります。OGPは、HTMLのメタタグを適切に持たせることで、投稿先SNS等が表示するべきコンテンツ内容を把握し、その情報を表示してくれる仕組みです。
 
 
-.. figure:: sphinx-ogp-no-image.png
+.. figure:: sphinx-ogp.png
 
-   OGP対応ページの投稿（画像のないページ）
-
-
-.. figure:: sphinx-ogp-with-image.png
-
-   OGP対応ページの投稿（画像があるページ）
+   OGP対応ページの投稿
 
 
 この拡張が出力するmetaタグ
