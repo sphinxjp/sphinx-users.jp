@@ -67,7 +67,8 @@ def get_og_tags(context, doctree, site_url):
     ## OGP
     tags = '''
     <meta name="twitter:card" content="og:type" />
-    <meta property="og:title" content="{ctx[title]} - {ctx[shorttitle]}">
+    <meta property="og:site_name" content="{ctx[shorttitle]}">
+    <meta property="og:title" content="{ctx[title]}">
     <meta property="og:description" content="{desc}">
     <meta property='og:url' content="{page_url}">
     '''.format(ctx=context, desc=og_desc, page_url=page_url)
