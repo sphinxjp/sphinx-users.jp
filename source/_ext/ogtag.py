@@ -20,17 +20,16 @@ class Visitor:
         if isinstance(node, nodes.image):
             self.images.append(node)
 
-        # 3つ目のセクションに到達したらテキスト収集をやめる
-        if self.n_sections > 2:
-            raise nodes.SkipNode
+        # 3つ目のセクションまではテキスト収集する
+        if self.n_sections < 3:
 
-        # テキストを収集
-        if isinstance(node, nodes.paragraph):
-            self.text_list.append(node.astext())
+            # テキストを収集
+            if isinstance(node, nodes.paragraph):
+                self.text_list.append(node.astext())
 
-        # セクションに来たら深さを追加
-        if isinstance(node, nodes.section):
-            self.n_sections += 1
+            # セクションに来たら深さを追加
+            if isinstance(node, nodes.section):
+                self.n_sections += 1
 
     def dispatch_departure(self, node):
         pass
