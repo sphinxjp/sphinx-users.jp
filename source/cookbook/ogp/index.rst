@@ -22,7 +22,8 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
 
 .. code-block:: html
 
-   <meta name="twitter:card" content="og:type" />
+   <meta name="twitter:card" content="summary" />
+   <meta name="twitter:site" content="@sphinxjp" />
    <meta property="og:site_name" content="Python製ドキュメンテーションビルダー、Sphinxの日本ユーザ会">
    <meta property="og:title" content="Twitter/Facebookへのページシェアでコンテンツを埋め込む(OGP)">
    <meta property="og:description" content="Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投稿することがあります。このとき、そのページの内容数行と画像が投稿内容に自動的に表示されれば、その投稿を見た人が内容により興味を持ってくれるかもしれません。このような、SNS投稿にコンテンツ内容を表示するための仕組みとして、Open Graph protocol (OGP)という仕組みがあります。OGPは、HTMLのメタタグを適切に持たせることで、投稿先SNS等が表示するべきコンテンツ内容を把握し、その情報を表示してくれる仕組み...">
@@ -50,6 +51,7 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
    ]
 
    og_site_url = 'http://sphinx-users.jp/'
+   og_twitter_site = '@sphinxjp'
 
 
 ``conf.py`` の ``og_site_url`` には、HTML公開先のドキュメントルートのURLを記載します。
@@ -109,8 +111,9 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
                return None
 
 
-   def get_og_tags(context, doctree, site_url):
+   def get_og_tags(context, doctree, config):
        # page_url
+       site_url = config['og_site_url']
        page_url = urljoin(site_url, context['pagename'] + context['file_suffix'])
 
        # collection
@@ -125,12 +128,13 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
 
        ## OGP
        tags = '''
-       <meta name="twitter:card" content="og:type" />
+       <meta name="twitter:card" content="summary" />
+       <meta name="twitter:site" content="{cfg[og_twitter_site]}" />
        <meta property="og:site_name" content="{ctx[shorttitle]}">
        <meta property="og:title" content="{ctx[title]}">
        <meta property="og:description" content="{desc}">
        <meta property='og:url' content="{page_url}">
-       '''.format(ctx=context, desc=og_desc, page_url=page_url)
+       '''.format(ctx=context, desc=og_desc, page_url=page_url, cfg=config)
        if og_image:
            tags += '<meta property="og:image" content="{url}">'.format(url=og_image)
        return tags
@@ -140,18 +144,19 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
        if not doctree:
            return
 
-       site_url = app.config['og_site_url']
-       context['metatags'] += get_og_tags(context, doctree, site_url)
+       context['metatags'] += get_og_tags(context, doctree, app.config)
 
 
    def setup(app):
        app.add_config_value('og_site_url', None, 'html')
+       app.add_config_value('og_twitter_site', None, 'html')
        app.connect('html-page-context', html_page_context)
        return {
            'version': '0.1',
            'parallel_read_safe': True,
            'parallel_write_safe': True,
        }
+
 
 
 Twitterでの追加手順
