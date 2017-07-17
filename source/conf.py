@@ -25,6 +25,7 @@ sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.todo',
     'japanesesupport',
+    'ogtag',
     'sphinxcontrib.gist',
 ]
 
@@ -206,6 +207,7 @@ latex_documents = [
 
 todo_include_todos = True  # should be True due to the todolist directive
 
+og_site_url = 'http://sphinx-users.jp/'
 
 def setup(app):
     app.add_stylesheet('custom.css')
