@@ -98,9 +98,9 @@ Sphinxで作成したページのURLをTwitterやFacebookといったSNSに投�
 
        def get_og_description(self):
            # TODO: 何文字までが良いのか?
-           text = ''.join(self.text_list)
+           text = ' '.join(self.text_list)
            if len(text) > 200:
-               text = text[:-3] + '...'
+               text = text[:197] + '...'
            return text
 
        def get_og_image_url(self, page_url):
