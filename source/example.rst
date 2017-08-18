@@ -6,7 +6,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 
 .. note::
 
-   もしも、ここに掲載していないものがありましたら、 `ここのチケット <http://bitbucket.org/sphinxjp/website/issues>`_ でご一報ください。
+   もしも、ここに掲載していないものがありましたら、 `ここのチケット <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ でご一報ください。
 
 デフォルトテーマ
 ================
@@ -75,6 +75,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * 日本Symfonyユーザ会: http://docs.symfony.gr.jp/symfony2/
 * fullflex SG商品紹介ページ(株式会社アクセンス・テクノロジー): http://fullflex.accense.com/sg/
 * Chef Docs: http://docs.opscode.com/
+* SIOS Coatiマニュアル http://manual.sios-coati.com/
 
 Sphinxを紹介している資料等
 ============================
