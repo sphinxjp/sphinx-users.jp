@@ -48,7 +48,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 また、Sphinx-Users.jpでは定期的にイベントを開催しています。
 イベントの開催情報は、Twitterの `SphinxUsers.jp公式アカウント <http://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <http://twitter.com/#search?q=%23sphinxjp>`_ になります。
 
-もし、ここに掲載している内容にミスが見つかったり、追加のコンテンツの希望、もしくは「これを載せて」という方は、このサイトのソースをホスティングしている、Github内の `課題トラッカー <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ のチケットを作成してください。
+もし、ここに掲載している内容にミスが見つかったり、追加のコンテンツの希望、もしくは「これを載せて」という方は、このサイトのソースをホスティングしている、GitHub内の `課題トラッカー <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ のチケットを作成してください。
 
 
 .. サイトマップ
