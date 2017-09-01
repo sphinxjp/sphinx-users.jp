@@ -6,7 +6,7 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 
 .. note::
 
-   もしも、ここに掲載していないものがありましたら、 `ここのチケット <http://bitbucket.org/sphinxjp/website/issues>`_ でご一報ください。
+   もしも、ここに掲載していないものがありましたら、 `ここのチケット <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ でご一報ください。
 
 
 * IT業界を楽しく生き抜くための「つまみぐい勉強法」: http://gihyo.jp/book/2010/978-4-7741-4259-3
