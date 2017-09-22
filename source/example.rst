@@ -34,6 +34,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * PEP翻訳: http://pepja.googlecode.com/hg/build/html/index.html
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://shimizukawa.bitbucket.org/python-distribute-ja/index.html
 * astah* Plug-in開発チュートリアル: http://astah.change-vision.com/ja/plugin-tutorial/
+* LLVM ドキュメント: https://llvm.org/docs/
 
 デフォルト＋カスタム
 ======================
@@ -49,6 +50,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Plone 開発者マニュアル: http://collective-docs.takanory.net/index.html
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
 * Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
+* Asakusa Framework ドキュメント: http://docs.asakusafw.com/latest/release/ja/html/
 
 内蔵テーマ
 ==========
