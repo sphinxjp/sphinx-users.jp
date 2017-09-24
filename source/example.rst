@@ -13,25 +13,16 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 
 * TortoiseHg マニュアル: http://tortoisehg.readthedocs.io/ja/latest/
 * Zope 2 関連ドキュメントと記事: http://zope.jp/zope2/
-* Kay ドキュメント (missing): http://kay-docs-jp.shehas.net/
 * PyCASL2 & PyCOMET2 ドキュメント: http://www.image.med.osaka-u.ac.jp/member/nakamoto/pycasl2/index.html
 * Quick Sequence Daigram Editor ドキュメント: http://www.shibu.jp/sdedit-jp/
 * Erlang Efficiency Guide: http://erlang.shibu.jp/efficiency_guide/
 * OMakeマニュアル 日本語訳: http://omake-japanese.sourceforge.jp/
-* Svsql ドキュメント (missing): http://www.logos.ic.i.u-tokyo.ac.jp/~yunabe/svsql/
-* Web Socket 翻訳 (missing): http://ymotongpoo.appspot.com/websocket_jp/index.html
 * OpenPNE Web API 仕様書: http://www.openpne.jp/developer/webapi/ja/index.html
-* OpenSocial with OpenPNE ドキュメント (missing): http://www.openpne.jp/developer/opensocial/ja/index.html
 * foursquare API ドキュメント: http://alphawind.org/docs/foursquare-API/
 * Python 2.7 ドキュメント: http://docs.python.jp/2/
 * Python 3.3 ドキュメント: http://docs.python.jp/3/
-* Another Do-It-Yourself Framework (missing): https://docs.pylonsproject.org/projects/webob/en/stable/do-it-yourself.html
-* まるごと rhaco！ (missing): http://media.riaf.org/marugotoRst/index.html
-* ダイナミックなモジュールシステム、OSGiを始めよう (missing): http://kompiro.org/osgi/index.html
 * PEP(Python Enhancement Proposal) 日本語訳: http://www.tdoc.info/PEP-ja/index.html
 * Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
-* jsonengine 日本語ドキュメント (missing): http://jxck.bitbucket.org/jsonengine-doc-ja/build/html/index.html
-* PEP翻訳 (missing): http://pepja.googlecode.com/hg/build/html/index.html
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://www.freia.jp/taka/slides/python-distribute-ja/index.html
 * astah* Plug-in開発チュートリアル: http://astah.change-vision.com/ja/plugin-tutorial/
 * LLVM ドキュメント: https://llvm.org/docs/
@@ -47,7 +38,6 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * groonga ドキュメント: http://groonga.org/docs/index.html
 * JdbcRunner ドキュメント: http://hp.vector.co.jp/authors/VA052413/jdbcrunner/manual_ja/index.html
 * South ドキュメント: http://south-doc-ja.readthedocs.io/en/latest/
-* Plone 開発者マニュアル (missing): http://collective-docs.takanory.net/index.html
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
 * Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
 * Asakusa Framework ドキュメント: http://docs.asakusafw.com/latest/release/ja/html/
@@ -65,7 +55,6 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Sphinx-Users.jp: http://sphinx-users.jp
 * Django ドキュメント: http://djangoproject.jp/doc/ja/1.0/index.html
 * django-bpmobile ドキュメント: https://django-bpmobile.readthedocs.io/en/latest/
-* Modipyd Webサイト (missing): http://www.metareal.org/p/modipyd/ja/
 * プログラミング言語 Go ドキュメント: http://go.shibu.jp/
 * SurgoさんのWebサイト: http://works.surgo.jp/
 * Flaskドキュメント日本語訳: https://a2c.bitbucket.io/flask/
@@ -86,9 +75,6 @@ Sphinxを紹介している資料等
 * 2011/7/22 #odstudy 1 by @tk0miya `手軽にメンテナンスできるドキュメントのヒミツ - blockdiag <http://www.slideshare.net/TakeshiKomiya/blockdiag-201107-odstudy>`_
 * 2011/5/31 `Sphinxの国際化機能を使って複数言語用ドキュメントを用意する方法（概要）  - ククログ(2011-05-31) <http://www.clear-code.com/blog/2011/5/31.html>`_
 * 2011/5/2 WindowsでのSphinx,blockdiag,OMakeのセットアップ手順 `Sphinxの魔法にかかってみた - ふぞろいのGENGOたち <http://d.hatena.ne.jp/tyuki39/20110502/1304350133>`_
-* 2011/4/9 qpstudyでの発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ドキュメント書いてますか？ <http://www.togakushi.zyns.com/qp/20110409.html>`_ (missing)
-* 2011/2/22 #ssmjp での発表スライド(`sphinxjp.themes.s6`_ 使用) by @togakushi `ボクとSphinxとVimと。 <http://docs.ssm.myz.info/ssmjp.20110222.html>`_ (missing)
-* 2011/6/11 pykyotoでの発表スライド by @lab1092 `0611 sphinx pykyoto <http://www.slideshare.net/lab1092/0611-sphinx-pykyoto>`_ (missing)
 * 2010/12/6 `JUS勉強会でSphinxの紹介をしました - YAMAGUCHI::weblog <http://d.hatena.ne.jp/ymotongpoo/20101206>`_
 * 2010/11/6 `渋日記: Sphinx 1.1preの検索機能の修正 <http://blog.shibu.jp/article/41616999.html>`_
 * 2010/9/3 XP祭り2010での発表スライド(`sphinxjp.themes.s6`_ 使用) by @shimizukawa `Pythonで アジャイル 開発サイクル 2010ver <http://www.freia.jp/taka/slides/xpfest2010/index.html>`_
