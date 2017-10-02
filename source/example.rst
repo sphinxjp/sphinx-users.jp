@@ -41,6 +41,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
 * Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
 * Asakusa Framework ドキュメント: http://docs.asakusafw.com/latest/release/ja/html/
+* PyQ ドキュメント: http://docs.pyq.jp/index.html
 
 内蔵テーマ
 ==========
