@@ -68,6 +68,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * fullflex SG商品紹介ページ(株式会社アクセンス・テクノロジー): http://fullflex.accense.com/sg/
 * Chef Docs: http://docs.opscode.com/
 * SIOS Coatiマニュアル http://manual.sios-coati.com/
+* TERASOLUNA Server Framework for Java (5.x) Development Guideline: http://terasolunaorg.github.io/guideline/5.3.0.RELEASE/ja/index.html
 
 Sphinxを紹介している資料等
 ============================
