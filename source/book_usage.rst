@@ -20,3 +20,6 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 * 入門Redmine 第4版: http://www.shuwasystem.co.jp/products/7980html/4247.html
 * Pythonプロフェッショナルプログラミング 第2版: http://www.amazon.co.jp/dp/479804315X
 * Mithril - 最速クライアントサイドMVC: http://www.oreilly.co.jp/books/9784873117447/
+* Pythonエンジニア養成読本: http://gihyo.jp/book/2015/978-4-7741-7320-7
+* Python ライブラリ厳選レシピ: http://gihyo.jp/book/2015/978-4-7741-7707-6
+* Pythonエンジニア ファーストブック: http://gihyo.jp/book/2017/978-4-7741-9222-2
