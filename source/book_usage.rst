@@ -23,3 +23,5 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 * Pythonエンジニア養成読本: http://gihyo.jp/book/2015/978-4-7741-7320-7
 * Python ライブラリ厳選レシピ: http://gihyo.jp/book/2015/978-4-7741-7707-6
 * Pythonエンジニア ファーストブック: http://gihyo.jp/book/2017/978-4-7741-9222-2
+* Real World HTTP: https://www.oreilly.co.jp/books/9784873118048/
+* Goならわかるシステムプログラミング: https://www.lambdanote.com/collections/frontpage/products/go
