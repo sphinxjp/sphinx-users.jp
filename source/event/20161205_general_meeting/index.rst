@@ -222,5 +222,14 @@ sphinx-users MLとconnpassで参加者を募集しました。
 会場の様子
 -----------
 
-.. todo:: 写真を掲載する
+.. figure:: attendees.*
+
+   参加者のみなさん
+
+
+その他の写真はこちら
+
+.. raw:: html
+
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/shimizukawa/R53s7s" title="2016/12/05 sphinxjp 総会 2016"><img src="https://farm5.staticflickr.com/4448/26279923509_03cccf9926_z.jpg" width="640" height="360" alt="2016/12/05 sphinxjp 総会 2016"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
