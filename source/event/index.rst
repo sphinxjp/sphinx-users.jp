@@ -11,6 +11,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20171204_general_meeting/index
    20170314_html5jpub
 
 2016年
