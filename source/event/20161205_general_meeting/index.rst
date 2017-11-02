@@ -223,7 +223,7 @@ sphinx-users MLとconnpassで参加者を募集しました。
 -----------
 
 .. figure:: attendees.*
-   :width: 800
+   :width: 600
 
    参加者のみなさん
 
