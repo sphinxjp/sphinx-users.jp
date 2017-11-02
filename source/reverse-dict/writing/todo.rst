@@ -38,9 +38,5 @@ TODOを定義したところに飛べたりしますので便利です。index.r
 適用例
 ~~~~~~~~~
 
-.. todo:: TODOの説明のため
+.. figure:: todolist-sample.*
 
-
-todolistを使うと以下のように表示されます。
-
-.. todolist::
