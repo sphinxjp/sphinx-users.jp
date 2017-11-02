@@ -1,6 +1,11 @@
+# -*- coding: utf-8 -*_
+from __future__ import unicode_literals
 from docutils import nodes
 from sphinx import addnodes
-from urllib.parse import urljoin
+try:
+    from urllib.parse import urljoin
+except ImportError:
+    from urlparse import urljoin
 
 
 class Visitor:
