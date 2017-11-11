@@ -5,77 +5,135 @@ Windowsへのインストール
 Pythonのインストール
 ======================
 
-Windowsの場合は、Pythonが入っていない場合がほとんどだと思いますので、Pythonのインストールから説明します。すでにPythonを利用している人は、この項目を飛ばしてください。
+Windowsは、標準でPythonがインストールされていませんので、Pythonのインストールから説明します。
 
-.. image:: pythonorg.jpg
+Pythonをインストールする為のPythonディストリビューションにはAnaconda、ActivePython、IronPython等、他にもいくつかありますが、ここでは公式のPythonインストーラを使います。
 
-http://python.org を開きます。Pythonの総本山です。英語が多いですが、恐れないで行きましょう！左側のサイドバーから、Quick Linksの中のWindows Installerをクリックしてダウンロードして、インストールします。
+Pythonに慣れている方であればどのディストリビューションを選択しても問題無いと思いますが、Pythonに慣れていない方は複数のPythonのインストールを避け、公式のPythonをインストールして下さい。
 
-.. warning::
-   Pythonには2系と3系があります。Sphinx-1.2はPython-3.3でも動作します。
-   一般的にはまだPython-2.7の系列が多く使われているので、何かあった場合の
-   サポートをML等で受けやすいと思います。
+また、Pythonは2系と3系がありますがPython2は2020年にサポートが終わりますので公式のPython3の最新版 [#latestpython]_ をインストールしましょう。以降は Python3 の説明です。
 
-   以降の説明ではPython-2.7を前提として進めます。
+.. [#latestpython] 2017年現在は Python3.6 系が最新です
 
 
-.. image:: installpython.jpg
+まず https://www.python.org/downloads/ (:numref:`download-python`) を開き *Download the latest version for Windows* の下にある *Download Python 3.x.x* をクリック、インストーラをダウンロードして下さい。
 
-良くあるWindowsのインストーラに従うとインストールが完了します。
+.. figure:: images/pythonorg.jpg
+   :name: download-python
+   :scale: 60%
 
-インストールが完了したら、コマンドラインからPythonが起動できるように、環境変数のパスに追加しましょう。
+   Python インストーラのダウンロード
 
-* マイコンピュータのアイコンを右クリックして、プロパティダイアログを開きます
-* 詳細タブの下の方にある環境変数ボタンをクリックします
-* システム変数のPATHを編集して、パスを追加します
+.. note:: インストーラは 32bit 版と 64bit 版がありますがよくわからなければ 32bit 版をダウンロードして下さい。
 
-追加するのは以下の変数です。以下はPython2.7系の場合です。Python2.5系や2.6系では27の数字の部分が代わります。下記のパスを、セミコロン(;)で区切って追加します。
+ダウンロードが終わったら、インストーラを実行し、インストールを開始します。
 
-.. list-table:: 追加するパス
-   :widths: 10 40
-   :header-rows: 1
-   
-   * - パス
-     - 説明
-   * - C:¥Python27
-     - Pythonのコマンドが含まれるフォルダ
-   * - C:¥Python27¥Scripts
-     - 次に説明するeasy_installコマンドや、Sphinxのコマンドが格納されるフォルダ
+.. figure:: images/pythoninstaller01.png
+   :name: pythoninstaller01
+   :scale: 100%
 
-スタートメニューから、 **コマンドプロンプト** を起動するか、「名前を指定して実行」で ``cmd`` と入力してみましょう。ウィンドウが表れたら、 ``python[Enter]`` とタイプします。インストールしたPythonのバージョンを表す文章に続いて、 ``>>>`` という文字が表示されればインストールは成功です。 ``Ctrl+Z`` キーを押して終了しましょう。
+   インストール開始
 
-.. _install_easy_install:
+*Install Now* (:numref:`pythoninstaller01`) の直下に表示されているインストールパスをメモしてから、 *Install Now* クリックします。
 
-pip コマンドについて
-====================
+.. figure:: images/pythoninstaller02.png
+   :name: pythoninstaller02
+   :scale: 100%
 
-Pythonには ``pip`` という、外部ライブラリをインストールするのに便利なコマンドがあります。何かインストールしたいプログラムやライブラリがあったとすると、コマンドを一つ入力するだけで、実行するのに必要なものも一緒にダウンロードしてくれます。
+   インストール中
 
-最新の Python をインストールした場合は ``pip`` コマンドも同梱されています。コマンドプロンプトを開き ``where pip`` と打ってみてください。 ``pip`` コマンドが表示されるはずです。
 
-もし、少々古い Python を利用していて ``pip`` コマンドが表示されなかった場合は下記リンクを右クリックして保存してください。
-URLを開くと、ブラウザによってはそのままダウンロードできます。ファイルの中身が見えても、おちついて、右クリックで保存をすれば大丈夫です。
+.. figure:: images/pythoninstaller03.png
+   :name: pythoninstaller03
+   :scale: 100%
 
-* https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.phttps://bootstrap.pypa.io/get-pip.py
+   インストール完了ダイアログ
 
-ダウンロードしたら、コマンドプロンプトを起動し、該当のファイルのあるところまで移動してから、以下のように実行します。
+インストールが完了したら *Close* をクリックしてダイアログを閉じましょう。
 
-.. code-block:: bat
+インストール先を確認しましょう。
+:menuselection:`Windowsキー押下 --> cmd と入力し Enter キー押下` でコマンドプロンプトを起動して次のコマンドを打ち結果例のように表示される事を確認して下さい。
 
-   > python get-pip.py
+  コマンド ::
 
-これで ``pip`` コマンドがインストールされます。ここまで行けば次はとうとうSphinxのインストールになります。
+      cd %USERPROFILE%\AppData\Local\Programs\Python\Python36-32
+      dir /w
+      # Windows10 の場合は標準のインストールパスは `%USERPROFILE%\AppData\Local\Programs\Python\Python36-32` となります。
 
-.. _install_sphinx:
+  結果例  ::
+
+      [.]                [..]               [DLLs]
+      [Doc]              [include]          [Lib]
+      [libs]             LICENSE.txt        NEWS.txt
+      python.exe         python3.dll        python36.dll
+      pythonw.exe        [Scripts]          [tcl]
+      [Tools]            vcruntime140.dll
+
+続いてインストールされた Python のバージョンを確認します。引き続きコマンドプロンプトに次のコマンドを打ちましょう
+
+  コマンド
+
+  .. code-block:: bat
+
+      python -V
+
+
+  表示例
+
+  .. code-block:: bat
+
+      Python 3.6.3
+
+以上でまず Python のインストールが完了しました。次はいよいよ Sphinx のインストールです。
+
+.. note:: 以前は環境変数の PATH に追加する事を推奨していましたが、この記事では意図せず複数の Python をインストールしている場合がある事を考慮し、 PATH に追加せずに venv という Python の仮想環境機能を利用して Sphinx を実行する方法を説明します。
 
 Sphinxのインストール
 ====================
+venv という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
 
-``pip`` コマンドがインストールされていれば、後は一瞬です。コマンドラインから以下のようにタイプします。
+コマンドプロンプトを起動して Python のインストール時にメモをしたインストール先をカレントディレクトリにします
 
 .. code-block:: bat
 
-   > pip install sphinx
+      cd %USERPROFILE%\AppData\Local\Programs\Python\Python36-32
+      dir /w
+      # 既に Python インストール終了時の確認で実施している方は飛ばしてください
 
-これで完了です。インストールが終わったら、コマンドラインから、 ``sphinx-quickstart[エンター]`` とタイプしてみます。 :ref:`sphinx_quickstart` で説明されているような、対話メッセージが表示されればインストールは成功です。Ctrl+Cキーを押して中断しましょう。インストール作業は以上です。次は :doc:`make_project` に進んでください。
+venv 環境をユーザディレクトリ配下に ``mysphinx`` という名前で作成します
 
+.. code-block:: bat
+
+    python -m venv %USERPROFILE%\mysphinx
+
+仮想環境に入ります
+
+.. code-block:: bat
+
+    %USERPROFILE%\mysphinx\Scripts\activate
+
+`pip <https://pip.pypa.io/en/stable/>`_ コマンドでインストールします。コマンドプロンプトに以下のようにタイプしエンターキーを押して下さい。
+
+.. code-block:: bat
+
+   pip install sphinx Pillow
+
+   # 正常にインストールが完了した場合の表示例
+   Successfully installed Jinja2-2.10 MarkupSafe-1.0 Pillow-4.3.0 Pygments-2.2.0 alabaster-0.7.10 babel-2.5.1 certifi-2017.11.5 chardet-3.0.4 colorama-0.3.9 docutils-0.14 idna-2.6 imagesize-0.7.1 olefile-0.44 pytz-2017.3 requests-2.18.4 six-1.11.0 snowballstemmer-1.2.1 sphinx-1.6.5 sphinxcontrib-websupport-1.0.1 urllib3-1.22
+
+Sphinx がインストールされた事を確認しましょう。
+
+.. code-block:: bat
+
+    sphinx-quickstart --version
+
+   # 正常にインストールが完了した場合の表示例
+   Sphinx v1.6.5
+
+インストール作業は以上です。次は :doc:`make_project` に進んでください。
+
+.. note:: Python の仮想環境(venv環境)から抜けるには :command:`deactivate` コマンドを打つ必要がありますが :command:`deactivate` を打たずに :command:`exit` でコマンドプロンプトを終了させてしまって問題ありません
+
+.. todo:: コマンドプロンプトを使うので、使い方は自分で調べてねって書き足す
+
+.. todo:: アップデートの仕方を記載する
