@@ -23,6 +23,9 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。
 
+* 2017年11月28日(火) に `SphinxCon JP 2017 <https://sphinxjp.connpass.com/event/71056/>`_ を開催します。
+* 2017年11月17日(金) に `Sphinx をはじめよう (入門者向けハンズオン) <https://sphinxjp.connpass.com/event/71062/>`_ を開催します。
+* 2017年10月22日(日) に `Sphinx をはじめよう 第2版 <https://www.oreilly.co.jp/books/9784873118192/>`_ がオライリー・ジャパンより発売されました。
 * 2016年07月29日(金) に `#ssmjp プレゼンツ「ささみのさは Sphinx のさ」 <http://ssm.pkan.org/?p=1175>`_ を開催します。
 * 2015年11月24日(火) に :doc:`SphinxCon JP 2015 <event/20151124_sphinxconjp/index>` を開催しました。
 
