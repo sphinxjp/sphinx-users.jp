@@ -230,9 +230,9 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集しまし
    参加者のみなさん
 
 
-.. その他の写真はこちら
-..
-.. .. raw:: html
+その他の写真はこちら
 
-..    <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/shimizukawa/R53s7s" title="2016/12/05 sphinxjp 総会 2016"><img src="https://farm5.staticflickr.com/4448/26279923509_03cccf9926_z.jpg" width="640" height="360" alt="2016/12/05 sphinxjp 総会 2016"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-.. 
+.. raw:: html
+
+   <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="https://youtubevideoembed.com">Adding the YouTube Player to your website</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157667110969089&sort=3&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
