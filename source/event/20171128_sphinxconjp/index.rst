@@ -42,12 +42,12 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 ======================
 * 19:10- 開場
 * 19:30- 開始挨拶、会場紹介
-* 19:45- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
-* 20:05- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
-* 20:25- 「Sphinxで書籍を作ってよかったこと、つらかったこと」 `鹿野桂一郎さん  <https://twitter.com/golden_lucky>`_
-* 20:45- 「Sphinxが支える翻訳ドキュメント」 `cocoatomo さん <https://twitter.com/cocoatomo>`_
-* 21:05- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
-* 21:25- LT2本くらい
+* 19:45- 「Sphinxが支える翻訳ドキュメント」 `cocoatomo さん <https://twitter.com/cocoatomo>`_
+* 20:05- 「Sphinxで売り物の書籍を作ってみた」 `鹿野桂一郎さん  <https://twitter.com/golden_lucky>`_
+* 20:25- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
+* 20:45- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
+* 21:05- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
+* 21:25- LT3本くらい
 * 21:45- クロージング, 後片付け
 * 22:00  完全撤退
 
@@ -57,11 +57,11 @@ https://docs.google.com/forms/d/e/1FAIpQLSeONuBBx7xPEuT7EGhj1l1ddTUoXJqSarEjg5Rb
 Talks
 =====
 
-* 19:45- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
-* 20:05- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
-* 20:25- 「Sphinxで書籍を作ってよかったこと、つらかったこと」 `鹿野桂一郎さん  <https://twitter.com/golden_lucky>`_
-* 20:45- 「Sphinxが支える翻訳ドキュメント」 `cocoatomo さん <https://twitter.com/cocoatomo>`_
-* 21:05- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
+* 19:45- 「Sphinxが支える翻訳ドキュメント」 `cocoatomo さん <https://twitter.com/cocoatomo>`_
+* 20:05- 「Sphinxで売り物の書籍を作ってみた」 `鹿野桂一郎さん  <https://twitter.com/golden_lucky>`_
+* 20:25- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
+* 20:45- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
+* 21:05- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
 
 開催報告
 =========
