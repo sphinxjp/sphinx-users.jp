@@ -57,12 +57,96 @@ https://docs.google.com/forms/d/e/1FAIpQLSeONuBBx7xPEuT7EGhj1l1ddTUoXJqSarEjg5Rb
 Talks
 =====
 
-* 19:45- 「Sphinxが支える翻訳ドキュメント」 `cocoatomo さん <https://twitter.com/cocoatomo>`_
-* 20:05- 「Sphinxで売り物の書籍を作ってみた」 `鹿野桂一郎さん  <https://twitter.com/golden_lucky>`_
-* 20:25- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
-* 20:45- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
-* 21:05- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
+Sphinxが支える翻訳ドキュメント
+------------------------------
+
+:Time: 19:45-20:00
+:Name: @cocoatomoさん
+:BIO: Pythonドキュメント翻訳プロジェクトMaintainer
+:Keywords: 事例紹介
+
+.. image:: images/cocoatomo.png
+   :alt: @cocoatomo
+   :width: 100
+
+Sphinxの産まれるきっかけであり代表的事例であるPythonドキュメント。その日本語翻訳プロジェクトではi18nの機能や周辺ツールも使われています。このようにSphinxと密接な関係を持ち、Python使いなら一度は目にしたであろうドキュメントが、どのように生み出されているかを紹介します。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/3creRQgqP9uIK0" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cocoatomo/sphinx-82894476" title="Sphinxが支える翻訳ドキュメント" target="_blank">Sphinxが支える翻訳ドキュメント</a> </strong> from <strong><a href="https://www.slideshare.net/cocoatomo" target="_blank">tomo cocoa</a></strong> </div>
+
+Sphinxで売り物の書籍を作ってみた
+--------------------------------
+
+:Time: 20:05--20:20
+:Name: 鹿野桂一郎さん
+:BIO: ラムダノート株式会社
+:Keywords: 書籍制作、拡張の紹介、LaTeX
+
+.. image:: images/golden_lucky.jpg
+   :alt: @golden_lucky
+   :width: 100
+
+Sphinxで売り物の本を作りました。書店に並ぶような日本語の書籍をSphinxで最後まで作った貴重な事例として、困った点はどこか、それをどう解決したか、などの知見を共有できればと思います。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/4MhzFvnCYNaUJK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/k16shikano/sphinx-82905169" title="Sphinxで売り物の書籍を作ってみた" target="_blank">Sphinxで売り物の書籍を作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/k16shikano" target="_blank">Keiichiro Shikano</a></strong> </div>
+
+Re:VIEWとSphinxと、時々、ボク
+-----------------------------
+
+:Time: 20:25--20:40
+:Name: @r_rudiさん
+:BIO: Alpaca Japan
+:Keywords: Re:VIEW
+
+.. image:: images/r_rudi.png
+   :alt: @r_rudi
+   :width: 100
+
+Re:VIEWとSphinxとの相互変換について紹介します
+
+* `Re:VIEWとSphinxと、時々、ボク <http://tdoc.info/presentations/sphinxcon2017/>`_
+
+社内のマニュアルをSphinxで作ってみた
+------------------------------------
+
+:Time: 20:45--21:00
+:Name: Iosif Takakuraさん
+:BIO: メンテしやすいドキュメントを作りたい1ユーザー
+:Keywords: 事例紹介、失敗事例
+
+社内のマニュアルをSphinxで作ってみたものの、メンテされなくなってしまいもしかするとExcel方眼紙に戻ってしまいそうな話
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/1f2q2DkBofzEkr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iosiftakakurayusuke/sphinx-82892226" title="社内のマニュアルをSphinxで作ってみた" target="_blank">社内のマニュアルをSphinxで作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/iosiftakakurayusuke" target="_blank">Iosif Takakura</a></strong> </div>
+
+HTMLテンプレート再構築案
+------------------------
+
+:Time: 21:05--21:20
+:Name: 渋川よしき
+:BIO: sphinx-users.jp
+:Keywords: themes
+
+いまのHTMLテンプレートはhtml5準拠度は上がったものの、最近の技術を活かした設計にはなっていません。今後、このようにしていきたいというアイディアです。参考文献はReal World HTTPです。
+
+* `HTML Template Proposal for Sphinx 2.x <https://shibukawa.github.io/sphinxcon2017_htmltemplate/>`_
+
+LT
+--
+
+.. todo::
+
+   TBW
 
 開催報告
 =========
 
+* `SphinxCon JP 2017 - Togetter <https://togetter.com/li/1176350>`_
+
+.. raw:: html
+
+   <script src="https://s.togetter.com/static/web/js/parts.js"></script><script>tgtr.ExtendWidget({id:'1176350',url:'https://togetter.com/'});</script>
