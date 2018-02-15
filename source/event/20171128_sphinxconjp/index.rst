@@ -73,7 +73,7 @@ Sphinxの産まれるきっかけであり代表的事例であるPythonドキ�
 
 .. raw:: html
 
-   <iframe src="//www.slideshare.net/slideshow/embed_code/key/3creRQgqP9uIK0" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cocoatomo/sphinx-82894476" title="Sphinxが支える翻訳ドキュメント" target="_blank">Sphinxが支える翻訳ドキュメント</a> </strong> from <strong><a href="https://www.slideshare.net/cocoatomo" target="_blank">tomo cocoa</a></strong> </div>
+   <script async class="speakerdeck-embed" data-id="e8a3d72843a846df84f3d44311b70a22" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 Sphinxで売り物の書籍を作ってみた
 --------------------------------
