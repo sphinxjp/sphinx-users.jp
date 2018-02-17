@@ -212,3 +212,5 @@ og_twitter_site = '@sphinxjp'
 
 def setup(app):
     app.add_stylesheet('custom.css')
+
+numfig = True
