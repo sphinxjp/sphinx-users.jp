@@ -12,13 +12,13 @@ Sphinx + 翻訳 Hack-a-thon 開発合宿 2018年1月
 参加レポート
 ============
 
-`Hack like a rolling stone: Sphinx 開発合宿をしました。 <http://tk0miya.hatenablog.com/entry/2018/01/12/152034>`_
+* `Hack like a rolling stone: Sphinx 開発合宿をしました。 <http://tk0miya.hatenablog.com/entry/2018/01/12/152034>`_
+* `清水川記: Sphinx + 翻訳 hack-a-thon 開発合宿 2018 <http://www.freia.jp/taka/blog/sphinxjp-camp-20180108/index.html>`_
+* `プログラマ行進曲第二章 Sphinx + 翻訳 Hack-a-thon 開発合宿に参加してきました <http://takuan-osho.hatenablog.com/entry/2018/01/08/i-joined-sphinx-plus-translation-hackathon-bootcamp>`_
+* `kashew_nuts-blog: Sphinx + 翻訳 Hack-a-thon 開発合宿に参加しました <https://kashewnuts.github.io/2018/01/13/sphinxjp_camp.html>`_
 
-`清水川記: Sphinx + 翻訳 hack-a-thon 開発合宿 2018 <http://www.freia.jp/taka/blog/sphinxjp-camp-20180108/index.html>`_
-
-`プログラマ行進曲第二章 Sphinx + 翻訳 Hack-a-thon 開発合宿に参加してきました <http://takuan-osho.hatenablog.com/entry/2018/01/08/i-joined-sphinx-plus-translation-hackathon-bootcamp>`_
-
-`kashew_nuts-blog: Sphinx + 翻訳 Hack-a-thon 開発合宿に参加しました <https://kashewnuts.github.io/2018/01/13/sphinxjp_camp.html>`_
+合宿の様子
+==========
 
 .. figure:: camp_agenda.jpg
    :scale: 20 %
