@@ -2,7 +2,7 @@
 SphinxCon JP 2017 (2017/11/28)
 ===============================
 
-SphinxCon JP 2017 を開催します
+SphinxCon JP 2017 を開催しました。
 
 これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、 :doc:`2013年 <../20130223_sphinxconjp/index>` 、 :doc:`2014年 <../20141026_sphinxconjp/index>` 、 :doc:`2015年 <../20151124_sphinxconjp/index>`  と、開催してきたSphinxCon JPは、今年5回目の開催となります。
 
