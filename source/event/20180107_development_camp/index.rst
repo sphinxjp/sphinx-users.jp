@@ -21,21 +21,21 @@ Sphinx + 翻訳 Hack-a-thon 開発合宿 2018年1月
 ==========
 
 .. figure:: camp_agenda.jpg
-   :scale: 20 %
+   :width: 80%
 
    スケジュール
 
 .. figure:: capm_member.jpg
-   :scale: 20 %
+   :width: 80%
 
    ハッカソンの様子
 
 .. figure:: maintainer.jpg
-   :scale: 20 %
+   :width: 80%
 
    講義をするメンテナ
 
 .. figure:: beer.jpg
-   :scale: 20 %
+   :width: 80%
 
    夜は一杯飲みながら
