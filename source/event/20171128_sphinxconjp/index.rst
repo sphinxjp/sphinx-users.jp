@@ -47,7 +47,8 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * 20:25- 「Re:VIEWとSphinxと、時々、ボク」 `r_rudi さん <https://twitter.com/r_rudi>`_
 * 20:45- 「社内のマニュアルをSphinxで作ってみた」 `Iosif Takakura さん <https://twitter.com/huideyeren>`_
 * 21:05- 「HTMLテンプレート再構築案」 `渋川よしきさん <https://twitter.com/shibu_jp>`_
-* 21:25- LT3本くらい
+* 21:25- 「LT 木星人がSphinxで幸せになる方法」 `どりらんさん <https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/>`_
+* 21:35- 「LT Sphinx-users.jp の紹介」 `うさたーん <https://www.slideshare.net/goyamada92/introduce-for-sphinxusersjp>`_
 * 21:45- クロージング, 後片付け
 * 22:00  完全撤退
 
@@ -131,16 +132,29 @@ HTMLテンプレート再構築案
 :BIO: sphinx-users.jp
 :Keywords: themes
 
-いまのHTMLテンプレートはhtml5準拠度は上がったものの、最近の技術を活かした設計にはなっていません。今後、このようにしていきたいというアイディアです。参考文献はReal World HTTPです。
-
 * `HTML Template Proposal for Sphinx 2.x <https://shibukawa.github.io/sphinxcon2017_htmltemplate/>`_
 
-LT
---
+LT 木星人がSphinxで幸せになる方法
+---------------------------------
 
-.. todo::
+:Time: 21:25--21:35
+:Name: どりらん
+:BIO: sphinx-users.jp
+:Keywords: jupyter
 
-   TBW
+* https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
+
+LT Sphinx-users.jp の紹介
+-------------------------
+
+:Time: 21:35--21:45
+:Name: うさたーん
+:BIO: sphinx-users.jp
+:Keywords: community
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/4HjkYXTHvuikfL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/introduce-for-sphinxusersjp" title="Introduce for sphinx-users-jp" target="_blank">Introduce for sphinx-users-jp</a> </strong> from <strong><a href="https://www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
 
 開催報告
 =========
