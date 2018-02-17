@@ -20,17 +20,22 @@ Sphinx + 翻訳 Hack-a-thon 開発合宿 2018年1月
 
 `kashew_nuts-blog: Sphinx + 翻訳 Hack-a-thon 開発合宿に参加しました <https://kashewnuts.github.io/2018/01/13/sphinxjp_camp.html>`_
 
-.. list-table::
+.. figure:: camp_agenda.jpg
+   :scale: 20 %
 
-   - * スケジュール
-     * ハッカソンの様子
-   - * .. figure:: camp_agenda.jpg
-          :scale: 20 %
-     * .. figure:: capm_member.jpg
-          :scale: 20 %
-   - * 講義をするメンテナ
-     * 夜は一杯飲みながら
-   - * .. figure:: maintainer.jpg
-          :scale: 20 %
-     * .. figure:: beer.jpg
-          :scale: 20 %
+   スケジュール
+
+.. figure:: capm_member.jpg
+   :scale: 20 %
+
+   ハッカソンの様子
+
+.. figure:: maintainer.jpg
+   :scale: 20 %
+
+   講義をするメンテナ
+
+.. figure:: beer.jpg
+   :scale: 20 %
+
+   夜は一杯飲みながら
