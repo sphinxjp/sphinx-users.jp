@@ -1,4 +1,5 @@
 Pillow
 Sphinx
 sphinxjp.themes.sphinxjp
+setuptools
 sphinxcontrib.gist
