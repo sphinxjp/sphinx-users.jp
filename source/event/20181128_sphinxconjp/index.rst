@@ -1,10 +1,10 @@
 ===============================
-SphinxCon JP 2018 (2017/11/28)
+SphinxCon JP 2018 (2018/11/28)
 ===============================
 
 SphinxCon JP 2018 を開催します。
 
-これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、 :doc:`2013年 <../20130223_sphinxconjp/index>` 、 :doc:`2014年 <../20141026_sphinxconjp/index>` 、 :doc:`2015年 <../20151124_sphinxconjp/index>` :doc:`2017年 <../20171128_sphinxconjp/index>`  と、開催してきたSphinxCon JPは、今年6回目の開催となります。
+これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、 :doc:`2013年 <../20130223_sphinxconjp/index>` 、 :doc:`2014年 <../20141026_sphinxconjp/index>` 、 :doc:`2015年 <../20151124_sphinxconjp/index>` 、 :doc:`2017年 <../20171128_sphinxconjp/index>`  と、開催してきたSphinxCon JPは、今年6回目の開催となります。
 
 ..
    .. image:: images/SphinxConJP2017-logo.png
@@ -37,7 +37,7 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 
 参加登録
 ==========
-* https://sphinxjp.connpass.com/event/
+* https://sphinxjp.connpass.com/event/103294/
 
 タイムテーブル
 ==============
