@@ -30,7 +30,7 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
    * `[AccessMap]`_ `[GoogleMap]`_
    * ご来場の際は公共交通機関をご利用下さい
 
-.. _VOYAGE: https://voyagegroup.com/
+.. _VOYAGE GROUP: https://voyagegroup.com/
 .. _[AccessMap]: https://voyagegroup.com/company/profile/#wrap_map
 .. _[GoogleMap]: https://goo.gl/g33Evz
 
@@ -50,7 +50,7 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
   ※トークの詳細は決まり次第記載します
 
 発表は以下のページで募集中です。2018/10/29(月)締め切りです。
-https://docs.google.com/forms/d/e/1FAIpQLSeONuBBx7xPEuT7EGhj1l1ddTUoXJqSarEjg5Rb2rDciqvqOA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSedV_H2thJ-xqokoDrpvrnJUoaGSKGhX_tvBthP9-f9DsRHUg/viewform
 
 
 ..
