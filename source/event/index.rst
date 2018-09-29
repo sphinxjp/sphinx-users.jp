@@ -12,6 +12,7 @@
    :maxdepth: 1
 
    20180107_development_camp/index
+   20181128_sphinxconjp\index
 
 2017年
 ------
