@@ -7,10 +7,10 @@
 
 概要
 =====
-Sphinxには、標準で以下の9つのテーマ [#f1]_ が用意されています。
+Sphinxには、標準で以下の 10 個のテーマ [#f1]_ が用意されています。
 
+* alabaster
 * default
-* basic
 * sphinxdoc
 * scrolls
 * agogo
@@ -18,7 +18,7 @@ Sphinxには、標準で以下の9つのテーマ [#f1]_ が用意されてい�
 * pyramid
 * haiku
 * traditional
-* epub
+* bizstyle
 
 まずは、標準のテーマを他のテーマへ変更する方法を確認しましょう。
 詳細については `公式ドキュメント <http://www.sphinx-doc.org/ja/stable/theming.html>`_ を参照して下さい。
@@ -30,51 +30,65 @@ Sphinxには、標準で以下の9つのテーマ [#f1]_ が用意されてい�
 
 .. code-block:: python
 
-   # -- Options for HTML output ---------------------------------------------------
+    # -- Options for HTML output -------------------------------------------------
 
-   # The theme to use for HTML and HTML Help pages.  See the documentation for
-   # a list of builtin themes.
-   #html_theme = 'default'
-   html_theme = 'default'
+    # The theme to use for HTML and HTML Help pages.  See the documentation for
+    # a list of builtin themes.
+    #
+    html_theme = 'alabaster'
 
-   # Theme options are theme-specific and customize the look and feel of a theme
-   # further.  For a list of options available for each theme, see the
-   # documentation.
-   #html_theme_options = {}
+    # Theme options are theme-specific and customize the look and feel of a theme
+    # further.  For a list of options available for each theme, see the
+    # documentation.
+    #
+    # html_theme_options = {}
 
-   # Add any paths that contain custom themes here, relative to this directory.
-   #html_theme_path = []
+    # Add any paths that contain custom static files (such as style sheets) here,
+    # relative to this directory. They are copied after the builtin static files,
+    # so a file named "default.css" will overwrite the builtin "default.css".
+    html_static_path = ['_static']
 
-標準では、\ ``html_theme``\ には\ ``default``\ が指定され、テーマのパスを指定する項目\ ``html_theme_path``\ はコメントアウトされています。
-
-\ ``conf.py``\ の\ ``html_theme``\ の値を、組込みテーマから選択して指定すれば、指定したテーマに変更する事が出来ます。以下の例では、sphinxdocテーマを指定しています。
+標準では、\ ``html_theme``\ には\ ``alabaster``\ が指定されています。
+\ ``conf.py``\ の\ ``html_theme``\ の値を、組込みテーマから選択して指定すれば、指定したテーマに変更する事が出来ます。
+以下の例では、sphinxdocテーマを指定しています。
 
 .. code-block:: python
 
-   # The theme to use for HTML and HTML Help pages.  Major themes that come with
-   # Sphinx are currently 'default' and 'sphinxdoc'.
-   html_theme = 'sphinxdoc'
+    # The theme to use for HTML and HTML Help pages.  See the documentation for
+    # a list of builtin themes.
+    #
+    html_theme = 'sphinxdoc'
 
 \ ``conf.py``\ を書き換えた後、\ :command:`make html`\ を実行すれば指定したテーマのhtmlが出力されます。
-
 
 .. _default_theme:
 
 組み込みテーマの紹介
 ====================
 
+alabaster
+---------
+\ ``alabaster``\ テーマは\ ``sphinx-quickstart``\ コマンドでプロジェクトを生成した直後に設定されている標準のテーマです。
+
+.. image:: img/alabaster.png
+
+bizstyle
+--------
+
+.. image:: img/bizstyle.png
+
+* conf.pyの書き換え::
+
+    html_theme = 'bizstyle'
+
+    # 下記オプションでバックグラウンドの色を変更する事が可能です。※必須ではありません
+    html_theme_options = {'maincolor' : "#696969"}
+
 default
 --------
-下記が\ **default**\ テーマです。
-\ ``default``\ テーマは\ ``sphinx-quickstart``\ コマンドで
-プロジェクトを生成した直後に設定されているテーマです。
+昔の標準テーマです。互換性を残す為に名前が\ **default**\ になっています。
 
 .. image:: img/default.png
-
-basic
-------
-.. image:: img/basic.png
-
 
 sphinxdoc
 ----------
@@ -104,45 +118,10 @@ traditional
 ------------
 .. image:: img/traditional.png
 
-epub
------
-.. image:: img/epub.png
-
-
 サードパーティ製テーマの紹介
 =============================
 標準で提供されているテーマの他に、有志によって様々なテーマが公開されています。
-ここで紹介するサードパーティ製のテーマはPythonのパッケージ管理ツール\ :command:`easy_install`\ や\ :command:`pip`\ を用いてインストールします。
-
-.. tip::
-
-   Sphinx 1.2でsphinxjp.themecoreの機能が標準に取り込まれました。
-   そのため、1.2以降をお使いの場合はhtml_themeを書き換えるだけでテーマ
-   の変更が可能です。1.2より前をお使いの場合は、sphinxjp.themecoreをイ
-   ンストールしたうえで、以下の行を \ ``conf.py``\ に追加してください。
-
-   ::
-
-     extensions = ['sphinxjp.themecore']
-
-
-sphinxjp.themes.bizstyle
--------------------------
-http://pypi.python.org/pypi/sphinxjp.themes.bizstyle/
-
-.. image:: img/bizstyle.png
-
-
-* インストール方法例::
-
-    easy_install sphinxjp.themes.bizstyle
-
-* conf.pyの書き換え::
-
-    html_theme = 'bizstyle'
-
-    # 下記オプションでバックグラウンドの色を変更する事が可能です。※必須ではありません
-    html_theme_options = {'maincolor' : "#696969"}
+ここで紹介するサードパーティ製のテーマはPythonのパッケージ管理ツールや\ :command:`pip`\ を用いてインストールします。
 
 
 sphinxjp.themes.dotted
@@ -344,4 +323,4 @@ https://github.com/kellycreativetech/proBlue
 
 .. rubric:: 脚注
 
-.. [#f1] バージョン1.2現在。
+.. [#f1] バージョン1.8現在。

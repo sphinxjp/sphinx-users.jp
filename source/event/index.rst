@@ -11,8 +11,8 @@
 .. toctree::
    :maxdepth: 1
 
-   20180107_development_camp/index
    20181128_sphinxconjp/index
+   20180107_development_camp/index
 
 2017年
 ------
@@ -31,6 +31,8 @@
    :maxdepth: 1
 
    20161205_general_meeting/index
+
+※ 月例イベントについては以降記載しません
 
 2015年
 ------
