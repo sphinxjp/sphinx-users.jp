@@ -7,6 +7,10 @@
 reStructuredText入門
 ====================
 
+.. warning::
+  この記事は古い為 :command:`easy_install` の使用等、現在では非推奨の説明があります。インストール周りについては
+  :doc:`/gettingstarted/install_windows` の手順を参照してください。
+
 .. reStructuredText is also called reST (see http://docutils.sourceforge.net/rst.html).  It is a plain text markup language widely used in the Python community to document packages. The great thing about reST is that the text is still readable since the markup syntax does not obfuscate the text like LaTeX would. 
 
 reStructuredTextはreSTとも呼ばれます。 (http://docutils.sourceforge.net/rst.html (英語) を参照してください。) reSTは、プレーンテキストを使ったマークアップ言語で、パッケージのドキュメントを作成する際に、Pythonのコミュニティ内で広く使用されています。reSTの優れている点は、ソースのテキストの状態でもそのまま読むことができるという点です。LaTeXのように、マークアップの文法のせいで読みにくくなるということはありません。

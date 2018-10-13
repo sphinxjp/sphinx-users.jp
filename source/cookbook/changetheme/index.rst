@@ -121,7 +121,7 @@ traditional
 サードパーティ製テーマの紹介
 =============================
 標準で提供されているテーマの他に、有志によって様々なテーマが公開されています。
-ここで紹介するサードパーティ製のテーマはPythonのパッケージ管理ツールや\ :command:`pip`\ を用いてインストールします。
+ここで紹介するサードパーティ製のテーマはPythonのパッケージ管理ツール\ :command:`pip`\ を用いてインストールします。
 
 
 sphinxjp.themes.dotted
@@ -132,7 +132,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.dotted/
 
 * インストール方法例::
 
-   easy_install sphinxjp.themes.dotted
+   pip sphinxjp.themes.dotted
 
 * conf.pyの書き換え::
 
@@ -147,7 +147,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.sphinxjp/
 
 * インストール方法例::
 
-   easy_install sphinxjp.themes.sphinxjp
+   pip sphinxjp.themes.sphinxjp
 
 * conf.pyの書き換え::
 
@@ -162,7 +162,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.trstyle/
 
 * インストール方法例::
 
-    easy_install sphinxjp.themes.trstyle
+    pip sphinxjp.themes.trstyle
 
 * conf.pyの書き換え::
 
@@ -177,7 +177,7 @@ https://pypi.python.org/pypi/sphinxjp.themes.basicstrap/
 
 * インストール方法例::
 
-    easy_install sphinxjp.themes.basicstrap
+    pip sphinxjp.themes.basicstrap
 
 * conf.pyの書き換え::
 

@@ -1,6 +1,10 @@
 Sphinxの利用例
 ==============
 
+.. warning::
+  この記事は古い為 :command:`easy_install` の使用等、現在では非推奨の説明があります。インストール周りについては
+  :doc:`/gettingstarted/install_windows` の手順を参照してください。
+
 Sphinxのインストール
 --------------------
 

@@ -6,6 +6,10 @@
 自分自身のポートフォリオを構築する
 ==================================
 
+.. warning::
+  この記事は古い為 :command:`easy_install` の使用等、現在では非推奨の説明があります。インストール周りについては
+  :doc:`/gettingstarted/install_windows` の手順を参照してください。
+
 .. The templates that we discussed earlier are just a basis that you can use to document your software. From there, as explained in the chapter dedicated to Paster, you can tune it and add other templates to build your own document portfolio. 
 
 これまでの説明で紹介してきたテンプレートは、あなたのソフトウェアのドキュメント作成に使用することができる基盤となります。ここからは、Pasterを使用して、自分自身のドキュメントのポートフォリオを構築するために、それ以外のテンプレートを追加するための方法を紹介していきます。
