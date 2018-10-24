@@ -39,15 +39,14 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * JdbcRunner ドキュメント: http://hp.vector.co.jp/authors/VA052413/jdbcrunner/manual_ja/index.html
 * South ドキュメント: http://south-doc-ja.readthedocs.io/en/latest/
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
-* Mailman 日本語情報へようこそ: http://mm.tkikuchi.net/index.html
 * Asakusa Framework ドキュメント: http://docs.asakusafw.com/latest/release/ja/html/
 * PyQ ドキュメント: http://docs.pyq.jp/index.html
+* たけお出版 線形代数学 : https://takeo-books.com/linear-algebra/1/
 
 内蔵テーマ
 ==========
 
 * Sphinx ドキュメント: http://www.sphinx-doc.org/ja/stable/
-* Python Project Howto (日本語訳): http://www.hexacosa.net/pph_ja/
 * atig.rb ドキュメント: https://atig.github.io/
 
 オリジナルテーマ
