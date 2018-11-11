@@ -71,12 +71,12 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 Sphinxを紹介している資料等
 ============================
 
-* 2016/8/15 PyCon APAC 2016 in Korea `Easy contributable internationalization process with Sphinx <https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-at-pycon-apac-2016>`_
+* 2016/8/15 PyCon APAC 2016 in Korea `Easy contributable internationalization process with Sphinx at pycon apac 2016 <https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-at-pycon-apac-2016>`_
 * 2015/11/24 SphinxCon JP 2015 `世界のSphinx事情 <https://www.slideshare.net/shimizukawa/sphinx-in-the-world-sphinxcon-jp-2015>`_
 * 2015/10/31 Sphinx ワークショップ@関西 `Sphinx紹介 - Sphinxワークショップ@関西 <https://www.slideshare.net/shimizukawa/jus-sphinx-sphinx>`_
 * 2015/10/10 PyCon JP 2015 `Sphinxで作る貢献しやすいキュメント翻訳の仕組み <https://www.slideshare.net/shimizukawa/sphinx-53764167>`_
 * 2015/8/29 PyCon Korea 2015, 2015/8/22 PyCon Malaysia 2015, 2015/7/20 EuroPython 2015, 2015/6/7 PyCon APAC 2015 in Taiwan `Sphinx autodoc: automated API documentation <https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconkr-2015>`_
-* 2015/8/23 PyCon Malaysia 2015, 2015/6/18 PyCon Singapore 2015, 2015/6/6 PyCon APAC 2015 in Taiwan `Easy contributable internationalization process with Sphinx <https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconmy2015>`_
+* 2015/8/23 PyCon Malaysia 2015, 2015/6/18 PyCon Singapore 2015, 2015/6/6 PyCon APAC 2015 in Taiwan `Easy contributable internationalization process with Sphinx at pycon Malaysia 2015 <https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconmy2015>`_
 * 2014/12/6 版管理+自動組版 `執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話 <https://www.slideshare.net/shimizukawa/python2sphinx>`_
 * 2014/10/26 SphinxCon JP 2014 `Welcome to Sphinx-1.3 <http://www.freia.jp/taka/slides/sphinxconjp2014-welcome-to-sphinx-1.3/index.html>`_
 * 2013/5/25 PyCon Taiwan 2013 `Introduction to Sphinx documentation generator <http://www.freia.jp/taka/slides/pycontw2013-sphinx-introduction/index.html>`_
