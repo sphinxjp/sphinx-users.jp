@@ -46,15 +46,19 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * 19:15- 基調講演 tk0miya「docutils をマスターしよう」
 * 19:45- ビアバッシュ & LT
 * 20:15- 中盤の講演開始
+
   * やまねひでき「既存ドキュメントをSphinxにコンバートしてみた」15分
   * Kameko Ohmura「Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話」10分
   * Kazuya Takei「素材の良さを活かしつつ、reSTをReveal.jsに変換してみる話」10分
   * anzawatta「Sphinxのテーブルで全角記号を使いたい」10分
+
 * 21:10- 休憩
 * 21:20- 後半の講演開始
+
   * Iosif Takakura「Sphinxでまとめる多言語環境APIドキュメント」15分
   * Takayuki Shimizukawa「Sphinx customization for OGP support」15分
   * 瀧澤昭広「SphinxとInDesignで書籍を作った話」15分
+
 * 22:15- クロージング, 後片付け
 * 22:30 解散
 
