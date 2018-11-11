@@ -39,129 +39,144 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 ==========
 * https://sphinxjp.connpass.com/event/103294/
 
-タイムテーブル
-==============
+タイムテーブル(仮)
+======================
 * 18:45- 開場
-* 19:00- 開始挨拶、会場紹介
-* 19:05- トーク(募集中)
-* 21:30- LT(Sphinx、ドキュメント、翻訳に関する話題)
-* 22:00 クロージング, 後片付け
+* 19:00- 開会 ～開始挨拶、会場紹介
+* 19:15- 基調講演 tk0miya「docutils をマスターしよう」
+* 19:45- ビアバッシュ & LT
+* 20:15- 中盤の講演開始
+  * やまねひでき「既存ドキュメントをSphinxにコンバートしてみた」15分
+  * Kameko Ohmura「Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話」10分
+  * Kazuya Takei「素材の良さを活かしつつ、reSTをReveal.jsに変換してみる話」10分
+  * anzawatta「Sphinxのテーブルで全角記号を使いたい」10分
+* 21:10- 休憩
+* 21:20- 後半の講演開始
+  * Iosif Takakura「Sphinxでまとめる多言語環境APIドキュメント」15分
+  * Takayuki Shimizukawa「Sphinx customization for OGP support」15分
+  * 瀧澤昭広「SphinxとInDesignで書籍を作った話」15分
+* 22:15- クロージング, 後片付け
+* 22:30 解散
 
-  ※トークの詳細は決まり次第記載します
+※敬称略
 
-発表は以下のページで募集中です。2018/10/29(月)締め切りです。
-https://docs.google.com/forms/d/e/1FAIpQLSedV_H2thJ-xqokoDrpvrnJUoaGSKGhX_tvBthP9-f9DsRHUg/viewform
+以下の CfP は締め切りました。多くのご応募ありがとうございました。
+
+SphinxCon JP 2018 Call for Proposal https://docs.google.com/forms/d/e/1FAIpQLSedV_H2thJ-xqokoDrpvrnJUoaGSKGhX_tvBthP9-f9DsRHUg/viewform
 
 
-..
-    SphinxConJP 2018
+SphinxConJP 2018 Talks
+======================
 
-    Talks
-    =====
+基調講演 docutils をマスターしよう
+-----------------------------------
 
-    Sphinxが支える翻訳ドキュメント
-    ------------------------------
+:Time: 30 minutes
+:Name: @tk0miya さん
+:BIO: Sphinx のなかのひと。
+:Keywords: docutils, document processing system
 
-    :Time: 19:45-20:00
-    :Name: @cocoatomoさん
-    :BIO: Pythonドキュメント翻訳プロジェクトMaintainer
-    :Keywords: 事例紹介
+.. image:: images/tk0miya.jpg
+   :alt: @tk0miya
+   :width: 100
 
-    .. image:: images/cocoatomo.png
-       :alt: @cocoatomo
-       :width: 100
+Sphinx をささえているライブラリのひとつである、docutils は汎用的なドキュメント処理フレームワークです。Sphinx のメンテナンスや Sphinx 拡張を作るにあたって、
+docutils の使い方を知ることは必須科目とも言えます。このセッションでは docutils の構造を通してドキュメント変換ツールの基礎を学びます。
 
-    Sphinxの産まれるきっかけであり代表的事例であるPythonドキュメント。その日本語翻訳プロジェクトではi18nの機能や周辺ツールも使われています。このようにSphinxと密接な関係を持ち、Python使いなら一度は目にしたであろうドキュメントが、どのように生み出されているかを紹介します。
+既存ドキュメントをSphinxにコンバートしてみた
+--------------------------------------------
 
-    .. raw:: html
+:Time: 15 minutes
+:Name: やまねひできさん
+:BIO: Debian developer / サイオステクノロジー株式会社所属
+:Keywords: 事例紹介
 
-       <script async class="speakerdeck-embed" data-id="e8a3d72843a846df84f3d44311b70a22" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+.. image:: images/henrich.jpg
+   :alt: @henrich
+   :width: 100
 
-    Sphinxで売り物の書籍を作ってみた
-    --------------------------------
+SGMLで構成されていたDebian policyマニュアル（https://www.debian.org/doc/debian-policy/)へのSphinxの適用の経緯を紹介します
 
-    :Time: 20:05--20:20
-    :Name: 鹿野桂一郎さん
-    :BIO: ラムダノート株式会社
-    :Keywords: 書籍制作、拡張の紹介、LaTeX
+Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
+-------------------------------------------------------------------
 
-    .. image:: images/golden_lucky.jpg
-       :alt: @golden_lucky
-       :width: 100
+:Time: 10 minutes
+:Name: Kameko Ohmura さん
+:BIO: 普通のPythonエンジニアです。PyLadies Tokyoのスタッフしてます。
+:Keywords: Transifex, 翻訳
 
-    Sphinxで売り物の本を作りました。書店に並ぶような日本語の書籍をSphinxで最後まで作った貴重な事例として、困った点はどこか、それをどう解決したか、などの知見を共有できればと思います。
+.. image:: images/okusama27.jpg
+   :alt: @okusama27
+   :width: 100
 
-    .. raw:: html
+PyLadies Tokyoで本家PyLadiesのハンドブックを翻訳するプロジェクトを担当しています。本家もSphinxを使っているので、とても簡単に翻訳できた話をします。
 
-       <iframe src="//www.slideshare.net/slideshow/embed_code/key/4MhzFvnCYNaUJK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/k16shikano/sphinx-82905169" title="Sphinxで売り物の書籍を作ってみた" target="_blank">Sphinxで売り物の書籍を作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/k16shikano" target="_blank">Keiichiro Shikano</a></strong> </div>
 
-    Re:VIEWとSphinxと、時々、ボク
-    -----------------------------
+素材の良さを活かしつつ、reSTをReveal.jsに変換してみる話
+-------------------------------------------------------
 
-    :Time: 20:25--20:40
-    :Name: @r_rudiさん
-    :BIO: Alpaca Japan
-    :Keywords: Re:VIEW
+:Time: 10 minutes
+:Name: Kazuya Takei さん
+:BIO: Pythonを主軸にしたいソフトウェアエンジニア / 株式会社ニジボックス
+:Keywords: 拡張の紹介
 
-    .. image:: images/r_rudi.png
-       :alt: @r_rudi
-       :width: 100
+.. image:: images/attakei.jpg
+   :alt: @attakei
+   :width: 100
 
-    Re:VIEWとSphinxとの相互変換について紹介します
+「reStructuredTextをなるべく文書構造を活かしてReveal.jsに変換したい」というモチベーションで、Sphinx拡張+テーマを作ってみています。
+SphinxのdoctreeとReveal.jsの文法を構造ベースで比較しつつ、どうやって拡張に落とし込んだかを中心に話します。
 
-    + `Re:VIEWとSphinxと、時々、ボク <http://tdoc.info/presentations/sphinxcon2017/>`_
+Sphinxのテーブルで全角記号を使いたい
+------------------------------------
 
-    社内のマニュアルをSphinxで作ってみた
-    ------------------------------------
+:Time: 10 minutes
+:Name: anzawatta さん
+:BIO: 趣味でPythonやSphinx使ってます。
+:Keywords: docutils, east_asian_width
 
-    :Time: 20:45--21:00
-    :Name: Iosif Takakuraさん
-    :BIO: メンテしやすいドキュメントを作りたい1ユーザー
-    :Keywords: 事例紹介、失敗事例
+.. image:: images/anzawatta.jpg
+   :alt: @anzawatta
+   :width: 100
 
-    社内のマニュアルをSphinxで作ってみたものの、メンテされなくなってしまいもしかするとExcel方眼紙に戻ってしまいそうな話
+Sphinxとdocutilsでテーブルの文字列に全角記号を使う事について話します。
 
-    .. raw:: html
+Sphinxでまとめる多言語環境APIドキュメント
+-----------------------------------------
 
-       <iframe src="//www.slideshare.net/slideshow/embed_code/key/1f2q2DkBofzEkr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iosiftakakurayusuke/sphinx-82892226" title="社内のマニュアルをSphinxで作ってみた" target="_blank">社内のマニュアルをSphinxで作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/iosiftakakurayusuke" target="_blank">Iosif Takakura</a></strong> </div>
+:Time: 15 minutes
+:Name: Iosif Takakura さん
+:BIO: アパレル系子会社に勤める雑食系ITエンジニア。主に.NET、Ruby、Python、JavaScript界隈に出没。仕事では.NETを主に使用。
+:Keywords: 事例紹介, API Document, TypeDoc, DocFX,
 
-    HTMLテンプレート再構築案
-    ------------------------
+.. image:: images/huideyeren.jpg
+   :alt: @huideyeren
+   :width: 100
 
-    :Time: 21:05--21:20
-    :Name: 渋川よしき
-    :BIO: sphinx-users.jp
-    :Keywords: themes
+Sphinx customization for OGP support
+------------------------------------
 
-    + `HTML Template Proposal for Sphinx 2.x <https://shibukawa.github.io/sphinxcon2017_htmltemplate/>`_
+:Time: 15 minutes
+:Name: Takayuki Shimizukawa さん
+:BIO: Sphinx supporter
+:Keywords: Sphinx拡張
 
-    LT 木星人がSphinxで幸せになる方法
-    ---------------------------------
+.. image:: images/shimizukawa.jpg
+   :alt: @shimizukawa
+   :width: 100
 
-    :Time: 21:25--21:35
-    :Name: どりらん
-    :BIO: sphinx-users.jp
-    :Keywords: jupyter
+SphinxのHTML出力をOGPに対応させるSphinx拡張の書き方を紹介します。
 
-    + https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
+SphinxとInDesignで書籍を作った話
+--------------------------------
 
-    LT Sphinx-users.jp の紹介
-    -------------------------
+:Time: 15 minutes
+:Name: 瀧澤昭広さん
+:BIO: 某出版社でSphinxやRe:VIEWを使って、動物が表紙の電子書籍や書籍を作っています。
+:Keywords: Sphinx, InDesign
 
-    :Time: 21:35--21:45
-    :Name: うさたーん
-    :BIO: sphinx-users.jp
-    :Keywords: community
+.. image:: images/turky.jpeg
+   :alt: @turky
+   :width: 100
 
-    .. raw:: html
-
-       <iframe src="//www.slideshare.net/slideshow/embed_code/key/4HjkYXTHvuikfL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/introduce-for-sphinxusersjp" title="Introduce for sphinx-users-jp" target="_blank">Introduce for sphinx-users-jp</a> </strong> from <strong><a href="https://www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
-
-    開催報告
-    =========
-
-    + `SphinxCon JP 2017 - Togetter <https://togetter.com/li/1176350>`_
-
-    .. raw:: html
-
-       <script src="https://s.togetter.com/static/web/js/parts.js"></script><script>tgtr.ExtendWidget({id:'1176350',url:'https://togetter.com/'});</script>
+同人誌などでSphinxのPDFビルダで書籍を作る例は見かけますが、今回は商業出版物をSphinxとInDesignを使って制作した顛末をご紹介します。
