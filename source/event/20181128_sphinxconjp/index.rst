@@ -6,10 +6,10 @@ SphinxCon JP 2018 を開催します。
 
 これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、 :doc:`2013年 <../20130223_sphinxconjp/index>` 、 :doc:`2014年 <../20141026_sphinxconjp/index>` 、 :doc:`2015年 <../20151124_sphinxconjp/index>` 、 :doc:`2017年 <../20171128_sphinxconjp/index>`  と、開催してきたSphinxCon JPは、今年6回目の開催となります。
 
-..
-   .. image:: images/SphinxConJP2017-logo.png
-      :align: center
-      :alt: SphinxCon 2017 logo
+
+.. image:: images/SphinxConJP2018-logo.svg
+   :align: center
+   :alt: SphinxCon 2018 logo
 
 Sphinxには多くの機能があり、色々な使い方ができます。
 Sphinxがいまどのような分野で使われているのか、どんな機能があるのか、幅広く知るきっかけになればと思います。他の人のプレゼンテーションや会場での交流を通じて、みなさん自身のベストな使い方を発見してみてください！
