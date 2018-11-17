@@ -25,3 +25,5 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 * Pythonエンジニア ファーストブック: http://gihyo.jp/book/2017/978-4-7741-9222-2
 * Real World HTTP: https://www.oreilly.co.jp/books/9784873118048/
 * Goならわかるシステムプログラミング: https://www.lambdanote.com/collections/frontpage/products/go
+* 2018.01. 『仕事ではじめる機械学習』: https://www.oreilly.co.jp/books/9784873118253/
+* 2018.10. 『Go言語による並行処理』: https://www.oreilly.co.jp/books/9784873118468/
