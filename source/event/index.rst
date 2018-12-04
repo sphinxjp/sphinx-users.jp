@@ -11,6 +11,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20181204_general_meeting/index
    20181128_sphinxconjp/index
    20180107_development_camp/index
 
