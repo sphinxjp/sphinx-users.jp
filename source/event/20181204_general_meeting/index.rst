@@ -227,20 +227,18 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集しまし
 @nskgch: 来年も公式ドキュメントの翻訳を続けていきます。学生さんにSphinxを伝えていきます。
 
 
-
-
-
 会場の様子
 -----------
 
-.. .. figure:: attendees.*
-.. 
-..    参加者のみなさん
-.. 
-.. 
-.. その他の写真はこちら
-.. 
-.. .. raw:: html
-.. 
-..    <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="https://youtubevideoembed.com">Adding the YouTube Player to your website</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157667110969089&sort=3&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+.. figure:: attendees.*
+   :width: 80%
+
+   参加者のみなさん
+
+
+その他の写真はこちら
+
+.. raw:: html
+
+   <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157702819306851&sort=5&by=album&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://s3.amazonaws.com/tui-discount-codes/index.html">https://s3.amazonaws.com/tui-discount-codes/index.html</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
 
