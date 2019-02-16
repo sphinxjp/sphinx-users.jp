@@ -19,8 +19,8 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * OMakeマニュアル 日本語訳: http://omake-japanese.sourceforge.jp/
 * OpenPNE Web API 仕様書: http://www.openpne.jp/developer/webapi/ja/index.html
 * foursquare API ドキュメント: http://alphawind.org/docs/foursquare-API/
-* Python 2.7 ドキュメント: http://docs.python.jp/2/
-* Python 3.3 ドキュメント: http://docs.python.jp/3/
+* Python 2.7 ドキュメント 日本語訳: https://docs.python.org/ja/2.7/
+* Python 3 ドキュメント 日本語訳: https://docs.python.org/ja/3/
 * PEP(Python Enhancement Proposal) 日本語訳: http://www.tdoc.info/PEP-ja/index.html
 * Google JavaScript Style Guide 和訳: http://cou929.nu/data/google_javascript_style_guide/
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://www.freia.jp/taka/slides/python-distribute-ja/index.html
