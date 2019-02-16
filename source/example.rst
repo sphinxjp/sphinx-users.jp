@@ -41,6 +41,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * コンサーティーナ翻訳: http://concertinafaqjp.appspot.com/
 * Asakusa Framework ドキュメント: http://docs.asakusafw.com/latest/release/ja/html/
 * PyQ ドキュメント: http://docs.pyq.jp/index.html
+* 線形代数学： https://books.takeo.world/linear-algebra/
 
 内蔵テーマ
 ==========
