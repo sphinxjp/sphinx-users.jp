@@ -87,6 +87,8 @@ SphinxConJP 2018 Talks
 Sphinx をささえているライブラリのひとつである、docutils は汎用的なドキュメント処理フレームワークです。Sphinx のメンテナンスや Sphinx 拡張を作るにあたって、
 docutils の使い方を知ることは必須科目とも言えます。このセッションでは docutils の構造を通してドキュメント変換ツールの基礎を学びます。
 
+* https://docs.google.com/presentation/d/168yre5u_D2wQpeySrrDqV3cM9qE85YiaRTT8tMpjcGo
+
 既存ドキュメントをSphinxにコンバートしてみた
 --------------------------------------------
 
@@ -101,6 +103,8 @@ docutils の使い方を知ることは必須科目とも言えます。この�
 
 SGMLで構成されていたDebian policyマニュアル（https://www.debian.org/doc/debian-policy/)へのSphinxの適用の経緯を紹介します
 
+* https://docs.google.com/presentation/d/1tJRtGHkFwT0OvAuD346E3wpgrH7Yfl1tQCQXfaAkG2Q
+
 Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
 -------------------------------------------------------------------
 
@@ -114,7 +118,6 @@ Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻
    :width: 100
 
 PyLadies Tokyoで本家PyLadiesのハンドブックを翻訳するプロジェクトを担当しています。本家もSphinxを使っているので、とても簡単に翻訳できた話をします。
-
 
 素材の良さを活かしつつ、reSTをReveal.jsに変換してみる話
 -------------------------------------------------------
@@ -145,6 +148,8 @@ Sphinxのテーブルで全角記号を使いたい
 
 Sphinxとdocutilsでテーブルの文字列に全角記号を使う事について話します。
 
+* https://speakerdeck.com/anzawatta/sphinxfalseteburudequan-jiao-ji-hao-woshi-itai-sphinxcon-jp-2018-53c329a6-e71a-4200-9374-2568f0c172b5
+
 Sphinxでまとめる多言語環境APIドキュメント
 -----------------------------------------
 
@@ -156,6 +161,10 @@ Sphinxでまとめる多言語環境APIドキュメント
 .. image:: images/huideyeren.jpg
    :alt: @huideyeren
    :width: 100
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/mJsxPbBlB0jOmS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iosiftakakurayusuke/sphinxapi" title="Sphinxでまとめる多言語環境APIドキュメント" target="_blank">Sphinxでまとめる多言語環境APIドキュメント</a> </strong> from <strong><a href="https://www.slideshare.net/iosiftakakurayusuke" target="_blank">Iosif Takakura</a></strong> </div>
 
 Sphinx customization for OGP support
 ------------------------------------
@@ -170,6 +179,10 @@ Sphinx customization for OGP support
    :width: 100
 
 SphinxのHTML出力をOGPに対応させるSphinx拡張の書き方を紹介します。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/juUPSQnrDSmCxD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-customization-for-ogp-support-sphinx-con-jp-2018" title="Sphinx customization for OGP support at SphinxCon JP 2018" target="_blank">Sphinx customization for OGP support at SphinxCon JP 2018</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
 SphinxとInDesignで書籍を作った話
 --------------------------------
