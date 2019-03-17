@@ -197,3 +197,17 @@ SphinxとInDesignで書籍を作った話
    :width: 100
 
 同人誌などでSphinxのPDFビルダで書籍を作る例は見かけますが、今回は商業出版物をSphinxとInDesignを使って制作した顛末をご紹介します。
+
+LT Sphinx-themes.org
+--------------------
+
+:Time: 5 minutes
+:Name: @r_rudiさん
+:BIO: Alpaca Japan
+:Keywords: Sphinx, Theme
+
+.. image:: images/r_rudi.png
+   :alt: @r_rudi
+   :width: 100
+
+* https://speakerdeck.com/shirou/sphinx-themes-dot-org-in-sphinx-con-2018
