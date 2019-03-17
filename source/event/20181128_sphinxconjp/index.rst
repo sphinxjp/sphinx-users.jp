@@ -119,6 +119,8 @@ Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻
 
 PyLadies Tokyoで本家PyLadiesのハンドブックを翻訳するプロジェクトを担当しています。本家もSphinxを使っているので、とても簡単に翻訳できた話をします。
 
+* https://okusama27.github.io/kame_slides/sphinxcon2018/index.html#1
+
 素材の良さを活かしつつ、reSTをReveal.jsに変換してみる話
 -------------------------------------------------------
 
