@@ -8,6 +8,11 @@
 2019年
 ------
 
+.. toctree::
+   :maxdepth: 1
+
+   20190112_development_camp/index
+
 2018年
 ------
 
