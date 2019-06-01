@@ -1,5 +1,5 @@
 Pillow
-Sphinx==1.8.5
+Sphinx
 sphinxjp.themes.sphinxjp
 setuptools
 sphinxcontrib.gist
