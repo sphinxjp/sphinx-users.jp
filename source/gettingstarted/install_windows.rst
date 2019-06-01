@@ -140,4 +140,4 @@ Sphinx がインストールされた事を確認しましょう。
 
              pip install sphinx -U
 
-.. note:: Python の仮想環境(venv環境)から抜けるには :command:`deactivate` コマンドを打つ必要がありますが :command:`deactivate` を打たずに :command:`exit` でコマンドプロンプトを終了させてしまって問題ありません
+.. warning:: Python の仮想環境(venv環境)から抜けるには :command:`deactivate` コマンドを打つ必要がありますが :command:`deactivate` を打たずに :command:`exit` でコマンドプロンプトを終了させてしまって問題ありません
