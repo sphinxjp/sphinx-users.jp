@@ -13,7 +13,7 @@ Pythonに慣れている方であればどのディストリビューション�
 
 また、Pythonは2系と3系がありますがPython2は2020年にサポートが終わりますので公式のPython3の最新版 [#latestpython]_ をインストールしましょう。以降は Python3 の説明です。
 
-.. [#latestpython] 2017年現在は Python3.6 系が最新です
+.. [#latestpython] 2019年現在は Python3.7 系が最新です
 
 
 まず https://www.python.org/downloads/ (:numref:`download-python`) を開き *Download the latest version for Windows* の下にある *Download Python 3.x.x* をクリック、インストーラをダウンロードして下さい。
@@ -86,6 +86,8 @@ Pythonに慣れている方であればどのディストリビューション�
 
 以上でまず Python のインストールが完了しました。次はいよいよ Sphinx のインストールです。
 
+.. note:: コマンドプロンプトに慣れていない方は Web 上で検索すると多くの記事が見つかりますので別途調べて下さい。
+
 .. note:: 以前は環境変数の PATH に追加する事を推奨していましたが、この記事では意図せず複数の Python をインストールしている場合がある事を考慮し、 PATH に追加せずに venv という Python の仮想環境機能を利用して Sphinx を実行する方法を説明します。
 
 Sphinxのインストール
@@ -128,12 +130,14 @@ Sphinx がインストールされた事を確認しましょう。
     sphinx-quickstart --version
 
    # 正常にインストールが完了した場合の表示例
-   Sphinx v1.6.5
+   Sphinx v2.0.1
 
 インストール作業は以上です。次は :doc:`make_project` に進んでください。
 
+.. note:: Sphinx のバージョンをアップデートする
+
+          Sphinx の新しいバージョンがリリースされた場合、自分の環境も最新にする為には venv 環境に入り下記コマンドを打って下さい ::
+
+             pip install sphinx -U
+
 .. note:: Python の仮想環境(venv環境)から抜けるには :command:`deactivate` コマンドを打つ必要がありますが :command:`deactivate` を打たずに :command:`exit` でコマンドプロンプトを終了させてしまって問題ありません
-
-.. todo:: コマンドプロンプトを使うので、使い方は自分で調べてねって書き足す
-
-.. todo:: アップデートの仕方を記載する
