@@ -16,7 +16,8 @@ Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生
 
 .. image:: _static/screenshot.png
 
-Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。また、\ :ref:`mailinglist`\ での情報交換、\  :doc:`勉強会 <event/index>` \の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
+Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。
+:ref:`slack` のコミュニケーションや :doc:`勉強会 <event/index>` の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
 
 イベント・ニュース
 --------------------
@@ -49,7 +50,6 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 もし、ここに掲載している内容にミスが見つかったり、追加のコンテンツの希望、もしくは「これを載せて」という方は、このサイトのソースをホスティングしている、GitHub内の `課題トラッカー <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ のチケットを作成してください。
 
-
 .. サイトマップ
 .. ---------------
 
@@ -57,7 +57,6 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
    :maxdepth: 2
    :hidden:
 
-   technical.rst 
+   technical.rst
    community.rst
    introduction.rst
-

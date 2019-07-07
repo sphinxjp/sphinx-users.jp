@@ -128,11 +128,16 @@ Sphinxが利用しているreStructuredTextのもっとも特徴的な機能が�
 画像
 ----
 
-画像ファイルを埋め込むには、 ``image`` ディレクティブを利用します。
+画像ファイルを埋め込むには、 ``figure`` ディレクティブを利用します。
 
 .. code-block:: rst
 
-   .. image:: fighting_dogs.png
+        .. figure:: ./img/background.png
+           :scale: 50
+           :align: left
+           :target: http://sphinx-users.jp/
+
+           一行あけてここに書いたものがキャプションになります
 
 索引
 ----

@@ -49,5 +49,3 @@ reStructuredTextに実装されているディレクティブについて紹介�
    :maxdepth: 2
 
    directives
-  
-

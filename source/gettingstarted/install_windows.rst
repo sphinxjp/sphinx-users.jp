@@ -16,7 +16,7 @@ Pythonに慣れている方であればどのディストリビューション�
 .. [#latestpython] 2019年現在は Python3.7 系が最新です
 
 
-まず https://www.python.org/downloads/ (:numref:`download-python`) を開き *Download the latest version for Windows* の下にある *Download Python 3.x.x* をクリック、インストーラをダウンロードして下さい。
+まず https://www.python.org/downloads/ ( :numref:`download-python` ) を開き *Download the latest version for Windows* の下にある *Download Python 3.x.x* をクリック、インストーラをダウンロードして下さい。
 
 .. figure:: images/pythonorg.jpg
    :name: download-python
@@ -34,7 +34,7 @@ Pythonに慣れている方であればどのディストリビューション�
 
    インストール開始
 
-*Install Now* (:numref:`pythoninstaller01`) の直下に表示されているインストールパスをメモしてから、 *Install Now* クリックします。
+*Install Now* ( :numref:`pythoninstaller01` ) の直下に表示されているインストールパスをメモしてから、 *Install Now* クリックします。
 
 .. figure:: images/pythoninstaller02.png
    :name: pythoninstaller02

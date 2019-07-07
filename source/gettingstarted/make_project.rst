@@ -2,25 +2,48 @@
 プロジェクトを作る
 ==================
 
-sphinx-quickstartの実行
-=======================
+Sphinxでドキュメントを作成するためには、まず「プロジェクト」を作る必要があります。
+プロジェクトはコマンドラインで作成しますので、Windowsの場合はコマンドプロンプト、MacやLinuxの場合はTerminal(仮想端末)を起動させます。
 
-Sphinxでプロジェクトを作成するには、以下のようにタイプします。
+プロジェクトは、いくつかの設定ファイルなどが配置された、ドキュメントを保存するための専用ディレクトリです。
+配置するファイルなどは、Sphinxに含まれる「sphinx-quickstart」というコマンドで作成します。
 
-.. code-block:: bash
+sphinx-quickstart
+-----------------
 
-   $ sphinx-quickstart
+何もオプションを付けないと対話モードになり、 ``-q`` オプションを付けると非対話モードでプロジェクトが作成できます。
+ここでは非対話モードを紹介します。
 
-いくつか質問されます。絶対に回答しなければならないのは、次の項目です。後はEnterキーだけで大丈夫です。
+:プロジェクト名の指定: -p
+:ドキュメントの製作者(Author name(s))の指定: -a
+:プロジェクトのバージョンを指定: -v
+:プロジェクトのロケール(言語)を指定: -l
 
-* プロジェクト名
-* バージョン番号
-* 著者の名前
+引数の最後にプロジェクトのディレクトリ名を指定しますが、下記に注意してください。
 
-今回は、自分の書評ページなので、プロジェクト名は ``"Book Review"`` 、バージョン番号は今日の日付、著者名には自分の名前を入れましょう。
+- プロジェクトは引数で指定されたディレクトリに作成されます。
+- 指定されたディレクトリが存在しない場合は、ディレクトリが作成されます。
+- 省略されている場合はカレントディレクトリとなります。
+- プロジェクトを作成するディレクトリは空の必要があります。
+
+今回は、自分の書評ページなので、プロジェクト名は ``"Book Review"`` 、バージョン番号は 1.0 、著者名には自分の名前を入れます。
+
+sphinx-quickstart(非対話モード)の実行例:
+
+.. code-block:: console
+
+    $ sphinx-quickstart -q -p "Book Review" -a sphinx-users.jp -v 1.0 -l ja project_dir
+    Creating file project_dir/conf.py.
+    Creating file project_dir/index.rst.
+    Creating file project_dir/Makefile.
+    Creating file project_dir/make.bat.
+
+    Finished: An initial directory structure has been created.
+    (... 以下省略 ...)
+
 
 .. toctree::
-   
+
    sphinxquickstart
 
 ページ構成を作っていこう
