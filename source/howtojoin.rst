@@ -99,7 +99,7 @@ Slack
 -----
 
 Sphinx-users.jp コミュニティの公式チャットとしてSlackを運用しています。
-Slackに参加を希望される方は https://sphinxjp.herokuapp.com/ より登録をお願いします。
+Slackに参加を希望される方は、 `こちらから <https://join.slack.com/t/sphinxjp/shared_invite/enQtNzkxMTIwMTAzOTI2LTMxY2JjMmM4OWNjNjM1YjdkMGE5N2UyYjY1NzM5MTY1NGM3YmVmMjliM2MyYmQ0ZjhlZjRmMGM5NTA5N2MwZjY>`_ 登録をお願いします。
 
 Q & A
 ------
