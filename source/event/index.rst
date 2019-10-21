@@ -11,6 +11,7 @@
 .. toctree::
    :maxdepth: 1
 
+   201911XX_sphinxconjp/index
    20190112_development_camp/index
 
 2018年
