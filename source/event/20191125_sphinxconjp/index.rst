@@ -87,7 +87,7 @@ Sphinxで縦書きPDFを作成したときの辛み報告
 :BIO: webプログラマ
 :Keywords: UpLaTex, PDF
 
-.. image:: images/anzawatta.jpg
+.. image:: images/anzawatta.png
    :alt: @anzawatta
    :width: 100
 
@@ -101,7 +101,7 @@ JupyterとSphinxで本書いた
 :BIO: fin-py
 :Keywords: extension, jupyter, nbsphinx, jupyter-sphinx
 
-.. image:: images/driller.jpg
+.. image:: images/driller.png
    :alt: @driller
    :width: 100
 
@@ -119,7 +119,7 @@ GetFEM++とmayavi2の翻訳リポジトリを作成してみた
 :BIO: getfem-jp
 :Keywords: getfem++, mayavi2, transifex, travis, readthedocs
 
-.. image:: images/tkoyama010.jpg
+.. image:: images/tkoyama010.png
    :alt: @tkoyama010
    :width: 100
 
