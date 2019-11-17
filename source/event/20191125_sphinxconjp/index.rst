@@ -1,8 +1,8 @@
-==========================
-SphinxCon JP  (2019/11/25)
-==========================
+==============================
+SphinxCon JP 2019 (2019/11/25)
+==============================
 
-SphinxCon JP  を開催します。
+SphinxCon JP 2019 を開催します。
 
 これまで :doc:`2012年 <../20120916_sphinxconjp/index>` 、 :doc:`2013年 <../20130223_sphinxconjp/index>` 、 :doc:`2014年 <../20141026_sphinxconjp/index>` 、 :doc:`2015年 <../20151124_sphinxconjp/index>` 、 :doc:`2017年 <../20171128_sphinxconjp/index>` 、 :doc:`2018年 <../20181128_sphinxconjp//index>`   と、開催してきたSphinxCon JPは、今年7回目の開催となります。
 
