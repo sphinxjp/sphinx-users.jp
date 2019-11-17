@@ -37,7 +37,7 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 * https://sphinxjp.connpass.com/event/154759/
 
 タイムテーブル
-============
+==============
 * 18:45- 開場
 * 19:00- 開会 ～開始挨拶、会場紹介
 * 19:15- トーク (1)
@@ -60,27 +60,27 @@ Sphinxがいまどのような分野で使われているのか、どんな機�
 
 SphinxCon JP 2019 Call for Proposal https://docs.google.com/forms/d/e/1FAIpQLSdgaqpGOlIttm8v4Zhj777hCC27Hg_5SdZChWPYnArrG3x4pQ/viewform
 
-SphinxConJP  Talks
+SphinxCon JP Talks
 ======================
 
 Scrapboxをはじめよう
-------------------
+----------------------
 
 :Time: 15 minutes
 :Name: @shimizukawa さん
 :BIO: Sphinxコミッター, ビープラウド所属
-:Keywords: scrapbox, reStrcturedText, Sphinx
+:Keywords: Scrapbox, reStrcturedText, Sphinx
 
 .. image:: images/shimizukawa.jpg
    :alt: @shimizukawa
    :width: 100
 
-手軽に個人用Wikを作成できるiScrapboxを紹介します。
+手軽に個人用Wikを作成できるScrapboxを紹介します。
 Scrapboxの利点、Sphinxの利点を比較紹介します。
 また、Scrapbox記法をreSTに変換するツールを作成したのでこのツールを紹介します。
 
 Sphinxで縦書きPDFを作成したときの辛み報告
-------------------------------------
+------------------------------------------
 
 :Time: 10 minutes
 :Name: anzawatta さん
@@ -94,7 +94,7 @@ Sphinxで縦書きPDFを作成したときの辛み報告
 SphinxとUpLaTexを使って縦書きPDFを作成したときに得た知見や作業内容をご紹介します。
 
 JupyterとSphinxで本書いた
------------------------
+---------------------------
 
 :Time: 20 minutes
 :Name: @driller さん
@@ -112,7 +112,7 @@ SphinxCon JP 2017 LTで発表した内容の続編となります。
 実際に雑誌や書籍の執筆で使用したノウハウを共有したいと思います。
 
 GetFEM++とmayavi2の翻訳リポジトリを作成してみた
-------------------------------------------
+-------------------------------------------------
 
 :Time: 10 minutes
 :Name: @tkoyama010 さん
@@ -126,7 +126,7 @@ GetFEM++とmayavi2の翻訳リポジトリを作成してみた
 https://github.com/sphinx-doc/sphinx-doc-translations.git を元にGetFEM++プロジェクトとmayavi2プロジェクトの翻訳リポジトリを作成しました。その際の作業内容について報告します。
 
 Inside Sphinx
--------------
+-------------------
 
 :Time: 30 minutes
 :Name: @tk0miya さん
