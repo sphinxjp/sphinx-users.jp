@@ -17,7 +17,7 @@ sphinx-users.jp 2019年総会(2019/12/03)
 
 sphinx-users Slackで日程を調整し、connpassで参加者を募集しました。
 
-.. connpassで参加者を募集中です。
+connpassで参加者を募集中です。
 
 * https://sphinxjp.connpass.com/event/156206/
 
