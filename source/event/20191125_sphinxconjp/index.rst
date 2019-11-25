@@ -120,6 +120,7 @@ GetFEM++とmayavi2の翻訳リポジトリを作成してみた
 :Name: @tkoyama010 さん
 :BIO: getfem-jp
 :Keywords: getfem++, mayavi2, transifex, travis, readthedocs
+:Presentation: https://docs.google.com/presentation/d/1AlAGLd1nyY3HQP5ch0F8_UNYsyTcGVyp3SKzzfcxuUA/edit
 
 .. image:: images/tkoyama010.png
    :alt: @tkoyama010
