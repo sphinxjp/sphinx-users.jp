@@ -70,6 +70,7 @@ Scrapboxをはじめよう
 :Name: @shimizukawa さん
 :BIO: Sphinxコミッター, ビープラウド所属
 :Keywords: Scrapbox, reStrcturedText, Sphinx
+:Presentation: https://scrapbox.io/shimizukawa/Scrapbox%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86
 
 .. image:: images/shimizukawa.jpg
    :alt: @shimizukawa
@@ -100,6 +101,7 @@ JupyterとSphinxで本書いた
 :Name: @driller さん
 :BIO: fin-py
 :Keywords: extension, jupyter, nbsphinx, jupyter-sphinx
+:Presentation: https://hackmd.io/_rPZK9k2Qme7XEnCPOwT2w?view
 
 .. image:: images/driller.png
    :alt: @driller
@@ -132,10 +134,58 @@ Inside Sphinx
 :Name: @tk0miya さん
 :BIO: (株)タイムインターメディア CTO。2014年頃から Sphinx 開発者として活動。
 :Keywords: Sphinx
+:Presentation: https://docs.google.com/presentation/d/1EHT6C0uvrVYewlir_GXkfAhzKc_pEbk2bpmdKVUbUt4/edit
 
 .. image:: images/tk0miya.jpg
    :alt: @tk0miya
    :width: 100
 
 いくつかの Sphinx 拡張を取り上げながら、Sphinx がどのような構造をしているのか、 また、Sphinx をどのように拡張できるのかを紹介します。
+
+
+会場の様子
+===============
+
+.. figure:: images/overview1.jpg
+
+   会場の様子1
+
+.. figure:: images/overview2.jpg
+
+   会場の様子2
+
+.. figure:: images/opening.jpg
+
+   オープニング
+
+.. figure:: images/shimizukawa-presentation.jpg
+
+   Scrapboxをはじめよう `@shimizukawa`_
+
+.. figure:: images/anzawatta-presentation.jpg
+
+   Sphinxで縦書きPDFを作成したときの辛み報告 `@anzawatta`_
+
+.. figure:: images/driller-presentation.jpg
+
+   JupyterとSphinxで本書いた `@driller`_
+
+.. figure:: images/tkoyama010-presentation.jpg
+
+   GetFEM++とmayavi2の翻訳リポジトリを作成してみた `@tkoyama010`_
+
+.. figure:: images/tk0miya-presentation.jpg
+
+   Why we need learn "Inside Sphinx" `@tk0miya`_
+
+
+.. _@shimizukawa: https://twitter.com/shimizukawa
+
+.. _@anzawatta: https://twitter.com/anzawatta
+
+.. _@driller: https://twitter.com/driller
+
+.. _@tkoyama010: https://twitter.com/tkoyama010
+
+.. _@tk0miya: https://twitter.com/tk0miya
 
