@@ -24,6 +24,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 
 最新のイベント情報については `シリーズ：Sphinx-users.jp <https://sphinxjp.connpass.com/>`_ で確認して下さい。
 
+* 2019年11月25日(月) に :doc:`SphinxCon JP 2019 <event/20191125_sphinxconjp/index>` を開催しました。
 * 2019年01月12日(月) に :doc:`Sphinx + 翻訳 Hack-a-thon 開発合宿 <event/20190112_development_camp/index>` を開催しました。
 * 2018年11月28日(水) に :doc:`SphinxCon JP 2018 <event/20181128_sphinxconjp/index>` を開催しました。
 * 2018年01月07日(月) に :doc:`Sphinx + 翻訳 Hack-a-thon 開発合宿 <event/20180107_development_camp/index>` を開催しました。
