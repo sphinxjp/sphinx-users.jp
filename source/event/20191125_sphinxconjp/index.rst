@@ -87,6 +87,7 @@ Sphinxで縦書きPDFを作成したときの辛み報告
 :Name: anzawatta さん
 :BIO: webプログラマ
 :Keywords: UpLaTex, PDF
+:Presentation: https://github.com/anzawatta/sphinx-tatelatex-hiden-tare
 
 .. image:: images/anzawatta.png
    :alt: @anzawatta
