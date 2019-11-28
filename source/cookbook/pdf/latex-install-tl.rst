@@ -12,8 +12,12 @@ TeX 環境の構築
 TeX 環境は TeX のディストリビューション「TeX Live」のインストールを推奨します。最新版の TeX Live [#texlive]_ をインストールしましょう。
 開発元が推奨しているのはネットワークインストーラの利用ですが、ISO イメージをダウンロードしてインストールするのが確実です。
 
+TeX Live の主要なOS環境でのインストール手順については、 TeX Live 公式のマニュアルの
+日本語版（https://www.tug.org/texlive/doc/texlive-ja/texlive-ja.pdf）が存在します。
+
+
 以下は Windows へのインストール例ですが、UNIX 系 OS でターミナルからインストールする際は CUI で表示されるだけで、
-ほぼ同様の手順で進められますのでコマンドや環境については適宜読みかえて下さい。
+ほぼ同様の手順で進められますのでコマンドや環境については適宜読みかえて下さい。TeX Live2016を例として説明します。
 
 1. 配布サイトにアクセスし「download from a nearby CTAN mirror」をクリックします。アクセス元から最適なダウンロード先が表示されます。
 
@@ -81,7 +85,7 @@ TeX のパッケージが改良されていたり増えたりする事もあり�
 
 Windows 以外の OS へのインストールについては TeX Wiki [#texlive-install]_ を確認して下さい。
 
-.. [#texlive] 2016年10月現在の最新版は TeX Live 2016
+.. [#texlive] 2019年11月現在の最新版は TeX Live 2019
 .. [#virtualclonedrive] Virtual CloneDrive http://www.elby.ch/
 .. [#wincdemu] Win CDEmu http://wincdemu.sysprogs.org/
 .. [#texlive-install] TeX Wiki https://texwiki.texjp.org/ TeX をインストールしよう → TeX 入手法 → TeX をインストールする方法
