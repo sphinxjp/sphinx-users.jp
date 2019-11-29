@@ -7,7 +7,7 @@ TeX Live のインストールを行うことができます。TeX Liveは巨大
 用途に合わせて幾つかに分割したパッケージがあります。ここでは、日本語用のLaTeXである
 pLaTeX 系を使うためのパッケージを紹介しています。
 
-Debian/GNU Linux 7.0 (wheezy)
+Debian/GNU Linux 10.0 (buster)
 ==============================
 
 Debian/GNU Linux 10.0 (buster) では TeX Live 2018 がパッケージングされているため、
@@ -15,7 +15,7 @@ apt-get コマンド経由で TeX Live をインストールすることがで�
 
 .. code-block:: bash
 
-   $ apt-get install texlive-latex-recommended \
+   $ sudo apt-get install texlive-latex-recommended \
       texlive-latex-extra \
       texlive-fonts-recommended \
       texlive-fonts-extra \
@@ -25,12 +25,12 @@ apt-get コマンド経由で TeX Live をインストールすることがで�
 Ubuntu 18.04 (bionic)
 ======================
 
-Ubuntu 18.04 (bionic) では TeX Live 2018 がパッケージングされているため、
+Ubuntu 18.04 (bionic) では TeX Live 2017 がパッケージングされているため、
 apt-get コマンド経由で TeX Live をインストールすることができます。
 
 .. code-block:: bash
 
-   $ apt-get install texlive-latex-recommended \
+   $ sudo apt-get install texlive-latex-recommended \
       texlive-latex-extra \
       texlive-fonts-recommended \
       texlive-fonts-extra \
@@ -45,7 +45,7 @@ apt-get コマンド経由で TeX Live をインストールすることがで�
           インストール先のストレージ容量に余裕があれば、フル版を入れることを検討してください。
           Debian/Ubuntu系であれば以下のようになります。
 
-            $ apt-get install texlive-full
+            $ sudo apt-get install texlive-full
 
          とはいえ、細かいTeXのパッケージのチューニングが必要となる場合、
          システムのパッケージマネージャを用いず、isoやネットワークインストールを用いるべきです。
