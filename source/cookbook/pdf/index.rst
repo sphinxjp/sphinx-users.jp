@@ -120,3 +120,4 @@ PDFの完成
 :2014/01/26: MacPortsによるOSXへのインストール、FreeBSDへのインストールを追加し、記事を再構成&更新 (波田野)
 :2017/02/23: ``make latexpdfja`` -> ``make latexpdf`` (渋川)
 :2018/08/19: 古い情報を削除 (うさ)
+:2019/11/29: LaTeXのインストールについてWindows、macOS、Linuxの情報を更新（hidaruma）
