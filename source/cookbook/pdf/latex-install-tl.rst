@@ -2,10 +2,6 @@
 インストーラによるTeX Liveインストール (Windows / UNIX 系 OS)
 =============================================================
 
-Windows のみ
-============
-Windows の場合のみ別途 make コマンドが必要がです。
-推奨されている物はありませんので `Gow (Gnu On Windows) <https://github.com/bmatzelle/gow/releases>`_ や `Make for Windows <http://gnuwin32.sourceforge.net/packages/make.htm>`_ などをインストールしてパスを通して下さい。
 
 TeX 環境の構築
 ==============
