@@ -43,8 +43,7 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 参加方法
 --------
 
-ご自由に :ref:`mailinglist` にご参加ください。
-チャット用のチャンネルとして :ref:`slack` も用意しています。
+ご自由に :ref:`slack` にご参加ください。
 
 また、Sphinx-Users.jpでは定期的にイベントを開催しています。
 イベントの開催情報は、Twitterの `SphinxUsers.jp公式アカウント <https://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <https://twitter.com/#search?q=%23sphinxjp>`_ になります。
