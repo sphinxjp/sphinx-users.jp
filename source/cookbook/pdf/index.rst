@@ -105,12 +105,20 @@ PDFの完成
 
 .. note::
 
-   このPDFはフォント埋め込みタイプではありませんので、Kindleなどに入れると文字が出ません。
-   フォント埋め込みはdvipdfmxの設定で行えるようになるはずです。検証したらまた追記します。
+   このPDFはフォント埋め込みではないため、Kindleなどで文字が表示されません。
+   フォント埋め込みにはいくつかの方法があります。
+   以下のコマンドで、TeX Liveの環境をフォント埋め込みに変更できます。
 
-.. note::
+   .. code-block:: bash
 
-   LaTeX を使った PDF 出力以外にも Microsoft Word を出力するビルダーが開発中であり、これを使うとGUIで簡単にスタイルが設定できるPDF作成環境ができる見込みです。
+      sudo kanji-config-updmap-sys auto
+
+   埋め込みしない設定に戻すには以下を実行します。
+
+   .. code-block:: bash
+
+      sudo kanji-config-updmap-sys nofont
+
 
 変更履歴
 ========
