@@ -42,7 +42,7 @@ hack-a-thonは講習会ではないので自分で行動しないといけませ
 誰でも参加出来ます。 :ref:`こちら<mailinglist>` を参照ください。
 
 .. note::
-   メーリングリストは廃止され `Sphinx-users.jp Slack <https://join.slack.com/t/sphinxjp/shared_invite/enQtNzkxMTIwMTAzOTI2LTMxY2JjMmM4OWNjNjM1YjdkMGE5N2UyYjY1NzM5MTY1NGM3YmVmMjliM2MyYmQ0ZjhlZjRmMGM5NTA5N2MwZjY>`_ に移行しました。
+   メーリングリストは廃止され `Sphinx-users.jp Slack <https://join.slack.com/t/sphinxjp/shared_invite/enQtNzkxMTIwMTAzOTI2LTMxY2JjMmM4OWNjNjM1YjdkMGE5N2UyYjY1NzM5MTY1NGM3YmVmMjliM2MyYmQ0ZjhlZjRmMGM5NTA5N2MwZjY>`_ に移行しました。(2019年12月追記)
 
 そのOSSの特徴は？
 ^^^^^^^^^^^^^^^^^^
