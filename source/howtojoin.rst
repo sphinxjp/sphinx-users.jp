@@ -76,6 +76,16 @@ Sphinx-Users.jpでコミュニティとして用意しているコミュニケ�
 
 .. _mailinglist:
 
+メーリングリスト
+----------------
+
+現在は閉鎖しています。Slackに移行しました。
+
+* `メーリングリスト <https://groups.google.com/forum/#!forum/sphinx-users-jp>`_ (2016年～2019年)
+* `2016年以前のメーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_ （消滅しました）
+
+ メーリングリストとしては `Sphinx開発元のML(英語) <http://groups.google.com/group/sphinx-dev>`_ もあります。こちらはSphinx-Users.jpの運営ではありませんが、拡張機能を開発した場合のPRなどはこちらでも行う方が良いでしょう。
+
 Twitter
 -------
 
