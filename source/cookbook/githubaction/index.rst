@@ -85,20 +85,22 @@ GitHub Actions のワークフローを設定します。yaml ファイルは以
 .. warning::
 
   注意点として Deploy Keys を用いてコミットする場合、GitHub Actions 上で無限ループになる可能性があります。つまり GitHub Actions でコミットしたイベントをトリガーにして、次の GitHub Actions のワークフローを呼び出してしまうことです。``GITHUB_TOKEN`` を用いてコミットする場合は無限ループは発生しません、そうでない場合に無限ループになるのは GitHub Actions の仕様によるものです。`こちら <https://github.community/t5/GitHub-Actions/Workflow-infinite-loop/td-p/34471>`_ に GitHub Staff による回答があります。
-  
+
   無限ループを回避する方法の一つとして、GitHub Actions でコミットしたときの条件では GitHub Actions のワークフローが実行されないように制御する方法があります。以下のワークフローの設定では ``if: "!contains(github.event.head_commit.message, 'auto rebuilding site')"`` として無限ループにならないようにしています。
 
 .. gist:: https://gist.github.com/d-tsuji/834a94a4b46044aca7da801b11febb10
 
 上記の GitHub Actions の設定を実施しておくと GitHub リポジトリにコミットするときにワークフローが実行されます。以下のような結果を見ることができます。
 
-.. image:: img/github_action_success.png
-  :scale: 100
+
+.. figure:: ./img/github_action_success.png
+   :scale: 100%
 
 また参考までに GitHub Actions のデプロイのログの一部を載せておきます。
 
-.. image:: img/github_action_success_log.png
-  :scale: 100
+.. figure:: ./img/github_action_success_log.png
+   :scale: 100%
+
 
 サンプル
 =========================================
