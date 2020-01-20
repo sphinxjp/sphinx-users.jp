@@ -93,12 +93,12 @@ GitHub Actions のワークフローを設定します。yaml ファイルは以
 上記の GitHub Actions の設定を実施しておくと GitHub リポジトリにコミットするときにワークフローが実行されます。以下のような結果を見ることができます。
 
 
-.. figure:: ./img/github_action_success.png
+.. figure:: img/github_action_success.png
    :scale: 100%
 
 また参考までに GitHub Actions のデプロイのログの一部を載せておきます。
 
-.. figure:: ./img/github_action_success_log.png
+.. figure:: img/github_action_success_log.png
    :scale: 100%
 
 
