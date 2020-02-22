@@ -18,49 +18,37 @@ Pythonの環境構築に慣れている方であればどのディストリビ�
 まず https://www.python.org/downloads/ ( :numref:`download-python` ) を開き *Download the latest version for Windows* の下にある *Download Python 3.x.x* をクリック、インストーラをダウンロードして下さい [#installer]_ 。
 
 
- .. list-table::
-    :header-rows: 1
-    :widths: 1
+.. figure:: images/pythonorg.jpg
+   :name: download-python
+   :scale: 60%
 
-    * - Python インストーラのダウンロード
-    * - .. figure:: images/pythonorg.jpg
-           :name: download-python
-           :scale: 60%
+   Python インストーラのダウンロード
 
 
 ダウンロードが終わったら、インストーラを実行し、インストールを開始します。
 *Add Python 3.x to PATH* のチェックは外してください [#path]_ 。
 
- .. list-table::
-    :header-rows: 1
-    :widths: 1
+.. figure:: images/pythoninstaller01.png
+   :name: pythoninstaller01
+   :scale: 100%
 
-    * - Python インストール開始
-    * - .. figure:: images/pythoninstaller01.png
-           :name: pythoninstaller01
-           :scale: 100%
+   インストール開始
 
 
 *Install Now* ( :numref:`pythoninstaller01` ) の直下に表示されているインストールパスをメモしてから、 *Install Now* クリックします。
 
- .. list-table::
-    :header-rows: 1
-    :widths: 1
+.. figure:: images/pythoninstaller02.png
+   :name: pythoninstaller02
+   :scale: 100%
 
-    * - Python インストール中
-    * - .. figure:: images/pythoninstaller02.png
-           :name: pythoninstaller02
-           :scale: 100%
+   インストール中
 
 
- .. list-table::
-    :header-rows: 1
-    :widths: 1
+.. figure:: images/pythoninstaller03.png
+   :name: pythoninstaller03
+   :scale: 100%
 
-    * - Python インストール完了ダイアログ
-    * - .. figure:: images/pythoninstaller03.png
-           :name: pythoninstaller03
-           :scale: 100%
+   インストール完了ダイアログ
 
 
 インストールが完了したら *Close* をクリックしてダイアログを閉じましょう。
