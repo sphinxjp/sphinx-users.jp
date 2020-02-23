@@ -1,7 +1,7 @@
 FROM python:3.8-slim
 
 RUN apt-get update \
-    && apt-get install -y gettext graphviz \
+    && apt-get install -y gettext git graphviz make \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN pip install -U setuptools pip
