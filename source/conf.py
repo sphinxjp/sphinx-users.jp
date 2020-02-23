@@ -22,12 +22,10 @@ sys.path.append(os.path.abspath('_ext'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = [
-    'sphinx.ext.todo',
-    'japanesesupport',
-    'ogtag',
-    'sphinxcontrib.gist',
-]
+extensions = ['sphinx.ext.todo']
+extensions += ['ogtag']
+extensions += ['sphinxcontrib.gist']
+extensions += ['sphinxcontrib.trimblank']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -214,3 +212,4 @@ def setup(app):
     app.add_stylesheet('custom.css')
 
 numfig = True
+trimblank_keep_alnum_blank = ['html', 'singlehtml']
