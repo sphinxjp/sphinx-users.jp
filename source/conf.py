@@ -24,7 +24,7 @@ sys.path.append(os.path.abspath('_ext'))
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.todo',
-    'japanesesupport',
+    'sphinxcontrib.trimblank',
     'ogtag',
     'sphinxcontrib.gist',
 ]
@@ -214,3 +214,4 @@ def setup(app):
     app.add_stylesheet('custom.css')
 
 numfig = True
+trimblank_keep_alnum_blank = ['html', 'singlehtml']
