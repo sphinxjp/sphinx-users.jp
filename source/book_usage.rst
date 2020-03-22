@@ -37,6 +37,7 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 同人誌
 ======
 
+* 2017.04. 『Big Mouth Data 2017 Spring』https://kuyodera.github.io/
 * 2018.10. 『マスタリング docutils』: https://tk0miya.booth.pm/items/1045430
 * 2019.04. 『GetFEM++使用者文書』: https://tkoyama010.booth.pm/items/1044807
 * 2019.04. 『はじめてのGetFEM++』: https://tkoyama010.booth.pm/items/1304104
