@@ -8,6 +8,8 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 
    もしも、ここに掲載していないものがありましたら、 `ここのチケット <https://github.com/sphinxjp/sphinx-users.jp/issues>`_ でご一報ください。
 
+商業誌
+======
 
 * 2018.10. 『Go言語による並行処理』: https://www.oreilly.co.jp/books/9784873118468/
 * 2018.06. 『Pythonプロフェッショナルプログラミング 第3版』: https://www.shuwasystem.co.jp/products/7980html/5382.html
@@ -31,3 +33,15 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 * 2011.05. 『アート・オブ・コミュニティ』: http://www.amazon.co.jp/dp/4873114950
 * 2010.12. 『アジャイルな時間管理術 ポモドーロテクニック入門』: http://www.amazon.co.jp/dp/4048689525/
 * 2010.05. 『IT業界を楽しく生き抜くための「つまみぐい勉強法」』: http://gihyo.jp/book/2010/978-4-7741-4259-3
+
+同人誌
+======
+
+* 2017.04. 『Big Mouth Data 2017 Spring』https://kuyodera.github.io/
+* 2018.10. 『マスタリング docutils』: https://tk0miya.booth.pm/items/1045430
+* 2019.04. 『GetFEM++使用者文書』: https://tkoyama010.booth.pm/items/1044807
+* 2019.04. 『はじめてのGetFEM++』: https://tkoyama010.booth.pm/items/1304104
+* 2019.09. 『GetFEM++ Pythonインターフェース』: https://tkoyama010.booth.pm/items/1574241
+* 2019.09. 『Inside Sphinx』: https://booth.pm/ja/items/1576243
+* 2019.12. 『Pythonでコマンドラインツールを作る with argparse』: https://everlastingdiary.booth.pm/items/1727740
+* 2019.03. 『線形代数ライブラリGMM++日本語ドキュメント』: https://tkoyama010.booth.pm/items/1873932
