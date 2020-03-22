@@ -42,3 +42,4 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 * 2019.04. 『はじめてのGetFEM++』: https://tkoyama010.booth.pm/items/1304104
 * 2019.09. 『GetFEM++ Pythonインターフェース』: https://tkoyama010.booth.pm/items/1574241
 * 2019.09. 『Inside Sphinx』: https://booth.pm/ja/items/1576243
+* 2019.12. 『Pythonでコマンドラインツールを作る with argparse』: https://everlastingdiary.booth.pm/items/1727740
