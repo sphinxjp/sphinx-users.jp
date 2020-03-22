@@ -36,3 +36,7 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 
 同人誌
 ======
+
+* 2019.04. 『GetFEM++使用者文書』: https://tkoyama010.booth.pm/items/1044807
+* 2019.04. 『はじめてのGetFEM++』: https://tkoyama010.booth.pm/items/1304104
+* 2019.09. 『GetFEM++ Pythonインターフェース』: https://tkoyama010.booth.pm/items/1574241
