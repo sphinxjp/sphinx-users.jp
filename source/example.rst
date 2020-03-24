@@ -26,6 +26,9 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 * Pythonパッケージ ヒッチハイク・ガイド翻訳: http://www.freia.jp/taka/slides/python-distribute-ja/index.html
 * astah* Plug-in開発チュートリアル: http://astah.change-vision.com/ja/plugin-tutorial/
 * LLVM ドキュメント: https://llvm.org/docs/
+* Scipy Japan 運営マニュアル: https://scipy-conference-japan-manual.readthedocs.io/en/latest/
+* GetFEM＋＋ドキュメント 日本語訳: https://getfem.readthedocs.io/ja/latest
+* Mayavi2ドキュメント 日本語訳: https://mayavi.readthedocs.io/ja/latest/
 
 デフォルト＋カスタム
 ======================
@@ -48,6 +51,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 
 * Sphinx ドキュメント: http://www.sphinx-doc.org/ja/stable/
 * atig.rb ドキュメント: https://atig.github.io/
+* モダンFortran勉強会 コーディングスタイルガイド: https://codingstyleguide.readthedocs.io/en/latest/
 
 オリジナルテーマ
 ================
