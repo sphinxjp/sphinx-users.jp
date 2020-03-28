@@ -11,9 +11,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: build html
       run: |
-        python3 -m pip install setuptools
-        python3 -m pip install -r requirements.txt
+        python3 -m venv .venv
+        source .venv/bin/activate
+        pip install -r requirements.txt
         sphinx-build -M html source build -N -T
+        deactivate
     - name: slack-notifier
       uses: 8398a7/action-slack@v2.7.0
       with:
