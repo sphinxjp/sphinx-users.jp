@@ -13,7 +13,7 @@ jobs:
       run: |
         python3 -m pip install setuptools
         python3 -m pip install -r requirements.txt
-        python3 -m sphinx-build -M html source build -N -T
+        sphinx-build -M html source build -N -T
     - name: slack-notifier
       uses: 8398a7/action-slack@v2.7.0
       with:
