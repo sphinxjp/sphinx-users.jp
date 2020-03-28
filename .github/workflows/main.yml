@@ -7,19 +7,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
     steps:
     - uses: actions/checkout@v2
     - name: build html
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        echo "python version $(python --version) running"
-        echo "pip version $(pip --version) running"
-        echo "sphinx-build version $(sphinx-build --version) running"
-        sphinx-build -M html source build -N -T
+        apt install python3-pip
+        python3 -m pip install -r requirements.txt
+        python3 -m sphinx-build -M html source build -N -T
     - name: slack-notifier
       uses: 8398a7/action-slack@v2.7.0
       with:
