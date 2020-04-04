@@ -8,26 +8,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: build html
-      run: |
-        sudo apt install python3-venv
-        python3 -m venv .venv
-        source .venv/bin/activate
-        pip install -r requirements.txt
-        sphinx-build -M html source build -N -T
-        deactivate
-    - name: slack-notifier
-      uses: 8398a7/action-slack@v2.7.0
-      with:
-        status: ${{ job.status }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-      if: always()
+      - uses: actions/checkout@v2
+      - name: build html
+        run: |
+          sudo apt install python3-venv
+          python3 -m venv .venv
+          source .venv/bin/activate
+          pip install -r requirements.txt
+          sphinx-build -M html source build -N -T
+          deactivate
+      - name: slack-notifier
+        uses: 8398a7/action-slack@v2.7.0
+        with:
+          status: ${{ job.status }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'master' }}
+    if: ${{ github.ref == 'refs/heads/master' }}
     needs: build
     steps:
       - name: s3sync
