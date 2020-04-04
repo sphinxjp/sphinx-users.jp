@@ -27,7 +27,7 @@ jobs:
         if: always()
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/master' }}
+    if: ${{ github.ref == 'refs/heads/tkoyama010-patch-1' }}
     needs: build
     steps:
       - name: s3sync
