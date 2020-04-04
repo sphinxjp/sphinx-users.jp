@@ -33,7 +33,7 @@ jobs:
           path: build
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/pull/69/merge' }}
+    if: ${{ github.ref == 'refs/heads/master' }}
     needs: build
     steps:
       - name: download build
