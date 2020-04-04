@@ -27,7 +27,7 @@ jobs:
         if: always()
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/tkoyama010-patch-1' }}
+    if: ${{ github.ref == 'refs/pull/69/merge' }}
     needs: build
     steps:
       - name: s3sync
