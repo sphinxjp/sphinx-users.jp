@@ -26,11 +26,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
+      - name: upload build
+        uses: actions/upload-artifact@v1
+        with:
+          name: build
+          path: build
   release:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/pull/69/merge' }}
     needs: build
     steps:
+      - name: download build
+        uses: actions/download-artifact@v1
+        with:
+          name: build
       - name: s3sync
         uses: opspresso/action-s3-sync@master
         env:
