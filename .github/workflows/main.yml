@@ -14,14 +14,6 @@ jobs:
           pip3 install -U pip setuptools
           pip3 install -r requirements.txt
           /home/runner/.local/bin/sphinx-build -M html source build -N -T
-      - name: slack-notifier
-        uses: 8398a7/action-slack@v2.7.0
-        with:
-          status: ${{ job.status }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
       - name: upload build
         uses: actions/upload-artifact@v1
         with:
@@ -46,11 +38,3 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "ap-northeast-1"
           SOURCE_DIR: "build/html"
-      - name: slack-notifier
-        uses: 8398a7/action-slack@v2.7.0
-        with:
-          status: ${{ job.status }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
