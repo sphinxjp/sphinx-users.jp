@@ -1,0 +1,18 @@
+{#
+    sphinxjp/globalnavigation.html
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Sphinx sidebar template: global navigation.
+
+    :copyright: Copyright 2011-2017 by the sphinx-users.jp team, see AUTHORS.
+    :license: MIT, see LICENSE for details.
+#}
+<div id="gnav">
+  <ul>
+    <li class="home"><p><a href="{{ pathto('index') }}" title="{{ project }}">{{ project }}</a></p></li>
+    <li class="doc"><p><a href="{{ pathto(master_doc) }}" title="ドキュメント">ドキュメント</a></p></li>
+    <li class="modindex">
+      <p><a title="{{ _('Index') }}" href="{{ pathto('genindex') }}">{{ _('Index') }}</a></p>
+    </li>
+  </ul>
+</div>

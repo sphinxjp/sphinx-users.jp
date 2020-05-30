@@ -1,6 +1,8 @@
 Pillow
 Sphinx
-git+https://github.com/sphinxjp/sphinxjp.themes.sphinxjp.git
+#git+https://github.com/shimizukawa/sphinx.git@3.0.x-debug#egg=Sphinx
+#git+https://github.com/shimizukawa/sphinx.git@8fd1fcd#egg=Sphinx
+#git+https://github.com/sphinxjp/sphinxjp.themes.sphinxjp.git
 setuptools
 sphinxcontrib.gist
 sphinxcontrib-trimblank

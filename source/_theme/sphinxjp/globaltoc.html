@@ -1,0 +1,13 @@
+{#
+    sphinxjp/globaltoc.html
+    ~~~~~~~~~~~~~~~~~~~~~~~
+
+    Sphinx sidebar template: global table of contents.
+
+    :copyright: Copyright 2011-2017 by the sphinx-users.jp team, see AUTHORS.
+    :license: MIT, see LICENSE for details.
+#}
+<div id="toc" class="sidebarRow">
+<h3><a href="{{ pathto(master_doc) }}">{{ _('Table Of Contents') }}</a></h3>
+{{ toctree() }}
+</div>
