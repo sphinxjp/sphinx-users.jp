@@ -9,13 +9,12 @@ Sphinxを使って、かんたんな書籍紹介のドキュメントを作っ�
 Sphinxのインストール
 ====================
 
-SphinxはPythonで書かれているため、Sphinxのインストールにあたっては、Pythonのセットアップと、Sphinxのインストールの両方が必要になります。環境によっては、両方一緒にインストールできるものもあります。
+SphinxはPythonで書かれているため、Sphinxのインストールにあたっては、Pythonのセットアップと、Sphinxのインストールの両方が必要になります。
 
 .. toctree::
    :maxdepth: 2
 
    install_windows
-   install_windows_standalone
    install_unix
 
 プロジェクトの作成
