@@ -5,14 +5,43 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
-  build:
+  build-and-upload:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Get Date
+        id: get-date
+        run: |
+          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
+        shell: bash
+      - name: git-set-file-times
+        run: |
+          curl -kLJR 'https://git.samba.org/?p=rsync.git;a=blob_plain;f=support/git-set-file-times' -o git-set-file-times
+          chmod +x git-set-file-times
+          ./git-set-file-times
+      - name: Cache pip
+        id: cache-pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ steps.get-date.outputs.date }}
+      - name: Cache sphinx build
+        id: cache-sphinx-build
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-sphinx-build-${{ steps.get-date.outputs.date }}
+      - name: setup
+        run: |
+          echo "python version $(python3 --version) running"
+          echo "pip version $(pip3 --version) running"
+          python3 -m pip install -U pip setuptools
+          pip3 install -r requirements.txt -U
+          pip3 freeze
       - name: build html
         run: |
-          pip3 install -U pip setuptools
-          pip3 install -r requirements.txt
           /home/runner/.local/bin/sphinx-build -M html source build -N -T
       - name: slack-notifier
         uses: 8398a7/action-slack@v2.7.0
@@ -22,20 +51,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
-      - name: upload build
-        uses: actions/upload-artifact@v1
-        with:
-          name: build
-          path: build
-  release:
-    runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/master' }}
-    needs: build
-    steps:
-      - name: download build
-        uses: actions/download-artifact@v1
-        with:
-          name: build
       - name: s3sync
         uses: jakejarvis/s3-sync-action@master
         with:
@@ -46,6 +61,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "ap-northeast-1"
           SOURCE_DIR: "build/html"
+        if: ${{ github.ref == 'refs/heads/master' }}
       - name: slack-notifier
         uses: 8398a7/action-slack@v2.7.0
         with:
@@ -53,4 +69,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
+        if: ${{ github.ref == 'refs/heads/master' }}
