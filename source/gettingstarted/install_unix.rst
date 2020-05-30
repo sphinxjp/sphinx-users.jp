@@ -1,45 +1,78 @@
-=================================
-Mac OS X, Linuxへのインストール
-=================================
+======================================
+macOS と Linux(Ubuntu)へのインストール
+======================================
 
-Mac OS X、Linuxへのインストールにはいくつか種類があります。
+macOS と Linux(Ubuntu)へのインストールは大きく分けると OS のパッケージ管理ツールからインストールする方法と、
+Python のパッケージ管理ツールを使ってインストールする方法があります。
 
-パッケージシステムを利用したインストール
-========================================
+ここでは Ubuntu のパッケージ管理コマンド :command:`apt` を使った方法と、macOS、Linux OS 共通のインストール方法として
+Python 標準のパッケージ管理コマンド :command:`pip` を使った方法を紹介します。
 
-MacPorts
---------
 
-Mac OS Xの `MacPorts <http://www.macports.org/>`_ を利用しているのであれば、下記のコマンド一発で、必要なものがすべてインストールされます。
+.. contents::
+   :depth: 2
 
-.. code-block:: bash
 
-   $ sudo port install py27-sphinx
+パッケージ管理ツールを利用したインストール(Ubuntu)
+==================================================
 
-このままだと実行時のパスに追加されないため、selectターゲットを使い、Python2.7が標準で使われるようにしてみましょう。
-
-.. code-block:: bash
-
-   $ sudo port select --set python python27
-   $ sudo port select --set sphinx py27-sphinx
-
-``which sphinx-quickstart`` が応答を返してくればインストール完了です。
-
-Ubuntuのaptコマンド
--------------------
-
-Ubuntu LinuxなどのDebian系のOSの場合は、以下のコマンドを使ってインストールすることができます。
+UbuntuなどのDebian系のOSの場合は、以下のコマンドを使ってインストールすることができます。
 
 .. code-block:: bash
 
-   $ aptitude install python-sphinx
+   $ apt install python3-sphinx
 
-自分でインストールする
-======================
+.. note: Linux ディストリビューションのパッケージは OS 側で「安定している」等の理由で Sphinx のバージョンが古い場合があります。
 
-システムで標準でインストールされているPython、もしくは自前でビルドしたPythonがあるのであれば、それを使うことができます。
 
-インストールしたら
-==================
+:command:`pip` を使ってインストールする(macOS, Unix & Linuxディストリビューション共通)
+======================================================================================
 
-次は :doc:`make_project` に進んで、プロジェクトの作成に進んでください。
+macOS や Linux ディストリビューション、その他 Unix OS の場合、
+システムで標準でインストールされているPython、もしくは自前でビルドしたPythonで Sphinx のインストールが可能です。
+
+`venv <https://docs.python.org/ja/3/library/venv.html>`_ という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
+
+ターミナルソフトを起動し、コマンドを打ちこむ手順となります。
+
+1. `venv <https://docs.python.org/ja/3/library/venv.html>`_ 環境をユーザのホームディレクトリ配下に ``.venv/mysphinx`` という名前で作成します。
+
+  .. code-block:: bash
+
+      $ make -p ~/.venv
+      $ python3 -m venv ~/.venv/mysphinx
+
+2. 仮想環境に入ります
+
+  .. code-block:: bat
+
+      $ source ~/.venv/mysphinx/bin/activate
+
+3. `pip <https://pip.pypa.io/en/stable/>`_ コマンドでインストールします。コマンドプロンプトに以下のようにタイプしエンターキーを押して下さい。
+
+  .. code-block:: bat
+
+     $ pip install sphinx Pillow
+
+     # 正常にインストールが完了した場合の表示例
+     Successfully installed Jinja2-2.10 MarkupSafe-1.0 Pillow-4.3.0 Pygments-2.2.0 alabaster-0.7.10 babel-2.5.1 certifi-2017.11.5 chardet-3.0.4 colorama-0.3.9 docutils-0.14 idna-2.6 imagesize-0.7.1 olefile-0.44 pytz-2017.3 requests-2.18.4 six-1.11.0 snowballstemmer-1.2.1 sphinx-1.6.5 sphinxcontrib-websupport-1.0.1 urllib3-1.22
+
+4. Sphinx がインストールされた事を確認しましょう。
+
+  .. code-block:: bat
+
+      sphinx-quickstart --version
+
+     # 正常にインストールが完了した場合の表示例
+     sphinx-quickstart 3.0.4
+
+
+venv 環境から抜ける場合は :command:`deactivate` と打ち込んでください(ターミナルをそのまま閉じても問題はありません)。
+
+.. note:: Sphinx のバージョンをアップデートする
+
+          Sphinx の新しいバージョンがリリースされた場合、自分の環境も最新にする為には venv 環境に入り下記コマンドを打って下さい ::
+
+             pip install sphinx -U
+
+インストール作業は以上です。次は :doc:`make_project` に進んでください。

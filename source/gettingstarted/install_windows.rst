@@ -94,7 +94,7 @@ Sphinxのインストール
 `venv <https://docs.python.org/ja/3/library/venv.html>`_ という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
 
 引き続きコマンドプロンプトにてコマンドを打ちこみます。
-まず、 venv 環境をユーザのホームディレクトリ配下に ``mysphinx`` という名前で作成します。
+まず、 `venv <https://docs.python.org/ja/3/library/venv.html>`_  環境をユーザのホームディレクトリ配下に ``mysphinx`` という名前で作成します。
 
   .. code-block:: bat
 
@@ -113,7 +113,7 @@ Sphinxのインストール
      pip install sphinx Pillow
 
      # 正常にインストールが完了した場合の表示例
-     Successfully installed Jinja2-2.10 MarkupSafe-1.0 Pillow-4.3.0 Pygments-2.2.0 alabaster-0.7.10 babel-2.5.1 certifi-2017.11.5 chardet-3.0.4 colorama-0.3.9 docutils-0.14 idna-2.6 imagesize-0.7.1 olefile-0.44 pytz-2017.3 requests-2.18.4 six-1.11.0 snowballstemmer-1.2.1 sphinx-1.6.5 sphinxcontrib-websupport-1.0.1 urllib3-1.22
+     Successfully installed Jinja2-2.11.2 MarkupSafe-1.1.1 Pillow-7.1.2 Pygments-2.6.1 alabaster-0.7.12 babel-2.8.0 certifi-2020.4.5.1 chardet-3.0.4 colorama-0.4.3 docutils-0.16 idna-2.9 imagesize-1.2.0 packaging-20.4 pyparsing-2.4.7 pytz-2020.1 requests-2.23.0 six-1.15.0 snowballstemmer-2.0.0 sphinx-3.0.4 sphinxcontrib-applehelp-1.0.2 sphinxcontrib-devhelp-1.0.2 sphinxcontrib-htmlhelp-1.0.3 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.3 sphinxcontrib-serializinghtml-1.1.4 urllib3-1.25.9
 
 Sphinx がインストールされた事を確認しましょう。
 
@@ -122,7 +122,7 @@ Sphinx がインストールされた事を確認しましょう。
       sphinx-quickstart --version
 
      # 正常にインストールが完了した場合の表示例
-     Sphinx v2.0.1
+     sphinx-quickstart 3.0.4
 
 インストール作業は以上です。次は :doc:`make_project` に進んでください。
 
