@@ -5,6 +5,118 @@
    :local:
 
 
+2020年
+------
+
+* 6/10 `みんなのPython勉強会#58 Python製ドキュメント生成ツールSphinx丸わかり <https://startpython.connpass.com/event/175451/>`_
+
+2019年
+------
+
+11/25 SphinxCon JP 2019
+~~~~~~~~~~~~~~~~~~~~~~~
+
+:doc:`event/20191125_sphinxconjp/index`
+
+* https://scrapbox.io/shimizukawa/Scrapbox%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86
+
+* https://github.com/anzawatta/sphinx-tatelatex-hiden-tare
+
+* https://hackmd.io/_rPZK9k2Qme7XEnCPOwT2w?view
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/presentation/d/1AlAGLd1nyY3HQP5ch0F8_UNYsyTcGVyp3SKzzfcxuUA/embed" frameborder="0" width="600" height="355" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/presentation/d/1EHT6C0uvrVYewlir_GXkfAhzKc_pEbk2bpmdKVUbUt4/embed" frameborder="0" width="600" height="355" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+9/17 PyCon JP 2019
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/HCDr0RNZSxgLYc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cocodrips/docstring-pyconjp2019" title="チームメイトのためにdocstringを書こう！ pyconjp2019" target="_blank">チームメイトのためにdocstringを書こう！ pyconjp2019</a> </strong> from <strong><a href="https://www.slideshare.net/cocodrips" target="_blank">cocodrips</a></strong> </div>
+
+2018年
+------
+
+11/28 SphinxCon JP 2018
+~~~~~~~~~~~~~~~~~~~~~~~
+
+:doc:`event/20181128_sphinxconjp/index`
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/presentation/d/168yre5u_D2wQpeySrrDqV3cM9qE85YiaRTT8tMpjcGo/embed" frameborder="0" width="600" height="355" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/presentation/d/1tJRtGHkFwT0OvAuD346E3wpgrH7Yfl1tQCQXfaAkG2Q/embed" frameborder="0" width="600" height="355" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* https://okusama27.github.io/kame_slides/sphinxcon2018/index.html#1
+
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="a4b67a08cf9e49058ac12c4024041869" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/mJsxPbBlB0jOmS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iosiftakakurayusuke/sphinxapi" title="Sphinxでまとめる多言語環境APIドキュメント" target="_blank">Sphinxでまとめる多言語環境APIドキュメント</a> </strong> from <strong><a href="https://www.slideshare.net/iosiftakakurayusuke" target="_blank">Iosif Takakura</a></strong> </div>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/juUPSQnrDSmCxD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-customization-for-ogp-support-sphinx-con-jp-2018" title="Sphinx customization for OGP support at SphinxCon JP 2018" target="_blank">Sphinx customization for OGP support at SphinxCon JP 2018</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* https://speakerdeck.com/shirou/sphinx-themes-dot-org-in-sphinx-con-2018
+
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="a01fefd752dc41f485eec0d10941c1a0" data-ratio="1.41632088520055" src="//speakerdeck.com/assets/embed.js"></script>
+
+9/18 PyCon JP 2018
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/presentation/d/1knfNqWIt1pnNybs0GRGn2qWhdEZs8sqkBI3zg6waPO0/embed" frameborder="0" width="600" height="355" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+2017年
+------
+
+11/28 SphinxCon JP 2017
+~~~~~~~~~~~~~~~~~~~~~~~
+
+:doc:`event/20171128_sphinxconjp/index`
+
+
+.. raw:: html
+
+   <script async class="speakerdeck-embed" data-id="e8a3d72843a846df84f3d44311b70a22" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/4MhzFvnCYNaUJK" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/k16shikano/sphinx-82905169" title="Sphinxで売り物の書籍を作ってみた" target="_blank">Sphinxで売り物の書籍を作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/k16shikano" target="_blank">Keiichiro Shikano</a></strong> </div>
+
+* `Re:VIEWとSphinxと、時々、ボク <http://tdoc.info/presentations/sphinxcon2017/>`_
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/1f2q2DkBofzEkr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iosiftakakurayusuke/sphinx-82892226" title="社内のマニュアルをSphinxで作ってみた" target="_blank">社内のマニュアルをSphinxで作ってみた</a> </strong> from <strong><a href="https://www.slideshare.net/iosiftakakurayusuke" target="_blank">Iosif Takakura</a></strong> </div>
+
+* `HTML Template Proposal for Sphinx 2.x <https://shibukawa.github.io/sphinxcon2017_htmltemplate/>`_
+
+* https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/4HjkYXTHvuikfL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/goyamada92/introduce-for-sphinxusersjp" title="Introduce for sphinx-users-jp" target="_blank">Introduce for sphinx-users-jp</a> </strong> from <strong><a href="https://www.slideshare.net/goyamada92" target="_blank">Go Yamada</a></strong> </div>
+
+
+2016年
+------
+
 2015年
 ------
 
