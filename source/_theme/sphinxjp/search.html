@@ -1,0 +1,61 @@
+{#
+    sphinxjp/layout.html
+    ~~~~~~~~~~~~~~~~~~~~~
+
+    Master layout template for sphinx-users.jp themes.
+
+    :copyright: Copyright 2011-2017 by the Sphinx team, see AUTHORS.
+    :license: MIT, see LICENSE for details.
+#}
+{% extends "layout.html" %}
+{% set title = _('Search') %}
+{% set script_files = script_files + ['_static/searchtools.js'] %}
+{% block extrahead %}
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("{{ pathto('searchindex.js', 1) }}"); });
+  </script>
+  {# this is used when loading the search index using $.ajax fails,
+     such as on Chrome for documents on localhost #}
+  <script type="text/javascript" id="searchindexloader"></script>
+  {{ super() }}
+{% endblock %}
+{% block body %}
+  <h1 id="search-documentation">{{ _('Search') }}</h1>
+  <div id="fallback" class="admonition warning">
+  <script type="text/javascript">$('#fallback').hide();</script>
+  <p>
+    {% trans %}Please activate JavaScript to enable the search
+    functionality.{% endtrans %}
+  </p>
+  </div>
+  <p>
+    このページからドキュメントを検索することができます。検索するキーワードを下のテキストボックスに入力して、Enterキー、またはアイコンをクリックしてください。入力された全てのキーワードを含むページが検索されます。一部のキーワードしか含まれないページは検索結果に表示されないので注意してください。
+  </p>
+  <div id="searchbox">
+     <form name="search" action="" method="get">
+       <fieldset class="search">
+         <input type="text" class="hint" name="q" />
+         <button class="button" title="{{ _('Go') }}" />{{ _('Go') }}</button>
+         <input type="hidden" name="check_keywords" value="yes" />
+         <input type="hidden" name="area" value="default" />
+       </fieldset>
+     </form>
+  </div>
+  {% if search_performed %}
+    <h2>{{ _('Search Results') }}</h2>
+    {% if not search_results %}
+      <p>{{ _('Your search did not match any documents. Please make sure that all words are spelled correctly and that you\'ve selected enough categories.') }}</p>
+    {% endif %}
+  {% endif %}
+  <div id="search-results">
+  {% if search_results %}
+    <ul>
+    {% for href, caption, context in search_results %}
+      <li><a href="{{ pathto(item.href) }}">{{ caption }}</a>
+        <div class="context">{{ context|e }}</div>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  </div>
+{% endblock %}

@@ -9,35 +9,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'  # to get full commit logs for 'git-set-file-times'
+      - name: DEBUG INFO github refs
+        run: |
+          echo ${{ github.ref }}
+          echo ${{ github.head_ref }}
+          echo ${{ github.base_ref }}
       - name: Get Date
         id: get-date
         run: |
           echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
+          echo "::set-output name=yyyymm::$(/bin/date -u "+%Y%m")"
         shell: bash
       - name: git-set-file-times
+        # change timestamps with commit time instead of checkout time.
         run: |
-          curl -kLJR 'https://git.samba.org/?p=rsync.git;a=blob_plain;f=support/git-set-file-times' -o git-set-file-times
-          chmod +x git-set-file-times
-          ./git-set-file-times
-      - name: Cache pip
+          chmod +x ./.github/git-set-file-times.py
+          ./.github/git-set-file-times.py
+      - name: CACHE pip
         id: cache-pip
         uses: actions/cache@v2
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-${{ steps.get-date.outputs.date }}
-      - name: Cache sphinx build
+          path: |
+            ~/.cache/pip
+            ~/.local/
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}-${{ steps.get-date.outputs.yyyymm }}
+      - name: CACHE sphinx build
         id: cache-sphinx-build
         uses: actions/cache@v2
         with:
           path: build
-          key: ${{ runner.os }}-sphinx-build-${{ steps.get-date.outputs.date }}
-      - name: setup
+          key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.date }}
+      - name: pip install
         run: |
           echo "python version $(python3 --version) running"
           echo "pip version $(pip3 --version) running"
           python3 -m pip install -U pip setuptools
+          echo "pip version $(pip3 --version) running"
+          python3 -m site
           pip3 install -r requirements.txt -U
           pip3 freeze
       - name: build html
@@ -52,15 +62,20 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
       - name: s3sync
-        uses: jakejarvis/s3-sync-action@master
-        with:
-          args: "--acl public-read --delete"
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip -q awscliv2.zip
+          sudo ./aws/install
+          aws --version
+          # https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html
+          aws s3 sync ${SOURCE_DIR} s3://${AWS_S3_BUCKET}/${DEST_PATH} --acl public-read --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: "ap-northeast-1"
+          AWS_DEFAULT_REGION: "ap-northeast-1"
           SOURCE_DIR: "build/html"
+          DEST_PATH: ""
         if: ${{ github.ref == 'refs/heads/master' }}
       - name: slack-notifier
         uses: 8398a7/action-slack@v2.7.0
