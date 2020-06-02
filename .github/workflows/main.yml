@@ -5,14 +5,53 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
-  build:
+  build-and-upload:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'  # to get full commit logs for 'git-set-file-times'
+      - name: DEBUG INFO github refs
+        run: |
+          echo ${{ github.ref }}
+          echo ${{ github.head_ref }}
+          echo ${{ github.base_ref }}
+      - name: Get Date
+        id: get-date
+        run: |
+          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
+          echo "::set-output name=yyyymm::$(/bin/date -u "+%Y%m")"
+        shell: bash
+      - name: git-set-file-times
+        # change timestamps with commit time instead of checkout time.
+        run: |
+          chmod +x ./.github/git-set-file-times.py
+          ./.github/git-set-file-times.py
+      - name: CACHE pip
+        id: cache-pip
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.local/
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}-${{ steps.get-date.outputs.yyyymm }}
+      - name: CACHE sphinx build
+        id: cache-sphinx-build
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.date }}
+      - name: pip install
+        run: |
+          echo "python version $(python3 --version) running"
+          echo "pip version $(pip3 --version) running"
+          python3 -m pip install -U pip setuptools
+          echo "pip version $(pip3 --version) running"
+          python3 -m site
+          pip3 install -r requirements.txt -U
+          pip3 freeze
       - name: build html
         run: |
-          pip3 install -U pip setuptools
-          pip3 install -r requirements.txt
           /home/runner/.local/bin/sphinx-build -M html source build -N -T
       - name: slack-notifier
         uses: 8398a7/action-slack@v2.7.0
@@ -22,30 +61,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
-      - name: upload build
-        uses: actions/upload-artifact@v1
-        with:
-          name: build
-          path: build
-  release:
-    runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/master' }}
-    needs: build
-    steps:
-      - name: download build
-        uses: actions/download-artifact@v1
-        with:
-          name: build
       - name: s3sync
-        uses: jakejarvis/s3-sync-action@master
-        with:
-          args: "--acl public-read --delete"
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip -q awscliv2.zip
+          sudo ./aws/install
+          aws --version
+          # https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html
+          aws s3 sync ${SOURCE_DIR} s3://${AWS_S3_BUCKET}/${DEST_PATH} --acl public-read --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: "ap-northeast-1"
+          AWS_DEFAULT_REGION: "ap-northeast-1"
           SOURCE_DIR: "build/html"
+          DEST_PATH: ""
+        if: ${{ github.ref == 'refs/heads/master' }}
       - name: slack-notifier
         uses: 8398a7/action-slack@v2.7.0
         with:
@@ -53,4 +84,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
+        if: ${{ github.ref == 'refs/heads/master' }}

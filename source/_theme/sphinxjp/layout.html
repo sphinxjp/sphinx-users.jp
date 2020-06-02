@@ -1,0 +1,194 @@
+{#
+    sphinxjp/layout.html
+    ~~~~~~~~~~~~~~~~~~~~~
+
+    Master layout template for sphinx-users.jp themes.
+
+    :copyright: Copyright 2011-2017 by the sphinx-users.jp team, see AUTHORS.
+    :license: MIT, see LICENSE for details.
+#}
+{%- block doctype -%}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{%- endblock doctype -%}
+{%- set url_root = pathto('', 1) %}
+{%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+{%- if not embedded and docstitle %}
+  {%- set titlesuffix = " &mdash; "|safe + docstitle|e %}
+{%- else %}
+  {%- set titlesuffix = "" %}
+{%- endif %}
+{%- macro relbar() %}
+  <div class="relbar">
+    {%- if prev %}
+    <dl id="relPrev">
+      <dt class="prev">{{ _('Previous topic') }}</dt>
+      <dd class="relTitle"><a href="{{ prev.link|e }}" title="{{ _('previous chapter') }}" {{ accesskey("N") }}>{{ prev.title }}</a></dd>
+    </dl>
+    {%- endif %}
+    {%- if next %}
+    <dl id="relNext">
+      <dt class="next">{{ _('Next topic') }}</dt>
+      <dd class="relTitle"><a href="{{ next.link|e }}" title="{{ _('next chapter')  }}" {{ accesskey("N") }}>{{ next.title }}</a></dd>
+    </dl>
+    {%- endif %}
+  </div>
+{%- endmacro %}
+{%- macro script() %}
+    <script id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
+    {%- for js in script_files %}
+    {{ js_tag(js) }}
+    {%- endfor %}
+{%- endmacro %}
+{%- macro css() %}
+    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+    {%- for cssfile in css_files %}
+    <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+    {%- endfor %}
+{%- endmacro %}
+{%- macro sidebar() %}
+  <div id="sidebar" class="left">
+    <div id="sidebarWrap">
+      {%- if sidebars != None %}
+        {#- new style sidebar: explicitly include/exclude templates #}
+        {%- for sidebartemplate in sidebars %}
+        {%- include sidebartemplate %}
+        {%- endfor %}
+      {%- else %}
+        {#- old style sidebars: using blocks -- should be deprecated #}
+        {%- block sidebartoc %}
+        {%- include "localtoc.html" %}
+        {%- endblock %}
+        {%- block sidebarrel %}
+        {%- include "relations.html" %}
+        {%- endblock %}
+        {%- block sidebarsourcelink %}
+        {%- include "sourcelink.html" %}
+        {%- endblock %}
+        {%- if customsidebar %}
+        {%- include customsidebar %}
+        {%- endif %}
+        {%- block sidebarsearch %}
+        {%- include "searchbox.html" %}
+        {%- endblock %}
+      {%- endif %}
+    </div>
+  </div>
+{%- endmacro -%}
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
+  {{ metatags }}
+  {%- block htmltitle %}
+  <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+  {%- endblock %}
+  {{ css() }}
+  {%- if not embedded %}
+  {{ script() }}
+  {%- if use_opensearch %}
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}"
+        href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+  {%- endif %}
+  {%- if favicon %}
+  <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+  {%- endif %}
+  {%- if hasdoc('search') %}
+  <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+  {%- endif %}
+
+  {%- if theme_hatena_star|tobool %}
+  <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+  <script type="text/javascript">
+  Hatena.Star.Token = '{{ theme_hatena_star_token }}';
+  Hatena.Star.SiteConfig = {
+    entryNodes: {
+      '#document': {
+        uri: 'h1 a',
+        title: 'h1',
+        container: 'h1'
+      }
+    }
+  };
+  </script>
+  {%- endif %}
+
+  {%- if theme_hatena_bookmark|tobool %}
+  <script type="text/javascript" src="{{ pathto('_static/HatenaBookmark.js', 1) }}"></script>
+  <script type="text/javascript">
+  Hatena.xBookmark.SiteConfig = {
+    '#document h1 a.headerlink': {},
+  };
+  </script>
+  {%- endif %}
+
+  {%- endif %}
+  <!-- Sticky footer -->
+  <!--[if  IE 8]>
+  <style type="text/css">
+    #wrap {display:table;}
+  </style>
+  <![endif]-->
+{%- block extrahead %} {% endblock %}
+</head>
+<body>
+<div id="wrapper">
+  {% block header %}
+  <!-- header -->
+  <div id="header">
+    <div id="projInfo">
+      {%- if logo %}
+      <!-- logo -->
+      <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="{{ project }}" />
+      <!-- /logo -->
+      {%- endif %}
+      <h1 id="title">
+        <a href="{{ pathto('index') }}">{{ project }}</a>
+      </h1>
+      <p class="docdesc">{{ docstitle|e }}</p>
+    </div>
+    {%- if pagename != "search" %}
+    <div id="headerNav">
+      <div id="searchbox">
+        <form name="search" action="{{ pathto('search') }}" method="get">
+          <fieldset class="search">
+            <input type="text" class="hint" name="q" />
+            <button class="button" title="{{ _('Go') }}" />{{ _('Go') }}</button>
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">$('#searchbox').show(0);</script>
+    {%- endif %}
+
+    {%- block globalnavigation %}
+    {%- include "globalnavigation.html" %}
+    {%- endblock %}
+  </div>
+  <!-- /header -->
+  {% endblock header %}
+  {% block content %}
+  <!-- content -->
+  <div id="content">
+    <!-- current document area -->
+    <div id="document" class="left">
+    {%- block body %}{%- endblock body %}
+    </div>
+    <!-- /current document area -->
+    <!-- sidebar -->
+    {{ sidebar() }}
+    <!-- /sidebar -->
+  </div>
+  {% endblock content %}
+  <!-- /content -->
+</div>
+  <!-- footer -->
+  {% block footer %}
+  {%- include "footer.html" %}
+  {% endblock footer %}
+  <!-- /footer -->
+</body>
+</html>
