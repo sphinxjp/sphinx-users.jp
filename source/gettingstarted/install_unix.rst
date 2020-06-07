@@ -71,7 +71,7 @@ venv 環境から抜ける場合は :command:`deactivate` と打ち込んでく�
 
 .. note:: Sphinx のバージョンをアップデートする
 
-          Sphinx の新しいバージョンがリリースされた場合、自分の環境も最新にする為には venv 環境に入り下記コマンドを打って下さい ::
+          Sphinx の新しいバージョンがリリースされた場合、 venv 環境で下記コマンドを実行し更新をしてください ::
 
              pip install sphinx -U
 
