@@ -33,7 +33,7 @@ macOS や Linux ディストリビューション、その他 Unix OS の場合�
 
 `venv <https://docs.python.org/ja/3/library/venv.html>`_ という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
 
-ターミナルソフトを起動し、コマンドを打ちこむ手順となります。
+ターミナルソフトを起動し、コマンドを打ちこむ手順は以下の通りです。
 
 1. `venv <https://docs.python.org/ja/3/library/venv.html>`_ 環境をユーザのホームディレクトリ配下に ``.venv/mysphinx`` という名前で作成します。
 
