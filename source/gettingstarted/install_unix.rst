@@ -35,7 +35,7 @@ macOS や Linux ディストリビューション、その他 UNIX OS の場合�
 
 ターミナルソフトを起動し、コマンドを打ちこむ手順は以下の通りです。
 
-1. `venv <https://docs.python.org/ja/3/library/venv.html>`_ 環境をユーザのホームディレクトリ配下に ``.venv/mysphinx`` という名前で作成します。
+1. venv 環境をユーザのホームディレクトリ配下に ``.venv/mysphinx`` という名前で作成します。
 
   .. code-block:: bash
 
