@@ -22,7 +22,7 @@ UbuntuなどのDebian系のOSの場合は、以下のコマンドを使ってイ
 
    $ apt install python3-sphinx
 
-.. note: Linux ディストリビューションのパッケージは OS 側で「安定している」等の理由で Sphinx のバージョンが古い場合があります。
+.. note: Linux ディストリビューションのパッケージは収録のタイミングや配布ポリシーの都合で Sphinx のバージョンは最新ではありません。
 
 
 :command:`pip` を使ってインストールする(macOS, Unix & Linuxディストリビューション共通)
