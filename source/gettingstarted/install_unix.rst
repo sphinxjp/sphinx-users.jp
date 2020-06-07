@@ -61,7 +61,7 @@ macOS や Linux ディストリビューション、その他 UNIX OS の場合�
 
   .. code-block:: bash
 
-      sphinx-quickstart --version
+     $ sphinx-quickstart --version
 
      # 正常にインストールが完了した場合の表示例
      sphinx-quickstart 3.0.4
