@@ -67,7 +67,7 @@ macOS や Linux ディストリビューション、その他 Unix OS の場合�
      sphinx-quickstart 3.0.4
 
 
-venv 環境から抜ける場合は :command:`deactivate` と打ち込んでください(ターミナルをそのまま閉じても問題はありません)。
+venv 環境から抜ける場合は :command:`deactivate` と打ち込んでください。ターミナルをそのまま閉じても問題はありません。
 
 .. note:: Sphinx のバージョンをアップデートする
 
