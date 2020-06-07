@@ -50,7 +50,7 @@ macOS や Linux ディストリビューション、その他 UNIX OS の場合�
 
 3. `pip <https://pip.pypa.io/en/stable/>`_ コマンドでインストールします。
 
-  .. code-block:: bat
+  .. code-block:: bash
 
      $ pip install sphinx Pillow
 
