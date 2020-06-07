@@ -44,7 +44,7 @@ macOS や Linux ディストリビューション、その他 UNIX OS の場合�
 
 2. 仮想環境に入ります
 
-  .. code-block:: bat
+  .. code-block:: bash
 
       $ source ~/.venv/mysphinx/bin/activate
 
