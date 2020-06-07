@@ -59,7 +59,7 @@ macOS や Linux ディストリビューション、その他 UNIX OS の場合�
 
 4. Sphinx がインストールされた事を確認しましょう。
 
-  .. code-block:: bat
+  .. code-block:: bash
 
       sphinx-quickstart --version
 
