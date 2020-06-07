@@ -48,7 +48,7 @@ macOS や Linux ディストリビューション、その他 Unix OS の場合�
 
       $ source ~/.venv/mysphinx/bin/activate
 
-3. `pip <https://pip.pypa.io/en/stable/>`_ コマンドでインストールします。コマンドプロンプトに以下のようにタイプしエンターキーを押して下さい。
+3. `pip <https://pip.pypa.io/en/stable/>`_ コマンドでインストールします。
 
   .. code-block:: bat
 
