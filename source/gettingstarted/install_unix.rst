@@ -28,7 +28,7 @@ UbuntuなどのDebian系のOSの場合は、以下のコマンドを使ってイ
 :command:`pip` を使ってインストールする(macOS, UNIX & Linuxディストリビューション共通)
 ======================================================================================
 
-macOS や Linux ディストリビューション、その他 Unix OS の場合、
+macOS や Linux ディストリビューション、その他 UNIX OS の場合、
 システムで標準でインストールされているPython、もしくは自前でビルドしたPythonで Sphinx のインストールが可能です。
 
 `venv <https://docs.python.org/ja/3/library/venv.html>`_ という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
