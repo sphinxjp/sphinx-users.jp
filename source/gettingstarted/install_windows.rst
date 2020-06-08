@@ -94,7 +94,7 @@ Sphinxのインストール
 `venv <https://docs.python.org/ja/3/library/venv.html>`_ という Python3.3 以降に追加された仮想環境機能を利用して Sphinx 用の環境を作成し、Sphinx をインストールする手順を紹介します。
 
 引き続きコマンドプロンプトにてコマンドを打ちこみます。
-まず、 `venv <https://docs.python.org/ja/3/library/venv.html>`_  環境をユーザのホームディレクトリ配下に ``mysphinx`` という名前で作成します。
+まず、 `venv <https://docs.python.org/ja/3/library/venv.html>`_  を使用して仮想環境をユーザのホームディレクトリ配下に ``mysphinx`` という名前で作成します。
 
   .. code-block:: bat
 
