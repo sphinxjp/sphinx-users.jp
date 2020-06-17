@@ -54,9 +54,11 @@ jobs:
         run: |
           /home/runner/.local/bin/sphinx-build -M html source build -N -T
       - name: slack-notifier
-        uses: 8398a7/action-slack@v2.7.0
+        uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
+          fields: workflow
+          author_name: sphinx-build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -78,9 +80,11 @@ jobs:
           DEST_PATH: ""
         if: ${{ github.ref == 'refs/heads/master' }}
       - name: slack-notifier
-        uses: 8398a7/action-slack@v2.7.0
+        uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
+          fields: workflow
+          author_name: Deploy contents to S3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
