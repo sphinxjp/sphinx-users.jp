@@ -11,6 +11,8 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 商業誌
 ======
 
+* 2020.12. 『Pythonインタラクティブ・データビジュアライゼーション入門』: https://www.asakura.co.jp/books/isbn/978-4-254-12258-9/
+* 2020.08. 『改訂版 Pythonユーザのための Jupyter［実践］入門』: https://gihyo.jp/book/2020/978-4-297-11568-5/
 * 2018.10. 『Go言語による並行処理』: https://www.oreilly.co.jp/books/9784873118468/
 * 2018.06. 『Pythonプロフェッショナルプログラミング 第3版』: https://www.shuwasystem.co.jp/products/7980html/5382.html
 * 2018.02. 『独学プログラマー』: https://shop.nikkeibp.co.jp/front/commodity/0000/C92270/
