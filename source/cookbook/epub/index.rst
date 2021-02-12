@@ -113,9 +113,6 @@ PC上で確認するには、PC用のePubビューアを利用します。ここ
 .. note::
    なぜかAdobe Digital Editionでは文字化けしてしまい、読むことができませんでした。
 
-.. warning::
-   電子ブックなのでKindleビューアを利用したくなるかもしれませんが、KindleはePubではなく、別形式(azw/mobi)を利用しているため利用できません。
-
 .. image:: calibre_library.png
    :width: 400pt
 
