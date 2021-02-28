@@ -68,6 +68,9 @@ Sphinxは確かにPythonで書かれていますが、Sphinxの拡張機能を�
 .. [#] 作ったら世界に公開しましょう！英語の確認などはメンバー間で協力することもできます。
 .. [#] 詳しい説明は :ref:`combitbucket` に書かれています。
 
+
+.. _communication:
+
 ==================
 コミュニケーション
 ==================
@@ -79,7 +82,7 @@ Sphinx-Users.jpでコミュニティとして用意しているコミュニケ�
 メーリングリスト
 ----------------
 
-現在は閉鎖しています。Slackに移行しました。
+現在は閉鎖しています。 :ref:`slack` に移行しました。
 
 * `メーリングリスト <https://groups.google.com/forum/#!forum/sphinx-users-jp>`_ (2016年～2019年)
 * `2016年以前のメーリングリストの過去ログ <http://www.python.jp/pipermail/sphinx-users/>`_ （消滅しました）

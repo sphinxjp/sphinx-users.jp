@@ -16,8 +16,9 @@ Sphinx-Users.jp(略称#sphinxjp)は、美しいドキュメントを簡単に生
 
 .. image:: _static/screenshot.png
 
-Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。
-:ref:`slack` のコミュニケーションや :doc:`勉強会 <event/index>` の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
+Sphinx-Users.jp は日本の :ref:`Sphinx コミュニティ <communication>` です。
+Sphinx-Users.jp では、日本で散らばっているSphinx関連情報を集めて、Webサイト、イベントを通じてSphinx情報を発信します。
+slack_ のコミュニケーションや :doc:`勉強会 <event/index>` の開催などを通じて、ドキュメントをパワーアップしたい人、ドキュメントや翻訳で苦労している人、Sphinxの拡張機能を開発したい開発者たちに”Fun”を提供していきます。
 
 イベント・ニュース
 --------------------
@@ -43,7 +44,8 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
 参加方法
 --------
 
-ご自由に :ref:`slack` にご参加ください。
+
+ご自由に slack_ にご参加ください。
 
 また、Sphinx-Users.jpでは定期的にイベントを開催しています。
 イベントの開催情報は、Twitterの `SphinxUsers.jp公式アカウント <https://twitter.com/sphinxjp>`_ でも呟きます。また、コミュニティのハッシュタグは `#sphinxjp <https://twitter.com/#search?q=%23sphinxjp>`_ になります。
@@ -60,3 +62,5 @@ Sphinx-Users.jpでは、日本で散らばっているSphinx関連情報を集�
    technical.rst
    community.rst
    introduction.rst
+
+.. _slack: https://join.slack.com/t/sphinxjp/shared_invite/enQtNzkxMTIwMTAzOTI2LTMxY2JjMmM4OWNjNjM1YjdkMGE5N2UyYjY1NzM5MTY1NGM3YmVmMjliM2MyYmQ0ZjhlZjRmMGM5NTA5N2MwZjY
