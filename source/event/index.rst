@@ -5,6 +5,14 @@
 
 こちらは過去のイベントレポートのページです。募集中のイベントなど、最新のイベント情報については、Connpassの `シリーズ：Sphinx-users.jp <http://sphinxjp.connpass.com/>`_ で確認して下さい。Sphinx-Users.jpでは、イベントの募集に `connpass <https://connpass.com/dashboard/>`_ を利用しています。
 
+2021年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   20210327_general_meeting/index
+
 2020年
 ------
 
