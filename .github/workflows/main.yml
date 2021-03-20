@@ -67,7 +67,7 @@ jobs:
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip -q awscliv2.zip
-          sudo ./aws/install
+          sudo ./aws/install --update
           aws --version
           # https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html
           aws s3 sync ${SOURCE_DIR} s3://${AWS_S3_BUCKET}/${DEST_PATH} --acl public-read --delete
