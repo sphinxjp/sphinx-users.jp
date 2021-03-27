@@ -13,9 +13,7 @@ sphinx-users.jp 2020年総会(2021/03/27)
 参加方法
 =========
 
-.. sphinx-users Slackで日程を調整し、connpassで参加者を募集しました。
-
-connpassで参加者を募集中です。
+sphinx-users Slackで日程を調整し、connpassで参加者を募集しました。
 
 * https://sphinxjp.connpass.com/event/205587/
 
