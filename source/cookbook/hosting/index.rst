@@ -3,8 +3,8 @@ Sphinxで作ったドキュメントのホスティング
 ========================================
 
 :日時: 2010/09/05
-:更新日: 2015/03/17
-:作者: 渋川よしき、山口能迪、清水川貴之
+:更新日: 2021/04/04
+:作者: 渋川よしき、山口能迪、清水川貴之、うさたーん
 
 Sphinxでドキュメントを作ったら公開したいですよね？自分のホームページ作成のように、FTPを使って、プロバイダーなどで提供されている所に置くというのも当然できますが、ここではいくつか別の方法を紹介します。
 
@@ -287,9 +287,9 @@ GitLabとの連携
 
 Herokuのgitに直接pushするには、利用者全員がHerokuのアカウントを持っている必要があります。また、Herokuのgitを使った場合、コードリポジトリに欲しい機能（IssueやPull Request）などはありません。そこで、コード管理をGitLabで行い、GitLabにpushされたコードを自動的にHerokuにPushする機能を設定すると便利です。GitLabではプライベートリポジトリも無料で使用できます。
 
-.. figure:: gitlab-gitsync.*
-   :width: 100%
-
+   .. figure:: images/gitlab-gitsync.*
+      :scale: 100%
+      :alt: gitlab の設定
 
 .. note::
 
@@ -312,7 +312,9 @@ Bitbukcet上に、 ``http://ユーザ名.bitbucket.io`` という名前でドキ
 
 1. ``ユーザ名.bitbucket.io`` という名前のリポジトリを作ります。
 
-.. image:: bitbucket.png
+   .. figure:: images/bitbucket.*
+      :scale: 100%
+      :alt: bitbucket で repository の name を指定する
 
 2. リポジトリを作った後のOverviewのページに表示されているコマンド(hg clone)を実行します
 3. SphinxでビルドしたHTML群を登録します。
@@ -434,3 +436,139 @@ Google App Engine上で静的ファイルを公開する方法を使ってホス
       send $GAE_PASS
       interact
       "   
+
+Vercelを使ってドキュメントを公開
+================================
+
+2021年現在、静的コンテンツを便利に公開できるサービスが数多く存在します。
+`Netlify`_ 、 `Vercel`_ 、 `Cloudflare Pages`_ 、 `AWS Amplify`_ などなど。
+これらのサービスの特徴は `GitHub`_ や `Gitlab`_ にホスティングしているリポジトリを指定しビルド設定をするだけで Sphinx ドキュメントを公開できてしまうという点です。
+
+以前より同様の事は `Read the Docs`_ によって実現できましたが、選択肢が増えることは良いことです。
+
+本節では `Vercel`_ を利用して Sphinx ドキュメントを公開する手順を説明します。
+
+
+本説明で可能となること
+----------------------
+
+- `GitHub`_ や `Gitlab`_ にホスティングしているリポジトリを指定してドキュメントをビルドし公開する
+- リポジトリ更新を hook してドキュメントを更新する
+- 自分の所持しているドメインを設定する
+- httpsで公開する
+
+前提条件
+--------
+
+- `GitHub`_ に標準設定で作成した sphinx ドキュメントのリポジトリがあること(例では ``test-vercel`` という名称で push 済)
+- 独自ドメインを取得している
+
+
+`Vercel`_ の詳細設定
+--------------------
+
+
+#. `Vercel`_ にログインします。 `GitHub`_ のアカウントを利用できます
+
+   .. figure:: images/vercel_01_after_login.png
+      :scale: 20%
+      :alt: Vercel の設定
+
+#. リポジトリを選択します(例では ``test-vercel`` を選択)
+
+   .. figure:: images/vercel_02_import_git_repository.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. `Vercel`_ に見せるリポジトリを選択します(例では選択したリポジトリのみにしてますが、複数のリポジトリを使う予定であれば All repositories を選択すると良いでしょう)
+
+   .. figure:: images/vercel_03_selectrepository.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. 選択したリポジトリが表示されていることを確認して ``import`` を押下します
+
+   .. figure:: images/vercel_04_import_git_repository.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+
+#. チームで使用することもできますが、自分ひとりで使う場合は自分のアカウントを表示している行で ``Select`` を押下します
+
+   .. figure:: images/vercel_05_select_account.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+
+#. プロジェクトを確認して ``Continue`` を押下します
+
+   .. figure:: images/vercel_06_import_project.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+
+#. build 設定をします。前提条件の通り sphinx 標準のプロジェクトを想定した設定です
+
+   #. ``ROOT DIRECTORY`` は ``./`` のままにします
+   #. ``BUILD COMMAND`` に :command:`python3 -m pip install pip -U && python3 -m pip install sphinx Pillow && make clean && make html` を記述します
+   #. ``OUTPUT DIRECTORY`` に ``_build/html/`` を記述します。多くのCIサービスで ``artifacts`` と呼ばれている項目です
+   #. ``Deploy`` を押下すると、ビルドログが流れます
+
+   .. figure:: images/vercel_07_buld_config.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+
+#. ビルドに問題が発生しなければ以下のような画面になるでしょう。 ``Visit`` を押下すると公開されたドキュメントへ、 ``OpenDashboad`` を押下するとダッシュボードへ戻ります
+
+   .. figure:: images/vercel_08_congratulations.png
+      :scale: 20%
+      :alt: Vercel の設定
+
+
+#. Projects ⇒ プロジェクト名(ここでは test-vercel) ⇒ Settings ⇒ Domains を押下し、使用したいサブドメインを記述し ``Add`` を押下します(ここではまだ作成していないサブドメイン ``vercel.sphinx-users.jp`` を入力しています)
+
+   .. figure:: images/vercel_09_custom_domain.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. 存在していないサブドメインを指定した場合は ``Invalid Configurations`` という警告がでますが、気にせず ``CNAME`` のレコードをメモしてください
+
+   .. figure:: images/vercel_10_invalid_configurations.png
+      :scale: 30%
+      :alt: Vercel の設定
+
+#. 自分のドメインのレジストラのコンソールでメモした ``CNAME`` レコードを設定してください(例は AWS Route53)
+
+   .. figure:: images/vercel_11_route53.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. ``CNAME`` の設定が終わると ``Invalid Configurations`` の警告は消えます
+
+   .. figure:: images/vercel_12_normal.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. 設定したサブドメインへWebブラウザで接続してみましょう
+
+   .. figure:: images/vercel_13_published.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+#. 証明書もこのように Let's Encrypt で作成されています
+
+   .. figure:: images/vercel_14_certificate.png
+      :scale: 50%
+      :alt: Vercel の設定
+
+以上
+
+
+.. _Netlify: https://www.netlify.com/
+.. _Vercel: https://vercel.com/
+.. _Cloudflare Pages: https://pages.cloudflare.com/
+.. _AWS Amplify: https://aws.amazon.com/jp/amplify/
+.. _GitHub: https://github.com/
+.. _Gitlab: https://gitlab.com/
+.. _Read the Docs: https://readthedocs.org/
