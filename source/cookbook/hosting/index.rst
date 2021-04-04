@@ -287,8 +287,8 @@ GitLabとの連携
 
 Herokuのgitに直接pushするには、利用者全員がHerokuのアカウントを持っている必要があります。また、Herokuのgitを使った場合、コードリポジトリに欲しい機能（IssueやPull Request）などはありません。そこで、コード管理をGitLabで行い、GitLabにpushされたコードを自動的にHerokuにPushする機能を設定すると便利です。GitLabではプライベートリポジトリも無料で使用できます。
 
-   .. figure:: images/gitlab-gitsync.*
-      :scale: 100%
+   .. figure:: images/gitlab-gitsync.png
+      :width: 100%
       :alt: gitlab の設定
 
 .. note::
@@ -312,7 +312,7 @@ Bitbukcet上に、 ``http://ユーザ名.bitbucket.io`` という名前でドキ
 
 1. ``ユーザ名.bitbucket.io`` という名前のリポジトリを作ります。
 
-   .. figure:: images/bitbucket.*
+   .. figure:: images/bitbucket.png
       :scale: 100%
       :alt: bitbucket で repository の name を指定する
 
@@ -442,17 +442,17 @@ Vercelを使ってドキュメントを公開
 
 2021年現在、静的コンテンツを便利に公開できるサービスが数多く存在します。
 主なサービスとして `Netlify`_ 、 `Vercel`_ 、 `Cloudflare Pages`_ 、 `AWS Amplify`_ などがあります。
-これらのサービスの特徴のひとつに、 `GitHub`_ や `Gitlab`_ にホスティングしているリポジトリを指定し、ビルド設定をするだけで Sphinx ドキュメントを公開できるというものがあります。
+これらのサービスの特徴のひとつに、 `GitHub`_ や `GitLab`_ にホスティングしているリポジトリを指定し、ビルド設定をするだけで Sphinx ドキュメントを公開できるというものがあります。
 
 以前より `Read the Docs`_ でも同様の自動化が可能でしたが、現在では数多くのサービスが選択できるようになりました。
 
-本節では `Vercel`_ を利用して Sphinx ドキュメントを公開する手順を説明します。
+本節では Vercel を利用して Sphinx ドキュメントを公開する手順を説明します。
 
 
 本説明で可能となること
 ----------------------
 
-- `GitHub`_ や `Gitlab`_ にホスティングしているリポジトリを指定してドキュメントをビルドし公開する
+- GitHub や GitLab にホスティングしているリポジトリを指定してドキュメントをビルドし公開する
 - リポジトリ更新を hook してドキュメントを更新する
 - 自分の所持しているドメインを設定する
 - httpsで公開する
@@ -460,15 +460,15 @@ Vercelを使ってドキュメントを公開
 前提条件
 --------
 
-- `GitHub`_ に標準設定で作成した sphinx ドキュメントのリポジトリがあること(例では ``test-vercel`` という名称で作成済)
+- `GitHub に標準設定で作成した sphinx ドキュメントのリポジトリがあること(例では ``test-vercel`` という名称で作成済)
 - 独自ドメインを取得している
 
 
-`Vercel`_ の詳細設定
+Vercel の詳細設定
 --------------------
 
 
-#. `Vercel`_ にログインします。 `GitHub`_ のアカウントを利用できます
+#. Vercel にログインします。 `GitHub のアカウントを利用できます
 
    .. figure:: images/vercel_01_after_login.png
       :scale: 20%
@@ -480,7 +480,7 @@ Vercelを使ってドキュメントを公開
       :scale: 50%
       :alt: Vercel の設定
 
-#. `Vercel`_ に見せるリポジトリを選択します(例では選択したリポジトリのみにしてますが、複数のリポジトリを使う予定であれば All repositories を選択すると良いでしょう)
+#. Vercel に見せるリポジトリを選択します(例では選択したリポジトリのみにしてますが、複数のリポジトリを使う予定であれば All repositories を選択すると良いでしょう)
 
    .. figure:: images/vercel_03_selectrepository.png
       :scale: 50%
@@ -550,19 +550,17 @@ Vercelを使ってドキュメントを公開
       :scale: 50%
       :alt: Vercel の設定
 
-#. 設定したサブドメインへWebブラウザで接続してみましょう
+設定したサブドメインへWebブラウザで接続してみましょう
 
    .. figure:: images/vercel_13_published.png
       :scale: 50%
       :alt: Vercel の設定
 
-#. 証明書もこのように Let's Encrypt で作成されています
+証明書もこのように Let's Encrypt で作成されています
 
    .. figure:: images/vercel_14_certificate.png
       :scale: 50%
       :alt: Vercel の設定
-
-以上
 
 
 .. _Netlify: https://www.netlify.com/
@@ -570,5 +568,5 @@ Vercelを使ってドキュメントを公開
 .. _Cloudflare Pages: https://pages.cloudflare.com/
 .. _AWS Amplify: https://aws.amazon.com/jp/amplify/
 .. _GitHub: https://github.com/
-.. _Gitlab: https://gitlab.com/
+.. _GitLab: https://gitlab.com/
 .. _Read the Docs: https://readthedocs.org/
