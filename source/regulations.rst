@@ -1,4 +1,4 @@
-.. _constitution_of_the_sphinxjp:
+.. _regulations:
 
 ====================
 sphinx-users.jp 会則
