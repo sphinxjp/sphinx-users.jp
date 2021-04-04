@@ -1,3 +1,5 @@
+.. _constitution_of_the_sphinxjp:
+
 ====================
 sphinx-users.jp 会則
 ====================
