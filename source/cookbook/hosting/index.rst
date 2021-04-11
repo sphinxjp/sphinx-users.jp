@@ -460,7 +460,7 @@ Vercelを使ってドキュメントを公開
 前提条件
 --------
 
-- `GitHub に標準設定で作成した sphinx ドキュメントのリポジトリがあること(例では ``test-vercel`` という名称で作成済)
+- GitHub に標準設定で作成した sphinx ドキュメントのリポジトリがあること(例では ``test-vercel`` という名称で作成済)
 - 独自ドメインを取得している
 
 
@@ -468,7 +468,7 @@ Vercel の詳細設定
 --------------------
 
 
-#. Vercel にログインします。 `GitHub のアカウントを利用できます
+#. Vercel にログインします。 GitHub のアカウントを利用できます
 
    .. figure:: images/vercel_01_after_login.png
       :scale: 20%
