@@ -210,8 +210,7 @@ todo_include_todos = True  # should be True due to the todolist directive
 og_site_url = 'http://sphinx-users.jp/'
 og_twitter_site = '@sphinxjp'
 
-def setup(app):
-    app.add_stylesheet('custom.css')
+html_css_files = ['custom.css']
 
 numfig = True
 trimblank_keep_alnum_blank = ['html', 'singlehtml']

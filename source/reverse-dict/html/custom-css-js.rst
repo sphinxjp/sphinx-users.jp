@@ -7,8 +7,13 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 
    .. code-block:: python
 
-      def setup(app):
-          app.add_stylesheet('custom.css')
+      html_css_files = ['custom.css']
+
+.. note::
+
+   Sphinx-1.8 以前は ``setup()`` 関数を定義し、その中で ``add_stylesheet()`` を呼び出していましたが、
+   現在では設定項目 ``html_css_files`` を使って設定します。
+   https://www.sphinx-doc.org/ja/master/usage/configuration.html#confval-html_css_files
 
 これでcustom.cssもHTMLから読み込まれるようになります。
 
@@ -29,4 +34,3 @@ Sphinx標準テーマであれば、add_stylesheetやadd_javascriptを使ってc
        {%- endfor %}
 
    https://bitbucket.org/birkenfeld/sphinx/src/348224ae1fd5/sphinx/themes/basic/layout.html#cl-105
-
