@@ -7,8 +7,7 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 
    .. code-block:: python
 
-      def setup(app):
-          app.add_stylesheet('custom.css')
+      html_css_files = ['custom.css']
 
 .. note::
 
@@ -34,4 +33,3 @@ Sphinx標準テーマであれば、add_stylesheetやadd_javascriptを使ってc
        {%- endfor %}
 
    https://bitbucket.org/birkenfeld/sphinx/src/348224ae1fd5/sphinx/themes/basic/layout.html#cl-105
-
