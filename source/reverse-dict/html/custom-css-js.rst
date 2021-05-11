@@ -11,8 +11,8 @@ HTMLテーマに独自のCSS/JSファイルを読み込ませてデザイン調�
 
 .. note::
 
-   この ``add_stylesheet`` メソッドは、Sphinx 4.0で廃止されました。代わりに、 ``add_css_file`` メソッドを使います。
-   https://www.sphinx-doc.org/ja/master/extdev/appapi.html#sphinx.application.Sphinx.add_css_file
+   この ``add_stylesheet`` メソッドは、Sphinx 4.0で廃止されました。代わりに、 ``html_css_files`` リストを使います。
+   https://www.sphinx-doc.org/ja/master/usage/configuration.html#confval-html_css_files
 
 これでcustom.cssもHTMLから読み込まれるようになります。
 
