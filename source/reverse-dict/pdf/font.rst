@@ -1,4 +1,4 @@
-.. index:: conf.py;font_path
+.. index:: 設定（conf.py）;font_path
 
 文字化けする
 ----------------------------

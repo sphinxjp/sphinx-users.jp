@@ -1,4 +1,7 @@
-.. index:: replace, role;replace
+.. index::
+   single: replace
+   single: ロール（role）; replace
+   single: 用語; 用語を定義する
 
 用語を定義したい
 ---------------------------

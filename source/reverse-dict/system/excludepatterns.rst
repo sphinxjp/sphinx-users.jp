@@ -1,4 +1,4 @@
-.. index:: exclude_patterns, conf.py; exclude_patterns 
+.. index:: exclude_patterns, 設定（conf.py）; exclude_patterns 
 
 あるディレクトリやファイルを読み込まないようにしたい
 ---------------------------------------------------------------------------

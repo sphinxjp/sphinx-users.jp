@@ -1,4 +1,7 @@
-.. index:: literalinclude, include, directive;include
+.. index:: literalinclude, include, ディレクティブ; include
+
+.. index::
+   single: 他のファイル; 他のファイルを読み込む
 
 他のファイルを読み込みたい
 --------------------------------------
