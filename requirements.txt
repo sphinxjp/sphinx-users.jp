@@ -4,8 +4,7 @@ setuptools
 sphinxcontrib.gist
 sphinxcontrib-trimblank
 sphinxcontrib.kana-text
+sphindexer
 pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
 pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
 sphinx>=3.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
-sphindexer
-sphinxcontrib.kana_text
