@@ -56,7 +56,7 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集します
 役員の改選
 ----------
 
-* 2021年度: 会長 @shimizukawa（清水川）, 副会長 @usaturn（山田）, 副会長 @tkoyama010（小山）, 会計 @shimizukawa（清水川）
+* 2021年度: 会長 @tkoyama010（小山）, 副会長 @usaturn（山田）, 副会長 @shimizukawa（清水川）, 会計 @shimizukawa（清水川）
 
 * 役員立候補・推薦:
 
