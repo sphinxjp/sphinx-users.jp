@@ -16,8 +16,8 @@ sphinx-users.jp 2021年総会(2022/01/29)
 sphinx-users Slackで日程を調整し、connpassで参加者を募集します。
 
 .. sphinx-users Slackで日程を調整し、connpassで参加者を募集しました。
-..
-.. * https://sphinxjp.connpass.com/event/234494/
+
+* https://sphinxjp.connpass.com/event/234494/
 
 アジェンダ
 ==========
