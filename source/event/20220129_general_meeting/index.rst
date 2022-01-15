@@ -13,7 +13,7 @@ sphinx-users.jp 2021年総会(2022/01/29)
 参加方法
 =========
 
-sphinx-users Slackで日程を調整し、connpassで参加者を募集します。
+sphinx-users Slackで日程を調整しました。connpassで参加者を募集中です。
 
 .. sphinx-users Slackで日程を調整し、connpassで参加者を募集しました。
 
@@ -61,12 +61,12 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集します
 * 役員立候補・推薦:
 
   :会長:
-    * TBD
-    * TBD
-    * TBD
-  :副会長: TBD
-  :副会長: TBD
-  :会計: TBD
+    * 推薦: @tkoyama010
+    * 推薦: @usaturn
+  :副会長:
+    * 推薦: @shimizukawa
+  :会計:
+    * 推薦、立候補: @shimizukawa
 
 .. * 決定:
 .. 
