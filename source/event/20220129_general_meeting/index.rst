@@ -69,9 +69,10 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集しまし
     * 推薦、立候補: @shimizukawa
 
 * 決定:
+
   :会長: @tkoyama010
-  :副会長: @shimizukawa
   :副会長: @usaturn
+  :副会長: @shimizukawa
   :会計: @shimizukawa
 
 * 満場一致で可決しました
