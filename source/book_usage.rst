@@ -11,6 +11,7 @@ Sphinxを使用して執筆された書籍です。ただ、Sphinxの出力そ�
 商業誌
 ======
 
+* 2022.01. 『Pythonエンジニア育成推進協会監修　Python実践レシピ』: https://www.amazon.co.jp/dp/B09Q58TJ6N/
 * 2020.12. 『Pythonインタラクティブ・データビジュアライゼーション入門』: https://www.asakura.co.jp/books/isbn/978-4-254-12258-9/
 * 2020.08. 『改訂版 Pythonユーザのための Jupyter［実践］入門』: https://gihyo.jp/book/2020/978-4-297-11568-5/
 * 2018.10. 『Go言語による並行処理』: https://www.oreilly.co.jp/books/9784873118468/
