@@ -1,8 +1,7 @@
-Pillow
-Sphinx
-setuptools
-sphinxcontrib.gist
-sphinxcontrib-trimblank
-pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
-pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
-sphinx>=3.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
+Pillow==9.1.0
+Sphinx==4.5.0
+setuptools==62.1.0
+sphinxcontrib.gist==0.1.0
+sphinxcontrib-trimblank==1.0.2
+pillow==9.1.0
+pygments==2.11.2
