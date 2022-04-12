@@ -132,7 +132,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.dotted/
 
 * インストール方法例::
 
-   pip sphinxjp.themes.dotted
+   pip install sphinxjp.themes.dotted
 
 * conf.pyの書き換え::
 
@@ -147,7 +147,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.sphinxjp/
 
 * インストール方法例::
 
-   pip sphinxjp.themes.sphinxjp
+   pip install sphinxjp.themes.sphinxjp
 
 * conf.pyの書き換え::
 
@@ -162,7 +162,7 @@ http://pypi.python.org/pypi/sphinxjp.themes.trstyle/
 
 * インストール方法例::
 
-    pip sphinxjp.themes.trstyle
+    pip install sphinxjp.themes.trstyle
 
 * conf.pyの書き換え::
 
@@ -177,7 +177,7 @@ https://pypi.python.org/pypi/sphinxjp.themes.basicstrap/
 
 * インストール方法例::
 
-    pip sphinxjp.themes.basicstrap
+    pip install sphinxjp.themes.basicstrap
 
 * conf.pyの書き換え::
 
