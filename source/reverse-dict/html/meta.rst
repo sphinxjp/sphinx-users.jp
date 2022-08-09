@@ -15,7 +15,7 @@ HTML出力時にmetaタグを指定するには ``meta`` を使います。
 
 最後の例では、 ``meta`` を使ってContent-Typeを挿入しています。しかし、
 SphinxではSphinxがHTML出力をするときにすでにContent-Typeを挿入していま
-す。そのため、 ``meta`` でContent-Typeを指定して場合、二つの
+す。そのため、 ``meta`` でContent-Typeを指定した場合、二つの
 Content-Typeが指定されることになります。
 
 適用例
