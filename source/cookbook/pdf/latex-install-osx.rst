@@ -51,5 +51,5 @@ HomebrewによるMacTeXのインストール
          パッケージのサイズはMacTeXよりも小さくなりますが、日本語環境を別にインストールする必要があります。
          Homebrewの場合は以下のようになります。
 
-           $ brew cask install basictex
+           $ brew install --cask basictex
            $ sudo tlmgr update --self --all
