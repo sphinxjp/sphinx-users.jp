@@ -42,7 +42,7 @@ HomebrewによるMacTeXのインストール
 
 .. code-block:: bash
 
-    $ brew cask install mactex-no-gui
+    $ brew install --cask mactex-no-gui
     $ sudo tlmgr update --self --all
 
 ..note:: BasicTeX
