@@ -8,50 +8,51 @@ sphinx-users.jp 2022年総会(2022/12/16)
 
 .. __: https://www.ginzalion.jp/shop/brand/kakoiya/shop96.html
 
-2022年のsphinx-users.jp総会を行います。
+2022年のsphinx-users.jp総会を行いました。
 
 総会の開催について、詳しくは :doc:`../../regulations` を参照してください。
 
 参加方法
 =========
 
-connpassで参加者を募集中です。
+.. connpassで参加者を募集中です。
+
+Slackで日程を調整し、connpassで参加者を募集しました。
 
 * https://sphinxjp.connpass.com/event/267928/
 
-.. Slackで日程を調整し、connpassで参加者を募集しました。
 
 アジェンダ
 ==========
+
+.. * カンパイ
+.. * 会長挨拶、参加者自己紹介
+.. * 役員の改選
+.. * 約例の変更
+.. * 会計報告
+
+総会の様子
+==========
+
+議事進行
+---------
 
 * カンパイ
 * 会長挨拶、参加者自己紹介
 * 役員の改選
 * 約例の変更
 * 会計報告
+* 今年やったこと、来年やりたいこと
 
-.. 総会の様子
-.. ==========
-..
-.. 議事進行
-.. ---------
-..
-.. * カンパイ
-.. * 会長挨拶、参加者自己紹介
-.. * 役員の改選
-.. * 約例の変更
-.. * 会計報告
-.. * 今年やったこと、来年やりたいこと
-..
-.. 会長挨拶、参加者自己紹介
-.. ---------------------------------
-..
-.. @tkoyama010: （会長挨拶）
-..
-.. @usaturn: （副会長）
-..
-.. @shimizukawa: （副会長）
-..
+会長挨拶、参加者自己紹介
+---------------------------------
+
+@tkoyama010: （会長挨拶）急用により欠席
+
+@usaturn: （副会長） 今年も一年無事に過ごせました。お疲れ様でした。来年はSphinxConやるぞ！
+
+@shimizukawa: （副会長）今年は毎月Sphinx Hack-a-thon やれました。よかった。
+
 
 役員の改選
 ----------
@@ -70,12 +71,12 @@ connpassで参加者を募集中です。
   :副会長: 募集中
   :会計: shimizukawa (自薦)
 
-.. * 決定:
-..
-..   :会長: @usaturn
-..   :副会長: @usaturn
-..   :副会長: @usaturn
-..   :会計: @shimizukawa
+* 決定:
+
+  :会長: tkoyama010 急遽仕事で欠席。自薦他薦あり、確定しました。
+  :副会長: usaturn  (他薦) やります！確定
+  :副会長: fukudaさん (他薦) やります！確定
+  :会計: shimizukawa (自薦) 確定
 
 
 約例の変更
@@ -95,8 +96,7 @@ connpassで参加者を募集中です。
 支出の概要:
 
 * S3/CloudFrontの利用料(約84円/月 = 1,010円/12ヶ月)
-
-.. 本日(12/16)の寄付額は、x,xxx円 でした。
+* 本日(12/16)の寄付額は、8,920円 でした。
 
 収支詳細
 ----------------
@@ -166,34 +166,51 @@ connpassで参加者を募集中です。
      * 92
 
    - * 2022/12/16  sphinx-users.jp 総会 会員寄付
-     * x,xxx （未定）
+     * 8,920
      *
 
    - * 2022 累計
-     * 4,000 （12/10時点の予定）
-     * 1,010 （12/10時点の予定）
+     * 12,920 （12/18時点の予定）
+     * 1,010 （12/18時点の予定）
 
    - * 2023年への繰り越し(予定)
-     * 16,477 （12/10時点の予定）
+     * 25,397 （12/18時点の予定）
      *
 
-.. 今年やったこと、来年やりたいこと
-.. ----------------------------------------
-..
+今年やったこと、来年やりたいこと
+----------------------------------------
+
+* usaturn（副会長）: SphinCon やります！
+* 福田（副会長）: 開発合宿やりたいです！
+* 清水川（会計）: 合宿やりたいね。SphinxConはぜひオフラインで～
+
 .. 雑談
 .. -----------------
-..
-.. 会場の様子
-.. -----------
-..
-.. .. figure:: attendees.*
-..    :width: 80%
-..
-..    参加者のみなさん
-..
-..
-.. その他の写真はこちら
-..
-.. .. raw:: html
-..
-..    <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=fixed&input=www.flickr.com/photos/shimizukawa/sets/72157702819306851&sort=0&by=album&width=800&height=500&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://s3.amazonaws.com/tui-discount-codes/index.html">https://s3.amazonaws.com/tui-discount-codes/index.html</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+
+ 会場の様子
+ -----------
+
+.. figure:: 20221216_1.*
+   :width: 80%
+
+   参加者のみなさん @ かこいや 丸の内二丁目
+
+.. figure:: 20221216_2.*
+   :width: 80%
+
+   料理と日本酒
+
+.. figure:: 20221216_3.*
+   :width: 80%
+
+   二次会 @ Antenna America Tokyo
+
+.. figure:: 20221216_4.*
+   :width: 80%
+
+   二次会 @ Antenna America Tokyo
+
+
+その他の写真はこちら
+
+- https://photos.app.goo.gl/qTFihobB5bp6uRqm7
