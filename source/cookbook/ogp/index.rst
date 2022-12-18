@@ -6,7 +6,9 @@ Twitter/Facebookへのページシェアでコンテンツを埋め込む(OGP)
 
    OGPを生成する機能のSphinx本体への組み込みが `PR#7974 <https://github.com/sphinx-doc/sphinx/pull/7974>`_ で検討されましたが、
    `sphinxext-opengraph <https://pypi.org/project/sphinxext-opengraph/>`_ 拡張を利用すれば良さそうなため見送られました。
-   
+
+   Sphinx-users.jp 自体のOGP生成も独自実装（本ページで紹介しているコード）から、sphinxext-opengraphに切り替えました。差分はこちらです: https://github.com/sphinxjp/sphinx-users.jp/pull/103
+
 概要
 ====
 
