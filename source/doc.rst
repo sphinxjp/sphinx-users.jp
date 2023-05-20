@@ -170,7 +170,7 @@
 
 .. raw:: html
 
-   <iframe src="//www.slideshare.net/slideshow/embed_code/key/sSPVJJCHbsvUyt" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-53764167" title="Sphinxで作る貢献しやすいドキュメント翻訳の仕組み" target="_blank">Sphinxで作る貢献しやすいドキュメント翻訳の仕組み</a> </strong> from <strong><a href="//www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/sSPVJJCHbsvUyt" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-53764167" title="Sphinxで作る貢献しやすいドキュメント翻訳の仕組み" target="_blank">Sphinxで作る貢献しやすいドキュメント翻訳の仕組み</a> </strong> from <strong><a href="//www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
 2014年
 ------

@@ -61,7 +61,7 @@ div#document {
 	margin: 0;
 	padding: 10px;
 	border-right: 1px solid #EEE;
-	background: #FFF url(../../../sphinx-jp/static/docBg.png) repeat-y right;
+	background: #FFF url(docBg.png) repeat-y right;
 }
 
 div#sidebar {
@@ -115,19 +115,22 @@ div#header div#headerNav {
 	margin: 20px 1em;
 }
 
-fieldset.search {
+#searchlabel {
+	display: none;
+}
+
+.searchformwrapper {
 	border: none;
 	width: 226px;
 	margin: 60px auto 0;
 }
 
-fieldset.search > input,
-fieldset.search > button {
+.searchformwrapper input {
 	border: none;
 	float: left;
 }
 
-fieldset.search input.hint {
+.searchformwrapper input[name="q"] {
 	width: 190px;
 	height: 20px;
 	padding: 3px;
@@ -137,11 +140,11 @@ fieldset.search input.hint {
 	border-left: 1px solid #999;
 }
 
-fieldset.search input.hint:focus {
+.searchformwrapper input[name="q"]:focus {
 	outline: none;
 }
 
-fieldset.search button.button {
+.searchformwrapper input[type="submit"] {
 	width: 26px;
 	height: 27px;
 	text-indent: -9999px;
@@ -149,7 +152,7 @@ fieldset.search button.button {
 	border-top: 1px solid #999;
 }
 
-fieldset.search button.button:hover {
+.searchformwrapper input[type="submit"]:hover {
 	cursor: pointer;
 }
 
