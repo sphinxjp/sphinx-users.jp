@@ -11,6 +11,7 @@
 .. toctree::
    :maxdepth: 1
 
+   20221216_general_meeting/index
    20220129_general_meeting/index
 
 2021年
