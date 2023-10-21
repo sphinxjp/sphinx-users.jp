@@ -51,7 +51,10 @@ connpassで参加者を募集中です。
 ..
 .. @usaturn: （副会長）
 ..
-.. @shimizukawa: （副会長）
+.. @JunyaFff: （副会長）
+..
+.. @shimizukawa: （会計）
+
 ..
 
 役員の改選
