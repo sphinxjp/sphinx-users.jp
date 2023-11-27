@@ -27,6 +27,7 @@ extensions = [
     'sphinxcontrib.trimblank',
     'sphinxext.opengraph',
     'sphinxcontrib.gist',
+    'sphinx_new_tab_link',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
