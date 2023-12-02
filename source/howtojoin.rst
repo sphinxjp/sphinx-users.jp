@@ -59,9 +59,9 @@ Sphinxは確かにPythonで書かれていますが、Sphinxの拡張機能を�
 
    - * 採用事例に自分の例も追加して欲しい
      * * 採用された事例やテンプレート 
-       * Bitbucketへのユーザ登録
-       * Mercurial(hg)を使う能力
-       * Bitbucketでforkして、PullRequestを出す勇気
+       * GitHubへのユーザ登録
+       * gitを使う能力
+       * GitHubでforkして、Pull Requestを出す勇気
 
 .. rubric:: 脚注
 .. [#] 現状ではSphinxのソースや、Docutilsの英語資料を読む必要があります。
