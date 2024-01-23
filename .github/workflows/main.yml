@@ -29,7 +29,7 @@ jobs:
           ./.github/git-set-file-times.py
       - name: CACHE pip
         id: cache-pip
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
@@ -37,7 +37,7 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}-${{ steps.get-date.outputs.yyyymm }}
       - name: CACHE sphinx build
         id: cache-sphinx-build
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: build
           key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.date }}
