@@ -1,4 +1,7 @@
-.. index:: index
+.. index::
+   single: index
+   single: 索引; 索引に載せる
+
 
 索引に載せたい
 --------------------------

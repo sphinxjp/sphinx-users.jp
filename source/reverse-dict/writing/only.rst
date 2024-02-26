@@ -1,4 +1,7 @@
-.. index:: only, directive;only
+.. index:: only, ディレクティブ; only
+
+.. index::
+   single: 表示; 特定の時だけコンテンツを表示する
 
 .. _writing-only:
 

@@ -1,4 +1,8 @@
-.. index:: ifconfig, extensions;ifconfig, conf.py;ifconfig
+.. index:: ifconfig, 拡張機能; ifconfig, 設定（conf.py）; ifconfig
+
+.. index::
+   single: 設定（conf.py）; 設定に従ってコンテンツを表示する
+   single: 表示; 設定に従ってコンテンツを表示する
 
 .. _writing-ifconfig:
 

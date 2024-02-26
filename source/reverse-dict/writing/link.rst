@@ -1,13 +1,9 @@
-.. index::
-   single: link
-   pair: link;inline
-   pair: link;image
-   
-
 リンクを貼りたい
 ================
 
 Sphinxでリンクを貼る方法はいくつかあります。
+
+.. index:: リンク; リンクを貼る（外部リンク）
 
 URL直書き
 ---------
@@ -18,6 +14,8 @@ URL直書き
 
    詳しくは、 http://sphinx-users.jp を参照してください。
 
+.. index:: リンク; リンクを貼る（外部リンク）
+
 reSTのインライン構文
 --------------------
 
@@ -26,6 +24,8 @@ reSTのインライン構文
 .. code-block:: rst
 
    `Sphinxを知りたい方はこちらをクリック <http://sphinx-users.jp>`_
+
+.. index:: リンク; リンクを貼る（内部リンク）
 
 論文の参考文献のような記述法
 ----------------------------
@@ -38,6 +38,8 @@ reSTのインライン構文
 
    .. _SphinxJP: http://sphinx-users.jp
 
+.. index:: リンク; 画像
+
 画像をクリックした時のリンク
 ----------------------------
 
@@ -48,6 +50,8 @@ reSTのインライン構文
    .. image:: sphinx.png
       :alt: Sphinx-Users.jpのロゴ
       :target: http://sphinx-users.jp
+
+.. index:: リンク; リンクを貼る（内部リンク）
 
 Sphinxのドキュメント内の他のページへのリンク
 --------------------------------------------

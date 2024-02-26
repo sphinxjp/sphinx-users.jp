@@ -1,4 +1,4 @@
-.. index:: japanesesupport, conf.py;japanesesupport, extensions;japanesesupport
+.. index:: japanesesupport, 設定（conf.py）; japanesesupport, 拡張機能; japanesesupport
 
 .. _japanesesupport:
 

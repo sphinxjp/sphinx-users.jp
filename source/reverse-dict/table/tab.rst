@@ -1,4 +1,4 @@
-.. index:: csv-table; encoding, csv-table; delim
+.. index:: csv-table, encoding; csv-table, delim; csv-table
 
 csv-tableでタブや空白を区切り文字に使いたい
 ------------------------------------------------------------------------

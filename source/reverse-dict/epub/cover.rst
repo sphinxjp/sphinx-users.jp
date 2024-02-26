@@ -1,4 +1,4 @@
-.. index:: conf.py;epub_cover
+.. index:: 設定（conf.py）; epub_cover
 
 カバー画像を設定したい
 ----------------------------

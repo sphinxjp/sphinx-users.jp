@@ -1,4 +1,4 @@
-.. index:: figure, directive;figure
+.. index:: figure, ディレクティブ;figure
 
 図にキャプションをつけたい
 --------------------------

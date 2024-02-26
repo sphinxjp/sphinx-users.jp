@@ -1,4 +1,4 @@
-.. index:: conf.py, setting; conf.py
+.. index:: conf.py, 設定（conf.py）
 
 conf.pyにiniファイルから設定を読み込む
 -------------------------------------------

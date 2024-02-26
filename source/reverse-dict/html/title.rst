@@ -1,4 +1,4 @@
-.. index:: title, directive;title
+.. index:: title, ディレクティブ; title
 
 
 titleを指定したい
