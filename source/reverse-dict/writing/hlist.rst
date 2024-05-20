@@ -1,4 +1,7 @@
-.. index:: hlist, directive; hlist
+.. index:: hlist, ディレクティブ; hlist
+
+.. index::
+   single: リスト; リストを横に並べる
 
 リストを横に並べたい
 ---------------------------

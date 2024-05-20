@@ -1,4 +1,6 @@
-.. index:: orphan, setting; orphan
+.. index::
+   single: orphan
+   single: 参照; どこからも参照されていないファイル
 
 document isn't included in any toctreeという警告が出る
 --------------------------------------------------------------------

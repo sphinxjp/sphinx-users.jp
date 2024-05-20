@@ -1,4 +1,7 @@
-.. index:: refer
+.. index::
+   single: refer
+   single: 参照; 参照する
+   single: リンク; リンクを貼る（内部リンク）
 
 .. _writing-refer:
 

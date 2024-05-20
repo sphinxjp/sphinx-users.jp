@@ -1,4 +1,8 @@
-.. index:: note, warning, directive; note, directive; warning
+.. index:: note, warning, ディレクティブ; note, ディレクティブ; warning
+
+.. index::
+   single: 注意; 注意や警告を書く
+   single: 警告; 注意や警告を書く
 
 注意や警告を書きたい
 ----------------------------

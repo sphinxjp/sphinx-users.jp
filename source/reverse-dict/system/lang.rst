@@ -1,4 +1,4 @@
-.. index:: lang, conf.py; lang, 
+.. index:: lang, 設定（conf.py）; lang, 
 
 言語を変えたい
 ------------------------

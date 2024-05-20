@@ -1,4 +1,7 @@
-.. index:: citation, role; citation
+.. index::
+   single: citation
+   single: ロール（role）; citation
+   single: 参考文献; 参考文献を書く
 
 .. _writing-citation:
 

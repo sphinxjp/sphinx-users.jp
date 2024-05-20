@@ -1,4 +1,4 @@
-.. index:: csv-table; file, csv-table; url
+.. index:: csv-table, file; csv-table, url; csv-table
 
 外部にあるcsvファイルからデータを読み込む
 -----------------------------------------------------------------

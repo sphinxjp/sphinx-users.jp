@@ -1,4 +1,4 @@
-.. index:: meta, directive;meta
+.. index:: meta, ディレクティブ; meta
 
 metaタグを指定したい
 -----------------------

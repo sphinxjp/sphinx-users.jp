@@ -1,4 +1,7 @@
-.. index:: todo, extensions; todo, conf.py; todo
+.. index:: todo, 拡張機能; todo, 設定（conf.py）; todo
+
+.. index::
+   single: TODO; TODOを記録する
 
 TODOを記録しておきたい
 ----------------------

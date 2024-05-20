@@ -1,6 +1,9 @@
-.. index:: contents, directive; contents
+.. index::
+   single: contents
+   single: ディレクティブ; contents
+   single: 目次; ページ内に目次を作る
 
-ページ内の目次を作りたい
+ページ内に目次を作りたい
 ------------------------
 
 ``contents`` を使います。

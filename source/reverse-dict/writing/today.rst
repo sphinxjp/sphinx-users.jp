@@ -1,4 +1,8 @@
-.. index:: today, conf.py;today_fmt
+.. index:: today, 設定（conf.py）;today_fmt
+
+.. index::
+   single: 日付; 今日の日付を埋め込む
+   single: 埋め込み; 今日の日付を埋め込む
 
 今日の日付を埋め込みたい
 ----------------------------------------

@@ -1,4 +1,8 @@
-.. index:: numberd, toctree; numberd
+.. index::
+   single: numberd
+   single: toctree; numberd
+   single: 章; 章や節に番号を振る
+   single: 節; 章や節に番号を振る
 
 .. _writing-numbering:
 
