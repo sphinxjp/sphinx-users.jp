@@ -8,7 +8,6 @@ taget オプションを使います。これにより、画像をクリック�
 
   .. image:: ../img/python.png
      :target: http://python.org
-  
 
 ~~~~~~
 適用例
