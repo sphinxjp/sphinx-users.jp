@@ -75,6 +75,7 @@ Sphinxを使用している日本語サイト一覧です。Sphinxでは、サ�
 Sphinxを紹介している資料等
 ============================
 
+* 2024/6/27 Python Monthly Topics `Python製静的サイトジェネレーターSphinxでWebサイトを構築して公開 <https://gihyo.jp/article/2024/06/monthly-python-2406>`_
 * 2016/8/15 PyCon APAC 2016 in Korea `Easy contributable internationalization process with Sphinx at pycon apac 2016 <https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-at-pycon-apac-2016>`_
 * 2015/11/24 SphinxCon JP 2015 `世界のSphinx事情 <https://www.slideshare.net/shimizukawa/sphinx-in-the-world-sphinxcon-jp-2015>`_
 * 2015/10/31 Sphinx ワークショップ@関西 `Sphinx紹介 - Sphinxワークショップ@関西 <https://www.slideshare.net/shimizukawa/jus-sphinx-sphinx>`_
