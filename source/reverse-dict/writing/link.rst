@@ -2,7 +2,7 @@
    single: link
    pair: link;inline
    pair: link;image
-   
+
 
 リンクを貼りたい
 ================
@@ -18,6 +18,12 @@ URL直書き
 
    詳しくは、 http://sphinx-users.jp を参照してください。
 
+~~~~~~
+適用例
+~~~~~~
+
+詳しくは、 http://sphinx-users.jp を参照してください。
+
 reSTのインライン構文
 --------------------
 
@@ -25,7 +31,13 @@ reSTのインライン構文
 
 .. code-block:: rst
 
-   `Sphinxを知りたい方はこちらをクリック <http://sphinx-users.jp>`_
+   `Sphinxを知りたい方はこちらをクリック <http://sphinx-users.jp>`__
+
+~~~~~~
+適用例
+~~~~~~
+
+  `Sphinxを知りたい方はこちらをクリック <http://sphinx-users.jp>`__
 
 論文の参考文献のような記述法
 ----------------------------
@@ -38,6 +50,14 @@ reSTのインライン構文
 
    .. _SphinxJP: http://sphinx-users.jp
 
+~~~~~~
+適用例
+~~~~~~
+
+  Sphinxの詳しい情報源: SphinxJP_
+
+  .. _SphinxJP: http://sphinx-users.jp
+
 画像をクリックした時のリンク
 ----------------------------
 
@@ -45,15 +65,29 @@ reSTのインライン構文
 
 .. code-block:: rst
 
-   .. image:: sphinx.png
+   .. image:: /reverse-dict/img/sphinx.png
       :alt: Sphinx-Users.jpのロゴ
       :target: http://sphinx-users.jp
 
-Sphinxのドキュメント内の他のページへのリンク
---------------------------------------------
+~~~~~~
+適用例
+~~~~~~
 
-Sphinxのドキュメントへのリンクであれば、ドキュメントのファイル名(拡張子なし)を書くことでリンクを貼ることができます。
+  .. image:: /reverse-dict/img/sphinx.png
+     :alt: Sphinx-Users.jpのロゴ
+     :target: http://sphinx-users.jp
+
+同じ Sphinx プロジェクト内のドキュメントへのリンク
+--------------------------------------------------
+
+同じ Sphinx プロジェクト内のドキュメントファイルパス(相対パス／絶対パス、拡張子なし)を ``:doc:`` ロールに書くことでリンクになります
 
 .. code-block:: rst
 
-   くわしい使い方は :doc:`sample/index` に書かれています。
+   くわしい使い方は :doc:`../images/target.rst` に書かれています。
+
+~~~~~~
+適用例
+~~~~~~
+
+  くわしい使い方は :doc:`../images/target` に書かれています。

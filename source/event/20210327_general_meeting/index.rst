@@ -65,9 +65,9 @@ sphinx-users Slackで日程を調整し、connpassで参加者を募集しまし
 
 * 決定:
 
-  :会長: @shimizukawa （清水川）
+  :会長: @tkoyama010 （小山）
   :副会長: @usaturn （山田）
-  :副会長: @tkoyama010 （小山）
+  :副会長: @shimizukawa （清水川）
   :会計: @shimizukawa （清水川）
 
 * 満場一致で可決しました

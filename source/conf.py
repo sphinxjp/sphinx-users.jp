@@ -25,7 +25,7 @@ sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.todo',
     'sphinxcontrib.trimblank',
-    'ogtag',
+    'sphinxext.opengraph',
     'sphinxcontrib.gist',
 ]
 
@@ -142,7 +142,7 @@ html_last_updated_fmt = '%b %d, %Y'
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
     '**': ['reference.html', 'globaltoc.html', 'relations.html',
-    'sourcelink.html', 'searchbox.html', 'twitter.html'],
+    'sourcelink.html', 'twitter.html'],
 }
 
 # Additional templates that should be rendered to pages, maps page names to
@@ -207,8 +207,15 @@ latex_documents = [
 
 todo_include_todos = True  # should be True due to the todolist directive
 
-og_site_url = 'http://sphinx-users.jp/'
-og_twitter_site = '@sphinxjp'
+# OGP
+ogp_site_url = 'https://sphinx-users.jp/'
+ogp_site_name = project
+ogp_type = 'article'
+ogp_use_first_image = True
+ogp_custom_meta_tags = [
+    '<meta name="twitter:card" content="summary_large_image" />',
+    '<meta name="twitter:site" content="@sphinxjp" />',
+]
 
 html_css_files = ['custom.css']
 

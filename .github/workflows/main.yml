@@ -8,7 +8,7 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: '0'  # to get full commit logs for 'git-set-file-times'
       - name: DEBUG INFO github refs
@@ -19,8 +19,8 @@ jobs:
       - name: Get Date
         id: get-date
         run: |
-          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
-          echo "::set-output name=yyyymm::$(/bin/date -u "+%Y%m")"
+          echo "date=$(/bin/date -u "+%Y%m%d")" >> $GITHUB_OUTPUT
+          echo "yyyymm=$(/bin/date -u "+%Y%m")" >> $GITHUB_OUTPUT 
         shell: bash
       - name: git-set-file-times
         # change timestamps with commit time instead of checkout time.
@@ -29,7 +29,7 @@ jobs:
           ./.github/git-set-file-times.py
       - name: CACHE pip
         id: cache-pip
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
@@ -37,7 +37,7 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}-${{ steps.get-date.outputs.yyyymm }}
       - name: CACHE sphinx build
         id: cache-sphinx-build
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: build
           key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.date }}
@@ -53,16 +53,6 @@ jobs:
       - name: build html
         run: |
           /home/runner/.local/bin/sphinx-build -M html source build -N -T
-      - name: slack-notifier
-        uses: 8398a7/action-slack@v3
-        with:
-          status: ${{ job.status }}
-          fields: workflow
-          author_name: sphinx-build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: always()
       - name: s3sync
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"

@@ -35,18 +35,20 @@
   </div>
 {%- endmacro %}
 {%- macro script() %}
-    <script id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
     {%- for js in script_files %}
     {{ js_tag(js) }}
     {%- endfor %}
 {%- endmacro %}
 {%- macro css() %}
-    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
-    {%- for cssfile in css_files %}
-    <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+    {%- for css in css_files %}
+      {%- if css|attr("filename") %}
+    {{ css_tag(css) }}
+      {%- else %}
+    <link rel="stylesheet" href="{{ pathto(css, 1)|e }}" type="text/css" />
+      {%- endif %}
     {%- endfor %}
 {%- endmacro %}
+
 {%- macro sidebar() %}
   <div id="sidebar" class="left">
     <div id="sidebarWrap">
@@ -85,7 +87,9 @@
   {%- endblock %}
   {{ css() }}
   {%- if not embedded %}
-  {{ script() }}
+  {%- block scripts %}
+  {{- script() }}
+  {%- endblock %}
   {%- if use_opensearch %}
   <link rel="search" type="application/opensearchdescription+xml"
         title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}"
@@ -124,12 +128,6 @@
   {%- endif %}
 
   {%- endif %}
-  <!-- Sticky footer -->
-  <!--[if  IE 8]>
-  <style type="text/css">
-    #wrap {display:table;}
-  </style>
-  <![endif]-->
 {%- block extrahead %} {% endblock %}
 </head>
 <body>
@@ -148,21 +146,9 @@
       </h1>
       <p class="docdesc">{{ docstitle|e }}</p>
     </div>
-    {%- if pagename != "search" %}
     <div id="headerNav">
-      <div id="searchbox">
-        <form name="search" action="{{ pathto('search') }}" method="get">
-          <fieldset class="search">
-            <input type="text" class="hint" name="q" />
-            <button class="button" title="{{ _('Go') }}" />{{ _('Go') }}</button>
-            <input type="hidden" name="check_keywords" value="yes" />
-            <input type="hidden" name="area" value="default" />
-          </fieldset>
-        </form>
-      </div>
+    {%- include "searchbox.html" %}
     </div>
-    <script type="text/javascript">$('#searchbox').show(0);</script>
-    {%- endif %}
 
     {%- block globalnavigation %}
     {%- include "globalnavigation.html" %}

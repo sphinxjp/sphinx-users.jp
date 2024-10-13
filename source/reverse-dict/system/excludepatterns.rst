@@ -18,8 +18,8 @@ conf.pyの ``exclude_patterns`` を設定します。これらのパスはソー
   # 無視します
   exclude_patterns = ['library/xml*']
 
-  # すべての .svn ディレクトリを無視します
-  exclude_patterns = ['**/.svn']
+  # すべての .git ディレクトリを無視します
+  exclude_patterns = ['**/.git']
 
   # systemディレクトリ、exclude.rstファイル、tmpで始まるファイル
   # の全てを無視します

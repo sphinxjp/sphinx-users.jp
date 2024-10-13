@@ -42,14 +42,14 @@ HomebrewによるMacTeXのインストール
 
 .. code-block:: bash
 
-    $ brew cask install mactex-no-gui
+    $ brew install --cask mactex-no-gui
     $ sudo tlmgr update --self --all
 
-..note:: BasicTeX
+.. note:: BasicTeX
          
          OSX / macOS 用のTeX Liveディストリビューションには他にBasicTeXがあります。
          パッケージのサイズはMacTeXよりも小さくなりますが、日本語環境を別にインストールする必要があります。
          Homebrewの場合は以下のようになります。
 
-           $ brew cask install basictex
+           $ brew install --cask basictex
            $ sudo tlmgr update --self --all
