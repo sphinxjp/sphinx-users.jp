@@ -9,18 +9,18 @@ sphinx-users.jp 2023年総会(2023/12/08)
 
 .. __: https://www.its-kenpo.or.jp/fuzoku/restaurant/alfaro/index.html
 
-2023年のsphinx-users.jp総会を行います。
+2023年のsphinx-users.jp総会を行いました。
 
 総会の開催について、詳しくは :doc:`../../regulations` を参照してください。
 
 参加方法
 =========
 
-connpassで参加者を募集中です。
+.. connpassで参加者を募集中です。
 
 * https://sphinxjp.connpass.com/event/296761/
 
-.. Slackで日程を調整し、connpassで参加者を募集しました。
+Slackで日程を調整し、connpassで参加者を募集しました。
 
 アジェンダ
 ==========
@@ -74,12 +74,12 @@ connpassで参加者を募集中です。
   :副会長: 募集中
   :会計: 募集中
 
-.. * 決定:
-..
-..   :会長: @usaturn
-..   :副会長: @usaturn
-..   :副会長: @usaturn
-..   :会計: @shimizukawa
+* 決定:
+
+  :会長: @tkoyama010 （小山）
+  :副会長: @usaturn （山田）
+  :副会長: @shibu_jp （渋川）
+  :会計: @shimizukawa （清水川）
 
 
 約例の変更

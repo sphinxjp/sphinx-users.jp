@@ -2,12 +2,12 @@
 sphinx-users.jp 2024年総会(2024/12/xx)
 ========================================
 
-:日時: 2024/12/xx 20:00～22:00
-:場所: 予定中
+:日時: 2024/12/09 20:00～22:00
+:場所: `関東IT健保 桜華楼 @ 大久保`__
 :参加費: 5000円前後（運営費カンパ含む）
 :持ち物: 関東IT健保の方は保険証
 
-.. .. __: https://www.its-kenpo.or.jp/fuzoku/restaurant/alfaro/index.html
+.. __: https://www.its-kenpo.or.jp/fuzoku/restaurant/oukarou/index.html
 
 2024年のsphinx-users.jp総会を行います。
 
@@ -18,9 +18,7 @@ sphinx-users.jp 2024年総会(2024/12/xx)
 
 connpassで参加者を募集中です。
 
-* URL: 準備中
-
-.. * https://sphinxjp.connpass.com/event/296761/
+* https://sphinxjp.connpass.com/event/335055/
 
 .. Slackで日程を調整し、connpassで参加者を募集しました。
 
@@ -91,7 +89,7 @@ connpassで参加者を募集中です。
   * 現: 〒170-0013 東京都豊島区東池袋
   * 新: 〒170-6045 東京都豊島区東池袋
 
-* 満場一致で可決しました
+.. * 満場一致で可決しました
 
 会計報告
 --------
