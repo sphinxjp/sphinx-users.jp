@@ -34,9 +34,9 @@ http://sphinx-users.jp/
 パッケージ管理
 ========================
 
-```
-$ uv add requests
-$ uv remove requests
-$ uv pip list
-$ uv export --no-hashes > requirements.txt
-```
+::
+
+    $ uv add requests
+    $ uv remove requests
+    $ uv pip list
+    $ uv export --no-hashes > requirements.txt
