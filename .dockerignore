@@ -5,3 +5,6 @@ _build/
 build/
 .*~
 **/__pycache__/
+.devcontainer
+.git
+.python-version
