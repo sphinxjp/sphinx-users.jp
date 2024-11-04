@@ -8,6 +8,4 @@ rm -rf ~/.cache/matplotlib
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 . $HOME/.cargo/env
-
-uv venv --allow-existing ~/.local 
-uv pip install --prefix ~/.local/ -r requirements.txt 
+uv venv --allow-existing ${UV_PROJECT_ENVIRONMENT}

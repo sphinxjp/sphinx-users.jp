@@ -17,7 +17,7 @@ http://sphinx-users.jp/
 
 1. Sphinx と関連パッケージをインストール
 
-   i. ``pip install -r requirements.txt`` を実行
+   i. ``uv sync`` を実行
 
 2. HTMLを生成する
 
@@ -30,3 +30,13 @@ http://sphinx-users.jp/
 * Dockerfile の自動ビルド: https://hub.docker.com/r/sphinxjp/sphinx-users.jp/
 * サイトの自動ビルド: https://app.wercker.com/sphinxjp/sphinx-users.jp/
 
+
+パッケージ管理
+========================
+
+```
+$ uv add requests
+$ uv remove requests
+$ uv pip list
+$ uv export --no-hashes > requirements.txt
+```
