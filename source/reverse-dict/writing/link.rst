@@ -84,7 +84,7 @@ reSTのインライン構文
 
 .. code-block:: rst
 
-   くわしい使い方は :doc:`../images/target.rst` に書かれています。
+   くわしい使い方は :doc:`../images/target` に書かれています。
 
 ~~~~~~
 適用例
