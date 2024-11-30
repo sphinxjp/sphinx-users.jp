@@ -78,7 +78,7 @@
     </div>
   </div>
 {%- endmacro -%}
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" data-content_root="{{ content_root }}">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
   {{ metatags }}
@@ -160,7 +160,7 @@
   <!-- content -->
   <div id="content">
     <!-- current document area -->
-    <div id="document" class="left">
+    <div id="document" class="left" role="main">
     {%- block body %}{%- endblock body %}
     </div>
     <!-- /current document area -->
