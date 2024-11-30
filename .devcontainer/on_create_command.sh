@@ -7,5 +7,4 @@ sudo apt install fonts-noto-cjk
 rm -rf ~/.cache/matplotlib
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
-. $HOME/.cargo/env
 uv venv --allow-existing ${UV_PROJECT_ENVIRONMENT}
