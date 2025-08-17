@@ -92,9 +92,9 @@ Sphinx-Users.jpでコミュニティとして用意しているコミュニケ�
 Twitter
 -------
 
-Sphinx-Users.jpの公式ハッシュタグは `#sphinxjp <http://twitter.com/#!/search/%23sphinxjp>`_ です。このハッシュタグを付けて呟いたり、質問をすると、メンバーから回答があるかもしれません。ただし、Twitterの場合は流量が多いと流れてしまうため、質問する場合にはメーリングリストの方が確実です。
+Sphinx-Users.jpの公式ハッシュタグは `#sphinxjp <https://x.com/search?q=%23sphinxjp>`_ です。このハッシュタグを付けて呟いたり、質問をすると、メンバーから回答があるかもしれません。ただし、Twitterの場合は流量が多いと流れてしまうため、質問する場合にはメーリングリストの方が確実です。
 
-Sphinx-Users.jpの情報を呟く `@sphinxjp <http://twitter.com/#!/sphinxjp>`_ 公式アカウントもあります。
+Sphinx-Users.jpの情報を呟く `@sphinxjp <http://twitter.com/sphinxjp>`_ 公式アカウントもあります。
 
 .. _slack:
 
