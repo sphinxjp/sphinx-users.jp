@@ -28,7 +28,7 @@ jobs:
           chmod +x ./.github/git-set-file-times.py
           ./.github/git-set-file-times.py
       - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v7
         with:
           version: "latest"
       - name: CACHE sphinx build
