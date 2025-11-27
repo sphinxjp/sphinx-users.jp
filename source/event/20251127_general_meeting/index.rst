@@ -164,4 +164,4 @@ Slackで日程を調整し、connpassで参加者を募集しました。
    参加者のみなさん
 
 
-その他の写真はこちら: https://photos.app.goo.gl/p5Z6Crw2xxxxx
+その他の写真はこちら: https://photos.app.goo.gl/7ioKmVy4SPrNM4aA8
