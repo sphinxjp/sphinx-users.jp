@@ -8,7 +8,7 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '0'  # to get full commit logs for 'git-set-file-times'
       - name: DEBUG INFO github refs
@@ -33,7 +33,7 @@ jobs:
           version: "latest"
       - name: CACHE sphinx build
         id: cache-sphinx-build
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: build
           key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.date }}
